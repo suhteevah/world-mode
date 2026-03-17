@@ -1,0 +1,22 @@
+[package]
+name = "wm-core"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "wm-core"
+path = "src/main.rs"
+
+[dependencies]
+wm-bridge = { path = "../wm-bridge" }
+tokio.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+toml.workspace = true
+thiserror.workspace = true
+anyhow.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+chrono.workspace = true
+uuid.workspace = true
+clap.workspace = true

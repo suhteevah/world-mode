@@ -1,0 +1,32 @@
+{
+  "mcpServers": {
+    "world-mode": {
+      "command": "cargo",
+      "args": ["run", "--release", "--bin", "wm-core", "--", "mcp-serve", "--config", "configs/world-mode.toml"],
+      "cwd": ".",
+      "env": {
+        "RUST_LOG": "wm_core=debug,wm_bridge=debug,info"
+      }
+    }
+  },
+  "permissions": {
+    "allow": [
+      "mcp__world-mode__observe_state",
+      "mcp__world-mode__get_world_diff",
+      "mcp__world-mode__get_entities",
+      "mcp__world-mode__get_inventory",
+      "mcp__world-mode__get_production",
+      "mcp__world-mode__get_power_status",
+      "mcp__world-mode__execute_lua",
+      "mcp__world-mode__rcon_command",
+      "mcp__world-mode__send_chat",
+      "mcp__world-mode__push_goal",
+      "mcp__world-mode__list_goals",
+      "mcp__world-mode__complete_goal",
+      "mcp__world-mode__list_abstractions",
+      "mcp__world-mode__get_abstraction",
+      "mcp__world-mode__save_abstraction",
+      "mcp__world-mode__get_map_image"
+    ]
+  }
+}

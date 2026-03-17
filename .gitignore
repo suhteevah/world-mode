@@ -1,0 +1,36 @@
+# Rust
+target/
+**/*.rs.bk
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.uv/
+
+# Node
+node_modules/
+.next/
+out/
+
+# Environment
+.env
+*.local
+
+# Data
+data/
+*.db
+*.sqlite
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Docker
+factorio-data/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,41 @@
+# World Mode Configuration
+# The factory must grow.
+
+[general]
+# Path to abstraction library
+abstractions_path = "abstractions"
+# Path to world model database
+db_path = "data/world-mode.db"
+# Agent loop interval (unused in MCP mode — Claude Code drives the pace)
+loop_interval_ms = 2000
+# Max consecutive errors before pausing
+max_consecutive_errors = 10
+
+[claude]
+# Not used in MCP mode — Claude Code handles its own auth via OAuth
+# These are kept for potential future API fallback
+api_key = ""
+model = "claude-sonnet-4-20250514"
+max_tokens = 8192
+system_prompt_path = "configs/prompts/system.md"
+personality_path = "configs/prompts/personalities/homie.md"
+max_history_messages = 50
+# temperature = 0.7
+
+[factorio]
+# Factorio headless server — direct RCON, no middleware
+rcon_host = "127.0.0.1"
+rcon_port = 27015
+rcon_password = "worldmode2026"
+server_port = 34197
+# RCON read/write timeout (seconds) — increase for megabase state dumps
+timeout_seconds = 30
+
+[dashboard]
+# Next.js dashboard (Phase 2)
+ws_port = 8421
+http_port = 3000
+
+[logging]
+filter = "wm_core=trace,wm_bridge=trace,info"
+format = "pretty"  # pretty | json

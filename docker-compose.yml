@@ -1,0 +1,32 @@
+version: "3.8"
+
+# World Mode — Factorio Server
+# Pure Rust + Lua. No Python. No FLE.
+#
+# Usage:
+#   docker compose up -d         # Start Factorio server
+#   docker compose logs -f       # Watch logs
+#   docker compose down          # Stop
+
+services:
+  factorio:
+    image: factoriotools/factorio:latest
+    container_name: wm-factorio
+    ports:
+      - "34197:34197/udp"   # Game server (Matt connects here)
+      - "27015:27015/tcp"   # RCON (Rust MCP server connects here)
+    volumes:
+      - factorio-data:/factorio
+      - ./factorio-server/server-settings.json:/factorio/config/server-settings.json
+      - ./factorio-server/map-gen-settings.json:/factorio/config/map-gen-settings.json
+      - ./mod/world-mode-bridge:/factorio/mods/world-mode-bridge
+    environment:
+      - SAVE_NAME=world-mode
+      - LOAD_LATEST_SAVE=true
+      - GENERATE_NEW_SAVE=true
+      - UPDATE_MODS_ON_START=false
+    restart: unless-stopped
+
+volumes:
+  factorio-data:
+    name: wm-factorio-data

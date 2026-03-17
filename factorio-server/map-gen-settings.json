@@ -1,0 +1,20 @@
+{
+  "_terrain_segmentation_comment": "Default settings for World Mode",
+  "terrain_segmentation": 1,
+  "water": 1,
+  "width": 0,
+  "height": 0,
+  "starting_area": 1.5,
+  "peaceful_mode": true,
+  "autoplace_controls": {
+    "coal": { "frequency": 1, "size": 1.5, "richness": 2 },
+    "stone": { "frequency": 1, "size": 1.5, "richness": 2 },
+    "copper-ore": { "frequency": 1, "size": 1.5, "richness": 2 },
+    "iron-ore": { "frequency": 1, "size": 1.5, "richness": 2 },
+    "uranium-ore": { "frequency": 1, "size": 1, "richness": 1 },
+    "crude-oil": { "frequency": 1, "size": 1.5, "richness": 2 },
+    "trees": { "frequency": 1, "size": 1, "richness": 1 },
+    "enemy-base": { "frequency": 0, "size": 0, "richness": 0 }
+  },
+  "seed": null
+}

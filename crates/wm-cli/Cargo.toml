@@ -1,0 +1,11 @@
+[package]
+name = "wm-cli"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "world-mode"
+path = "src/main.rs"
+
+[dependencies]
+# Thin wrapper — no deps needed for now
