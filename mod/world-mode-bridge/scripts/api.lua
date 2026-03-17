@@ -2,24 +2,43 @@
 -- Provides high-level helper functions for Claude to use when generating Lua.
 -- Called via wm.* in /wm-exec context.
 --
+-- Legit mode: all actions require inventory items and character proximity.
+-- The character parameter is a LuaEntity (type "character"), NOT a LuaPlayer.
+--
 -- Example usage in /wm-exec:
 --   wm.move_to({x=10, y=20})
 --   local pos = wm.nearest_resource("iron-ore")
 --   local ent = wm.place("boiler", pos, defines.direction.north)
 --   wm.insert(ent, "coal", 20)
---   wm.connect(pump, boiler, "pipe")
---   wm.print("Power setup complete!")
+--   wm.craft("iron-gear-wheel", 5)
+--   wm.print("Setup complete!")
+
+local movement = require("scripts.movement")
+local actions = require("scripts.actions")
+local blueprints = require("scripts.blueprints")
 
 local api = {}
 
---- Create a new API context bound to a specific player.
---- @param player LuaPlayer
---- @param output_buffer table  -- print() messages go here
+--- Create a new API context bound to a specific character entity.
+--- @param character LuaEntity  character entity (type "character")
+--- @param output_buffer table  print() messages go here
 --- @return table  -- the wm.* namespace
-function api.create_context(player, output_buffer)
+function api.create_context(character, output_buffer)
     local wm = {}
-    local surface = player.surface
-    local force = player.force
+    local surface = character.surface
+    local force = character.force
+
+    --- Helper: unwrap an action result, printing message/error and returning appropriate value.
+    local function unwrap(result, return_field)
+        if result.success then
+            if result.message then wm.print(result.message) end
+            if return_field then return result[return_field] end
+            return true
+        else
+            wm.print("ERROR: " .. (result.error or "unknown error"))
+            return nil
+        end
+    end
 
     -- ── Output ──
 
@@ -33,12 +52,18 @@ function api.create_context(player, output_buffer)
 
     -- ── Movement ──
 
-    --- Teleport the player to a position.
+    --- Move the character to a position (walks short distances, teleports long ones).
     --- @param pos table {x, y}
     function wm.move_to(pos)
         local target = {x = pos.x or pos[1], y = pos.y or pos[2]}
-        player.teleport(target, surface)
-        wm.print("Moved to " .. target.x .. ", " .. target.y)
+        local result = movement.move_to(character, target)
+        wm.print("Move to " .. target.x .. ", " .. target.y .. " — " .. result)
+    end
+
+    --- Walk to a position (alias for move_to).
+    --- @param pos table {x, y}
+    function wm.walk_to(pos)
+        wm.move_to(pos)
     end
 
     -- ── Resource Finding ──
@@ -49,7 +74,7 @@ function api.create_context(player, output_buffer)
     --- @return table|nil {x, y} position of nearest resource
     function wm.nearest_resource(resource_name, search_radius)
         search_radius = search_radius or 200
-        local pos = player.position
+        local pos = character.position
         local resources = surface.find_entities_filtered{
             name = resource_name,
             area = {{pos.x - search_radius, pos.y - search_radius},
@@ -70,7 +95,7 @@ function api.create_context(player, output_buffer)
     --- @return table|nil {x, y}
     function wm.nearest_water(search_radius)
         search_radius = search_radius or 200
-        local pos = player.position
+        local pos = character.position
         -- Search in expanding rings
         for r = 1, search_radius, 2 do
             for dx = -r, r, 2 do
@@ -117,50 +142,18 @@ function api.create_context(player, output_buffer)
 
     -- ── Entity Placement ──
 
-    --- Place an entity from player inventory.
+    --- Place an entity from character inventory. Character must be in range and have the item.
     --- @param name string prototype name (e.g. "boiler", "steam-engine", "transport-belt")
     --- @param pos table {x, y}
     --- @param direction defines.direction? default north
     --- @return LuaEntity|nil
     function wm.place(name, pos, direction)
-        direction = direction or defines.direction.north
-        local target = {x = pos.x or pos[1], y = pos.y or pos[2]}
-
-        -- Check if player has the item
-        local count = player.get_item_count(name)
-        if count < 1 then
-            wm.print("ERROR: No " .. name .. " in inventory (have " .. count .. ")")
-            return nil
-        end
-
-        -- Check if position is buildable
-        if not surface.can_place_entity{name = name, position = target, force = force, direction = direction} then
-            -- Try to find a nearby buildable spot
-            local alt = wm.find_buildable(name, target, 10)
-            if alt then
-                wm.print("Position blocked, using nearby spot: " .. alt.x .. ", " .. alt.y)
-                target = alt
-            else
-                wm.print("ERROR: Cannot place " .. name .. " at " .. target.x .. ", " .. target.y .. " (blocked)")
-                return nil
-            end
-        end
-
-        local entity = surface.create_entity{
-            name = name,
-            position = target,
-            direction = direction,
-            force = force,
-            player = player,
-        }
-
-        if entity then
-            -- Remove from player inventory
-            player.remove_item{name = name, count = 1}
-            wm.print("Placed " .. name .. " at " .. entity.position.x .. ", " .. entity.position.y)
-            return entity
+        local result = actions.place(character, name, pos, direction)
+        if result.success then
+            wm.print(result.message)
+            return result.entity
         else
-            wm.print("ERROR: Failed to place " .. name .. " (unknown reason)")
+            wm.print("ERROR: " .. result.error)
             return nil
         end
     end
@@ -191,55 +184,77 @@ function api.create_context(player, output_buffer)
 
     -- ── Item Management ──
 
-    --- Insert items into an entity from player inventory.
+    --- Insert items into an entity from character inventory. Character must be in range.
     --- @param entity LuaEntity
     --- @param item_name string
     --- @param count number
     --- @return number items actually inserted
     function wm.insert(entity, item_name, count)
-        if not entity or not entity.valid then
-            wm.print("ERROR: Invalid entity for insert")
+        local result = actions.insert(character, entity, item_name, count)
+        if result.success then
+            wm.print(result.message)
+            -- Parse the inserted count from the message
+            local n = tonumber(string.match(result.message, "^Inserted (%d+)"))
+            return n or count
+        else
+            wm.print("ERROR: " .. result.error)
             return 0
         end
-
-        local available = player.get_item_count(item_name)
-        local to_insert = math.min(count, available)
-        if to_insert == 0 then
-            wm.print("ERROR: No " .. item_name .. " in inventory")
-            return 0
-        end
-
-        local inserted = entity.insert{name = item_name, count = to_insert}
-        if inserted > 0 then
-            player.remove_item{name = item_name, count = inserted}
-        end
-        wm.print("Inserted " .. inserted .. " " .. item_name .. " into " .. entity.name)
-        return inserted
     end
 
-    --- Extract items from an entity into player inventory.
+    --- Extract items from an entity into character inventory. Character must be in range.
     --- @param entity LuaEntity
     --- @param item_name string
     --- @param count number
     --- @return number items extracted
     function wm.extract(entity, item_name, count)
-        if not entity or not entity.valid then
-            wm.print("ERROR: Invalid entity for extract")
+        local result = actions.extract(character, entity, item_name, count)
+        if result.success then
+            wm.print(result.message)
+            local n = tonumber(string.match(result.message, "^Extracted (%d+)"))
+            return n or count
+        else
+            wm.print("ERROR: " .. result.error)
             return 0
         end
+    end
 
-        local inv = entity.get_output_inventory() or entity.get_inventory(defines.inventory.chest)
-        if not inv then
-            wm.print("ERROR: Entity has no accessible inventory")
-            return 0
-        end
+    --- Pick up (mine) an entity back into character inventory. Character must be in range.
+    --- @param entity LuaEntity
+    function wm.pickup(entity)
+        unwrap(actions.pickup(character, entity))
+    end
 
-        local removed = inv.remove{name = item_name, count = count}
-        if removed > 0 then
-            player.insert{name = item_name, count = removed}
+    -- ── Crafting ──
+
+    --- Hand-craft items. Requires ingredients in character inventory.
+    --- @param recipe string recipe name (e.g. "iron-gear-wheel")
+    --- @param count number? how many to craft (default 1)
+    function wm.craft(recipe, count)
+        unwrap(actions.craft(character, recipe, count))
+    end
+
+    -- ── Mining ──
+
+    --- Mine an entity or the entity at a position. Character must be in range.
+    --- @param entity_or_pos LuaEntity|table  entity to mine, or {x, y} position to find entity at
+    function wm.mine(entity_or_pos)
+        local target = entity_or_pos
+        -- If it looks like a position (table with x/y or numeric indices, but no .valid), find entity there
+        if type(entity_or_pos) == "table" and not entity_or_pos.valid then
+            local pos = {x = entity_or_pos.x or entity_or_pos[1], y = entity_or_pos.y or entity_or_pos[2]}
+            local entities = surface.find_entities_filtered{
+                position = pos,
+                radius = 1,
+                limit = 1,
+            }
+            if #entities == 0 then
+                wm.print("ERROR: No entity found at " .. pos.x .. ", " .. pos.y)
+                return
+            end
+            target = entities[1]
         end
-        wm.print("Extracted " .. removed .. " " .. item_name .. " from " .. entity.name)
-        return removed
+        unwrap(actions.mine(character, target))
     end
 
     -- ── Entity Management ──
@@ -281,95 +296,44 @@ function api.create_context(player, output_buffer)
         end
     end
 
-    --- Pick up (destroy) an entity back into inventory.
-    --- @param entity LuaEntity
-    function wm.pickup(entity)
-        if entity and entity.valid then
-            local name = entity.name
-            player.insert{name = name, count = 1}
-            entity.destroy()
-            wm.print("Picked up " .. name)
+    -- ── Blueprints ──
+
+    --- Place a ghost entity (free, no inventory needed). Construction bots will build it.
+    --- @param name string entity prototype name
+    --- @param pos table {x, y}
+    --- @param direction defines.direction?
+    function wm.place_ghost(name, pos, direction)
+        unwrap(blueprints.place_ghost(surface, force, name, pos, direction))
+    end
+
+    --- Place a blueprint from a blueprint string. Creates ghost entities.
+    --- @param blueprint_string string base64 blueprint string
+    --- @param pos table {x, y} anchor position
+    --- @param direction defines.direction? rotation
+    --- @return number|nil ghost_count
+    function wm.place_blueprint(blueprint_string, pos, direction)
+        local result = blueprints.place_blueprint_string(surface, force, blueprint_string, pos, direction)
+        if result.success then
+            wm.print(result.message)
+            return result.ghost_count
+        else
+            wm.print("ERROR: " .. result.error)
+            return nil
         end
     end
 
-    -- ── Connection Helpers ──
-
-    --- Connect two entities with pipes, belts, or power poles.
-    --- This is a simplified version — draws a straight line of the connector entity.
-    --- @param from LuaEntity source
-    --- @param to LuaEntity destination
-    --- @param connector_name string e.g. "pipe", "transport-belt", "medium-electric-pole"
-    --- @return number entities placed
-    function wm.connect(from, to, connector_name)
-        if not from or not from.valid or not to or not to.valid then
-            wm.print("ERROR: Invalid entities for connect")
-            return 0
+    --- Capture entities in an area as a blueprint string.
+    --- @param area table {{x1, y1}, {x2, y2}}
+    --- @return string|nil blueprint_string
+    function wm.capture_blueprint(area)
+        local result = blueprints.capture(surface, force, area)
+        if result.success then
+            wm.print(result.message)
+            return result.blueprint_string
+        else
+            wm.print("ERROR: " .. result.error)
+            return nil
         end
-
-        local fx, fy = from.position.x, from.position.y
-        local tx, ty = to.position.x, to.position.y
-        local placed = 0
-
-        -- Determine primary direction
-        local dx = tx - fx
-        local dy = ty - fy
-
-        -- Place along X axis first, then Y
-        local step_x = dx > 0 and 1 or (dx < 0 and -1 or 0)
-        local step_y = dy > 0 and 1 or (dy < 0 and -1 or 0)
-
-        local cx, cy = fx, fy
-
-        -- Walk X
-        while math.abs(cx - fx) < math.abs(dx) do
-            cx = cx + step_x
-            local pos = {cx, cy}
-            if surface.can_place_entity{name = connector_name, position = pos, force = force} then
-                local count = player.get_item_count(connector_name)
-                if count > 0 then
-                    local ent = surface.create_entity{
-                        name = connector_name,
-                        position = pos,
-                        force = force,
-                        player = player,
-                    }
-                    if ent then
-                        player.remove_item{name = connector_name, count = 1}
-                        placed = placed + 1
-                    end
-                else
-                    wm.print("WARNING: Ran out of " .. connector_name .. " after placing " .. placed)
-                    return placed
-                end
-            end
-        end
-
-        -- Walk Y
-        while math.abs(cy - fy) < math.abs(dy) do
-            cy = cy + step_y
-            local pos = {cx, cy}
-            if surface.can_place_entity{name = connector_name, position = pos, force = force} then
-                local count = player.get_item_count(connector_name)
-                if count > 0 then
-                    local ent = surface.create_entity{
-                        name = connector_name,
-                        position = pos,
-                        force = force,
-                        player = player,
-                    }
-                    if ent then
-                        player.remove_item{name = connector_name, count = 1}
-                        placed = placed + 1
-                    end
-                else
-                    wm.print("WARNING: Ran out of " .. connector_name .. " after placing " .. placed)
-                    return placed
-                end
-            end
-        end
-
-        wm.print("Connected with " .. placed .. " " .. connector_name)
-        return placed
     end
 
     -- ── Timing ──
@@ -382,26 +346,28 @@ function api.create_context(player, output_buffer)
 
     -- ── Utility ──
 
-    --- Get player's current position.
+    --- Get character's current position.
     --- @return table {x, y}
     function wm.position()
-        return {x = player.position.x, y = player.position.y}
+        return {x = character.position.x, y = character.position.y}
     end
 
-    --- Get count of an item in player inventory.
+    --- Get count of an item in character inventory.
     --- @param item_name string
     --- @return number
     function wm.count(item_name)
-        return player.get_item_count(item_name)
+        local inv = character.get_inventory(defines.inventory.character_main)
+        if not inv then return 0 end
+        return inv.get_item_count(item_name)
     end
 
     --- Get all entities of a type in an area.
     --- @param name string? entity name filter
-    --- @param center table? {x,y} search center (default: player pos)
+    --- @param center table? {x,y} search center (default: character pos)
     --- @param radius number? search radius (default: 50)
     --- @return table[] list of entities
     function wm.find(name, center, radius)
-        center = center or player.position
+        center = center or character.position
         radius = radius or 50
         local filter = {
             force = force,
