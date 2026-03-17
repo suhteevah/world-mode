@@ -476,6 +476,95 @@ commands.add_command("wm-mine", "Mine entity at position: /wm-mine x y [name]", 
 end)
 
 
+-- /wm-insert x y item count
+-- Insert items into an entity.
+commands.add_command("wm-insert", "Insert items into entity: /wm-insert x y item count", function(cmd)
+    local char = lieutenant.ensure(game.surfaces["nauvis"], game.forces["player"])
+    if not char then
+        rcon.print(json.encode({error = "Lieutenant not available"}))
+        return
+    end
+    local args = {}
+    if cmd.parameter then
+        for word in cmd.parameter:gmatch("%S+") do
+            table.insert(args, word)
+        end
+    end
+    if #args < 4 then
+        rcon.print(json.encode({error = "Usage: /wm-insert x y item count"}))
+        return
+    end
+    local pos = {x = tonumber(args[1]), y = tonumber(args[2])}
+    local entities = char.surface.find_entities_filtered{position = pos, radius = 2, limit = 1}
+    if #entities == 0 then
+        rcon.print(json.encode({error = "No entity found at " .. pos.x .. ", " .. pos.y}))
+        return
+    end
+    local result = actions_mod.insert(char, entities[1], args[3], tonumber(args[4]))
+    rcon.print(json.encode(result))
+end)
+
+
+-- /wm-extract x y item count
+-- Extract items from an entity.
+commands.add_command("wm-extract", "Extract items from entity: /wm-extract x y item count", function(cmd)
+    local char = lieutenant.ensure(game.surfaces["nauvis"], game.forces["player"])
+    if not char then
+        rcon.print(json.encode({error = "Lieutenant not available"}))
+        return
+    end
+    local args = {}
+    if cmd.parameter then
+        for word in cmd.parameter:gmatch("%S+") do
+            table.insert(args, word)
+        end
+    end
+    if #args < 4 then
+        rcon.print(json.encode({error = "Usage: /wm-extract x y item count"}))
+        return
+    end
+    local pos = {x = tonumber(args[1]), y = tonumber(args[2])}
+    local entities = char.surface.find_entities_filtered{position = pos, radius = 2, limit = 1}
+    if #entities == 0 then
+        rcon.print(json.encode({error = "No entity found at " .. pos.x .. ", " .. pos.y}))
+        return
+    end
+    local result = actions_mod.extract(char, entities[1], args[3], tonumber(args[4]))
+    rcon.print(json.encode(result))
+end)
+
+
+-- /wm-pickup x y [entity-name]
+-- Pick up an entity at a position.
+commands.add_command("wm-pickup", "Pick up entity at position: /wm-pickup x y [name]", function(cmd)
+    local char = lieutenant.ensure(game.surfaces["nauvis"], game.forces["player"])
+    if not char then
+        rcon.print(json.encode({error = "Lieutenant not available"}))
+        return
+    end
+    local args = {}
+    if cmd.parameter then
+        for word in cmd.parameter:gmatch("%S+") do
+            table.insert(args, word)
+        end
+    end
+    if #args < 2 then
+        rcon.print(json.encode({error = "Usage: /wm-pickup x y [entity-name]"}))
+        return
+    end
+    local pos = {x = tonumber(args[1]), y = tonumber(args[2])}
+    local filter = {position = pos, radius = 2, limit = 1}
+    if args[3] then filter.name = args[3] end
+    local entities = char.surface.find_entities_filtered(filter)
+    if #entities == 0 then
+        rcon.print(json.encode({error = "No entity found at " .. pos.x .. ", " .. pos.y}))
+        return
+    end
+    local result = actions_mod.pickup(char, entities[1])
+    rcon.print(json.encode(result))
+end)
+
+
 -- ─────────────────────────────────────────────
 -- Event Handlers
 -- ─────────────────────────────────────────────

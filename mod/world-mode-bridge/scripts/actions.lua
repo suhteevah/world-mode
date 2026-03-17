@@ -167,7 +167,8 @@ function actions.insert(character, entity, item_name, count)
         return { success = false, error = "Invalid entity" }
     end
     if not in_range(character, entity.position) then
-        return { success = false, error = "Too far from " .. entity.name }
+        movement.move_to(character, entity.position)
+        return { success = false, error = "Too far from " .. entity.name .. " — walking to target. Retry after arrival." }
     end
 
     local inv = character.get_inventory(defines.inventory.character_main)
@@ -190,7 +191,8 @@ function actions.extract(character, entity, item_name, count)
         return { success = false, error = "Invalid entity" }
     end
     if not in_range(character, entity.position) then
-        return { success = false, error = "Too far from " .. entity.name }
+        movement.move_to(character, entity.position)
+        return { success = false, error = "Too far from " .. entity.name .. " — walking to target. Retry after arrival." }
     end
 
     local target_inv = entity.get_output_inventory() or entity.get_inventory(defines.inventory.chest)
@@ -212,7 +214,8 @@ function actions.pickup(character, entity)
         return { success = false, error = "Invalid entity" }
     end
     if not in_range(character, entity.position) then
-        return { success = false, error = "Too far from " .. entity.name }
+        movement.move_to(character, entity.position)
+        return { success = false, error = "Too far from " .. entity.name .. " — walking to target. Retry after arrival." }
     end
 
     local name = entity.name
