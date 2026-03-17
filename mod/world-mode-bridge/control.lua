@@ -374,6 +374,10 @@ end)
 -- Walk lieutenant to position, or teleport if far.
 commands.add_command("wm-walk", "Walk lieutenant to position: /wm-walk x y", function(cmd)
     local char = lieutenant.ensure(game.surfaces["nauvis"], game.forces["player"])
+    if not char then
+        rcon.print(json.encode({error = "Lieutenant not available"}))
+        return
+    end
     local args = {}
     if cmd.parameter then
         for word in cmd.parameter:gmatch("%S+") do

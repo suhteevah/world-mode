@@ -10,6 +10,7 @@ local STUCK_THRESHOLD = 60 -- ticks stuck before trying alternative
 --- @param character LuaEntity
 --- @param target table {x, y}
 function movement.move_to(character, target)
+    global.lieutenant.movement = global.lieutenant.movement or { target = nil, stuck_ticks = 0 }
     local pos = character.position
     local dx = target.x - pos.x
     local dy = target.y - pos.y
@@ -60,7 +61,6 @@ function movement.tick(character)
 
     -- Determine walking direction (8-directional)
     local dir = movement.angle_to_direction(dx, dy)
-    character.walking_state = { walking = true, direction = dir }
 
     -- Stuck detection
     if not mv.last_pos then mv.last_pos = { x = pos.x, y = pos.y } end
@@ -69,21 +69,22 @@ function movement.tick(character)
 
     if moved < 0.01 then
         mv.stuck_ticks = mv.stuck_ticks + 1
-        if mv.stuck_ticks > STUCK_THRESHOLD then
-            -- Try perpendicular direction
-            local perp_dir = (dir + 2) % 8 -- 90 degrees
-            character.walking_state = { walking = true, direction = perp_dir }
-            if mv.stuck_ticks > STUCK_THRESHOLD * 2 then
-                -- Give up and teleport
-                local tp = character.surface.find_non_colliding_position("character", mv.target, 10, 1)
-                if tp then character.teleport(tp) end
-                mv.target = nil
-                character.walking_state = { walking = false }
-            end
+        if mv.stuck_ticks > STUCK_THRESHOLD * 2 then
+            -- Give up and teleport
+            local tp = character.surface.find_non_colliding_position("character", mv.target, 10, 1)
+            if tp then character.teleport(tp) end
+            mv.target = nil
+            character.walking_state = { walking = false }
+            return
+        elseif mv.stuck_ticks > STUCK_THRESHOLD then
+            -- Escape: use perpendicular direction for up to 10 ticks
+            dir = (dir + 2) % 8 -- 90 degrees
         end
     else
         mv.stuck_ticks = 0
     end
+
+    character.walking_state = { walking = true, direction = dir }
 
     -- Track distance
     global.lieutenant.stats.distance_walked = global.lieutenant.stats.distance_walked + moved
@@ -100,6 +101,7 @@ end
 
 --- Check if the lieutenant is currently moving.
 function movement.is_moving()
+    if not global.lieutenant or not global.lieutenant.movement then return false end
     return global.lieutenant.movement.target ~= nil
 end
 
