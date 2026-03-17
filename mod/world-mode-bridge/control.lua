@@ -9,6 +9,7 @@ local json = require("scripts.json")
 local api = require("scripts.api")
 local lieutenant = require("scripts.lieutenant")
 local movement = require("scripts.movement")
+local actions_mod = require("scripts.actions")
 
 -- ─────────────────────────────────────────────
 -- State tracking
@@ -390,6 +391,88 @@ commands.add_command("wm-walk", "Walk lieutenant to position: /wm-walk x y", fun
     end
     local result = movement.move_to(char, {x = args[1], y = args[2]})
     rcon.print(json.encode({status = result, target = {x = args[1], y = args[2]}}))
+end)
+
+
+-- /wm-craft recipe [count]
+-- Craft items using character hand-crafting.
+commands.add_command("wm-craft", "Craft items: /wm-craft recipe count", function(cmd)
+    local char = lieutenant.ensure(game.surfaces["nauvis"], game.forces["player"])
+    if not char then
+        rcon.print(json.encode({error = "Lieutenant not available"}))
+        return
+    end
+    local args = {}
+    if cmd.parameter then
+        for word in cmd.parameter:gmatch("%S+") do
+            table.insert(args, word)
+        end
+    end
+    if #args < 1 then
+        rcon.print(json.encode({error = "Usage: /wm-craft recipe [count]"}))
+        return
+    end
+    local result = actions_mod.craft(char, args[1], tonumber(args[2]) or 1)
+    rcon.print(json.encode(result))
+end)
+
+
+-- /wm-place name x y [direction]
+-- Place an entity from inventory.
+commands.add_command("wm-place", "Place entity: /wm-place name x y [direction]", function(cmd)
+    local char = lieutenant.ensure(game.surfaces["nauvis"], game.forces["player"])
+    if not char then
+        rcon.print(json.encode({error = "Lieutenant not available"}))
+        return
+    end
+    local args = {}
+    if cmd.parameter then
+        for word in cmd.parameter:gmatch("%S+") do
+            table.insert(args, word)
+        end
+    end
+    if #args < 3 then
+        rcon.print(json.encode({error = "Usage: /wm-place name x y [direction]"}))
+        return
+    end
+    local dir_map = {
+        north = defines.direction.north, south = defines.direction.south,
+        east = defines.direction.east, west = defines.direction.west,
+    }
+    local dir = dir_map[args[4]] or defines.direction.north
+    local result = actions_mod.place(char, args[1], {x = tonumber(args[2]), y = tonumber(args[3])}, dir)
+    rcon.print(json.encode(result))
+end)
+
+
+-- /wm-mine x y [entity-name]
+-- Mine an entity at a position.
+commands.add_command("wm-mine", "Mine entity at position: /wm-mine x y [name]", function(cmd)
+    local char = lieutenant.ensure(game.surfaces["nauvis"], game.forces["player"])
+    if not char then
+        rcon.print(json.encode({error = "Lieutenant not available"}))
+        return
+    end
+    local args = {}
+    if cmd.parameter then
+        for word in cmd.parameter:gmatch("%S+") do
+            table.insert(args, word)
+        end
+    end
+    if #args < 2 then
+        rcon.print(json.encode({error = "Usage: /wm-mine x y [entity-name]"}))
+        return
+    end
+    local pos = {x = tonumber(args[1]), y = tonumber(args[2])}
+    local filter = {position = pos, radius = 2, limit = 1}
+    if args[3] then filter.name = args[3] end
+    local entities = char.surface.find_entities_filtered(filter)
+    if #entities == 0 then
+        rcon.print(json.encode({error = "No entity found at " .. pos.x .. ", " .. pos.y}))
+        return
+    end
+    local result = actions_mod.mine(char, entities[1])
+    rcon.print(json.encode(result))
 end)
 
 
