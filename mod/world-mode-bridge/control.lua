@@ -10,6 +10,7 @@ local api = require("scripts.api")
 local lieutenant = require("scripts.lieutenant")
 local movement = require("scripts.movement")
 local actions_mod = require("scripts.actions")
+local blueprints_mod = require("scripts.blueprints")
 
 -- ─────────────────────────────────────────────
 -- State tracking
@@ -561,6 +562,90 @@ commands.add_command("wm-pickup", "Pick up entity at position: /wm-pickup x y [n
         return
     end
     local result = actions_mod.pickup(char, entities[1])
+    rcon.print(json.encode(result))
+end)
+
+
+-- /wm-ghost name x y [direction]
+-- Place a ghost entity (free, no inventory needed).
+commands.add_command("wm-ghost", "Place ghost entity: /wm-ghost name x y [direction]", function(cmd)
+    local char = lieutenant.ensure(game.surfaces["nauvis"], game.forces["player"])
+    if not char then
+        rcon.print(json.encode({error = "Lieutenant not available"}))
+        return
+    end
+    local args = {}
+    if cmd.parameter then
+        for word in cmd.parameter:gmatch("%S+") do
+            table.insert(args, word)
+        end
+    end
+    if #args < 3 then
+        rcon.print(json.encode({error = "Usage: /wm-ghost name x y [direction]"}))
+        return
+    end
+    local dir_map = {
+        north = defines.direction.north, south = defines.direction.south,
+        east = defines.direction.east, west = defines.direction.west,
+    }
+    local result = blueprints_mod.place_ghost(
+        char.surface, char.force,
+        args[1], {x = tonumber(args[2]), y = tonumber(args[3])},
+        dir_map[args[4]] or defines.direction.north
+    )
+    rcon.print(json.encode(result))
+end)
+
+
+-- /wm-blueprint x y <blueprint_string>
+-- Place a blueprint string at position (creates ghost entities).
+commands.add_command("wm-blueprint", "Place blueprint string at position: /wm-blueprint x y <string>", function(cmd)
+    local char = lieutenant.ensure(game.surfaces["nauvis"], game.forces["player"])
+    if not char then
+        rcon.print(json.encode({error = "Lieutenant not available"}))
+        return
+    end
+    if not cmd.parameter then
+        rcon.print(json.encode({error = "Usage: /wm-blueprint x y <blueprint_string>"}))
+        return
+    end
+    -- Parse: first two tokens are x y, rest is the blueprint string
+    local x_str, y_str, bp_string = cmd.parameter:match("^(%S+)%s+(%S+)%s+(.+)$")
+    if not x_str or not bp_string then
+        rcon.print(json.encode({error = "Usage: /wm-blueprint x y <blueprint_string>"}))
+        return
+    end
+    local result = blueprints_mod.place_blueprint_string(
+        char.surface, char.force,
+        bp_string,
+        {x = tonumber(x_str), y = tonumber(y_str)}
+    )
+    rcon.print(json.encode(result))
+end)
+
+
+-- /wm-capture x1 y1 x2 y2
+-- Capture entities in an area as a blueprint string.
+commands.add_command("wm-capture", "Capture area as blueprint: /wm-capture x1 y1 x2 y2", function(cmd)
+    local char = lieutenant.ensure(game.surfaces["nauvis"], game.forces["player"])
+    if not char then
+        rcon.print(json.encode({error = "Lieutenant not available"}))
+        return
+    end
+    local args = {}
+    if cmd.parameter then
+        for word in cmd.parameter:gmatch("%S+") do
+            table.insert(args, tonumber(word))
+        end
+    end
+    if #args < 4 then
+        rcon.print(json.encode({error = "Usage: /wm-capture x1 y1 x2 y2"}))
+        return
+    end
+    local result = blueprints_mod.capture(
+        char.surface, char.force,
+        {{args[1], args[2]}, {args[3], args[4]}}
+    )
     rcon.print(json.encode(result))
 end)
 
