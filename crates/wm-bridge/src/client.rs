@@ -18,7 +18,7 @@ pub struct RconClient {
 const SERVERDATA_AUTH: i32 = 3;
 const SERVERDATA_AUTH_RESPONSE: i32 = 2;
 const SERVERDATA_EXECCOMMAND: i32 = 2;
-const SERVERDATA_RESPONSE_VALUE: i32 = 0;
+const _SERVERDATA_RESPONSE_VALUE: i32 = 0;
 
 impl RconClient {
     pub fn new(host: &str, port: u16, password: &str, timeout_secs: u64) -> Self {
@@ -181,6 +181,69 @@ impl RconClient {
     /// Get action log.
     pub fn get_action_log(&self) -> Result<String> {
         self.execute("/wm-action-log")
+    }
+
+    /// Get lieutenant status.
+    pub fn lieutenant_status(&self) -> Result<String> {
+        self.execute("/wm-lieutenant")
+    }
+
+    /// Walk lieutenant to position.
+    pub fn walk_to(&self, x: f64, y: f64) -> Result<String> {
+        self.execute(&format!("/wm-walk {} {}", x, y))
+    }
+
+    /// Craft items.
+    pub fn craft(&self, recipe: &str, count: u32) -> Result<String> {
+        self.execute(&format!("/wm-craft {} {}", recipe, count))
+    }
+
+    /// Place entity from inventory.
+    pub fn place_entity(&self, name: &str, x: f64, y: f64, direction: &str) -> Result<String> {
+        self.execute(&format!("/wm-place {} {} {} {}", name, x, y, direction))
+    }
+
+    /// Mine entity at position.
+    pub fn mine_at(&self, x: f64, y: f64, name: Option<&str>) -> Result<String> {
+        let mut cmd = format!("/wm-mine {} {}", x, y);
+        if let Some(n) = name {
+            cmd.push_str(&format!(" {}", n));
+        }
+        self.execute(&cmd)
+    }
+
+    /// Place a ghost entity.
+    pub fn place_ghost(&self, name: &str, x: f64, y: f64, direction: &str) -> Result<String> {
+        self.execute(&format!("/wm-ghost {} {} {} {}", name, x, y, direction))
+    }
+
+    /// Place a blueprint string at position.
+    pub fn place_blueprint(&self, x: f64, y: f64, bp_string: &str) -> Result<String> {
+        self.execute(&format!("/wm-blueprint {} {} {}", x, y, bp_string))
+    }
+
+    /// Capture area as blueprint string.
+    pub fn capture_blueprint(&self, x1: f64, y1: f64, x2: f64, y2: f64) -> Result<String> {
+        self.execute(&format!("/wm-capture {} {} {} {}", x1, y1, x2, y2))
+    }
+
+    /// Insert items into entity at position.
+    pub fn insert_items(&self, x: f64, y: f64, item: &str, count: u32) -> Result<String> {
+        self.execute(&format!("/wm-insert {} {} {} {}", x, y, item, count))
+    }
+
+    /// Extract items from entity at position.
+    pub fn extract_items(&self, x: f64, y: f64, item: &str, count: u32) -> Result<String> {
+        self.execute(&format!("/wm-extract {} {} {} {}", x, y, item, count))
+    }
+
+    /// Pick up entity at position.
+    pub fn pickup_entity(&self, x: f64, y: f64, name: Option<&str>) -> Result<String> {
+        let mut cmd = format!("/wm-pickup {} {}", x, y);
+        if let Some(n) = name {
+            cmd.push_str(&format!(" {}", n));
+        }
+        self.execute(&cmd)
     }
 }
 

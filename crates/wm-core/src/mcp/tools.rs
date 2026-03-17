@@ -1,5 +1,5 @@
 use serde_json::{json, Value};
-use tracing::{debug, info, warn, instrument};
+use tracing::{info, warn, instrument};
 
 use crate::mcp::protocol::{ToolCallResult, ToolDefinition};
 use crate::state::AppState;
@@ -60,7 +60,7 @@ pub fn all_tools() -> Vec<ToolDefinition> {
         },
         ToolDefinition {
             name: "get_inventory".into(),
-            description: "Get the player's current inventory contents.".into(),
+            description: "Get the lieutenant character's current inventory contents.".into(),
             input_schema: json!({ "type": "object", "properties": {} }),
         },
         ToolDefinition {
@@ -85,7 +85,7 @@ pub fn all_tools() -> Vec<ToolDefinition> {
         // ── ACT tools ──
         ToolDefinition {
             name: "execute_lua".into(),
-            description: "Execute Lua code in the Factorio world via the World Mode Bridge mod. This is how you build things, place entities, connect pipes/belts, and interact with the game. Use the wm.* API: wm.place(), wm.connect(), wm.move_to(), wm.nearest_resource(), wm.insert(), etc. Always include wm.print() statements for debugging.".into(),
+            description: "Execute Lua code in the Factorio world via the World Mode Bridge mod. Uses the legit wm.* API: wm.place() (from inventory), wm.craft(), wm.mine(), wm.move_to() (walk/teleport), wm.place_ghost(), wm.place_blueprint(), wm.insert(), wm.extract(), etc. All actions require items in inventory and proximity. Always include wm.print() for debugging.".into(),
             input_schema: json!({
                 "type": "object",
                 "properties": {
@@ -121,6 +121,146 @@ pub fn all_tools() -> Vec<ToolDefinition> {
                     "message": { "type": "string", "description": "Chat message to send" }
                 },
                 "required": ["message"]
+            }),
+        },
+
+        // ── LEGIT ACTION tools ──
+        ToolDefinition {
+            name: "lieutenant_status".into(),
+            description: "Get the lieutenant character's current status: position, health, inventory count, movement state, action queue.".into(),
+            input_schema: json!({ "type": "object", "properties": {} }),
+        },
+        ToolDefinition {
+            name: "walk_to".into(),
+            description: "Walk the lieutenant to a position. Walks if < 50 tiles away, teleports if farther. Returns immediately — poll lieutenant_status to check arrival.".into(),
+            input_schema: json!({
+                "type": "object",
+                "properties": {
+                    "x": { "type": "number", "description": "Target X coordinate" },
+                    "y": { "type": "number", "description": "Target Y coordinate" }
+                },
+                "required": ["x", "y"]
+            }),
+        },
+        ToolDefinition {
+            name: "craft".into(),
+            description: "Hand-craft items using the lieutenant's inventory. Checks recipe availability and ingredients.".into(),
+            input_schema: json!({
+                "type": "object",
+                "properties": {
+                    "recipe": { "type": "string", "description": "Recipe name (e.g., 'iron-gear-wheel', 'transport-belt')" },
+                    "count": { "type": "integer", "description": "How many to craft. Default: 1", "default": 1 }
+                },
+                "required": ["recipe"]
+            }),
+        },
+        ToolDefinition {
+            name: "place_entity".into(),
+            description: "Place an entity from the lieutenant's inventory at a position. Must have the item and be within 6 tiles.".into(),
+            input_schema: json!({
+                "type": "object",
+                "properties": {
+                    "name": { "type": "string", "description": "Entity prototype name (e.g., 'transport-belt', 'assembling-machine-1')" },
+                    "x": { "type": "number", "description": "Position X" },
+                    "y": { "type": "number", "description": "Position Y" },
+                    "direction": { "type": "string", "enum": ["north", "south", "east", "west"], "description": "Facing direction. Default: north", "default": "north" }
+                },
+                "required": ["name", "x", "y"]
+            }),
+        },
+        ToolDefinition {
+            name: "mine_entity".into(),
+            description: "Mine an entity at a position. Must be within 6 tiles. Products go to lieutenant inventory.".into(),
+            input_schema: json!({
+                "type": "object",
+                "properties": {
+                    "x": { "type": "number", "description": "Position X" },
+                    "y": { "type": "number", "description": "Position Y" },
+                    "entity_name": { "type": "string", "description": "Optional: filter to specific entity name" }
+                },
+                "required": ["x", "y"]
+            }),
+        },
+        ToolDefinition {
+            name: "place_ghost".into(),
+            description: "Place a ghost entity (free, no inventory needed). Construction bots will build it when materials are available in logistics.".into(),
+            input_schema: json!({
+                "type": "object",
+                "properties": {
+                    "name": { "type": "string", "description": "Entity prototype name" },
+                    "x": { "type": "number", "description": "Position X" },
+                    "y": { "type": "number", "description": "Position Y" },
+                    "direction": { "type": "string", "enum": ["north", "south", "east", "west"], "description": "Direction. Default: north", "default": "north" }
+                },
+                "required": ["name", "x", "y"]
+            }),
+        },
+        ToolDefinition {
+            name: "place_blueprint".into(),
+            description: "Stamp a blueprint string at a position. Creates ghost entities for construction bots. This is how you build city-block tiles and complex designs.".into(),
+            input_schema: json!({
+                "type": "object",
+                "properties": {
+                    "x": { "type": "number", "description": "Anchor position X" },
+                    "y": { "type": "number", "description": "Anchor position Y" },
+                    "blueprint_string": { "type": "string", "description": "Base64 blueprint string (starts with '0')" }
+                },
+                "required": ["x", "y", "blueprint_string"]
+            }),
+        },
+        ToolDefinition {
+            name: "capture_blueprint".into(),
+            description: "Capture entities in an area as a blueprint string. Use this to save working designs for reuse.".into(),
+            input_schema: json!({
+                "type": "object",
+                "properties": {
+                    "x1": { "type": "number", "description": "Top-left X" },
+                    "y1": { "type": "number", "description": "Top-left Y" },
+                    "x2": { "type": "number", "description": "Bottom-right X" },
+                    "y2": { "type": "number", "description": "Bottom-right Y" }
+                },
+                "required": ["x1", "y1", "x2", "y2"]
+            }),
+        },
+        ToolDefinition {
+            name: "insert_items".into(),
+            description: "Insert items from lieutenant inventory into an entity at a position. Must be within 6 tiles.".into(),
+            input_schema: json!({
+                "type": "object",
+                "properties": {
+                    "x": { "type": "number", "description": "Entity position X" },
+                    "y": { "type": "number", "description": "Entity position Y" },
+                    "item": { "type": "string", "description": "Item name to insert" },
+                    "count": { "type": "integer", "description": "How many to insert" }
+                },
+                "required": ["x", "y", "item", "count"]
+            }),
+        },
+        ToolDefinition {
+            name: "extract_items".into(),
+            description: "Extract items from an entity into lieutenant inventory. Must be within 6 tiles.".into(),
+            input_schema: json!({
+                "type": "object",
+                "properties": {
+                    "x": { "type": "number", "description": "Entity position X" },
+                    "y": { "type": "number", "description": "Entity position Y" },
+                    "item": { "type": "string", "description": "Item name to extract" },
+                    "count": { "type": "integer", "description": "How many to extract" }
+                },
+                "required": ["x", "y", "item", "count"]
+            }),
+        },
+        ToolDefinition {
+            name: "pickup_entity".into(),
+            description: "Pick up (mine) an entity back into lieutenant inventory. Must be within 6 tiles.".into(),
+            input_schema: json!({
+                "type": "object",
+                "properties": {
+                    "x": { "type": "number", "description": "Entity position X" },
+                    "y": { "type": "number", "description": "Entity position Y" },
+                    "entity_name": { "type": "string", "description": "Optional: filter to specific entity name" }
+                },
+                "required": ["x", "y"]
             }),
         },
 
@@ -247,6 +387,17 @@ pub async fn handle_tool_call(
         "execute_lua" => handle_execute_lua(&args, state).await,
         "rcon_command" => handle_rcon_command(&args, state).await,
         "send_chat" => handle_send_chat(&args, state).await,
+        "lieutenant_status" => handle_lieutenant_status(state).await,
+        "walk_to" => handle_walk_to(&args, state).await,
+        "craft" => handle_craft(&args, state).await,
+        "place_entity" => handle_place_entity(&args, state).await,
+        "mine_entity" => handle_mine_entity(&args, state).await,
+        "place_ghost" => handle_place_ghost(&args, state).await,
+        "place_blueprint" => handle_place_blueprint(&args, state).await,
+        "capture_blueprint" => handle_capture_blueprint(&args, state).await,
+        "insert_items" => handle_insert_items(&args, state).await,
+        "extract_items" => handle_extract_items(&args, state).await,
+        "pickup_entity" => handle_pickup_entity(&args, state).await,
         "push_goal" => handle_push_goal(&args, state).await,
         "list_goals" => handle_list_goals(state).await,
         "complete_goal" => handle_complete_goal(&args, state).await,
@@ -545,4 +696,235 @@ async fn handle_save_abstraction(args: &Value, state: &AppState) -> ToolCallResu
 async fn handle_get_map_image(_args: &Value, _state: &AppState) -> ToolCallResult {
     // Map rendering requires the headless renderer (Phase 2+)
     ToolCallResult::text("Map image not yet available. This feature requires the headless renderer (Phase 2). Use observe_state and get_entities to understand the factory layout.")
+}
+
+// ─────────────────────────────────────────────
+// Legit Action Tool Handlers
+// ─────────────────────────────────────────────
+
+async fn handle_lieutenant_status(state: &AppState) -> ToolCallResult {
+    match state.rcon.lieutenant_status() {
+        Ok(raw) => match parse_rcon_json(&raw) {
+            Ok(parsed) => ToolCallResult::json(&parsed),
+            Err(e) => ToolCallResult::error(e),
+        },
+        Err(e) => ToolCallResult::error(format!("Failed to get lieutenant status: {}", e)),
+    }
+}
+
+async fn handle_walk_to(args: &Value, state: &AppState) -> ToolCallResult {
+    let x = match args.get("x").and_then(|v| v.as_f64()) {
+        Some(v) => v,
+        None => return ToolCallResult::error("Missing required parameter: x"),
+    };
+    let y = match args.get("y").and_then(|v| v.as_f64()) {
+        Some(v) => v,
+        None => return ToolCallResult::error("Missing required parameter: y"),
+    };
+    match state.rcon.walk_to(x, y) {
+        Ok(raw) => match parse_rcon_json(&raw) {
+            Ok(parsed) => ToolCallResult::json(&parsed),
+            Err(e) => ToolCallResult::error(e),
+        },
+        Err(e) => ToolCallResult::error(format!("Walk failed: {}", e)),
+    }
+}
+
+async fn handle_craft(args: &Value, state: &AppState) -> ToolCallResult {
+    let recipe = match args.get("recipe").and_then(|v| v.as_str()) {
+        Some(r) => r,
+        None => return ToolCallResult::error("Missing required parameter: recipe"),
+    };
+    let count = args.get("count").and_then(|v| v.as_u64()).unwrap_or(1) as u32;
+    match state.rcon.craft(recipe, count) {
+        Ok(raw) => match parse_rcon_json(&raw) {
+            Ok(parsed) => ToolCallResult::json(&parsed),
+            Err(e) => ToolCallResult::error(e),
+        },
+        Err(e) => ToolCallResult::error(format!("Craft failed: {}", e)),
+    }
+}
+
+async fn handle_place_entity(args: &Value, state: &AppState) -> ToolCallResult {
+    let name = match args.get("name").and_then(|v| v.as_str()) {
+        Some(n) => n,
+        None => return ToolCallResult::error("Missing required parameter: name"),
+    };
+    let x = match args.get("x").and_then(|v| v.as_f64()) {
+        Some(v) => v,
+        None => return ToolCallResult::error("Missing required parameter: x"),
+    };
+    let y = match args.get("y").and_then(|v| v.as_f64()) {
+        Some(v) => v,
+        None => return ToolCallResult::error("Missing required parameter: y"),
+    };
+    let direction = args.get("direction").and_then(|v| v.as_str()).unwrap_or("north");
+    match state.rcon.place_entity(name, x, y, direction) {
+        Ok(raw) => match parse_rcon_json(&raw) {
+            Ok(parsed) => ToolCallResult::json(&parsed),
+            Err(e) => ToolCallResult::error(e),
+        },
+        Err(e) => ToolCallResult::error(format!("Place failed: {}", e)),
+    }
+}
+
+async fn handle_mine_entity(args: &Value, state: &AppState) -> ToolCallResult {
+    let x = match args.get("x").and_then(|v| v.as_f64()) {
+        Some(v) => v,
+        None => return ToolCallResult::error("Missing required parameter: x"),
+    };
+    let y = match args.get("y").and_then(|v| v.as_f64()) {
+        Some(v) => v,
+        None => return ToolCallResult::error("Missing required parameter: y"),
+    };
+    let entity_name = args.get("entity_name").and_then(|v| v.as_str());
+    match state.rcon.mine_at(x, y, entity_name) {
+        Ok(raw) => match parse_rcon_json(&raw) {
+            Ok(parsed) => ToolCallResult::json(&parsed),
+            Err(e) => ToolCallResult::error(e),
+        },
+        Err(e) => ToolCallResult::error(format!("Mine failed: {}", e)),
+    }
+}
+
+async fn handle_place_ghost(args: &Value, state: &AppState) -> ToolCallResult {
+    let name = match args.get("name").and_then(|v| v.as_str()) {
+        Some(n) => n,
+        None => return ToolCallResult::error("Missing required parameter: name"),
+    };
+    let x = match args.get("x").and_then(|v| v.as_f64()) {
+        Some(v) => v,
+        None => return ToolCallResult::error("Missing required parameter: x"),
+    };
+    let y = match args.get("y").and_then(|v| v.as_f64()) {
+        Some(v) => v,
+        None => return ToolCallResult::error("Missing required parameter: y"),
+    };
+    let direction = args.get("direction").and_then(|v| v.as_str()).unwrap_or("north");
+    match state.rcon.place_ghost(name, x, y, direction) {
+        Ok(raw) => match parse_rcon_json(&raw) {
+            Ok(parsed) => ToolCallResult::json(&parsed),
+            Err(e) => ToolCallResult::error(e),
+        },
+        Err(e) => ToolCallResult::error(format!("Ghost placement failed: {}", e)),
+    }
+}
+
+async fn handle_place_blueprint(args: &Value, state: &AppState) -> ToolCallResult {
+    let x = match args.get("x").and_then(|v| v.as_f64()) {
+        Some(v) => v,
+        None => return ToolCallResult::error("Missing required parameter: x"),
+    };
+    let y = match args.get("y").and_then(|v| v.as_f64()) {
+        Some(v) => v,
+        None => return ToolCallResult::error("Missing required parameter: y"),
+    };
+    let bp_string = match args.get("blueprint_string").and_then(|v| v.as_str()) {
+        Some(s) => s,
+        None => return ToolCallResult::error("Missing required parameter: blueprint_string"),
+    };
+    match state.rcon.place_blueprint(x, y, bp_string) {
+        Ok(raw) => match parse_rcon_json(&raw) {
+            Ok(parsed) => ToolCallResult::json(&parsed),
+            Err(e) => ToolCallResult::error(e),
+        },
+        Err(e) => ToolCallResult::error(format!("Blueprint placement failed: {}", e)),
+    }
+}
+
+async fn handle_capture_blueprint(args: &Value, state: &AppState) -> ToolCallResult {
+    let x1 = match args.get("x1").and_then(|v| v.as_f64()) {
+        Some(v) => v,
+        None => return ToolCallResult::error("Missing required parameter: x1"),
+    };
+    let y1 = match args.get("y1").and_then(|v| v.as_f64()) {
+        Some(v) => v,
+        None => return ToolCallResult::error("Missing required parameter: y1"),
+    };
+    let x2 = match args.get("x2").and_then(|v| v.as_f64()) {
+        Some(v) => v,
+        None => return ToolCallResult::error("Missing required parameter: x2"),
+    };
+    let y2 = match args.get("y2").and_then(|v| v.as_f64()) {
+        Some(v) => v,
+        None => return ToolCallResult::error("Missing required parameter: y2"),
+    };
+    match state.rcon.capture_blueprint(x1, y1, x2, y2) {
+        Ok(raw) => match parse_rcon_json(&raw) {
+            Ok(parsed) => ToolCallResult::json(&parsed),
+            Err(e) => ToolCallResult::error(e),
+        },
+        Err(e) => ToolCallResult::error(format!("Blueprint capture failed: {}", e)),
+    }
+}
+
+async fn handle_insert_items(args: &Value, state: &AppState) -> ToolCallResult {
+    let x = match args.get("x").and_then(|v| v.as_f64()) {
+        Some(v) => v,
+        None => return ToolCallResult::error("Missing required parameter: x"),
+    };
+    let y = match args.get("y").and_then(|v| v.as_f64()) {
+        Some(v) => v,
+        None => return ToolCallResult::error("Missing required parameter: y"),
+    };
+    let item = match args.get("item").and_then(|v| v.as_str()) {
+        Some(i) => i,
+        None => return ToolCallResult::error("Missing required parameter: item"),
+    };
+    let count = match args.get("count").and_then(|v| v.as_u64()) {
+        Some(c) => c as u32,
+        None => return ToolCallResult::error("Missing required parameter: count"),
+    };
+    match state.rcon.insert_items(x, y, item, count) {
+        Ok(raw) => match parse_rcon_json(&raw) {
+            Ok(parsed) => ToolCallResult::json(&parsed),
+            Err(e) => ToolCallResult::error(e),
+        },
+        Err(e) => ToolCallResult::error(format!("Insert failed: {}", e)),
+    }
+}
+
+async fn handle_extract_items(args: &Value, state: &AppState) -> ToolCallResult {
+    let x = match args.get("x").and_then(|v| v.as_f64()) {
+        Some(v) => v,
+        None => return ToolCallResult::error("Missing required parameter: x"),
+    };
+    let y = match args.get("y").and_then(|v| v.as_f64()) {
+        Some(v) => v,
+        None => return ToolCallResult::error("Missing required parameter: y"),
+    };
+    let item = match args.get("item").and_then(|v| v.as_str()) {
+        Some(i) => i,
+        None => return ToolCallResult::error("Missing required parameter: item"),
+    };
+    let count = match args.get("count").and_then(|v| v.as_u64()) {
+        Some(c) => c as u32,
+        None => return ToolCallResult::error("Missing required parameter: count"),
+    };
+    match state.rcon.extract_items(x, y, item, count) {
+        Ok(raw) => match parse_rcon_json(&raw) {
+            Ok(parsed) => ToolCallResult::json(&parsed),
+            Err(e) => ToolCallResult::error(e),
+        },
+        Err(e) => ToolCallResult::error(format!("Extract failed: {}", e)),
+    }
+}
+
+async fn handle_pickup_entity(args: &Value, state: &AppState) -> ToolCallResult {
+    let x = match args.get("x").and_then(|v| v.as_f64()) {
+        Some(v) => v,
+        None => return ToolCallResult::error("Missing required parameter: x"),
+    };
+    let y = match args.get("y").and_then(|v| v.as_f64()) {
+        Some(v) => v,
+        None => return ToolCallResult::error("Missing required parameter: y"),
+    };
+    let entity_name = args.get("entity_name").and_then(|v| v.as_str());
+    match state.rcon.pickup_entity(x, y, entity_name) {
+        Ok(raw) => match parse_rcon_json(&raw) {
+            Ok(parsed) => ToolCallResult::json(&parsed),
+            Err(e) => ToolCallResult::error(e),
+        },
+        Err(e) => ToolCallResult::error(format!("Pickup failed: {}", e)),
+    }
 }

@@ -2,7 +2,7 @@
   "mcpServers": {
     "world-mode": {
       "command": "cargo",
-      "args": ["run", "--release", "--bin", "wm-core", "--", "mcp-serve", "--config", "configs/world-mode.toml"],
+      "args": ["run", "--release", "--bin", "wm-core", "--", "--config", "configs/world-mode.toml", "mcp-serve"],
       "cwd": ".",
       "env": {
         "RUST_LOG": "wm_core=debug,wm_bridge=debug,info"
@@ -26,7 +26,18 @@
       "mcp__world-mode__list_abstractions",
       "mcp__world-mode__get_abstraction",
       "mcp__world-mode__save_abstraction",
-      "mcp__world-mode__get_map_image"
+      "mcp__world-mode__get_map_image",
+      "mcp__world-mode__lieutenant_status",
+      "mcp__world-mode__walk_to",
+      "mcp__world-mode__craft",
+      "mcp__world-mode__place_entity",
+      "mcp__world-mode__mine_entity",
+      "mcp__world-mode__place_ghost",
+      "mcp__world-mode__place_blueprint",
+      "mcp__world-mode__capture_blueprint",
+      "mcp__world-mode__insert_items",
+      "mcp__world-mode__extract_items",
+      "mcp__world-mode__pickup_entity"
     ]
   }
 }
