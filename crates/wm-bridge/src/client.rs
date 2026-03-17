@@ -57,7 +57,7 @@ impl RconClient {
         debug!("Sending RCON command...");
         self.send_packet(&mut stream, 2, SERVERDATA_EXECCOMMAND, command)?;
 
-        // Read response — may come in multiple packets
+        // Read response — may come in multiple packets for large JSON payloads
         let mut full_response = String::new();
         loop {
             match self.read_packet(&mut stream) {
@@ -66,9 +66,12 @@ impl RconClient {
                         break;
                     }
                     full_response.push_str(&body);
-                    // Factorio typically sends one response packet, but large
-                    // state dumps might be split. Check if we got valid JSON.
-                    if looks_complete(&full_response) {
+                    // For non-JSON responses (e.g. /version), one packet is enough.
+                    // For JSON responses, check bracket completeness since large
+                    // state dumps might be split across packets.
+                    let trimmed = full_response.trim();
+                    let is_json = trimmed.starts_with('{') || trimmed.starts_with('[');
+                    if !is_json || looks_complete(&full_response) {
                         break;
                     }
                 }

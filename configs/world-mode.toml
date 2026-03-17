@@ -25,7 +25,7 @@ max_history_messages = 50
 [factorio]
 # Factorio headless server — direct RCON, no middleware
 rcon_host = "127.0.0.1"
-rcon_port = 27015
+rcon_port = 27016
 rcon_password = "worldmode2026"
 server_port = 34197
 # RCON read/write timeout (seconds) — increase for megabase state dumps

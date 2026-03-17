@@ -10,7 +10,7 @@ local STUCK_THRESHOLD = 60 -- ticks stuck before trying alternative
 --- @param character LuaEntity
 --- @param target table {x, y}
 function movement.move_to(character, target)
-    global.lieutenant.movement = global.lieutenant.movement or { target = nil, stuck_ticks = 0 }
+    storage.lieutenant.movement = storage.lieutenant.movement or { target = nil, stuck_ticks = 0 }
     local pos = character.position
     local dx = target.x - pos.x
     local dy = target.y - pos.y
@@ -18,7 +18,7 @@ function movement.move_to(character, target)
 
     if dist < 1 then
         -- Already there
-        global.lieutenant.movement.target = nil
+        storage.lieutenant.movement.target = nil
         return "arrived"
     end
 
@@ -27,7 +27,7 @@ function movement.move_to(character, target)
         local tp = character.surface.find_non_colliding_position("character", target, 10, 1)
         if tp then
             character.teleport(tp)
-            global.lieutenant.movement.target = nil
+            storage.lieutenant.movement.target = nil
             return "teleported"
         else
             return "blocked"
@@ -35,15 +35,15 @@ function movement.move_to(character, target)
     end
 
     -- Walk
-    global.lieutenant.movement.target = { x = target.x, y = target.y }
-    global.lieutenant.movement.stuck_ticks = 0
+    storage.lieutenant.movement.target = { x = target.x, y = target.y }
+    storage.lieutenant.movement.stuck_ticks = 0
     return "walking"
 end
 
 --- Called every tick to process walking.
 --- @param character LuaEntity
 function movement.tick(character)
-    local mv = global.lieutenant.movement
+    local mv = storage.lieutenant.movement
     if not mv.target then return end
 
     local pos = character.position
@@ -87,7 +87,7 @@ function movement.tick(character)
     character.walking_state = { walking = true, direction = dir }
 
     -- Track distance
-    global.lieutenant.stats.distance_walked = global.lieutenant.stats.distance_walked + moved
+    storage.lieutenant.stats.distance_walked = storage.lieutenant.stats.distance_walked + moved
 end
 
 --- Convert dx/dy to an 8-directional Factorio direction.
@@ -101,8 +101,8 @@ end
 
 --- Check if the lieutenant is currently moving.
 function movement.is_moving()
-    if not global.lieutenant or not global.lieutenant.movement then return false end
-    return global.lieutenant.movement.target ~= nil
+    if not storage.lieutenant or not storage.lieutenant.movement then return false end
+    return storage.lieutenant.movement.target ~= nil
 end
 
 return movement

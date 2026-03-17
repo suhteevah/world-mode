@@ -98,7 +98,7 @@ function actions.craft(character, recipe, count)
         inv.insert{name = product.name, count = amount}
     end
 
-    global.lieutenant.stats.items_crafted = global.lieutenant.stats.items_crafted + count
+    storage.lieutenant.stats.items_crafted = storage.lieutenant.stats.items_crafted + count
     return { success = true, message = "Crafted " .. count .. "x " .. recipe }
 end
 
@@ -154,7 +154,7 @@ function actions.place(character, name, pos, direction)
 
     if entity then
         inv.remove{name = item_name, count = 1}
-        global.lieutenant.stats.entities_placed = global.lieutenant.stats.entities_placed + 1
+        storage.lieutenant.stats.entities_placed = storage.lieutenant.stats.entities_placed + 1
         return { success = true, message = "Placed " .. name .. " at " .. math.floor(entity.position.x) .. ", " .. math.floor(entity.position.y) }
     else
         return { success = false, error = "Failed to place " .. name }

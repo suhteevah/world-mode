@@ -1,0 +1,40 @@
+  [2m2026-03-17T06:59:26.131523Z[0m [32m INFO[0m [1;32mwm_core::config[0m[32m: [32mLoading configuration, [1;32mpath[0m[32m: configs/world-mode.toml[0m
+    [2;3mat[0m crates\wm-core\src\config.rs:79
+
+  [2m2026-03-17T06:59:26.131911Z[0m [34mDEBUG[0m [1;34mwm_core::config[0m[34m: [34mConfiguration loaded successfully, [1;34mloop_interval_ms[0m[34m: 2000, [1;34mmodel[0m[34m: claude-sonnet-4-20250514, [1;34mrcon_host[0m[34m: 127.0.0.1, [1;34mrcon_port[0m[34m: 27016[0m
+    [2;3mat[0m crates\wm-core\src\config.rs:96
+
+  [2m2026-03-17T06:59:26.131942Z[0m [32m INFO[0m [1;32mwm_core[0m[32m: [32m╔══════════════════════════════════════════════════════╗[0m
+    [2;3mat[0m crates\wm-core\src\main.rs:78
+
+  [2m2026-03-17T06:59:26.132061Z[0m [32m INFO[0m [1;32mwm_core[0m[32m: [32m║       WORLD MODE v0.1.0 — MCP Server Starting       ║[0m
+    [2;3mat[0m crates\wm-core\src\main.rs:79
+
+  [2m2026-03-17T06:59:26.132069Z[0m [32m INFO[0m [1;32mwm_core[0m[32m: [32m║       Pure Rust + Lua. No Python. No FLE.            ║[0m
+    [2;3mat[0m crates\wm-core\src\main.rs:80
+
+  [2m2026-03-17T06:59:26.132073Z[0m [32m INFO[0m [1;32mwm_core[0m[32m: [32m║       The factory must grow.                         ║[0m
+    [2;3mat[0m crates\wm-core\src\main.rs:81
+
+  [2m2026-03-17T06:59:26.132076Z[0m [32m INFO[0m [1;32mwm_core[0m[32m: [32m╚══════════════════════════════════════════════════════╝[0m
+    [2;3mat[0m crates\wm-core\src\main.rs:82
+
+  [2m2026-03-17T06:59:26.132082Z[0m [32m INFO[0m [1;32mwm_bridge::client[0m[32m: [32mRCON client initialized, [1;32mhost[0m[32m: 127.0.0.1, [1;32mport[0m[32m: 27016[0m
+    [2;3mat[0m crates\wm-bridge\src\client.rs:25
+
+  [2m2026-03-17T06:59:26.132106Z[0m [34mDEBUG[0m [1;34mwm_bridge::client[0m[34m: [34mOpening RCON connection, [1;34mcommand_len[0m[34m: 8[0m
+    [2;3mat[0m crates\wm-bridge\src\client.rs:38
+    [2;3min[0m wm_bridge::client::[1mexecute[0m [2;3mwith[0m [1mcmd_preview[0m: /version
+
+  [2m2026-03-17T06:59:26.133347Z[0m [34mDEBUG[0m [1;34mwm_bridge::client[0m[34m: [34mRCON authenticating...[0m
+    [2;3mat[0m crates\wm-bridge\src\client.rs:47
+    [2;3min[0m wm_bridge::client::[1mexecute[0m [2;3mwith[0m [1mcmd_preview[0m: /version
+
+  [2m2026-03-17T06:59:26.134846Z[0m [34mDEBUG[0m [1;34mwm_bridge::client[0m[34m: [34mRCON authenticated[0m
+    [2;3mat[0m crates\wm-bridge\src\client.rs:54
+    [2;3min[0m wm_bridge::client::[1mexecute[0m [2;3mwith[0m [1mcmd_preview[0m: /version
+
+  [2m2026-03-17T06:59:26.134903Z[0m [34mDEBUG[0m [1;34mwm_bridge::client[0m[34m: [34mSending RCON command...[0m
+    [2;3mat[0m crates\wm-bridge\src\client.rs:57
+    [2;3min[0m wm_bridge::client::[1mexecute[0m [2;3mwith[0m [1mcmd_preview[0m: /version
+

@@ -64,24 +64,20 @@ commands.add_command("wm-state", "Get full game state as JSON", function(cmd)
                 end
 
                 -- Inventory contents for containers
+                -- Factorio 2.0: get_contents() returns array of {name, quality, count}
                 local inv = ent.get_output_inventory()
                 if inv then
                     local contents = inv.get_contents()
-                    if next(contents) then
+                    if #contents > 0 then
                         entry.output_inventory = {}
-                        for item_name, item_data in pairs(contents) do
-                            -- Factorio 2.0: contents returns {name, count} or similar
-                            if type(item_data) == "number" then
-                                entry.output_inventory[item_name] = item_data
-                            elseif type(item_data) == "table" and item_data.count then
-                                entry.output_inventory[item_name] = item_data.count
-                            end
+                        for _, stack in pairs(contents) do
+                            entry.output_inventory[stack.name] = (entry.output_inventory[stack.name] or 0) + stack.count
                         end
                     end
                 end
 
-                -- Warnings / status
-                entry.status = ent.status and ent.status.name or nil
+                -- Warnings / status (ent.status is a defines.entity_status number in 2.0)
+                entry.status = ent.status
 
                 table.insert(entities, entry)
                 entity_counts[ent.name] = (entity_counts[ent.name] or 0) + 1
@@ -98,16 +94,12 @@ commands.add_command("wm-state", "Get full game state as JSON", function(cmd)
     end
 
     -- Lieutenant inventory
+    -- Factorio 2.0: get_contents() returns array of {name, quality, count}
     local inventory = {}
     local main_inv = char.get_inventory(defines.inventory.character_main)
     if main_inv then
-        local contents = main_inv.get_contents()
-        for item_name, item_data in pairs(contents) do
-            if type(item_data) == "number" then
-                inventory[item_name] = item_data
-            elseif type(item_data) == "table" and item_data.count then
-                inventory[item_name] = item_data.count
-            end
+        for _, stack in pairs(main_inv.get_contents()) do
+            inventory[stack.name] = (inventory[stack.name] or 0) + stack.count
         end
     end
 
@@ -116,10 +108,8 @@ commands.add_command("wm-state", "Get full game state as JSON", function(cmd)
         input = {},
         output = {},
     }
-    local input_stats = force.get_item_production_statistics("input")
-    local output_stats = force.get_item_production_statistics("output")
-    -- Note: production_statistics API varies by Factorio version
-    -- This is a simplified version
+    -- Factorio 2.0: force.item_production_statistics is a LuaFlowStatistics object
+    -- with :get_input_count(name) and :get_output_count(name)
 
     -- Research
     local research = {
@@ -164,16 +154,12 @@ commands.add_command("wm-inventory", "Get lieutenant inventory as JSON", functio
         return
     end
 
+    -- Factorio 2.0: get_contents() returns array of {name, quality, count}
     local inventory = {}
     local main_inv = char.get_inventory(defines.inventory.character_main)
     if main_inv then
-        local contents = main_inv.get_contents()
-        for item_name, item_data in pairs(contents) do
-            if type(item_data) == "number" then
-                inventory[item_name] = item_data
-            elseif type(item_data) == "table" and item_data.count then
-                inventory[item_name] = item_data.count
-            end
+        for _, stack in pairs(main_inv.get_contents()) do
+            inventory[stack.name] = (inventory[stack.name] or 0) + stack.count
         end
     end
 
@@ -222,7 +208,7 @@ commands.add_command("wm-entities", "Query entities by type/area", function(cmd)
                 direction = ent.direction,
                 health = ent.health,
                 energy = ent.energy or 0,
-                status = ent.status and ent.status.name or nil,
+                status = ent.status,
             })
         end
     end
@@ -667,9 +653,14 @@ script.on_event(defines.events.on_entity_died, function(event)
 end, {{filter = "type", type = "character"}})
 
 script.on_init(function()
-    global.lieutenant = nil -- Will be created on first RCON command
+    storage.lieutenant = nil -- Will be created on first RCON command
+end)
+
+script.on_configuration_changed(function()
+    -- Reset lieutenant state on mod update — will respawn on first RCON command
+    storage.lieutenant = nil
 end)
 
 script.on_load(function()
-    -- global is restored from save automatically
+    -- storage is restored from save automatically
 end)

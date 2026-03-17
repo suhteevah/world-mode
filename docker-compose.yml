@@ -14,17 +14,19 @@ services:
     container_name: wm-factorio
     ports:
       - "34197:34197/udp"   # Game server (Matt connects here)
-      - "27015:27015/tcp"   # RCON (Rust MCP server connects here)
+      - "27016:27015/tcp"   # RCON (Rust MCP server connects here, remapped to avoid Apple service on 27015)
     volumes:
       - factorio-data:/factorio
       - ./factorio-server/server-settings.json:/factorio/config/server-settings.json
       - ./factorio-server/map-gen-settings.json:/factorio/config/map-gen-settings.json
-      - ./mod/world-mode-bridge:/factorio/mods/world-mode-bridge
+      - ./mod/world-mode-bridge:/factorio/mods/world-mode-bridge_0.1.0
+      - ./factorio-server/rconpw:/factorio/config/rconpw
     environment:
       - SAVE_NAME=world-mode
       - LOAD_LATEST_SAVE=true
-      - GENERATE_NEW_SAVE=true
+      - GENERATE_NEW_SAVE=false
       - UPDATE_MODS_ON_START=false
+      - RCON_PASSWORD=worldmode2026
     restart: unless-stopped
 
 volumes:

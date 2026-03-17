@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rustup show:*)",
+      "Bash(cargo build:*)",
+      "Bash(./target/release/wm-core.exe --config configs/world-mode.toml mcp-serve)",
+      "Bash(cmd.exe /c \"target\\\\release\\\\wm-core.exe --config configs\\\\world-mode.toml mcp-serve 2>mcp_test_stderr.log\")",
+      "Bash(printf '{\"\"\"\"jsonrpc\"\"\"\":\"\"\"\"2.0\"\"\"\",\"\"\"\"method\"\"\"\":\"\"\"\"initialize\"\"\"\",\"\"\"\"params\"\"\"\":{\"\"\"\"capabilities\"\"\"\":{}},\"\"\"\"id\"\"\"\":1}\\\\n')",
+      "Bash(./target/release/wm-core.exe --config ./configs/world-mode.toml mcp-serve)"
+    ]
+  }
+}

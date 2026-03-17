@@ -1,11 +1,10 @@
 {
   "mcpServers": {
     "world-mode": {
-      "command": "cargo",
-      "args": ["run", "--release", "--bin", "wm-core", "--", "--config", "configs/world-mode.toml", "mcp-serve"],
-      "cwd": ".",
+      "command": "J:\\world-mode\\target\\release\\wm-core.exe",
+      "args": ["--config", "J:\\world-mode\\configs\\world-mode.toml", "mcp-serve"],
       "env": {
-        "RUST_LOG": "wm_core=debug,wm_bridge=debug,info"
+        "RUST_LOG": "wm_core=info,wm_bridge=info"
       }
     }
   },

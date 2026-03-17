@@ -1,5 +1,5 @@
 use anyhow::Result;
-use serde_json::{json, Value};
+use serde_json::json;
 use std::io::{self, BufRead, Write};
 use tracing::{debug, error, info, warn};
 

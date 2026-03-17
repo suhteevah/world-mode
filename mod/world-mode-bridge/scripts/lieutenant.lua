@@ -7,16 +7,16 @@ local lieutenant = {}
 --- Called on server start and on first RCON command.
 --- @return LuaEntity the character entity
 function lieutenant.ensure(surface, force)
-    -- Check for existing character in global state
-    if global.lieutenant and global.lieutenant.character and global.lieutenant.character.valid then
-        return global.lieutenant.character
+    -- Check for existing character in storage
+    if storage.lieutenant and storage.lieutenant.character and storage.lieutenant.character.valid then
+        return storage.lieutenant.character
     end
 
-    -- Initialize global state
-    global.lieutenant = global.lieutenant or {}
-    global.lieutenant.movement = { target = nil, stuck_ticks = 0 }
-    global.lieutenant.actions = { queue = {}, current = nil }
-    global.lieutenant.stats = global.lieutenant.stats or { items_crafted = 0, entities_placed = 0, distance_walked = 0 }
+    -- Initialize storage state
+    storage.lieutenant = storage.lieutenant or {}
+    storage.lieutenant.movement = { target = nil, stuck_ticks = 0 }
+    storage.lieutenant.actions = { queue = {}, current = nil }
+    storage.lieutenant.stats = storage.lieutenant.stats or { items_crafted = 0, entities_placed = 0, distance_walked = 0 }
 
     -- Find spawn position
     local spawn = force.get_spawn_position(surface)
@@ -44,7 +44,7 @@ function lieutenant.ensure(surface, force)
         inv.insert{name = "stone-furnace", count = 1}
     end
 
-    global.lieutenant.character = character
+    storage.lieutenant.character = character
     game.print("[World Mode] Lieutenant spawned at " .. math.floor(pos.x) .. ", " .. math.floor(pos.y))
 
     return character
@@ -52,8 +52,8 @@ end
 
 --- Get the lieutenant character, or nil if not yet created.
 function lieutenant.get()
-    if global.lieutenant and global.lieutenant.character and global.lieutenant.character.valid then
-        return global.lieutenant.character
+    if storage.lieutenant and storage.lieutenant.character and storage.lieutenant.character.valid then
+        return storage.lieutenant.character
     end
     return nil
 end
@@ -63,15 +63,12 @@ function lieutenant.status()
     local char = lieutenant.get()
     if not char then return { alive = false } end
 
+    -- Factorio 2.0: get_contents() returns array of {name, quality, count}
     local inv_counts = {}
     local inv = char.get_inventory(defines.inventory.character_main)
     if inv then
-        for item, count in pairs(inv.get_contents()) do
-            if type(count) == "number" then
-                inv_counts[item] = count
-            elseif type(count) == "table" and count.count then
-                inv_counts[item] = count.count
-            end
+        for _, stack in pairs(inv.get_contents()) do
+            inv_counts[stack.name] = (inv_counts[stack.name] or 0) + stack.count
         end
     end
 
@@ -80,19 +77,19 @@ function lieutenant.status()
         position = { x = char.position.x, y = char.position.y },
         health = char.health,
         surface = char.surface.name,
-        moving = global.lieutenant.movement.target ~= nil,
-        movement_target = global.lieutenant.movement.target,
-        action_queue_length = #global.lieutenant.actions.queue,
-        current_action = global.lieutenant.actions.current,
+        moving = storage.lieutenant.movement.target ~= nil,
+        movement_target = storage.lieutenant.movement.target,
+        action_queue_length = #storage.lieutenant.actions.queue,
+        current_action = storage.lieutenant.actions.current,
         inventory_item_count = table_size(inv_counts),
-        stats = global.lieutenant.stats,
+        stats = storage.lieutenant.stats,
     }
 end
 
 --- Handle lieutenant death — respawn.
 function lieutenant.on_death(event)
-    if global.lieutenant and global.lieutenant.character == event.entity then
-        global.lieutenant.character = nil
+    if storage.lieutenant and storage.lieutenant.character == event.entity then
+        storage.lieutenant.character = nil
         -- Will respawn on next ensure() call
         game.print("[World Mode] Lieutenant died! Respawning...")
     end

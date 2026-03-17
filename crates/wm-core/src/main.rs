@@ -116,8 +116,8 @@ async fn cmd_status(config: WorldModeConfig) -> Result<()> {
             eprintln!("  Version:   {}", version.trim());
             // Try the World Mode mod
             match rcon.get_state(true) {
-                Ok(state) => eprintln!("  WM Mod:    Loaded (got state)"),
-                Err(e) => eprintln!("  WM Mod:    NOT loaded — install world-mode-bridge mod"),
+                Ok(_state) => eprintln!("  WM Mod:    Loaded (got state)"),
+                Err(_e) => eprintln!("  WM Mod:    NOT loaded — install world-mode-bridge mod"),
             }
         }
         Err(e) => {
