@@ -8,6 +8,7 @@
 local json = require("scripts.json")
 local api = require("scripts.api")
 local lieutenant = require("scripts.lieutenant")
+local movement = require("scripts.movement")
 
 -- ─────────────────────────────────────────────
 -- State tracking
@@ -369,9 +370,36 @@ commands.add_command("wm-lieutenant", "Get lieutenant status", function(cmd)
 end)
 
 
+-- /wm-walk x y
+-- Walk lieutenant to position, or teleport if far.
+commands.add_command("wm-walk", "Walk lieutenant to position: /wm-walk x y", function(cmd)
+    local char = lieutenant.ensure(game.surfaces["nauvis"], game.forces["player"])
+    local args = {}
+    if cmd.parameter then
+        for word in cmd.parameter:gmatch("%S+") do
+            table.insert(args, tonumber(word))
+        end
+    end
+    if #args < 2 then
+        rcon.print(json.encode({error = "Usage: /wm-walk x y"}))
+        return
+    end
+    local result = movement.move_to(char, {x = args[1], y = args[2]})
+    rcon.print(json.encode({status = result, target = {x = args[1], y = args[2]}}))
+end)
+
+
 -- ─────────────────────────────────────────────
 -- Event Handlers
 -- ─────────────────────────────────────────────
+
+script.on_event(defines.events.on_tick, function(event)
+    local char = lieutenant.get()
+    if not char then return end
+
+    -- Process movement
+    movement.tick(char)
+end)
 
 script.on_event(defines.events.on_entity_died, function(event)
     lieutenant.on_death(event)
