@@ -7,6 +7,7 @@
 
 local json = require("scripts.json")
 local api = require("scripts.api")
+local lieutenant = require("scripts.lieutenant")
 
 -- ─────────────────────────────────────────────
 -- State tracking
@@ -25,15 +26,15 @@ local action_log = {}
 -- Returns full game state as JSON.
 -- With "compact" arg, omits entity details (just counts).
 commands.add_command("wm-state", "Get full game state as JSON", function(cmd)
-    local player = game.get_player(1)
-    if not player then
-        rcon.print(json.encode({error = "No player found"}))
+    local char = lieutenant.ensure(game.surfaces["nauvis"], game.forces["player"])
+    if not char then
+        rcon.print(json.encode({error = "Lieutenant not available"}))
         return
     end
 
     local compact = cmd.parameter == "compact"
-    local surface = player.surface
-    local force = player.force
+    local surface = char.surface
+    local force = char.force
 
     -- Entities
     local entities = {}
@@ -93,9 +94,9 @@ commands.add_command("wm-state", "Get full game state as JSON", function(cmd)
         end
     end
 
-    -- Player inventory
+    -- Lieutenant inventory
     local inventory = {}
-    local main_inv = player.get_main_inventory()
+    local main_inv = char.get_inventory(defines.inventory.character_main)
     if main_inv then
         local contents = main_inv.get_contents()
         for item_name, item_data in pairs(contents) do
@@ -133,7 +134,7 @@ commands.add_command("wm-state", "Get full game state as JSON", function(cmd)
     local state = {
         tick = game.tick,
         elapsed_time = game.tick / 60.0,
-        player_position = {x = player.position.x, y = player.position.y},
+        player_position = {x = char.position.x, y = char.position.y},
         entities = compact and nil or entities,
         entity_counts = entity_counts,
         entity_total = compact and table_size(entity_counts) or #entities,
@@ -153,15 +154,15 @@ end)
 
 -- /wm-inventory
 -- Returns just the player inventory (lightweight).
-commands.add_command("wm-inventory", "Get player inventory as JSON", function(cmd)
-    local player = game.get_player(1)
-    if not player then
-        rcon.print(json.encode({error = "No player found"}))
+commands.add_command("wm-inventory", "Get lieutenant inventory as JSON", function(cmd)
+    local char = lieutenant.ensure(game.surfaces["nauvis"], game.forces["player"])
+    if not char then
+        rcon.print(json.encode({error = "Lieutenant not available"}))
         return
     end
 
     local inventory = {}
-    local main_inv = player.get_main_inventory()
+    local main_inv = char.get_inventory(defines.inventory.character_main)
     if main_inv then
         local contents = main_inv.get_contents()
         for item_name, item_data in pairs(contents) do
@@ -180,9 +181,9 @@ end)
 -- /wm-entities [type] [x] [y] [radius]
 -- Query entities by type and/or area.
 commands.add_command("wm-entities", "Query entities by type/area", function(cmd)
-    local player = game.get_player(1)
-    if not player then
-        rcon.print(json.encode({error = "No player found"}))
+    local char = lieutenant.ensure(game.surfaces["nauvis"], game.forces["player"])
+    if not char then
+        rcon.print(json.encode({error = "Lieutenant not available"}))
         return
     end
 
@@ -193,7 +194,7 @@ commands.add_command("wm-entities", "Query entities by type/area", function(cmd)
         end
     end
 
-    local filter = {force = player.force}
+    local filter = {force = char.force}
     if args[1] and args[1] ~= "*" then
         filter.name = args[1]
     end
@@ -208,7 +209,7 @@ commands.add_command("wm-entities", "Query entities by type/area", function(cmd)
     end
 
     local entities = {}
-    local found = player.surface.find_entities_filtered(filter)
+    local found = char.surface.find_entities_filtered(filter)
     for _, ent in pairs(found) do
         if ent.valid then
             table.insert(entities, {
@@ -237,10 +238,12 @@ commands.add_command("wm-exec", "Execute Lua code with wm.* API", function(cmd)
         return
     end
 
+    local char = lieutenant.ensure(game.surfaces["nauvis"], game.forces["player"])
+
     -- Set up execution environment with the wm API
     local output_buffer = {}
     local env = setmetatable({
-        wm = api.create_context(game.get_player(1), output_buffer),
+        wm = api.create_context(char, output_buffer),
         game = game,
         print = function(...)
             local parts = {}
@@ -298,15 +301,15 @@ end)
 -- /wm-power
 -- Get power grid status.
 commands.add_command("wm-power", "Get power grid status", function(cmd)
-    local player = game.get_player(1)
-    if not player then
-        rcon.print(json.encode({error = "No player found"}))
+    local char = lieutenant.ensure(game.surfaces["nauvis"], game.forces["player"])
+    if not char then
+        rcon.print(json.encode({error = "Lieutenant not available"}))
         return
     end
 
-    local surface = player.surface
+    local surface = char.surface
     local generators = surface.find_entities_filtered{
-        force = player.force,
+        force = char.force,
         type = {"generator", "solar-panel"},
     }
 
@@ -355,4 +358,29 @@ end)
 -- Get recent action history.
 commands.add_command("wm-action-log", "Get recent action log", function(cmd)
     rcon.print(json.encode(action_log))
+end)
+
+
+-- /wm-lieutenant
+-- Get lieutenant status.
+commands.add_command("wm-lieutenant", "Get lieutenant status", function(cmd)
+    local char = lieutenant.ensure(game.surfaces["nauvis"], game.forces["player"])
+    rcon.print(json.encode(lieutenant.status()))
+end)
+
+
+-- ─────────────────────────────────────────────
+-- Event Handlers
+-- ─────────────────────────────────────────────
+
+script.on_event(defines.events.on_entity_died, function(event)
+    lieutenant.on_death(event)
+end)
+
+script.on_init(function()
+    global.lieutenant = nil -- Will be created on first RCON command
+end)
+
+script.on_load(function()
+    -- global is restored from save automatically
 end)
