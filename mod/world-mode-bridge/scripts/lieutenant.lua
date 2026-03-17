@@ -16,7 +16,7 @@ function lieutenant.ensure(surface, force)
     global.lieutenant = global.lieutenant or {}
     global.lieutenant.movement = { target = nil, stuck_ticks = 0 }
     global.lieutenant.actions = { queue = {}, current = nil }
-    global.lieutenant.stats = { items_crafted = 0, entities_placed = 0, distance_walked = 0 }
+    global.lieutenant.stats = global.lieutenant.stats or { items_crafted = 0, entities_placed = 0, distance_walked = 0 }
 
     -- Find spawn position
     local spawn = force.get_spawn_position(surface)
@@ -31,7 +31,8 @@ function lieutenant.ensure(surface, force)
     }
 
     if not character then
-        error("Failed to create lieutenant character at " .. serpent.line(pos))
+        game.print("[World Mode] ERROR: Failed to create lieutenant character")
+        return nil
     end
 
     -- Give starter items (same as a new freeplay character)

@@ -375,7 +375,7 @@ end)
 
 script.on_event(defines.events.on_entity_died, function(event)
     lieutenant.on_death(event)
-end)
+end, {{filter = "type", type = "character"}})
 
 script.on_init(function()
     global.lieutenant = nil -- Will be created on first RCON command
