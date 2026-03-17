@@ -40,14 +40,20 @@ function blueprints.place_blueprint_string(surface, force, blueprint_string, pos
     local target = { x = pos.x or pos[1], y = pos.y or pos[2] }
 
     -- Create a temporary blueprint item stack to import the string
-    local stack = game.create_inventory(1)[1]
+    local inv = game.create_inventory(1)
+    local stack = inv[1]
     if not stack then
+        inv.destroy()
         return { success = false, error = "Failed to create temporary inventory for blueprint" }
     end
+
+    -- Initialise the slot as a blueprint before importing
+    stack.set_stack{name = "blueprint"}
 
     -- Import the blueprint string
     local import_result = stack.import_stack(blueprint_string)
     if import_result ~= 0 then
+        inv.destroy()
         return { success = false, error = "Failed to import blueprint string (error code: " .. tostring(import_result) .. ")" }
     end
 
@@ -58,12 +64,15 @@ function blueprints.place_blueprint_string(surface, force, blueprint_string, pos
             if book_inv and #book_inv > 0 then
                 stack = book_inv[1]
                 if not stack.is_blueprint then
+                    inv.destroy()
                     return { success = false, error = "Blueprint book's first item is not a blueprint" }
                 end
             else
+                inv.destroy()
                 return { success = false, error = "Empty blueprint book" }
             end
         else
+            inv.destroy()
             return { success = false, error = "Imported string is not a blueprint or blueprint book" }
         end
     end
@@ -76,6 +85,12 @@ function blueprints.place_blueprint_string(surface, force, blueprint_string, pos
         direction = direction,
         force_build = true,  -- Place even if entities overlap (ghosts are fine)
     }
+
+    inv.destroy()
+
+    if not ghosts then
+        return { success = false, error = "build_blueprint returned nil" }
+    end
 
     local ghost_count = #ghosts
     return {
@@ -91,8 +106,10 @@ end
 --- @param area table {{x1, y1}, {x2, y2}}
 --- @return table {success, blueprint_string}
 function blueprints.capture(surface, force, area)
-    local stack = game.create_inventory(1)[1]
+    local inv = game.create_inventory(1)
+    local stack = inv[1]
     if not stack then
+        inv.destroy()
         return { success = false, error = "Failed to create temporary inventory" }
     end
 
@@ -104,6 +121,7 @@ function blueprints.capture(surface, force, area)
     }
 
     if #entities == 0 then
+        inv.destroy()
         return { success = false, error = "No entities found in area" }
     end
 
@@ -115,10 +133,12 @@ function blueprints.capture(surface, force, area)
     }
 
     if not mapping or table_size(mapping) == 0 then
+        inv.destroy()
         return { success = false, error = "Failed to create blueprint from area" }
     end
 
     local bp_string = stack.export_stack()
+    inv.destroy()
     return {
         success = true,
         blueprint_string = bp_string,
