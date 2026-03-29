@@ -657,8 +657,13 @@ script.on_init(function()
 end)
 
 script.on_configuration_changed(function()
-    -- Reset lieutenant state on mod update — will respawn on first RCON command
-    storage.lieutenant = nil
+    -- Dump inventory to chest before destroying to prevent item loss
+    lieutenant.prepare_for_removal()
+    -- Destroy old character to prevent orphans
+    if storage.lieutenant and storage.lieutenant.character and storage.lieutenant.character.valid then
+        storage.lieutenant.character.destroy()
+    end
+    storage.lieutenant = nil -- Will respawn on first RCON command
 end)
 
 script.on_load(function()

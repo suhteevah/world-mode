@@ -1,0 +1,1274 @@
+# MEGABASE IN A BOOK | #1 Factorio Lets Play/Walkthrough
+# Video ID: yk4Muk4mUbg
+# URL: https://www.youtube.com/watch?v=yk4Muk4mUbg
+
+[00:00] welcome to factorio make a base in a
+[00:02] book
+[00:03] my name is nils and i'm going to be your
+[00:04] guide during this let's play on
+[00:06] how to build a megabase and provide
+[00:09] blueprints for all the megabit builds
+[00:11] that we're going to develop during the
+[00:12] series
+[00:13] and maybe you're already thinking hey
+[00:15] how is this a new series if you're
+[00:17] starting with a fully built bass and
+[00:18] that's because
+[00:19] the focus on this one is going to be on
+[00:21] megabasing and in order for you to start
+[00:23] working on a megabase
+[00:24] i i don't need to build an entire base
+[00:27] because we already did that and i
+[00:28] already provided you with that
+[00:30] in the series called base in a book you
+[00:32] got all the blueprints you got all that
+[00:34] if you're a patron supporter you can
+[00:35] also just get the save and then we can
+[00:36] start from here
+[00:37] focusing on the transition from a normal
+[00:39] base that launches rocket does 300 signs
+[00:42] per minute
+[00:42] into a megabase and that is the
+[00:44] objective of this series
+[00:45] one thing i'll for since this is the
+[00:47] first episode in
+[00:49] in a series there are a few things i'll
+[00:51] mention the first thing is
+[00:52] if you are enjoying the fact that i'm
+[00:54] back to victoria and you want me to
+[00:56] play more of it then help me out with
+[00:58] likes comments and especially shares
+[01:00] share it to your family your
+[01:02] grandparents i'm sure they would enjoy
+[01:04] playing
+[01:04] some factorio or at least watching it so
+[01:07] just
+[01:08] help me out and spread the word
+[01:09] especially since this is a first episode
+[01:11] and then we'll go into what you can
+[01:14] expect from this series
+[01:15] and what you can expect this series not
+[01:17] to be
+[01:18] first though each episode will have a
+[01:21] sponsor
+[01:22] this is not a corporate sponsor it is a
+[01:23] sponsor from
+[01:25] my patreon supporters so every episode
+[01:27] we'll have right in the beginning
+[01:28] in the lower left hand corner we'll have
+[01:30] the name of the patron supporter the
+[01:32] templar of the path
+[01:33] who is sponsoring this episode so you
+[01:35] will not have any intersections of a
+[01:37] brand activation for all that crap i am
+[01:41] this is this series is brought to you by
+[01:43] the lovely people supporting on patreon
+[01:44] thank you very much
+[01:47] let's let's talk about what this series
+[01:48] is and is not before we dive into
+[01:50] actually building i tried doing
+[01:52] building while while explaining and i
+[01:55] ended up having to do a retake so this
+[01:57] is take two
+[01:57] or maybe more what is this series this
+[02:01] is about
+[02:02] giving you inspiration for a megabase
+[02:03] this is about showing you how to
+[02:05] transition from a normal bass into a
+[02:06] megabase it's really difficult and i'm
+[02:08] going to do that by basically
+[02:09] outsourcing things and making a modular
+[02:11] setup
+[02:12] that i will be providing to you it is
+[02:15] the objective is since it's make a base
+[02:17] in a book i will put everything in a
+[02:18] nice blueprint book that you can use in
+[02:20] your own megabase if you feel so
+[02:21] inclined the only thing you need
+[02:23] is a train network and then you just
+[02:24] plug it in however design you want
+[02:26] however you want this is the brilliant
+[02:28] part of it about it is that everything
+[02:29] will just hook up to a network
+[02:31] as modules that you plug into the
+[02:32] network and then if you need more of one
+[02:34] thing you just plug in another module
+[02:36] that's the intention so that's
+[02:38] should be really exciting to see how
+[02:39] that goes what is this series
+[02:41] not done it's not a starter series if
+[02:43] you are new to victoria and you found
+[02:45] your way to this first video and you're
+[02:46] still watching even though i'm just
+[02:47] chatting while looking at
+[02:49] the map overview then i would recommend
+[02:51] checking out my series called let's
+[02:53] start automatic i'm going to explain
+[02:54] hotkeys functionality features why i do
+[02:56] things
+[02:57] here i'm focusing more on how to do
+[02:59] things
+[03:00] and also why but in a grander scale in a
+[03:03] megabase deal
+[03:04] this is also by no means the best way to
+[03:06] do it i'm not optimizing for
+[03:08] for updates per second to make the
+[03:10] largest megabase
+[03:11] those designs are very different and
+[03:15] not very modular and
+[03:18] yeah they're fun to make but that's not
+[03:20] it this is about building a megabase the
+[03:22] target will be around 2 700 signs per
+[03:24] minute
+[03:25] i think that's well that's how all our
+[03:27] designs will be focusing forward
+[03:29] what you can expect in terms of this
+[03:31] series is that it's going to have some
+[03:32] unique things
+[03:33] it's going to be city blocks because
+[03:34] well anyone who's been around for a
+[03:36] while know that i like my city blocks
+[03:38] the reason why i like the city blocks in
+[03:40] this particular case is because it
+[03:42] allows me to give you a blueprint that's
+[03:44] always specifically sized
+[03:46] so it can be a one by three city block
+[03:48] it will be one by two city plug and be
+[03:49] two by six city block but if you then
+[03:52] you can plug it in where you want it in
+[03:54] your base
+[03:55] if i didn't use city blocks for as a
+[03:57] design constraint then the
+[03:59] blueprints would be all sorts of weird
+[04:01] shapes and sizes and it would be
+[04:02] more difficult for you to fit them into
+[04:04] your own base so if you're using city
+[04:05] blocks this is the advantage
+[04:07] it basically just takes a number of
+[04:09] modules and then plugs it in
+[04:11] that's what we are we're going to go for
+[04:12] in the series
+[04:14] and of course it's going to be heavily
+[04:16] heavily trained based so let's get into
+[04:18] it
+[04:18] what you can also expect is that we'll
+[04:20] be focusing a lot more on the science
+[04:21] and a lot less on
+[04:24] and a lot less on sort of the normal
+[04:27] progression so i'll do
+[04:28] cuts i'll do things between sessions and
+[04:30] for that reason i will not be able to
+[04:32] deliver this on a bi-daily
+[04:36] basis i am currently expecting to have
+[04:38] one
+[04:39] episode per week so i can also focus on
+[04:41] other things such as tutorials and new
+[04:43] games and all that stuff
+[04:44] and i know that there will be a lot of
+[04:46] work between sessions for me as well
+[04:48] so we are gonna go start by going down
+[04:50] here and what i want to do is build some
+[04:52] trained layout that i
+[04:53] can use for my future base and
+[04:57] i basically want to have like a an array
+[05:00] here out here you can see how much size
+[05:03] i have i'm going to build an array at
+[05:05] this point
+[05:05] and then i'm going to use that array to
+[05:07] build different things in different
+[05:08] locations
+[05:10] the first thing i want to do though is
+[05:14] i'm just copying from the map and just
+[05:18] applying this design then i need a
+[05:20] forward intersection i am usually not a
+[05:22] big fan of four-way intersections
+[05:24] in this case i actually do need it so
+[05:26] i'm
+[05:29] i also think that the train congestion
+[05:32] will not be so big that it's
+[05:33] actually going to be a problem with the
+[05:35] four-way the reason why i don't
+[05:36] usually like the four ways is because
+[05:39] they um they're more susceptible to
+[05:41] into jamming because there's just more
+[05:44] not necessarily jamming but just
+[05:46] congestion
+[05:46] because there's just more traffic there
+[05:48] so more things are gonna happen
+[05:51] other things that i should mention as we
+[05:53] sort of progress is that i will be
+[05:56] using some mods and you can look in the
+[05:59] description for sort of a
+[06:00] full list of the mods there are a few
+[06:01] mods that i like such as
+[06:03] one that wants me when things are out of
+[06:06] out of fuel
+[06:07] there's another one that when i
+[06:11] find my car hit my car keys here and
+[06:13] that will give me
+[06:15] find me my my cars and tanks and
+[06:18] spider-trons
+[06:20] it's super nice so you know those kind
+[06:22] of things i squeak through so i can walk
+[06:23] through between buildings but you know
+[06:25] nothing that radically changes the
+[06:27] gameplay this is for instance purposes
+[06:29] still a vanilla base
+[06:31] so what i want to do is i want to make
+[06:32] sure that we have
+[06:37] actually i think i want that here so we
+[06:39] are going to use
+[06:41] our our blueprint designs here
+[06:45] as much as possible that's really one of
+[06:47] the key objectives is to see how much we
+[06:49] could reuse
+[06:50] that's also a big part of building a
+[06:52] megabase is that you want to reuse as
+[06:54] much as possible so
+[06:56] why am i doing this well i need to build
+[06:58] the first thing and the first thing
+[07:00] i want to build will be a smelting
+[07:02] column so let's talk about what this
+[07:03] episode will be about
+[07:05] and how i want to do it okay we're going
+[07:06] to get some fighters attacking somewhere
+[07:08] uh it's not really a problem we still
+[07:11] have biters in here
+[07:12] right so what i am what i want to
+[07:16] to do in this episode we have our base
+[07:18] here working at
+[07:19] 300 science per minute it's not much how
+[07:22] can we squeeze in more
+[07:24] capacity it's the first thing when you
+[07:26] look at it just instantly see the stuff
+[07:28] that isn't working at full
+[07:29] yeah yeah yeah i know so we can we can't
+[07:32] really get like many more belts in here
+[07:35] so the one thing that i want to do is
+[07:38] actually
+[07:39] oh right it was a drought of or of
+[07:40] plastic or oil and then
+[07:42] it fixed itself okay maybe because i was
+[07:44] just parked in a way
+[07:46] so what i want to do instead is i want
+[07:48] to replace things so instead of bringing
+[07:50] ore in here
+[07:51] and then smelting on site with a bad
+[07:52] smelter which is intended this is how i
+[07:54] always do it i don't feel like upgrading
+[07:56] this one
+[07:57] until there is a need for it then
+[08:00] instead of that i will bring in the
+[08:01] train with
+[08:03] with this melted plates because then
+[08:04] i'll build an outsourced layer same with
+[08:06] this iron same with the steel
+[08:08] and same width and then we'll also go
+[08:11] like green circuits will be brought in
+[08:12] red circuits will be brought in plastic
+[08:14] and uh probably not a plastic
+[08:16] um so different things can be brought in
+[08:18] so that i don't have to
+[08:19] carry for example all of these lanes to
+[08:21] make the green circuits
+[08:22] because i'm bending the green circuits
+[08:24] outside that doesn't really
+[08:26] scale us up to where we need but it also
+[08:28] means that i start having production
+[08:29] outside of the base for smelting for
+[08:32] circuits
+[08:33] and that's really the core of this game
+[08:35] this playthrough
+[08:36] is that i want to make sure that we have
+[08:38] all of the things that you need to build
+[08:40] a base
+[08:40] outside in city block shaped patterns so
+[08:44] you can stamp them down
+[08:45] do you need batteries here's the battery
+[08:46] thing you need more steel put down
+[08:48] another steel
+[08:49] smelter that's the intention so let's
+[08:52] get on with it
+[08:53] the first thing i want to do is i want
+[08:54] to make sure the first line is empty
+[08:56] so we can dig so that i leave some space
+[09:03] how did i butcher this one so much
+[09:06] wow there's just something about okay so
+[09:09] maybe i should just
+[09:10] not talk while playing because it looks
+[09:12] like i am very bad at
+[09:14] talking and playing at the same time
+[09:17] there
+[09:18] this is certainly not in the middle even
+[09:20] i can see that
+[09:22] oh it's because i chose one of these
+[09:24] that isn't really what i want i want one
+[09:26] of
+[09:26] the one like this
+[09:32] and that one again
+[09:35] reuse as much as possible
+[09:39] reuse what you can use and i'm using my
+[09:41] builder train here i will eventually
+[09:43] also transition into using
+[09:46] using what are they called they're
+[09:48] called spider zones for building but
+[09:50] that's gonna be something we'll do
+[09:51] just a bit later that one and then i'm
+[09:54] going to
+[09:55] get this one here and this will be our
+[09:59] first design
+[10:01] design location and that will the speed
+[10:03] design the first thing i want to design
+[10:04] is going to be smelting and i'm going to
+[10:06] use copper's melting the reason why i do
+[10:08] use copper smelting first
+[10:10] is because this is easy to replace if i
+[10:12] replace this part
+[10:13] then i also have to replace the steel
+[10:15] and that means i need to also do a steel
+[10:17] design so i'm going to start by doing a
+[10:18] copper design
+[10:20] which will also be the same for iron
+[10:21] design and then from there on we can go
+[10:23] into
+[10:24] steel design so what are the principles
+[10:28] we need here
+[10:28] well the first thing i need is to get
+[10:30] rid of all of the
+[10:33] all of the wood but um we can we can do
+[10:36] that
+[10:38] why do we not have any
+[10:43] what what are they what
+[10:47] what what's my oh why did i i always
+[10:49] have a deconstruction planner and then i
+[10:51] can't remember
+[10:52] how to even build the deconstruction
+[10:53] planner there we go i'm going to take
+[10:55] all this out because you're going to be
+[10:56] in the way of my design that means
+[10:58] the robots will be a bit tired but i can
+[11:00] then in the meantime start talking about
+[11:02] something
+[11:02] so i am now constraining myself to
+[11:05] working on a city block pattern
+[11:07] that's just the way it is it's what i
+[11:10] like so
+[11:11] let's start having a look at how big we
+[11:13] can build our trains
+[11:14] if we are in a city block pattern so
+[11:16] that is the absolute maximum we can
+[11:18] build of train size
+[11:20] and that should be sort of our design
+[11:22] parameters so we can make
+[11:24] this one here and i did i realized that
+[11:26] i don't have trains uh yeah i don't have
+[11:28] enough i'm
+[11:29] just gonna up that one to two and up the
+[11:32] one to eight because that's gonna be our
+[11:34] target train size i should have some
+[11:36] trains in my
+[11:37] train don't even ask how that physically
+[11:40] works that you put trains inside of a
+[11:42] train
+[11:43] they you would think that they have the
+[11:44] same size but
+[11:46] i guess not so what i need to do here is
+[11:50] build a train and then we are going to
+[11:52] say so the reason the way i usually
+[11:54] build my trains is like this
+[11:56] one two one two three four five six
+[11:59] seven eight
+[12:00] that is a two eight train but as you can
+[12:03] also very very clearly see
+[12:04] we have a problem that one cannot be
+[12:07] unloaded properly it's on a
+[12:10] on a turn so how the would we ever work
+[12:13] to fix that problem i found a very very
+[12:17] clever solution that i
+[12:18] really like and which also has the added
+[12:21] advantage
+[12:21] that my base is going to be looking even
+[12:23] more unique so if you want to follow
+[12:25] along
+[12:26] your trains are hey that would have been
+[12:29] better if they had actually put down
+[12:30] there
+[12:31] your trains are going to be one eight
+[12:33] one
+[12:34] one locomotive eight wagons one
+[12:36] locomotive it's gonna do exactly the
+[12:38] same pushing power
+[12:39] as a two eight train it just feels sort
+[12:42] of unintuitive to put them there i could
+[12:43] put them in the middle i have done that
+[12:45] before
+[12:45] and i feel really dirty for doing it but
+[12:47] that's uh it can be done
+[12:50] so what i want to do here um so this
+[12:54] now we've taken making one of our big
+[12:56] design criteria in this space
+[12:58] that is we are going to make one
+[13:02] eight one trains all right great
+[13:05] take that out because we can build that
+[13:08] somewhere over here i don't know exactly
+[13:09] where but let's just put it at this
+[13:11] location
+[13:12] so my my thought is on this one i'll
+[13:14] have one location that comes in
+[13:16] and then i'll have one location that
+[13:18] does the smelting now the smelting thing
+[13:20] and this is where i'm also going to lean
+[13:22] heavily on
+[13:22] my master classes because hey i spent a
+[13:25] lot of time designing stuff in my master
+[13:26] classes
+[13:27] so first of all we're going to disable
+[13:29] that in my master classes i did some
+[13:31] designs and
+[13:32] why not use those so let's look for
+[13:36] advanced melting that's the one this one
+[13:39] is
+[13:39] steel we don't care about that that is a
+[13:41] lot of steel and this
+[13:42] is advanced
+[13:46] smelting beacons something yeah
+[13:52] what is the input that's the input and
+[13:54] that's the output
+[13:59] i'm just wondering if this is correct ah
+[14:02] okay yeah yeah it is correct okay i'm
+[14:04] gonna build this here
+[14:05] so this design is going to give us
+[14:11] one consume less than one built-in but
+[14:15] provide more than one build out oh yeah
+[14:17] that's uh we just needed a bit to have
+[14:18] that while i was clearing but we'll just
+[14:20] continue on mining productivity that's
+[14:22] always the best
+[14:23] not always but it generally is and
+[14:25] actually my one comment about
+[14:26] when you get into endgame when are you
+[14:28] gonna do this my thought is
+[14:31] i am going to take the cheapest one
+[14:33] among
+[14:34] artillery range which is 8 000
+[14:37] or mining productivity 12 000
+[14:40] or worker speed now that one we've just
+[14:43] completed a military science so i'm not
+[14:44] going to do more military science i'm
+[14:46] going to do some
+[14:46] of these and then we can go back into
+[14:49] artillery range and then get a few more
+[14:51] until this one goes above sixteen
+[14:53] thousand seventeen thousand
+[14:56] that one is 16 so then that's the
+[14:58] cheapest one and then we go back
+[15:00] that's just how i do it so that
+[15:01] basically it's gonna be the cheapest one
+[15:03] that's
+[15:04] the best i get more value for money for
+[15:06] that so what do i want i want one
+[15:09] two three
+[15:11] [Music]
+[15:13] four
+[15:17] eight all right so this will give us
+[15:19] eight full lanes out and that
+[15:21] is something that i think is super
+[15:23] useful so let's take this this is going
+[15:25] to be like a block
+[15:27] it's going to consume less inbound than
+[15:29] that and how do we want to make it
+[15:31] the further we make it here the longer
+[15:33] it has to go but i think we'll do it
+[15:35] something like this
+[15:41] yeah somewhere
+[15:44] in here now that means i'm going to
+[15:47] build some outputs here
+[15:48] these are they should be lame bands one
+[15:52] two three four five six seven eight
+[15:54] nine ten eleven twelve thirteen thirteen
+[15:56] thirteen
+[15:57] thirteen doesn't seem lane bounce oh
+[15:58] yeah it lane it kind of lane balance
+[16:00] itself because the last one can output
+[16:01] on both sides
+[16:02] and that will just sort of top up the
+[16:04] belts what i do not like though
+[16:06] is the fact that i'm using blue
+[16:10] inserters here i know that blue
+[16:11] insulators are necessary are
+[16:13] they are good enough but i just don't
+[16:15] care about
+[16:16] carrying around blue inserters when you
+[16:18] get to megabase just
+[16:20] only use green that's how i do it don't
+[16:22] care about the power
+[16:23] don't care about the cost just use green
+[16:25] that's less inventory space for
+[16:27] that you need to carry around so that
+[16:28] one is ready now all i need is to figure
+[16:30] out a way to get
+[16:31] built inbound on one side and out on the
+[16:34] other side
+[16:36] and i'm not building this one because
+[16:37] it's going to drain a lot of battery and
+[16:39] i might need to move it like a couple of
+[16:41] tiles up a couple of sides down
+[16:42] but over here then i can definitely
+[16:44] activate it again
+[16:47] because i want to figure out how i will
+[16:49] do
+[16:51] the loading and unloading so this is
+[16:53] going to be the unloading location
+[16:56] i want this unload location then i want
+[16:58] to drag it up and out
+[17:00] so let's start looking at what
+[17:02] potentials i have for
+[17:04] unloading patterns my
+[17:07] favorite unloading pattern is
+[17:12] this one
+[17:19] there and then that inserts into
+[17:22] there oops wrong side
+[17:28] they start building it there and
+[17:35] there that is my favorite pattern
+[17:39] why is it so good well it
+[17:43] it's four belts but not this four box is
+[17:44] not six boxes six boxes but obviously
+[17:47] on the train faster train unloading
+[17:49] never really a constraint
+[17:50] i need to get eight wagons into eight
+[17:53] belts
+[17:54] so it's more important that i get this
+[17:56] evenly
+[17:57] and this one is a very very easy way to
+[17:59] do that so what i'm going to do is i'm
+[18:00] going to do this
+[18:01] the reason why i hooked up everything to
+[18:03] the green wire is because we're going to
+[18:04] need that for our monitoring and
+[18:06] sending things off with our train so
+[18:08] that is good now we have
+[18:10] all of this done and maybe i should have
+[18:13] built it as
+[18:15] i guess okay so what we can do is we
+[18:17] have one two
+[18:19] three four five six seven eight
+[18:22] [Music]
+[18:23] it doesn't get much better than that
+[18:25] does it
+[18:29] um actually it does get better than that
+[18:33] i think it i can take the whole thing
+[18:35] because i really have a worry about
+[18:38] spacing here so the whole thing moves
+[18:40] two tiles over
+[18:43] i need to make sure that it is as
+[18:44] compact as possible
+[18:46] that means i have to do this one
+[18:54] there it just
+[18:56] is what it is so that's gonna be one two
+[18:58] three four five six seven
+[19:01] seven eight and that will be
+[19:08] here
+[19:12] go up
+[19:22] here
+[19:25] right so now we have all of these lanes
+[19:27] and then i want to drag it on
+[19:30] i guess i'm keeping that one two two
+[19:32] three
+[19:33] four five six seven eight that's gonna
+[19:36] be our
+[19:38] benchmark and we're sliding it here
+[19:42] at this point because i'm between
+[19:46] that could be definitely done faster
+[19:50] yeah there
+[19:53] so i don't really care about this here
+[19:55] because this will not be a
+[19:57] a path for any for anything anyway so
+[20:00] that goes up here that goes into this
+[20:01] one and now i'm going to need
+[20:03] a new bouncer this is going to be a
+[20:05] bouncer we haven't seen before we
+[20:06] haven't used before but i've
+[20:07] i've really grown to like it this
+[20:10] monstrosity
+[20:12] now what is this this is a
+[20:15] eight to eight balancer that is up
+[20:17] throughput can
+[20:18] throughput unlimited and it
+[20:21] also does a bit of side balancing that
+[20:24] means if
+[20:25] things are loading or unloading unevenly
+[20:28] then this one will compensate it which
+[20:31] is super nice so
+[20:32] it doesn't take up much space it's a bit
+[20:33] fatter than the side here but it's
+[20:35] uh it's very compact so i like it what
+[20:38] we're going to do is on the other side
+[20:39] we're going to do have to do the same
+[20:41] thing
+[20:42] now here we have a bit of a
+[20:46] question or conundrum for ourselves
+[20:48] that's the
+[20:50] raw materials that goes at the top
+[20:53] and then i want to have
+[20:57] can i do that and yeah
+[21:01] this one could then be the
+[21:05] final product that
+[21:08] final product goes in here and then i
+[21:10] need to find a way to do the loading
+[21:14] uh the loading is going to be
+[21:17] oh we have lost all of these i'm gonna
+[21:19] load for all of these
+[21:20] and i must have one of these somewhere
+[21:22] in the base
+[21:24] because i'm using this way to unload to
+[21:26] load everywhere
+[21:27] that one and we'll just remember to
+[21:30] upgrade give me that upgrade planner and
+[21:32] put it in there
+[21:34] you're gonna need an upgrade down there
+[21:35] you go nope
+[21:38] there's something about just i always
+[21:40] forget
+[21:41] those boxes there
+[21:45] and i am also going to summarize
+[21:48] whatever we have in this location
+[21:49] because we are going to hook it up to
+[21:50] our train system
+[21:52] that one that's one two three four for
+[21:55] whatever just get all the way up there
+[21:58] good
+[21:59] so now i need to figure out a way to get
+[22:01] stuff in here let's give one two three
+[22:03] four
+[22:03] five six seven eight
+[22:07] and it has to be like this i mean i
+[22:09] could get it a bit
+[22:11] and the reason why i'm i'm trying to
+[22:13] compress it as much as possible
+[22:15] is because i know that i'm going to be
+[22:17] short on
+[22:18] on space yeah
+[22:23] and the reason why i know i'm going
+[22:24] gonna be shown in space is because i'm
+[22:26] gonna need some stackers as well
+[22:29] to fill in here so that i always have
+[22:31] like multiple trains
+[22:32] going in or out if this one has enough
+[22:35] for three trains to unload
+[22:37] to load then get them in here
+[22:39] immediately if this one has
+[22:40] left for three if it's completely empty
+[22:42] then just bring in three trains so it
+[22:44] can unload move out next one
+[22:45] is already in queue the one thing though
+[22:48] is
+[22:49] if i look at this part this is the
+[22:52] closest
+[22:52] it can loop around
+[22:55] but what if i look at this one this can
+[22:58] loop around
+[23:01] closer it could probably even loop
+[23:03] around even closer couldn't it
+[23:07] it could loop around like this
+[23:12] oh yes then i think i don't want this
+[23:15] one
+[23:21] so if i look at this part i want them to
+[23:24] be closer
+[23:26] here so what i'm doing now is
+[23:30] not something i would usually do to be
+[23:32] perfectly honest
+[23:35] it is basically looking at
+[23:40] i'm gonna have four lanes in here yep
+[23:42] there
+[23:44] and next one
+[23:47] next one okay so this means i can now
+[23:50] have
+[23:51] three assigned to this plus three
+[23:53] assigned to that
+[23:55] but there's still something fishy about
+[23:58] this because
+[23:59] this one and that one can only go
+[24:02] to here if you look at the sequencing
+[24:05] here
+[24:06] this cannot go into the first one
+[24:08] likewise this cannot go into the first
+[24:11] one
+[24:11] so for the full trains they have to be
+[24:15] parked here
+[24:16] and if i send something into this one it
+[24:18] will never accidentally park the other
+[24:20] place
+[24:21] however if i send a train in to the or
+[24:24] it might park in this one and thereby it
+[24:27] can block the other i don't really care
+[24:29] about it i don't think that's a big
+[24:30] issue
+[24:31] it's just um it's gonna work just fine
+[24:35] so we'll work on signals as well
+[24:40] and then i need to bring things out
+[24:46] that's gonna be another problem and yeah
+[24:49] actually that problem will be solved
+[24:55] like this this one
+[24:59] first of all it should maintain the same
+[25:02] distance here that i have everywhere
+[25:04] else
+[25:05] and this will be the definition is
+[25:09] definition of the closest loop will be
+[25:11] here
+[25:13] and then we'll basically ask ourselves
+[25:15] whether that's enough and then if it
+[25:16] goes up to
+[25:25] here and
+[25:28] i'll copy this one because that's
+[25:30] exactly what you're gonna need
+[25:31] [Music]
+[25:33] one two empty space one two empty space
+[25:36] so it has to be like this
+[25:39] it does look like this corner is sort of
+[25:41] bigger but
+[25:42] it um that is how it is all right i'm
+[25:45] i'm actually really happy about this if
+[25:47] you look at it
+[25:50] there there and there these will go
+[25:53] i have not touched any of the signals
+[25:56] yet
+[25:56] so the idea here is the train comes in
+[25:59] it goes in
+[26:01] both the iron ore the copper oil and
+[26:04] copper plate
+[26:05] train to come in here empty go in and
+[26:07] park
+[26:08] in this location the stackers and then
+[26:11] go into their respective station as they
+[26:13] see fit
+[26:15] good and the one thing we don't have and
+[26:18] the one thing i absolutely want to have
+[26:20] in in these designs is
+[26:21] i want to have a train that runs around
+[26:24] to every single one of these
+[26:25] and make sure that they are fueled so
+[26:27] every building location
+[26:29] must take care of its own fueling not by
+[26:31] day 50 but by day one
+[26:33] so luckily we have a tiny bit of space
+[26:35] up here
+[26:36] let's uh let's take that one
+[26:40] and see where we can do it one two
+[26:43] because that's gonna be the space i need
+[26:45] for a robo port
+[26:46] which is absolutely essential i can then
+[26:49] take this one out
+[26:50] to here and i can take this one in
+[26:58] so this is going to be for a small
+[27:01] train only dedicated to fueling which
+[27:03] will then fuel with
+[27:05] roboport for the rest of this
+[27:08] i think that makes sense
+[27:12] so we now have sort of the framework for
+[27:15] this one
+[27:16] i can get this one in this is also
+[27:20] giving you hopefully an idea about how i
+[27:22] do my design work you're trying to
+[27:23] figure out what are the most important
+[27:24] things
+[27:25] so how big are you going to build it
+[27:27] that's how big i'm going to build it
+[27:28] then you figure out if that can be done
+[27:30] with the inputs and outputs and if you
+[27:31] find out that that's spacing then you
+[27:33] start working on
+[27:34] this one and realize that yeah the
+[27:36] trained scheduling is actually going to
+[27:38] be the most difficult part
+[27:40] how much space you have and then sort of
+[27:42] work your way down
+[27:43] once you figure out that you have it you
+[27:45] know that you can figure out a way to
+[27:46] get
+[27:48] yeah get this okay so now we need to
+[27:52] what do we need to do we sort of need to
+[27:53] fill in the blanks here and
+[27:54] all these things and i'll take all this
+[27:57] all this all this
+[27:58] because that's kind of necessary what
+[28:00] else do we need
+[28:02] probably some of this and definitely
+[28:04] some of that
+[28:06] cool and they will then fly up
+[28:12] now this should not be a problem the
+[28:14] fact that it's right flush on this line
+[28:17] that should not be a problem i could
+[28:18] move the whole thing one over but
+[28:20] there's really no point to it this is
+[28:22] very neat ah let me see
+[28:25] should i do that i mean what i'm talking
+[28:27] about is basically taking
+[28:30] this entire thing and moving it two
+[28:32] tiles over
+[28:34] hmm
+[28:41] it would give a bit of breathing room
+[28:44] oops i actually meant that as a for once
+[28:47] i
+[28:47] didn't cut when i should have cut
+[28:51] usually it's the other way around so
+[28:52] this one and basically going
+[28:55] there i think this will be better for
+[28:58] one particular reason not aesthetics but
+[29:01] up here
+[29:02] if we look at this what this allows us
+[29:04] to do
+[29:05] is that now only
+[29:10] ah so the first one this stacker
+[29:13] can only go come on
+[29:18] it can only cannot go down there but
+[29:21] the second one though can go down there
+[29:24] so now what i've done
+[29:25] is i now have one stacker that is
+[29:28] dedicated
+[29:29] to the unload and the other ones can be
+[29:31] shared that's actually much better
+[29:33] and it gives me just a bit of breathing
+[29:34] room here and it doesn't hurt us
+[29:36] out on the side great that was a good
+[29:40] move
+[29:40] i think we're going to do some fueling
+[29:43] as well at some point but right now we
+[29:45] just need to make sure that there's room
+[29:46] for fueling
+[29:47] uh power is also super annoying
+[29:49] especially because it's just blinking
+[29:51] right now
+[29:52] so let's do that one now that's stopping
+[29:54] the blinking
+[29:55] and then i'm gonna get some trains in
+[29:57] here i should be a bit cautious because
+[30:00] i know that i need
+[30:02] a lot of space here for circuits what
+[30:05] circuits am i gonna use i'm gonna use
+[30:06] the
+[30:06] train network circuits things that i
+[30:09] already have used
+[30:10] this one is already it's working it's
+[30:12] ready it only needs to set the
+[30:14] parameters this is a provider station so
+[30:17] this should be a provider station here
+[30:19] as well
+[30:20] i will build it at that location exact
+[30:23] now if you're just like whoa whoa what
+[30:26] the hell is that
+[30:27] go check out my let's play
+[30:30] base in the book there is an episode
+[30:32] called many to many trainwork where i
+[30:34] describe this thing and i don't think
+[30:36] it's fair to describe it in every
+[30:38] episode
+[30:38] and if i did like a half-hour
+[30:40] explanation then you wouldn't get it
+[30:42] anyway
+[30:42] but this is first of all it's part of
+[30:44] the blueprint and there's a walk-through
+[30:45] of how to do this this is what controls
+[30:47] my train network there's one design
+[30:49] for the supplier station and one design
+[30:51] for the requester station
+[30:53] and you just copy it and then change a
+[30:55] very few parameters
+[30:56] look at how you see once you do that you
+[30:59] hook up
+[31:00] the all the boxes that are providing you
+[31:03] hook up now i'm going to show you from
+[31:04] an
+[31:05] engineering perspective you have a tool
+[31:07] you copy it in you go there not from an
+[31:09] academic perspective in terms of just
+[31:11] how would you derive it but actually
+[31:12] just here's the tool this is how you use
+[31:14] it you set the trade limit
+[31:16] set to l as default the only thing you
+[31:18] need to do is define
+[31:20] how big how much can be on this train
+[31:23] 16 000 and how many trains do you want
+[31:26] waiting
+[31:27] three that's it
+[31:31] then it works and likewise if we take a
+[31:35] requester station it also has a
+[31:36] oh ooh ew
+[31:39] yeah i'm gonna find a better one ah why
+[31:43] is it so ugly
+[31:44] i knew i had a better one yeah
+[31:47] i have uh cleaned this up in a somewhere
+[31:50] else hmm
+[31:51] yeah i don't have any requesters out
+[31:52] here yeah we do need a better requester
+[31:55] here
+[31:55] because i need it to look exactly like
+[31:57] this one i'm
+[31:59] just gonna find it but the idea of this
+[32:01] the point of this was that i need to
+[32:02] make sure that
+[32:04] i leave space for this so
+[32:09] that's probably cutting it a bit close
+[32:12] probably something like this
+[32:17] two three four
+[32:23] five six
+[32:30] one two three four five six seven
+[32:40] eight
+[32:44] there will always be room for this so
+[33:00] then i could also just from consistency
+[33:03] perspective
+[33:04] just go
+[33:10] and that can't be done so
+[33:17] i love the queue here how much we have
+[33:20] in the
+[33:20] buffer in the undo queue that is so nice
+[33:23] you would not expect the game to keep
+[33:25] that much in the under queue
+[33:27] but it does if you could undo once
+[33:30] that i'd be happy but the fact that you
+[33:32] can just undo so many things
+[33:34] did i fail to count to eight i think i
+[33:36] did
+[33:37] one two three four five six seven eight
+[33:40] okay good thing we didn't need the last
+[33:41] one because that was ugly anyway
+[33:44] there all right we can do that and i can
+[33:47] take
+[33:51] there the only thing i need is i need
+[33:56] one of these smelters here as well
+[34:04] that one
+[34:08] and now it kind of feels bad because
+[34:14] that one is
+[34:17] one-off off right
+[34:20] one off this is why i didn't want to
+[34:22] build this part because
+[34:24] it could be one-off and it is one-off
+[34:27] now it's good
+[34:28] there yeah
+[34:32] so well i'll just uh build this one and
+[34:34] then we can uh
+[34:35] we can come back and finish up the rest
+[34:37] hooking up here and there
+[34:42] and so we built this and it's hooked up
+[34:44] here and there what i also did
+[34:46] just for everyone's sanity is this one
+[34:49] so i made these two designs they are
+[34:51] much nicer right now
+[34:53] they now have much better names this one
+[34:55] will just be
+[34:56] outputting copper this one will be
+[34:59] smelters
+[35:00] inbound copper ore i also made a mistake
+[35:03] i said this one was 16 that's because i
+[35:05] was thinking it was an
+[35:06] ore train but it's actually a plate
+[35:08] train so a plate train can have
+[35:09] four thousand in each wagon so that's
+[35:11] eight wagons times four thousand
+[35:13] thirty two thousand and i want three
+[35:15] trains inbound i'm basically just going
+[35:17] to ignore this
+[35:19] and on the inbound side this will have
+[35:21] three parameters how much do i like to
+[35:23] have in
+[35:24] what i like to have in here what is the
+[35:26] size of the train and how many trains
+[35:28] so a that is uh what we are requesting
+[35:31] in here that's
+[35:32] up to 72 000 will come in here and
+[35:35] each train is uh is 16 000. so that
+[35:39] looks pretty good what i can do is just
+[35:41] for
+[35:41] sort of our own sanity there we go we
+[35:44] have 32
+[35:44] i'm gonna open my calculator that is
+[35:46] also one of the little mods that i have
+[35:48] here
+[35:48] and i can't get rid of that blueprint
+[35:52] there so i have
+[35:56] 32 boxes and each box can can contain 2
+[35:59] 400 or that is 76 800
+[36:02] in this location so if i set it to
+[36:04] maximum of 72 000 that means i will
+[36:07] never get a train in here that cannot
+[36:08] unload
+[36:09] that's the intention of it the only
+[36:11] thing we miss at this point
+[36:12] is setting up the signals so let's
+[36:16] set up the signals now i will always
+[36:19] just get those
+[36:20] outbound then i will here i'm just going
+[36:22] to say
+[36:23] each of these will be this is into the
+[36:26] stacker
+[36:26] so do that and then what i found to be a
+[36:29] good idea is always take
+[36:30] a take a change signal before you go
+[36:34] into the stacker because
+[36:35] at a change signal they can reach reduce
+[36:38] they recalculate sometimes at least
+[36:40] and that means you don't commit to which
+[36:43] one of these
+[36:44] inputs you're going into when you depart
+[36:46] from the origin you only commit to it
+[36:48] when you get to this location it's a
+[36:50] very very subtle point but i think it's
+[36:52] worthwhile
+[36:53] these ones will be here and then i will
+[36:56] of course
+[36:56] get on this side oh it's actually not
+[36:59] the only thing we're missing
+[37:00] the other thing we're missing is also
+[37:05] it's also the the fueling yeah
+[37:08] so that's actually going to be here what
+[37:11] i don't have though
+[37:12] is that one is outbound so i need
+[37:16] somewhere this one merges in i think
+[37:18] that's actually fine
+[37:19] i will need to get some signals here
+[37:23] this one when it crosses go there i'll
+[37:25] replace that one
+[37:27] it doesn't really need to be replaced
+[37:29] actually
+[37:30] yeah we'll keep it because then it's
+[37:32] much more consistent when
+[37:34] building new designs what i will do is
+[37:36] just say when you get in here
+[37:37] this is a free domain for the train that
+[37:40] i will
+[37:41] build but i haven't built but i wanted
+[37:43] to do something interesting in the first
+[37:44] episode so this one
+[37:46] is going to be so there will be some
+[37:48] things we need to come back because we
+[37:50] can't really
+[37:50] get this operational right now what i do
+[37:53] want to do in this page this space here
+[37:56] i want to make sure that i have
+[37:58] somewhere that i can unload
+[38:00] that will be um
+[38:04] there it's just going to be a 1 1 train
+[38:06] so keep doing this one upwards until it
+[38:10] connects so one one train
+[38:13] it's just going to get a few fuel in
+[38:15] here well first i'm going to get that
+[38:17] one and then i'm going to get
+[38:18] here
+[38:22] and that will be input
+[38:25] how much do i want input do i want to
+[38:26] fill it up no not really i just put it
+[38:28] up to 10.
+[38:30] good so what i will do here is
+[38:33] i will monitor
+[38:36] no hold on we will we'll make that a bit
+[38:40] later here i need to make sure that
+[38:42] i have an input like that and before we
+[38:46] copy i should request
+[38:48] just a single one there's no reason for
+[38:52] us to have too many of this
+[38:54] there and we just have to check because
+[38:57] you never really know if this is working
+[39:00] it is working good
+[39:03] and is working on the other side as well
+[39:07] it is
+[39:13] and that goes down here as well and
+[39:15] there should be room there and there
+[39:18] but they are not inside the rope before
+[39:20] network so let's build a roboport
+[39:21] network
+[39:22] that one is connected and let's also
+[39:24] build it up here
+[39:25] let's take this one one of the things
+[39:27] that i'm it's important for me is that
+[39:29] it does not go outside
+[39:30] of the city block so i'm gonna move it
+[39:33] down it as well
+[39:37] there why is that important for us well
+[39:39] i don't want him to accidentally when
+[39:41] i built a two of those next to her i
+[39:43] don't want the robot for networks to
+[39:44] merge
+[39:45] and this one will only contain just a
+[39:47] few
+[39:48] logistics robots so i will get some
+[39:50] logistics robots
+[39:51] i will get those what i need to do
+[39:54] though is make sure that this
+[39:55] train station is enabled how do we
+[39:58] enable it well
+[39:59] we look at the content of the box here
+[40:03] so i'm going to do an evaluation it's
+[40:05] going to be very very simple
+[40:09] this one monitors ah we'll take the
+[40:12] green one green is more for information
+[40:14] there this one is then going over to
+[40:17] read the logistics network content yeah
+[40:19] right now there's nothing i'm gonna put
+[40:21] that's in here just pretend
+[40:23] and we are now getting this is the
+[40:25] logistics network content
+[40:26] oh yeah this is also part of it okay so
+[40:29] what i'm gonna do is
+[40:30] if this is less than
+[40:34] 10 then send a signal of
+[40:40] l one l right so now it'll send a one l
+[40:44] signal
+[40:44] one l signal goes into that station
+[40:48] again my consistency would like this to
+[40:50] be a red one
+[40:53] and set train limit 2l which means now
+[40:56] this train station is open
+[40:58] please send more fuel in here the fuel
+[41:01] will come in
+[41:02] fill up this one it's actually not going
+[41:04] to be 10 i think it should be like
+[41:06] five so it unloads 10 it's going to be
+[41:10] the train's got to be happy
+[41:11] leave again and this will be fine
+[41:14] it'll be brought over there and that's
+[41:15] going to be good cool let me just get
+[41:17] some
+[41:18] logistics let me get some of the things
+[41:21] i need some logistics robots so let me
+[41:23] just get those so we can see that one
+[41:24] working
+[41:26] okay then i have some of these they will
+[41:29] be going in here i should have
+[41:31] brought this one ah what are you doing
+[41:34] okay that's your spring
+[41:36] what i then could do is if i put all of
+[41:38] these
+[41:39] fuel that i also brought in they will
+[41:41] then be distributed
+[41:42] you can see the train here is zero
+[41:45] because it is still greater than five
+[41:47] it's now a value of six
+[41:48] so when a train comes in picks up some
+[41:50] fuel
+[41:52] it dropped the value in this box here
+[41:54] drops below five
+[41:55] it opens the station and the train will
+[41:57] come in we don't have the refueling
+[41:58] train
+[41:59] right yet just now but we'll get it so
+[42:02] what have we built here
+[42:03] this is actually the completed build i
+[42:06] have not tested it
+[42:07] so i think i need to test it but in
+[42:10] order for us to test it though
+[42:11] i need to make sure that we also have a
+[42:13] smelting setup
+[42:14] and i don't have a smelting setup that
+[42:16] works for this but i can do something
+[42:18] and that's a really cheeky trick that
+[42:20] is not 100 a
+[42:23] it's not 100 a coincidence it's also not
+[42:26] 100 a
+[42:28] and let me see that one no it's not a
+[42:30] temporary i didn't want it actually a
+[42:31] temporary
+[42:32] shift there you go go there
+[42:36] it's not 100 temporary it's not 100
+[42:38] random
+[42:39] but what i can do is i can take this one
+[42:41] this is a full train right it's a 1 4
+[42:44] train so i can actually use the 1 4
+[42:46] trains
+[42:47] and also send them into
+[42:51] here it can absorb these even though
+[42:54] it's not going to be operating at full
+[42:55] capacity
+[42:56] it will still be able to because it's a
+[42:58] one eight one train instead of a two
+[43:00] eight train you can't take a one four
+[43:02] train
+[43:02] into a two eight station but you can
+[43:04] take a one four train into a
+[43:06] one eight station and that's pretty cool
+[43:10] it's only gonna unload half of it but it
+[43:11] will unload correctly and it'll just
+[43:13] keep going so i think that's a pretty
+[43:16] neat little bonus feature that we
+[43:18] can use our starter trains we can still
+[43:19] use it it's of course only going to work
+[43:21] at less than
+[43:22] less than full capacity but it's still
+[43:24] going to work and that's the
+[43:25] first part here is just checking that it
+[43:27] works and it does and of course we need
+[43:29] to make new
+[43:29] smelting station spelting our new
+[43:33] uh mining stations for the bigger trains
+[43:36] obviously
+[43:36] but that's uh that's something we'll do
+[43:38] for the big patches
+[43:40] but the idea here is that you can see
+[43:42] that it is working and it is fully
+[43:43] operational
+[43:44] so that is a that's a pretty good pretty
+[43:47] good sign already pretty good sign
+[43:48] i'm really happy with it i hope that
+[43:50] this will
+[43:51] entice you to see that this is an
+[43:54] interesting series
+[43:55] just in well a little over half an hour
+[43:57] we have managed to make a design here
+[44:00] and now that this one is fully
+[44:02] operational i guess
+[44:03] uh not quite though okay i need to do
+[44:06] something
+[44:08] to oh i need i really need these to pick
+[44:10] up pick a picture
+[44:13] why is it important that i pick these up
+[44:15] because if i don't pick them up
+[44:16] my yeah
+[44:19] oh crap oh okay never mind
+[44:23] ah i really wanted to show you this is
+[44:25] the rate calculator
+[44:26] how many we have per second and there's
+[44:29] eight of those
+[44:30] it is generating
+[44:35] let's illustrate that in belts
+[44:38] eight belts exactly eight belts outbound
+[44:41] i'm gonna get exactly eight builds out
+[44:42] here
+[44:43] if i put eight belts inbound as well and
+[44:45] that's gonna be
+[44:46] it so that will and the beauty of it
+[44:49] is once you build one of these you can
+[44:52] just copy it and build it right next to
+[44:53] it
+[44:54] and then you double your production and
+[44:56] the trains will allocate themselves once
+[44:58] we have the chain network
+[44:59] but you know we can't do all of it in
+[45:01] one episode so we're gonna save a bit
+[45:02] for the next episode and that
+[45:04] in that one we'll be working on setting
+[45:06] this one up and really getting it
+[45:07] working also with the fueling train as
+[45:09] well
+[45:10] so we can get that loop closed and also
+[45:12] bringing the
+[45:13] completed copper ore a couple plates
+[45:16] back into our base so we can replace
+[45:19] the awful starter build here this has
+[45:21] been there since almost the beginning of
+[45:22] the game and it's time for get getting
+[45:23] rid of it
+[45:24] cool i hope you enjoyed this episode if
+[45:27] you did
+[45:28] hit the like button share it you know it
+[45:30] if you are new to the channel then
+[45:32] consider subscribing there's lots of
+[45:34] factory and city builder content here on
+[45:36] the channel
+[45:37] i hope you've enjoyed it and i hope to
+[45:38] see you in the next episode it will be a
+[45:40] while before the next one's episode
+[45:41] comes out but
+[45:42] stay tuned and be subscribed so you get
+[45:44] the notification
+[45:46] until next time take care and as always
+[45:49] stay effective
+[46:02] [Music]
+[46:10] you

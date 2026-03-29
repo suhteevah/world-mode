@@ -131,16 +131,10 @@ function actions.place(character, name, pos, direction)
         return { success = false, error = "No " .. item_name .. " in inventory (have 0)" }
     end
 
-    -- Check placement
+    -- Check placement — NEVER offset to a different position
     local surface = character.surface
     if not surface.can_place_entity{name = name, position = target, force = character.force, direction = direction} then
-        -- Try to find nearby position
-        local alt = surface.find_non_colliding_position(name, target, 10, 1)
-        if alt then
-            target = { x = alt.x, y = alt.y }
-        else
-            return { success = false, error = "Cannot place " .. name .. " at " .. target.x .. ", " .. target.y .. " (blocked)" }
-        end
+        return { success = false, error = "Cannot place " .. name .. " at " .. target.x .. ", " .. target.y .. " (blocked)" }
     end
 
     -- Place it
@@ -158,6 +152,44 @@ function actions.place(character, name, pos, direction)
         return { success = true, message = "Placed " .. name .. " at " .. math.floor(entity.position.x) .. ", " .. math.floor(entity.position.y) }
     else
         return { success = false, error = "Failed to place " .. name }
+    end
+end
+
+--- Revive a ghost entity, consuming the item from character inventory.
+--- This is the legit way to build ghosts: check inventory, revive, consume item.
+--- @param character LuaEntity
+--- @param ghost LuaEntity the ghost entity to revive
+--- @return table {success, message, entity}
+function actions.revive_ghost(character, ghost)
+    if not ghost or not ghost.valid or ghost.name ~= "entity-ghost" then
+        return { success = false, error = "Invalid or non-ghost entity" }
+    end
+
+    local item_name = ghost.ghost_name
+    local inv = character.get_inventory(defines.inventory.character_main)
+    if not inv then
+        return { success = false, error = "No inventory" }
+    end
+
+    if inv.get_item_count(item_name) < 1 then
+        return { success = false, error = "No " .. item_name .. " in inventory" }
+    end
+
+    if not in_range(character, ghost.position) then
+        movement.move_to(character, ghost.position)
+        return { success = false, error = "Too far from ghost — walking to target. Retry after arrival." }
+    end
+
+    -- Revive the ghost (atomic: removes ghost, creates real entity at exact position)
+    local collided, entity = ghost.revive{raise_revive = true}
+
+    if entity then
+        -- Consume the item from inventory (revive doesn't do this automatically)
+        inv.remove{name = item_name, count = 1}
+        storage.lieutenant.stats.entities_placed = storage.lieutenant.stats.entities_placed + 1
+        return { success = true, message = "Built " .. item_name .. " at " .. math.floor(entity.position.x) .. ", " .. math.floor(entity.position.y), entity = entity }
+    else
+        return { success = false, error = "Failed to revive ghost for " .. item_name .. " (blocked or collided)" }
     end
 end
 

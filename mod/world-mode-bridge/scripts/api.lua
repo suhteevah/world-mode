@@ -296,6 +296,23 @@ function api.create_context(character, output_buffer)
         end
     end
 
+    -- ── Ghost Building ──
+
+    --- Build a ghost entity from inventory. Teleports to the ghost, revives it, consumes the item.
+    --- This is the legit way to build ghosts — no construction bots needed.
+    --- @param ghost LuaEntity the ghost entity to build
+    --- @return LuaEntity|nil the built entity
+    function wm.build_ghost(ghost)
+        local result = actions.revive_ghost(character, ghost)
+        if result.success then
+            wm.print(result.message)
+            return result.entity
+        else
+            wm.print("ERROR: " .. result.error)
+            return nil
+        end
+    end
+
     -- ── Blueprints ──
 
     --- Place a ghost entity (free, no inventory needed). Construction bots will build it.

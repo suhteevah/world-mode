@@ -1,0 +1,40 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+Date: 2026-03-28
+  Features:
+    - Add revive_ghost action: legit ghost building (check inventory, revive, consume item)
+    - Add wm.build_ghost() API for safe ghost-to-entity conversion
+  Bugfixes:
+    - Remove find_non_colliding_position fallback from wm.place — entities now only place at exact position
+    - Prevents misplaced entities overwriting blueprinted ghosts
+---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+Date: 2026-03-28
+  Features:
+    - Lieutenant dumps inventory to chest before mod updates (no more lost items)
+    - Auto-recovers stashed items on respawn after mod update
+  Bugfixes:
+    - Prevent item loss when lieutenant character is destroyed during mod updates
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 2026-03-28
+  Bugfixes:
+    - Fix orphaned lieutenant characters on mod update (destroy old character before clearing reference)
+    - Lower teleport threshold to 6 tiles so RCON exec action chains complete in a single tick
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 2026-03-28
+  Changes:
+    - Reduce walk threshold from 50 to 6 tiles for reliable RCON action chaining
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2026-03-28
+  Features:
+    - Initial release of World Mode Bridge
+    - Lieutenant character system — AI player entity with own inventory
+    - Legit mode actions: mining, crafting, placement (all from inventory)
+    - Hybrid movement: walking for short distances, teleport for long
+    - Blueprint stamping and capture
+    - wm.* Lua API for structured game interaction
+    - RCON command interface for MCP server communication
+    - JSON encoder for state serialization

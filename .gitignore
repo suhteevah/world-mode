@@ -14,9 +14,15 @@ node_modules/
 .next/
 out/
 
-# Environment
+# Environment & Secrets
 .env
 *.local
+.secrets
+factorio-server/server-settings.json
+factorio-server/rconpw
+
+# Build artifacts
+build/
 
 # Data
 data/

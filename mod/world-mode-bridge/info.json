@@ -1,6 +1,6 @@
 {
   "name": "world-mode-bridge",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "title": "World Mode Bridge",
   "author": "suhteevah",
   "description": "MCP bridge for AI-cooperative Factorio gameplay. Exposes game state and accepts structured commands via RCON.",

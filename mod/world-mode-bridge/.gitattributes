@@ -1,0 +1,3 @@
+# Exclude from mod portal zip (used by some GitHub Actions)
+.gitattributes export-ignore
+.gitignore export-ignore

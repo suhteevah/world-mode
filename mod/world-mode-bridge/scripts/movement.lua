@@ -3,7 +3,7 @@
 
 local movement = {}
 
-local WALK_THRESHOLD = 50  -- tiles; above this, teleport
+local WALK_THRESHOLD = 6   -- tiles; above this, teleport (keep low so RCON exec chains work)
 local STUCK_THRESHOLD = 60 -- ticks stuck before trying alternative
 
 --- Set a movement target. Character will walk or teleport depending on distance.
