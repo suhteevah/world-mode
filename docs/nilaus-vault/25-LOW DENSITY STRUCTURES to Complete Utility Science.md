@@ -1253,3 +1253,32 @@ Video: https://www.youtube.com/watch?v=NCKxh6Y5WjQ
 [49:14](https://youtu.be/NCKxh6Y5WjQ?t=2954)(https://youtu.be/NCKxh6Y5WjQ?t=2954) as always stay effective
 [49:16](https://youtu.be/NCKxh6Y5WjQ?t=2956)(https://youtu.be/NCKxh6Y5WjQ?t=2956) [Music]
 [49:35](https://youtu.be/NCKxh6Y5WjQ?t=2975)(https://youtu.be/NCKxh6Y5WjQ?t=2975) you
+---
+
+## Summary
+
+### Key Lessons
+- Low Density Structures (LDS) are the final component needed to complete the utility science column
+- LDS requires steel, plastic, and copper -- making it a multi-resource build that needs careful train scheduling
+- Blue circuits feed into the LDS build, creating a chain: green circuits -> blue circuits -> LDS -> utility science
+- Spider-tron management becomes important -- they can get stuck or run out of ammo/power if left unattended
+- Dedicated train routes for LDS keep the main network clean and prevent resource conflicts
+
+### Design Principles
+- LDS production fits within the column system as a dedicated sub-build
+- Chain dependencies: green circuits -> blue circuits -> LDS -> utility science assemblers
+- Use dedicated trains for LDS transport (not shared with generic LDS elsewhere in the base)
+- Train depot concept: keep spare trains at a central location for quick deployment to new stations
+- Include train fuel as default in blueprints but not the trains themselves
+
+### Ratios & Numbers
+- LDS is not a 64-stack item -- train capacity differs from standard plate/circuit transport
+- One dedicated LDS train typically sufficient for the utility science demand
+- Steel, plastic, and green circuits all need dedicated trains feeding the LDS build
+- Blue circuits consumed in large quantities by the utility science chain
+
+### Mistakes to Avoid
+- Don't hold Shift when placing blueprints containing logistics items -- creates ghost placements that can cause confusion
+- Mistakes in circuit/belt connections are easy to make when rushing -- verify each connection
+- Don't forget to set station names to the dedicated prefix for the science column
+- Spider-trons need periodic resupply -- don't leave them idle in dangerous areas

@@ -1117,3 +1117,37 @@ Video: https://www.youtube.com/watch?v=idpguupS8zY
 [43:52](https://youtu.be/idpguupS8zY?t=2632)(https://youtu.be/idpguupS8zY?t=2632) effective
 [43:55](https://youtu.be/idpguupS8zY?t=2635)(https://youtu.be/idpguupS8zY?t=2635) [Music]
 [44:13](https://youtu.be/idpguupS8zY?t=2653)(https://youtu.be/idpguupS8zY?t=2653) you
+---
+
+## Summary
+
+Episode 50 (milestone episode) builds dedicated artillery shell and rocket production in a city block adjacent to the explosives factory. The build uses the explosives from episode 49 as input, along with iron, steel, green circuits, and electronic circuits. The design features belt-based production with beacons, careful signal management at rail junctions, and output to the train network. The base maintains 60 UPS even zoomed out. Perimeter expansion continues with the newly produced ammunition. Robot-based construction (500 robots in hand) is used for on-site building.
+
+### Key Lessons
+- Plan adjacent city blocks for production chains: explosives -> artillery shells and rockets
+- 5 inbound items (iron, steel, green circuits, electronic circuits, explosives) fit neatly in a standard station block
+- Productivity modules with 1.4x bonus reduce raw material needs: divide base requirements by 1.4
+- Alternating chain signals at rail junctions prevents deadlocks when adding new blocks to the network
+- Carry 500 construction robots when building remotely for rapid construction
+
+### Design Principles
+- Chain production: explosives block feeds directly into adjacent artillery/rocket block
+- Iron is the dominant input: gears (4 iron each) plus direct iron consumption stays under 1 belt (42.86/sec with productivity)
+- Shared belt lines: when multiple assemblers need the same items at similar ratios, use a shared belt split with side-loading
+- Half-belt splits work for balanced ratios between assemblers
+- Signal management: alternate chain signals at intersections to maintain throughput
+
+### Ratios & Numbers
+- Iron for gears: 2 gears per item / 1.4 productivity = 17.86 gears needed
+- Total iron: 42.86/sec with productivity (under 1 blue belt of 45/sec)
+- 500 construction robots carried for remote building
+- 20 roboports requested for the build area
+- 60 UPS maintained at episode 50 with full base running
+- 5 inbound item types for the military production block
+- Productivity module bonus: 1.4x (40% bonus)
+
+### Mistakes to Avoid
+- Not accounting for productivity module bonuses when calculating input requirements (overbuilding)
+- Forgetting to set chain signals correctly when adding new blocks to rail network (causes deadlocks)
+- Building military production without first having a reliable explosives supply
+- Not carrying enough construction robots for remote builds (500 is a good number)

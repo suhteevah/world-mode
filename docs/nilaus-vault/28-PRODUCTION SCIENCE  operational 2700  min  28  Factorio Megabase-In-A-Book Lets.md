@@ -1179,3 +1179,33 @@ Video: https://www.youtube.com/watch?v=ni9tMReNyFM
 [45:18](https://youtu.be/ni9tMReNyFM?t=2718)(https://youtu.be/ni9tMReNyFM?t=2718) stay effective
 [45:20](https://youtu.be/ni9tMReNyFM?t=2720)(https://youtu.be/ni9tMReNyFM?t=2720) [Music]
 [45:40](https://youtu.be/ni9tMReNyFM?t=2740)(https://youtu.be/ni9tMReNyFM?t=2740) you
+---
+
+## Summary
+
+### Key Lessons
+- Getting production (purple) science operational at 2,700/min requires stone brick production, which is a unique build not shared with other sciences
+- Blue belts are used for internal logistics even at megabase scale
+- Landfill production speed isn't the bottleneck -- the bottleneck is the sheer number of landfill placement requests queued
+- Train allocation needs to be generous enough to prevent starvation but not so excessive that trains congest the network
+- Purple science consuming more than one belt of input materials requires careful balancing
+
+### Design Principles
+- Stone brick build is a dedicated sub-build for the purple science column
+- One train is often sufficient for low-throughput dedicated resources (e.g., stone brick at 120/sec)
+- Full belt saturation is the target for each input line -- partial belts indicate potential bottlenecks
+- Use train overview to monitor and rebalance train counts across the network as new builds come online
+- Don't strain construction robots more than necessary -- phase builds to allow robot recharging
+
+### Ratios & Numbers
+- 2,700 production science/min operational target
+- Stone brick: 120/sec production rate feeds into purple science
+- More than one belt of input materials flowing into purple science assemblers
+- 3-4 additional trains needed when purple science comes online
+- Steel trains dedicated to purple science column (separate from common steel)
+
+### Mistakes to Avoid
+- Don't forget to change station icons when repurposing stations for new resource types
+- Verify train schedules match the correct dedicated prefix before releasing trains
+- Don't overload the robot construction queue -- phase large builds
+- Belt input saturation must be verified after build completion -- partial saturation means lost production

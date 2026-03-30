@@ -1001,3 +1001,32 @@ Video: https://www.youtube.com/watch?v=uyenBf4g9Zk
 [36:14](https://youtu.be/uyenBf4g9Zk?t=2174)(https://youtu.be/uyenBf4g9Zk?t=2174) stay effective
 [36:16](https://youtu.be/uyenBf4g9Zk?t=2176)(https://youtu.be/uyenBf4g9Zk?t=2176) [Music]
 [36:35](https://youtu.be/uyenBf4g9Zk?t=2195)(https://youtu.be/uyenBf4g9Zk?t=2195) you
+---
+
+## Summary
+
+Episode 39 is a deep debugging episode focused on the "Destination Full" train problem. Nilaus discovers that steel trains are deadlocked because a train that has finished loading and wants to leave still counts toward the station's train limit, blocking new trains from entering. He identifies this as a game behavior where a departing train is simultaneously "at the station" (for reservation purposes) but "not at the station" (for the read-stopped-train signal). The solution is brute force: build more steel production locations to provide more destinations.
+
+### Key Lessons
+- A train waiting to depart a loading station still counts toward that station's train limit, even though it's not being read as a "stopped train"
+- This creates a deadlock: empty train can't enter because departing full train holds the reservation
+- The "read stopped train" circuit signal does NOT detect a train that is at the station but trying to leave
+- Purple science was also running out due to steel shortages cascading through the dependency chain
+
+### Design Principles
+- Number of trains should equal number of stations for a given resource (e.g., 10 stations = 10 trains)
+- When in a tight supply situation, the departing-train-blocks-entry problem becomes critical
+- The only reliable fix is to ensure supply exceeds demand so trains don't get stuck waiting to depart
+- Build more production locations rather than trying to circuit-network around the deadlock
+
+### Ratios & Numbers
+- 10 steel stations but only 9 trains = 1 train short of optimal
+- Steel production at 11,000 -> needs 32,000 to trigger station opening for outbound trains
+- Purple science drops when steel supply chain deadlocks
+- Science drops from 2700 to ~1350/min when one resource deadlocks
+
+### Mistakes to Avoid
+- Having fewer trains than stations for critical resources
+- Assuming "destination full" means the consumer is satisfied -- it may mean a departing train is blocking
+- Not building enough production locations to maintain surplus (surplus prevents the deadlock entirely)
+- The train limit "bug/feature": departing trains count toward limit but don't register as stopped -- design around this

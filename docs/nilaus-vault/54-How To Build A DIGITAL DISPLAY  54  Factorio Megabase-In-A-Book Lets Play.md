@@ -985,4 +985,31 @@ Video: https://www.youtube.com/watch?v=OSuPCxuOwao
 [36:58](https://youtu.be/OSuPCxuOwao?t=2218)(https://youtu.be/OSuPCxuOwao?t=2218) very much for watching until next time
 [37:00](https://youtu.be/OSuPCxuOwao?t=2220)(https://youtu.be/OSuPCxuOwao?t=2220) take care and stay effective
 [37:10](https://youtu.be/OSuPCxuOwao?t=2230)(https://youtu.be/OSuPCxuOwao?t=2230) [Music]
+
+---
+
+## Summary
+
+### Key Lessons
+- Digital displays in Factorio use lamps controlled by circuit conditions to show 7-segment style numbers (like a digital clock)
+- A constant combinator sends a signal (e.g., signal A) and decider combinators check thresholds to enable/disable lamp segments
+- For monitoring artillery shells, a digital display provides continuous at-a-glance status without opening menus
+- Research strategy: always choose the cheapest option between worker robot speed and mining productivity upgrades
+
+### Design Principles
+- **7-segment display**: Each digit requires 7 segments, each controlled by a decider combinator checking if the input value matches specific digit ranges
+- **Build once, use many (or not)**: Without programming knowledge of bit shifts and reusable functions, each digit must be built separately with its own circuit logic
+- **Monitoring philosophy**: Visual indicators (lamps, displays) in the game world are more useful than production statistics screens for ongoing awareness
+- **Spidertron construction**: Use white spidertrons for building solar panel expansion, sending them in batches of 4 blueprints at a time
+
+### Ratios & Numbers
+- 480 artillery shells in storage at time of check
+- 4 solar panel blueprints per spidertron build batch
+- Research cost example: 64 science packs for worker robot speed (considered cheap)
+- Science consumption at 2.8k/min with current lab setup
+
+### Mistakes to Avoid
+- Do not forget to alternate between worker robot speed and mining productivity research -- pick the cheapest one each time
+- Building digital displays is time-consuming for non-programmers -- bit-shift approaches are more efficient but harder to learn
+- Do not overcommit roboports -- running out causes cascading construction delays
 [37:28](https://youtu.be/OSuPCxuOwao?t=2248)(https://youtu.be/OSuPCxuOwao?t=2248) you

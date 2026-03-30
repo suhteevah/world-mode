@@ -1130,3 +1130,34 @@ Video: https://www.youtube.com/watch?v=t3Floy7kdCc
 [48:53](https://youtu.be/t3Floy7kdCc?t=2933)(https://youtu.be/t3Floy7kdCc?t=2933) care and as always stay effective
 [48:59](https://youtu.be/t3Floy7kdCc?t=2939)(https://youtu.be/t3Floy7kdCc?t=2939) [Music]
 [49:19](https://youtu.be/t3Floy7kdCc?t=2959)(https://youtu.be/t3Floy7kdCc?t=2959) you
+---
+
+## Summary
+
+### Key Lessons
+- Utility (yellow) science is one of the more complex sciences requiring careful station design
+- The design process involves working backwards from the science recipe to determine all required sub-builds
+- Building the design at half-scale first (1,350/min per block, two blocks = 2,700/min) is a practical approach
+- Train station naming and scheduling becomes increasingly complex as dedicated resources multiply
+- Settings tip: enable "show beacon modules in alt mode" for better visibility of module placement
+
+### Design Principles
+- Utility science station design: assemblers in the center with beacons on both sides
+- Use 4-wagon trains for science output (shorter than resource input trains)
+- Belt-based internal logistics between sub-builds within a column, train-based between columns
+- Design half the station first, then mirror/duplicate for full capacity
+- Keep belt directions consistent and use one side of the belt for single-item transport when needed
+
+### Ratios & Numbers
+- Target: 2,700 utility science/min (45/sec per block, two blocks total)
+- Each assembler block produces 1,350/min (half of target)
+- Blue circuits required as dedicated input
+- Green circuits required as dedicated input
+- Uses extensive belt networks -- "a million belts" for internal routing
+- 64 items per train wagon for most intermediates
+
+### Mistakes to Avoid
+- Don't forget to set proper train limits on new stations before connecting to the network
+- Verify belt directions before committing to large builds -- wrong direction wastes significant time
+- Don't underestimate the belt count needed for utility science internal logistics
+- Module placement errors compound quickly at megabase scale -- verify each assembler

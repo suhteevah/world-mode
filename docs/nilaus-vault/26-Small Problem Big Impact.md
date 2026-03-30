@@ -1114,3 +1114,33 @@ Video: https://www.youtube.com/watch?v=qFzuHXalZbs
 [41:48](https://youtu.be/qFzuHXalZbs?t=2508)(https://youtu.be/qFzuHXalZbs?t=2508) stay effective
 [41:50](https://youtu.be/qFzuHXalZbs?t=2510)(https://youtu.be/qFzuHXalZbs?t=2510) [Music]
 [42:09](https://youtu.be/qFzuHXalZbs?t=2529)(https://youtu.be/qFzuHXalZbs?t=2529) you
+---
+
+## Summary
+
+### Key Lessons
+- Small problems (like wrong belt connections or missing signals) can cascade into large production failures at megabase scale
+- When production output is less than one belt, consider using direct belt connections instead of trains to reduce complexity
+- The modularity argument for trains: even if belts are more efficient for short distances, trains allow modular, reusable designs that can be reconfigured
+- Expanding yellow science to operational status revealed multiple cascading issues that needed systematic debugging
+- Copper train demand scales significantly when multiple science columns are active simultaneously
+
+### Design Principles
+- Use trains even for short distances when you want modular, reusable station designs
+- Belt direct connections are acceptable for very low throughput items (less than one belt)
+- Dashboard/monitoring systems are essential for tracking which stations need attention
+- Build two entire city blocks at once for efficiency rather than one at a time
+- Allocate trains proactively -- check train overview to ensure enough trains serve each route
+
+### Ratios & Numbers
+- 7 copper trains needed for expanded science production
+- 12 trains visible in train overview for one resource type
+- Multiple science types running simultaneously: utility, chemical, logistics, automation
+- Green circuits remain highest-demand intermediate across all science types
+
+### Mistakes to Avoid
+- Don't ignore "small" belt or signal problems -- they cascade at scale
+- Don't block your own train path when manually driving (easy to do during construction)
+- Verify train stop assignments match the correct dedicated prefix
+- Don't underestimate copper demand when scaling up -- it's needed everywhere
+- Meticulously remove belts during decommissioning to prevent leftover items contaminating new builds

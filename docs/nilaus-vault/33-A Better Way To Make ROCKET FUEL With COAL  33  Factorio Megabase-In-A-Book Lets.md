@@ -1350,3 +1350,33 @@ Video: https://www.youtube.com/watch?v=qNA2tGrmaJM
 [56:19](https://youtu.be/qNA2tGrmaJM?t=3379)(https://youtu.be/qNA2tGrmaJM?t=3379) effective
 [56:22](https://youtu.be/qNA2tGrmaJM?t=3382)(https://youtu.be/qNA2tGrmaJM?t=3382) [Music]
 [56:40](https://youtu.be/qNA2tGrmaJM?t=3400)(https://youtu.be/qNA2tGrmaJM?t=3400) you
+---
+
+## Summary
+
+Episode 33 introduces coal liquefaction as the preferred method for making rocket fuel, avoiding the complexity of oil-based liquid handling. Nilaus designs a self-contained rocket fuel facility using coal as the primary input, with coal liquefaction refineries feeding into solid fuel and then rocket fuel production. He also migrates all plastic production to coal-based facilities.
+
+### Key Lessons
+- Coal liquefaction is simpler than oil-based rocket fuel because coal is a solid resource (easier train logistics)
+- Plastic production was moved to 4 dedicated coal-to-plastic locations (common stations, not dedicated)
+- The output of coal liquefaction needs to be priority-looped back into the input (heavy oil recirculation)
+- Water is handled loosely ("cheated a bit") since offshore pumps are plentiful
+
+### Design Principles
+- Prefer solid inputs (coal) over liquid inputs (crude oil) for megabase logistics simplicity
+- Use priority splitters to recirculate heavy oil output back into coal liquefaction input
+- Each coal liquefaction facility should be self-contained within a city block
+- Scale by duplicating entire modules rather than expanding individual ones
+
+### Ratios & Numbers
+- 34.4 rocket fuel per second needed for 2700 SPM (including satellite requirements)
+- 764 total rocket fuel per rocket launch (714 for rocket + 50 for satellite)
+- 7.2 rockets per minute at 2700 SPM -> 2063 rocket fuel per minute
+- Each coal liquefaction refinery consumes ~96 units and produces ~60 steam equivalent
+- 480 / 60 = 8 refineries needed per facility module
+- 6 coal train inputs and 4 plastic train outputs for coal-to-plastic facilities
+
+### Mistakes to Avoid
+- Running out of coal temporarily is expected when migrating multiple facilities simultaneously -- it stabilizes
+- Not accounting for inserter pickup rate from belts (~11-13/sec from moving belt, ~17/sec from chest)
+- Forgetting to connect fuel lines to refineries after rearranging layouts

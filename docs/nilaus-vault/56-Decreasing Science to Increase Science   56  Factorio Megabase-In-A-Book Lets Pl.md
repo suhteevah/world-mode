@@ -790,4 +790,34 @@ Video: https://www.youtube.com/watch?v=XmiOdNkCR88
 [29:48](https://youtu.be/XmiOdNkCR88?t=1788)(https://youtu.be/XmiOdNkCR88?t=1788) until then take care and as always stay
 [29:50](https://youtu.be/XmiOdNkCR88?t=1790)(https://youtu.be/XmiOdNkCR88?t=1790) effective
 [29:53](https://youtu.be/XmiOdNkCR88?t=1793)(https://youtu.be/XmiOdNkCR88?t=1793) [Music]
+
+---
+
+## Summary
+
+### Key Lessons
+- Sometimes you must decrease science consumption to increase stable science throughput -- trimming labs from 60 to 54 per block reduces consumption to 1250 SPM per block, allowing 4 blocks to hit exactly 5000 SPM
+- Over-consuming science (consuming faster than production) guarantees eventual starvation of one or more science types
+- Use rate calculator mod to precisely measure actual consumption per lab block and tune accordingly
+- Text plates mod is useful for labeling production areas with throughput numbers for at-a-glance monitoring
+
+### Design Principles
+- **Target consumption matching**: Design goal is 90/sec production (5400/min) but consumption trimmed to ~83.3/sec (5000/min) -- the 400/min surplus ensures stability
+- **Lab trimming method**: Remove 6 labs from each block of 60 (down to 54) to reduce per-block consumption from 1400/min to 1250/min
+- **Stockpile redistribution**: When decommissioning old science blocks, load excess science packs into trains and deliver them to new locations rather than voiding them
+- **Incremental balancing**: Each science type production capacity should be verified independently against the 5000 SPM target
+
+### Ratios & Numbers
+- 60 labs per block consumes 23.45/sec = 1407/min per block (too high for 4 blocks)
+- 54 labs per block consumes ~20.83/sec = 1250/min per block
+- 4 blocks x 1250/min = 5000 SPM target consumption
+- Blue science can produce above 2700/min per existing block
+- Yellow science was the bottleneck at 2800/min consumption vs 2700/min production capacity
+- 36,000 purple science and 24,000 yellow science in storage were redistributed via train
+
+### Mistakes to Avoid
+- Do not set consumption rate equal to max production rate -- always leave a buffer margin
+- Running 60 labs per block when only ~54 are needed wastes science and causes shortages in the weakest production chain
+- Do not forget to verify each science type individually against the target -- one undersized production line ruins the whole system
+- Excess stockpiled science from decommissioned blocks should be reused, not wasted
 [30:11](https://youtu.be/XmiOdNkCR88?t=1811)(https://youtu.be/XmiOdNkCR88?t=1811) you

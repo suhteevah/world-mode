@@ -1081,3 +1081,32 @@ Video: https://www.youtube.com/watch?v=ZVMlKO44QCM
 [41:15](https://youtu.be/ZVMlKO44QCM?t=2475)(https://youtu.be/ZVMlKO44QCM?t=2475) effective
 [41:19](https://youtu.be/ZVMlKO44QCM?t=2479)(https://youtu.be/ZVMlKO44QCM?t=2479) [Music]
 [41:39](https://youtu.be/ZVMlKO44QCM?t=2499)(https://youtu.be/ZVMlKO44QCM?t=2499) you
+---
+
+## Summary
+
+Episode 36 is a debugging episode where Nilaus discovers what breaks the megabase first: space science fails because a train station's circuit network wire (red wire) was missing after a rebuild, preventing the train limit from being set correctly. The station appeared stocked but trains couldn't be dispatched. He also begins decommissioning the old starter base and addresses 440,000 excess wood.
+
+### Key Lessons
+- The first thing to break was a missing red circuit wire on a rebuilt train station -- not a design flaw but an execution error
+- Always verify circuit connections after rebuilding or modifying train stations
+- Make the base stable at current SPM before attempting to scale up
+- Science consumption drops to half capacity when one science type runs out
+
+### Design Principles
+- Stabilize before scaling: ensure 2700 SPM runs consistently before attempting 5400 SPM
+- When debugging, check science graph first to identify which science type dropped
+- Methodically check each science type when production dips -- go through them one by one
+- Keep military science running from the old base while transitioning everything else
+
+### Ratios & Numbers
+- Science dropped from 2700/min to ~1350/min (half) due to one missing wire
+- 440,000 wood accumulated in storage (a recurring nuisance)
+- 20,000 construction bots recommended for megabase building operations
+- 5,000 logistic bots sufficient for most logistics needs
+
+### Mistakes to Avoid
+- Missing a single circuit wire after rebuilding a station can tank the entire base
+- Not updating blueprints after finding and fixing station wiring issues
+- Manually deconstructing large areas instead of letting robots handle it
+- Setting the wrong train station to limited (sent train to wrong station by accident)

@@ -1169,3 +1169,36 @@ Video: https://www.youtube.com/watch?v=nXvRYYUgYs8
 [44:39](https://youtu.be/nXvRYYUgYs8?t=2679)(https://youtu.be/nXvRYYUgYs8?t=2679) effective
 [44:40](https://youtu.be/nXvRYYUgYs8?t=2680)(https://youtu.be/nXvRYYUgYs8?t=2680) [Music]
 [45:00](https://youtu.be/nXvRYYUgYs8?t=2700)(https://youtu.be/nXvRYYUgYs8?t=2700) you
+---
+
+## Summary
+
+Episode 48 redesigns the science lab setup to use robot-based distribution instead of belts. The old belt-based lab design couldn't handle the 7th science type (military) because inserters could only reach 6 items. The new design uses requester chests feeding each lab, with roboports providing logistics coverage. The perimeter is expanded 3 tiles up and 1 tile out on each side. A dedicated artillery shell production location is considered due to high consumption during expansion. The artillery outpost blueprint is refined with 4 roboports per outpost (up from original).
+
+### Key Lessons
+- Belt-based lab designs are limited by inserter reach: max 6 science types per lab with 2-wide inserters
+- Robot-based lab distribution eliminates the belt bottleneck -- each lab gets its own requester chest
+- When switching from belt to robot labs, stop inbound science trains first, let existing stock deplete, then rebuild
+- Roboport count per artillery outpost increased from 2 to 4 for better repair coverage
+- Ensure roboport logistics networks don't accidentally bridge between adjacent city blocks
+
+### Design Principles
+- Robot-fed labs: each lab has a requester chest requesting all science types
+- Color-code science lab train stations to match science pack colors for visual identification
+- Science lab roboport networks must be isolated per block to prevent cross-contamination
+- Artillery shell consumption during expansion justifies dedicated production -- hub production alone isn't enough
+- Perimeter expansion pattern: 3 tiles up, 1 tile out, then corner pieces that fit the spacing
+
+### Ratios & Numbers
+- Old belt design: max 6 science types per lab (inserter reach limit)
+- New robot design: all 7 science types per lab via requester chests
+- Artillery outpost roboports: 4 per outpost (improved from 2)
+- Perimeter spacing: fits nicely with 3-apart pattern at corners
+- 50 requester chests per spidertron for construction supply
+- Cannon shell production added to hub to support spidertrons
+
+### Mistakes to Avoid
+- Trying to add a 7th belt to an inserter-limited lab design instead of switching to robots
+- Allowing roboport logistics areas from different blocks to overlap (causes item shuffling chaos)
+- Not producing enough artillery shells for perimeter expansion (hub production alone is insufficient)
+- Forgetting to add fueling to the new science lab train stations

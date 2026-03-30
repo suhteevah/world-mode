@@ -589,3 +589,34 @@ Video: https://www.youtube.com/watch?v=2jYEr-sm7L4
 [23:54](https://youtu.be/2jYEr-sm7L4?t=1434)(https://youtu.be/2jYEr-sm7L4?t=1434) effective
 [23:56](https://youtu.be/2jYEr-sm7L4?t=1436)(https://youtu.be/2jYEr-sm7L4?t=1436) [Music]
 [24:14](https://youtu.be/2jYEr-sm7L4?t=1454)(https://youtu.be/2jYEr-sm7L4?t=1454) you
+---
+
+## Summary
+
+Episode 43 covers the dramatic activation of the Central HUB with a "hot startup" -- placing all roboports at once and watching 15,000+ robots spring into action. The episode features a timelapse of robot activity as they move items from active provider chests to storage, then begin building the hub's internal production. The old nuclear power plants and base infrastructure are deconstructed, and the old base area is cleared for future use. Supply trains begin feeding the new hub.
+
+### Key Lessons
+- Hot startup strategy: build everything outside the logistics network first, then place roboports to activate all at once
+- 15,000 robots can each pick up 4 items = 60,000 items moved in one burst, nearly enough to empty an entire circuit train in one swoop
+- After activation, allow ~20 minutes of idle time for logistics to settle before making further changes
+- Mark storage chests as "not available in network" to prevent them from interfering with logistics requests
+- Deconstructing old infrastructure generates massive logistics traffic -- plan roboport capacity accordingly
+
+### Design Principles
+- Phase transitions carefully: activate logistics network only when everything is ready
+- Many roboports are justified for burst handling during train unloads and construction events
+- After clearing old base, rebuild compact replacement first before expanding
+- Monitor which sciences are "barely keeping up" after infrastructure changes (purple and white science flagged)
+
+### Ratios & Numbers
+- 15,000 robots active in the logistics network
+- 1,400 items per storage chest observed during transition
+- Only ~300 active logistic robot tasks at steady state after 20 minutes of settling
+- 5,000 items stockpiled per requester group as target
+- Several hours needed for full base deconstruction and reorganization
+
+### Mistakes to Avoid
+- Accidentally deconstructing radars when clearing old base areas (lose map visibility)
+- Not reconnecting fueling train access to new hub area
+- Forgetting that construction bots need separate logistics chests outside the main network for materials
+- Not monitoring science production during major infrastructure transitions -- cascading shortages can develop unnoticed

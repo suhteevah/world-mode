@@ -1511,3 +1511,33 @@ Video: https://www.youtube.com/watch?v=Enmx4Fuckxo
 [01:00:25](https://youtu.be/Enmx4Fuckxo?t=3625)(https://youtu.be/Enmx4Fuckxo?t=3625) effective
 [01:00:30](https://youtu.be/Enmx4Fuckxo?t=3630)(https://youtu.be/Enmx4Fuckxo?t=3630) [Music]
 [01:00:46](https://youtu.be/Enmx4Fuckxo?t=3646)(https://youtu.be/Enmx4Fuckxo?t=3646) you
+---
+
+## Summary
+
+### Key Lessons
+- Being "one city block off" in alignment can cost hours of rearranging -- precision in initial grid placement is critical
+- Building red/green science columns alongside blue science to reach 5,400/min for all basic sciences
+- Decommissioning old builds requires careful sequencing: drain buffers, reallocate trains, then demolish
+- Green circuits are a universal dependency -- every science column needs them, so dedicated green circuit builds are essential
+- Modules and beacons should be pre-stocked before starting large builds to avoid construction delays
+
+### Design Principles
+- Science columns should all be exactly 3 tiles wide (city block width) for consistent alignment
+- Mirror-image columns don't work with one-directional train entry -- use rotation instead
+- Green circuit builds are "generic" (shared) while other intermediates can be dedicated per science column
+- When rebuilding, move resources out via temporary trains before demolishing stations
+- Always verify column alignment against the city block grid before committing to large builds
+
+### Ratios & Numbers
+- Red/green science at 5,400/min requires dedicated green circuit and red circuit blocks
+- 48,000 items per full train load (used as reference for buffer management)
+- Multiple spider-trons used simultaneously for construction and biter clearing
+- Column width: 3 city blocks per science column (standardized)
+
+### Mistakes to Avoid
+- One tile misalignment propagates to one full city block offset -- always double-check grid alignment before building
+- Don't carry excess resources personally when using trains -- use temporary train routes instead
+- Leaving spider-trons unattended near biter nests risks losing them
+- Don't force train stations open without monitoring -- can cause unexpected train routing
+- Robot charging remains the primary construction bottleneck -- plan for it

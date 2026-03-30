@@ -750,3 +750,32 @@ Video: https://www.youtube.com/watch?v=B0LwxSs4Rtc
 [34:08](https://youtu.be/B0LwxSs4Rtc?t=2048)(https://youtu.be/B0LwxSs4Rtc?t=2048) until then take care and as always stay
 [34:10](https://youtu.be/B0LwxSs4Rtc?t=2050)(https://youtu.be/B0LwxSs4Rtc?t=2050) effective
 [34:13](https://youtu.be/B0LwxSs4Rtc?t=2053)(https://youtu.be/B0LwxSs4Rtc?t=2053) [Music]
+---
+
+## Summary
+
+### Key Lessons
+- Buffer chests DO have a valid use case: keeping construction bots near the build site while logistics bots handle long-distance transport
+- The key insight is that logistics bots carry 4 items per trip vs construction bots carrying 1, so buffer chests as relay points reduce total bot trips
+- Construction bots stay near buffer chests at the build frontier; logistics bots shuttle materials from the main hub to buffer chests
+- Satellite production bottleneck: 1 assembler at speed 1.25 produces ~12 rockets/minute = 6,000 science/minute, barely enough for 5K SPM
+- Unloading station for solar/accumulators needs a cap (e.g., 10,000 accumulators) to prevent over-buffering
+
+### Design Principles
+- Buffer chests work when they separate construction bot and logistics bot roles -- not for reducing travel distance
+- Set train unload conditions with both inactivity timer (5s) AND max wait time (30s) to prevent trains from getting stuck
+- Prioritize satellite production stops over solar panel delivery by ordering train schedules correctly
+- Only 600 construction requests are processed per roboport tick -- build outward from buffer chest locations
+
+### Ratios & Numbers
+- Satellite assembler at speed 1.25: ~5 second cycle = 12 per minute
+- 12 rockets/minute = 6,000 space science per minute (just barely 5K SPM)
+- 40,000 accumulators in logistics = over-buffered, cap at 10,000
+- 3.8K SPM baseline recovering toward 5K target
+- Each solar train load = 4,000 of each component = 40 satellites
+
+### Mistakes to Avoid
+- Do not use buffer chests expecting them to reduce travel distance -- that is a fallacy
+- Buffer chests increase robot count in the air, tanking FPS/UPS during active construction
+- Do not set solar panel delivery station without inventory caps -- it will hoard resources from satellite production
+- Satellite production must run at near-maximum rate; any shortfall cascades into space science drought

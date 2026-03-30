@@ -1216,3 +1216,37 @@ Video: https://www.youtube.com/watch?v=rxpUoosMYDI
 [46:56](https://youtu.be/rxpUoosMYDI?t=2816)(https://youtu.be/rxpUoosMYDI?t=2816) next time take care and stay effective
 [46:58](https://youtu.be/rxpUoosMYDI?t=2818)(https://youtu.be/rxpUoosMYDI?t=2818) [Music]
 [47:18](https://youtu.be/rxpUoosMYDI?t=2838)(https://youtu.be/rxpUoosMYDI?t=2838) you
+---
+
+## Summary
+
+### Key Lessons
+- Building the first science column (blue/chemical science) at full 5,400/min scale from the start, even if not all resources are flowing yet -- idle machines cost nothing significant
+- Use dedicated train routes (prefixed station names) for science column resources vs. common/generic routes for shared resources like iron/copper ore
+- Decommission old infrastructure gradually: stop new trains from entering, let buffers drain, then demolish
+- Spider-trons are effective for clearing biter nests using "cavalry charge" tactics -- rush in, fire, retreat, recharge, repeat
+- Landfill operations can bottleneck construction when too many requests queue up (600 at a time cycle)
+
+### Design Principles
+- Science column layout: each science type gets a dedicated vertical column of city blocks
+- Blue science column requires: 2x blue science assemblers, 1x red circuits, 1x green circuits, 1x plastic, 1x steel -- all dedicated
+- Split resources into "common" (iron/copper ore/plates shared across columns) vs. "dedicated" (specific to one science column) to reduce train network congestion
+- Use station name prefixes to distinguish dedicated resources from common ones
+- Build full-scale from the start rather than scaling down -- idle machines are acceptable; rebuilding later wastes more time
+- Always use spider-trons for construction in hostile territory -- they can build, fight, and repair
+
+### Ratios & Numbers
+- 5,400 blue science/min = 2x blue science assembler blocks (each producing 45/sec = 2,700/min)
+- Red circuit demand for 5,400 blue science: 97/sec -- one red circuit block covers this
+- Plastic demand: 176/sec for blue science chain
+- Steel demand for blue science: 23/sec -- easily covered by one on-site steel smelter
+- Green circuit demand: covered by one dedicated green circuit block
+- Sulfur: common resource, one block sufficient
+- Train allocation: 1 train per dedicated resource line, 2 trains for high-demand resources (red circuits, green circuits)
+
+### Mistakes to Avoid
+- Don't hold Shift when placing blueprints if you want to verify placement is valid (ghost vs. real placement)
+- Don't decommission your artillery train without a replacement defense plan
+- Manually driving trains is dangerous -- use automatic scheduling
+- Don't connect new stations to the network until they're fully built and configured (prevents resource mixing)
+- Robot charging is the real bottleneck for construction, not robot count -- more roboports help marginally but fundamentally the charging rate limits throughput

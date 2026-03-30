@@ -862,4 +862,33 @@ Video: https://www.youtube.com/watch?v=usDtwMZW4ao
 [35:13](https://youtu.be/usDtwMZW4ao?t=2113)(https://youtu.be/usDtwMZW4ao?t=2113) the next episode until then take care
 [35:15](https://youtu.be/usDtwMZW4ao?t=2115)(https://youtu.be/usDtwMZW4ao?t=2115) and as always stay effective
 [35:17](https://youtu.be/usDtwMZW4ao?t=2117)(https://youtu.be/usDtwMZW4ao?t=2117) [Music]
+
+---
+
+## Summary
+
+### Key Lessons
+- At 5000 SPM, power becomes a critical constraint -- destroying solar panels to make room for production facilities creates an immediate power deficit
+- UPS drops below 60/60 when zoomed out to full base view at 5000 SPM scale, but recovers when zoomed in
+- Steel production must be aggressively scaled -- it is the universal bottleneck at megabase scale
+- Robot activation (construction bots working on new builds) causes noticeable UPS stuttering
+
+### Design Principles
+- **Power before production**: Always expand solar power capacity BEFORE building new production that increases demand
+- **Modular city block expansion**: New production tiles (steel, copper) fit perfectly into the existing grid -- "so damn easy" with the pattern
+- **Expand upward for solar**: The dedicated solar panel zone extends northward; clearing biters in that direction is priority for power expansion
+- **Copper and steel co-location**: Build new smelting outposts paired -- copper and steel often needed together and share transport infrastructure
+
+### Ratios & Numbers
+- UPS: Below 60/60 at full zoom, near 60/60 when zoomed in at 5000 SPM
+- Iron ore patch: 21 million -- enough for 2 steel production locations
+- New steel production: 2 additional locations added
+- New copper production: 2 additional locations added
+- Power: Actively running short; solar expansion is urgent priority
+
+### Mistakes to Avoid
+- Do not destroy solar panels to make room for production without first having replacement power ready -- power deficit cascades into everything
+- Robot-heavy construction causes UPS spikes -- stagger large build projects rather than blueprinting everything simultaneously
+- Do not underestimate power needs when scaling from 2700 to 5000 SPM -- the increase is not linear, it is exponential due to compounding resource chain demands
+- Aggro-ing biters while expanding (artillery range extension) creates temporary UPS hit from active enemies -- time expansions carefully
 [35:37](https://youtu.be/usDtwMZW4ao?t=2137)(https://youtu.be/usDtwMZW4ao?t=2137) you

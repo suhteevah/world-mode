@@ -902,4 +902,35 @@ Video: https://www.youtube.com/watch?v=hbHGIRr8Zuc
 [37:22](https://youtu.be/hbHGIRr8Zuc?t=2242)(https://youtu.be/hbHGIRr8Zuc?t=2242) on the channel thanks for watching until
 [37:24](https://youtu.be/hbHGIRr8Zuc?t=2244)(https://youtu.be/hbHGIRr8Zuc?t=2244) next time take care and stay effective
 [37:27](https://youtu.be/hbHGIRr8Zuc?t=2247)(https://youtu.be/hbHGIRr8Zuc?t=2247) [Music]
+
+---
+
+## Summary
+
+### Key Lessons
+- Use Kirk McDonald calculator (kirkmcdonald.github.io) for production planning -- minor rounding errors are negligible compared to real-world logistics issues
+- When scaling space science (white), plan dedicated sub-component production (red circuits, green circuits) rather than relying on shared supply
+- Blue circuits should remain a "common product" fed from shared resources; red/green circuits feeding into blue can be dedicated later at higher scale
+- Build the production capacity slightly above target to create buffer headroom
+
+### Design Principles
+- **Target: 5400 SPM = 90/sec** for space science production
+- **Component isolation**: Build dedicated red circuit and green circuit production specifically for rocket control units, separate from general supply
+- **Module-based scaling**: Calculate how many existing production modules (city blocks) are needed rather than designing from scratch
+- **Continuous solar expansion** is essential to maintain 60 UPS at megabase scale -- always keep expanding solar
+
+### Ratios & Numbers
+- 5400 space science/min requires: 74 low density structures/sec, 65 rocket control units/sec, 69 rocket fuel/sec
+- Red circuits needed for rocket control: 230/sec
+- Green circuits needed: 674/sec total (230 into rocket controllers, 441 into red circuits, 3 into radars)
+- Green circuit modules needed: 2 (each produces 360/sec with 8 full lanes, 720 total > 674 needed)
+- Red circuit modules needed: 2 (each produces 123/sec, 246 total > 230 needed)
+- Low density structure modules needed: 3 (each produces 24.6/sec, 73.8 total ~ 74 needed)
+- Rocket control unit modules needed: 2
+- Rocket fuel modules needed: 4
+
+### Mistakes to Avoid
+- Do not forget to build enough roboports when expanding -- insufficient robot coverage causes persistent alerts
+- Expansion requires parallel infrastructure work (solar, defense, production) -- do not focus on only one at a time
+- Always keep solar panel expansion ahead of production scaling to avoid power shortfalls
 [37:47](https://youtu.be/hbHGIRr8Zuc?t=2267)(https://youtu.be/hbHGIRr8Zuc?t=2267) you

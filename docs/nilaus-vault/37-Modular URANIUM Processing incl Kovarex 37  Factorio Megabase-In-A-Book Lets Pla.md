@@ -922,3 +922,31 @@ Video: https://www.youtube.com/watch?v=tOK72u006lo
 [37:33](https://youtu.be/tOK72u006lo?t=2253)(https://youtu.be/tOK72u006lo?t=2253) effective
 [37:35](https://youtu.be/tOK72u006lo?t=2255)(https://youtu.be/tOK72u006lo?t=2255) [Music]
 [37:54](https://youtu.be/tOK72u006lo?t=2274)(https://youtu.be/tOK72u006lo?t=2274) you
+---
+
+## Summary
+
+Episode 37 covers building a modular uranium processing facility with Kovarex enrichment, even though Nilaus is using solar power. He builds it as a "megabase in a book" completeness feature so players who prefer nuclear power have a ready blueprint. The facility takes sulfuric acid in, processes uranium ore, runs Kovarex enrichment, and outputs both U-235 and U-238 in a 1:3 wagon ratio on a 1-4 train.
+
+### Key Lessons
+- Build modular designs even for things you don't currently need -- "megabase in a book" philosophy provides tools for every playstyle
+- Uranium processing requires surprisingly little uranium ore -- the resource is massively over-scaled on maps
+- Kovarex enrichment should be integrated into the same facility as basic uranium processing
+- Science production burns through resources so quickly that even brief interruptions cause noticeable dips in the graph
+
+### Design Principles
+- Sulfuric acid unload station feeds into uranium ore processing -> Kovarex enrichment -> uranium output
+- Output train carries U-235 and U-238 in a 3:1 wagon ratio (3 wagons U-238, 1 wagon U-235)
+- 12 centrifuges consuming ~45 ore/sec for the processing module
+- Design generically so the same facility template can be used for different uranium needs (power, ammo, nukes)
+
+### Ratios & Numbers
+- 12 centrifuges per processing module (~45 uranium ore per second consumption)
+- 4 Kovarex enrichment centrifuges per module
+- U-235 to U-238 output ratio: 1:3 in wagon allocation
+- Uranium demand is "ridiculously low" -- one small patch can fuel the entire base
+
+### Mistakes to Avoid
+- Accidentally hooking up incomplete stations to the live train network (sulfuric acid trains went to wrong location)
+- Not disconnecting roboport networks when building near existing logistic zones
+- Forgetting to queue up the next science research in time causes visible dips in the science graph

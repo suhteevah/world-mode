@@ -710,3 +710,31 @@ Video: https://www.youtube.com/watch?v=7BeOTWTDI9w
 [28:32](https://youtu.be/7BeOTWTDI9w?t=1712)(https://youtu.be/7BeOTWTDI9w?t=1712) until then take care and stay effective
 [28:37](https://youtu.be/7BeOTWTDI9w?t=1717)(https://youtu.be/7BeOTWTDI9w?t=1717) [Music]
 [28:57](https://youtu.be/7BeOTWTDI9w?t=1737)(https://youtu.be/7BeOTWTDI9w?t=1737) you
+---
+
+## Summary
+
+### Key Lessons
+- Solar panel supply chain is the primary bottleneck constraining space science and power expansion simultaneously
+- Green circuits feeding into solar panels compete with satellite production -- shared resources create cascading shortages
+- Robots do NOT always pick from the closest chest; they use an "oldest chest" heuristic which is unintuitive
+- When a train station uses enable/disable vs train limits, the behavior differs: enable/disable skips the station, train limits make trains wait indefinitely
+
+### Design Principles
+- Trace bottlenecks systematically: science -> satellites -> solar panels -> green circuits -> iron/copper
+- When adding production capacity, ensure input supply chains (green circuits, iron) scale proportionally
+- Use the production statistics to verify supply/demand balance: if production equals consumption with no stockpile growth, you need more capacity
+- Adding trains is often the simplest fix for throughput problems -- check open stations vs. allocated trains
+
+### Ratios & Numbers
+- 5 green circuit trains serving 40 stations (5 sending, 35 receiving) = insufficient
+- Solar panel production needs at least 3 dedicated assembler modules to keep up with 5K SPM + expansion
+- One satellite train load = one inbound component train load (4,000 of each component = 40 satellites)
+- Power calculation: max solar output * 0.7 = sustainable continuous consumption (47 GW * 0.7 = 32.9 GW sustainable)
+- Iron production/consumption at near-perfect balance (+8/-8 per second) = needs more capacity immediately
+
+### Mistakes to Avoid
+- Do not share green circuit supply between low-demand and high-demand consumers without dedicated lines
+- Assuming "it uses so little it will never run out" leads to exactly that thing running out
+- Do not ignore iron balance hovering near zero -- any disruption causes cascading failures
+- Solar panel production competing with satellite production for the same green circuits creates a death spiral

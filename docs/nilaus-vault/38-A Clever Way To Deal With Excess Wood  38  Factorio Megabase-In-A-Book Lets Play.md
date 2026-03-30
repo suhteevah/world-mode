@@ -738,3 +738,32 @@ Video: https://www.youtube.com/watch?v=HpJfzsVucXg
 [28:51](https://youtu.be/HpJfzsVucXg?t=1731)(https://youtu.be/HpJfzsVucXg?t=1731) care and as always stay effective
 [28:55](https://youtu.be/HpJfzsVucXg?t=1735)(https://youtu.be/HpJfzsVucXg?t=1735) [Music]
 [29:13](https://youtu.be/HpJfzsVucXg?t=1753)(https://youtu.be/HpJfzsVucXg?t=1753) you
+---
+
+## Summary
+
+Episode 38 tackles the persistent excess wood problem and adds an alert/dashboard system to monitor supply vs demand. Nilaus uses requester chests to funnel wood into a burning area, adds programmable speakers as alarms when resources go negative, and investigates copper and coal shortages identified by the new dashboard. He also expands copper mining operations.
+
+### Key Lessons
+- Use requester chests to automatically funnel excess wood from storage to a disposal area
+- Programmable speakers with circuit conditions can alert when supply-demand balance goes negative
+- The dashboard should show the difference between supply and demand, not absolute amounts
+- Copper was critically short (-1 on dashboard), coal was -4, and steel was also struggling
+
+### Design Principles
+- Dashboard alarm condition: when signal A <= 0, display the resource icon and sound alert
+- Monitor the delta (supply minus demand) rather than absolute stockpile numbers
+- Expand mining operations proactively when dashboard shows sustained negative deltas
+- Use logistic bots to move excess materials from storage to disposal/burning areas
+
+### Ratios & Numbers
+- 440,000+ wood accumulated (reduced to 20,000 after burning)
+- Copper: +9 supply, -10 demand = -1 net (critical shortage)
+- Coal: +3 supply, -7 demand = -4 net (significant shortage)
+- Steel: also in deficit, needs more production locations
+
+### Mistakes to Avoid
+- Ignoring dashboard warnings assuming buffers will stabilize on their own
+- Not having alarms/speakers to notify of resource shortages during long play sessions
+- Using construction bots for double-duty (pickup tree -> storage -> logistics to requester) when a direct path would be more efficient
+- Forgetting to start solar expansion robots between recording sessions

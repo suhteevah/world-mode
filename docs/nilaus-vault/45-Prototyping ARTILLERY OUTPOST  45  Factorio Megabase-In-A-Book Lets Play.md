@@ -1086,3 +1086,36 @@ Video: https://www.youtube.com/watch?v=qGvJ_9HElI4
 [41:11](https://youtu.be/qGvJ_9HElI4?t=2471)(https://youtu.be/qGvJ_9HElI4?t=2471) and stay effective
 [41:13](https://youtu.be/qGvJ_9HElI4?t=2473)(https://youtu.be/qGvJ_9HElI4?t=2473) [Music]
 [41:33](https://youtu.be/qGvJ_9HElI4?t=2493)(https://youtu.be/qGvJ_9HElI4?t=2493) you
+---
+
+## Summary
+
+Episode 45 covers prototyping an automated artillery outpost design within the safety of the home base before deploying it to the perimeter. Nilaus compares artillery trains vs. static artillery turrets fed by cargo wagons, choosing static turrets at outposts because they provide continuous coverage. The prototype includes artillery turrets, laser turrets for local defense, roboports for self-repair, and train stations for resupply. Spidertrons (called "philatrons" for building) are deployed for landfilling and construction.
+
+### Key Lessons
+- Always prototype defensive outpost designs inside your safe base before deploying to hostile territory
+- Artillery turrets hold 100 shells per slot vs. cargo wagons holding only 40 -- static turrets at outposts are better for sustained coverage
+- Artillery trains are good for mobile offense but static outposts provide constant perimeter defense
+- Blue circuits need time to accumulate (12,000 -> 23,000 -> 32,000 threshold) before stations activate
+- Spidertrons with construction capability are invaluable for building in remote/hostile areas
+
+### Design Principles
+- Outpost design: artillery turrets + laser turrets + roboports + train resupply station within one city block
+- Place outposts at perimeter edge city blocks, spaced so artillery coverage zones overlap
+- Each outpost should be self-repairing via roboports stocked with repair packs and replacement parts
+- The outpost closest to base should be built first to establish safe zone for further expansion
+- Spidertron builder squad: 10 is a good number, all following a leader, with grid-enabled logistics while moving
+
+### Ratios & Numbers
+- Artillery turret: 100 shells per slot
+- Cargo wagon: only 40 artillery shells per slot
+- Blue circuit threshold for station activation: 32,000
+- Blue circuit stockpile observed: 12,000, 23,000, and 30,000 across different stations
+- 10 builder spidertrons recommended for construction squads
+- Spidertron recipe: 2 reactors, 1 leg, 4 speed modules, 2 batteries
+
+### Mistakes to Avoid
+- Deploying untested outpost designs directly to hostile territory
+- Using artillery trains instead of static outposts when you need continuous perimeter coverage
+- Not accounting for initial artillery ammo consumption when first clearing an area (massive demand spike)
+- Forgetting to include repair packs and replacement laser turrets in outpost supply chains

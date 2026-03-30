@@ -1143,3 +1143,35 @@ Video: https://www.youtube.com/watch?v=UjTDFYgkOmU
 [43:37](https://youtu.be/UjTDFYgkOmU?t=2617)(https://youtu.be/UjTDFYgkOmU?t=2617) effective
 [43:38](https://youtu.be/UjTDFYgkOmU?t=2618)(https://youtu.be/UjTDFYgkOmU?t=2618) [Music]
 [43:58](https://youtu.be/UjTDFYgkOmU?t=2638)(https://youtu.be/UjTDFYgkOmU?t=2638) you
+---
+
+## Summary
+
+Episode 47 tackles military science production at 2,700/min by reusing existing designs from the base. Nilaus expands the artillery perimeter further (adding outposts on multiple sides), builds more spidertrons (reaching 10 builder-trons), and continues deploying the automated defense system. The episode emphasizes the "megabase-in-a-book" philosophy of creating reusable blueprints that others can copy and adapt. Perimeter expansion continues with spidertron squads clearing and building autonomously.
+
+### Key Lessons
+- Reuse existing production designs rather than creating new ones for military science -- same assembler ratios apply
+- 10 builder spidertrons is the sweet spot for construction squads
+- Spidertron leader-follower system: place new spidertron, control-click into leader, reselect leader to add to squad
+- Grid-enabled logistics while moving is critical for spidertrons to self-supply during construction
+- Sulfuric acid outpost alerts are annoying but indicate attacks on infrastructure -- prioritize perimeter defense
+
+### Design Principles
+- Military science reuses the same assembler/beacon patterns as other sciences
+- Perimeter expansion should be systematic: push out one side, then rotate to next
+- Request spidertron components in advance (2 reactors, 1 leg, 4 speed modules, 2 batteries per spidertron)
+- Keep perimeter defenses 3 city blocks apart with artillery coverage overlap
+- Disable personal roboport when near active construction zones to prevent interference
+
+### Ratios & Numbers
+- Military science target: 2,700/min
+- 10 builder spidertrons in construction squad
+- Spidertron components: 2 reactors, 1 leg, 4 speed modules, 2 good batteries
+- Perimeter defense spacing: every 3 city blocks
+- Solar panel expansion continues alongside military buildup
+
+### Mistakes to Avoid
+- Using blue inserters instead of stack inserters in production builds (someone built them wrong)
+- Expanding perimeter too aggressively without enough artillery shell production to support it
+- Not disabling personal roboport when building near active logistics networks
+- Forgetting to update blueprints after making design improvements

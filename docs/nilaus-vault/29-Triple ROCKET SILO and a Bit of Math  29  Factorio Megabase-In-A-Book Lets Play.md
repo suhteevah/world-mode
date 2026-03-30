@@ -959,3 +959,36 @@ Video: https://www.youtube.com/watch?v=VHJUUe_iuhQ
 [36:51](https://youtu.be/VHJUUe_iuhQ?t=2211)(https://youtu.be/VHJUUe_iuhQ?t=2211) take care and as always stay effective
 [36:59](https://youtu.be/VHJUUe_iuhQ?t=2219)(https://youtu.be/VHJUUe_iuhQ?t=2219) [Music]
 [37:19](https://youtu.be/VHJUUe_iuhQ?t=2239)(https://youtu.be/VHJUUe_iuhQ?t=2239) you
+---
+
+## Summary
+
+### Key Lessons
+- Space science requires rocket silo math that is fundamentally different from normal assembler calculations due to the launch animation time
+- Three rocket silos are needed for 2,700 space science/min (each producing 900/min)
+- The rocket launch animation takes ~40.33 seconds (2,420 ticks) and must be subtracted from the total cycle time to determine actual crafting time available
+- Wiki animation time numbers may be slightly inaccurate -- round up for safety margin
+- Satellite production and rocket launching should be combined into the same build area
+
+### Design Principles
+- Rocket silo math: target science/min -> rockets/min -> cycle time per rocket -> subtract animation time -> remaining time for crafting -> required crafting speed -> number of beacons
+- Scale down from maximum silo output (984 science/min with max beacons at 10.4 crafting speed) to target output to avoid over-consuming resources
+- Three silos at 900/min each = 2,700/min total (with headroom below max capacity)
+- Craft as close to ratio as possible to minimize waste
+- Design rocket silo layout to accommodate beacon placement while maintaining satellite and rocket part input access
+
+### Ratios & Numbers
+- Maximum single silo output: 984 science/min (10.4 crafting speed, fully beaconed)
+- Target per silo: 900 science/min (3 silos x 900 = 2,700)
+- 0.9 rockets/min per silo = one rocket every 66.67 seconds
+- Launch animation: ~40.33 seconds (2,420 ticks, possibly slightly more)
+- Available crafting time per cycle: 66.67 - 40.33 = ~26.34 seconds
+- 100 rocket parts per rocket, reduced to ~71.5 crafts with productivity modules
+- Default rocket part crafting time: 3 seconds
+- Productivity module bonus: ~28.6% reduction in required crafts (100 -> 71.5)
+
+### Mistakes to Avoid
+- Don't assume wiki numbers are 100% accurate for rocket animation timing -- add safety margin
+- Don't max out beacon coverage if you don't need maximum output -- over-consuming resources wastes upstream production
+- Don't forget that rocket silo crafting speed calculations must account for the fixed animation time
+- Don't launch rockets without a satellite loaded -- results in wasted rocket parts with zero science output

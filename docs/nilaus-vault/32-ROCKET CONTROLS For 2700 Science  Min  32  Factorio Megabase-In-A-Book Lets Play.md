@@ -1159,3 +1159,31 @@ Video: https://www.youtube.com/watch?v=VAj-K7KMqqY
 [46:36](https://youtu.be/VAj-K7KMqqY?t=2796)(https://youtu.be/VAj-K7KMqqY?t=2796) stay effective
 [46:39](https://youtu.be/VAj-K7KMqqY?t=2799)(https://youtu.be/VAj-K7KMqqY?t=2799) [Music]
 [46:57](https://youtu.be/VAj-K7KMqqY?t=2817)(https://youtu.be/VAj-K7KMqqY?t=2817) you
+---
+
+## Summary
+
+Episode 32 focuses on designing the rocket control unit production facility and calculating the exact throughput needed for 2700 science/min. Nilaus also discovers that accidentally disabling a crude oil pump cascaded into blocking rocket fuel, which blocked space science, which blocked all science -- illustrating Factorio's dependency chains.
+
+### Key Lessons
+- One tiny disabled station (crude oil inbound) can cascade and break the entire science production chain
+- When debugging production stalls, trace backwards through the dependency chain: science -> space science -> rocket fuel -> oil refining -> crude oil inbound
+- Rocket control units require 3 inbound resources (green circuits, red circuits, blue circuits) plus 1 outbound
+- Use dedicated train lines for high-consumption items and common lines for shared resources like blue circuits
+
+### Design Principles
+- Calculate exact production targets from the top down: science/min -> rockets/min -> rocket control units/sec
+- Productivity modules reduce input needs by the productivity bonus (divide by 1.4 for prod3)
+- Blue circuits are a "common" product used by multiple consumers -- don't over-stockpile at any single location
+- Red and green circuit train quantities should be doubled compared to blue circuit quantities for rocket control units
+
+### Ratios & Numbers
+- 2700 science/min requires 32.14 rocket control units per second
+- 1000 rocket fuel per launch / 1.4 productivity = ~714 rocket fuel per rocket
+- 1929 rocket fuel per minute needed at 2700 SPM (divided by 1.4 productivity)
+- 3 inbound trains (green, red, blue circuits) + 1 outbound train per rocket control unit facility
+
+### Mistakes to Avoid
+- Accidentally disabling train stations between sessions -- one disabled crude oil pump broke everything
+- Using an 8-to-16 splitter when you need more than 8 belts of throughput (it caps at 8 belt input regardless)
+- Not having enough charge capacity for roboport networks -- it drains quickly during construction

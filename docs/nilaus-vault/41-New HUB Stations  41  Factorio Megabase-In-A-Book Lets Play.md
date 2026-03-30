@@ -993,3 +993,33 @@ Video: https://www.youtube.com/watch?v=kiQgMuOxeeI
 [39:22](https://youtu.be/kiQgMuOxeeI?t=2362)(https://youtu.be/kiQgMuOxeeI?t=2362) until then take care and stay effective
 [39:28](https://youtu.be/kiQgMuOxeeI?t=2368)(https://youtu.be/kiQgMuOxeeI?t=2368) [Music]
 [39:46](https://youtu.be/kiQgMuOxeeI?t=2386)(https://youtu.be/kiQgMuOxeeI?t=2386) you
+---
+
+## Summary
+
+Episode 41 covers the transition from the old home base to a new centralized HUB station system. Nilaus blocks inbound trains to the old base, demolishes legacy infrastructure (old perimeter defense trains, steel storage), and reserves three city blocks for the new train stations. He builds and tests multiple station types: solid item unloaders, liquid stations (lubricant), and combined stations with indicator lights showing station activity via green signals.
+
+### Key Lessons
+- When rebuilding core infrastructure, block inbound trains first to prevent interference during construction
+- Test each new station type individually before replicating across the build
+- Use green signal lights on stations to indicate active/inactive status (L=1 triggers green light)
+- Set train limits to 1 per station to prevent congestion
+- An "obscene amount" of roboports is needed near unloading stations for rapid logistics distribution
+
+### Design Principles
+- Reserve dedicated city blocks for train station infrastructure before building
+- Build all station variants (solid, liquid, combined) as templates first, then replicate
+- Keep old systems running in parallel until new systems are confirmed working
+- Gradual transition: don't tear down everything at once
+
+### Ratios & Numbers
+- Lubricant station threshold: less than 99,000 triggers a new train (stores up to 200,000)
+- Target stockpile for items: 50,000-100,000 per station buffer
+- 23,000 items capacity per station area observed
+- Power: 28 GW solar peak, ~19.6 GW sustained (28 x 0.7), using 16 GW
+
+### Mistakes to Avoid
+- Forgetting to include fueling infrastructure when designing new station areas
+- Not testing station connections before replicating the design across multiple blocks
+- Leaving old signal wires connected that can interfere with new station logic
+- Running out of landfill supply when expanding (landfill train needs access to new hub)

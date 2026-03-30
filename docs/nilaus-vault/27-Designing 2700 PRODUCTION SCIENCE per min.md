@@ -1114,3 +1114,32 @@ Video: https://www.youtube.com/watch?v=_XIsTRGl9hI
 [41:48](https://youtu.be/_XIsTRGl9hI?t=2508)(https://youtu.be/_XIsTRGl9hI?t=2508) stay effective
 [41:50](https://youtu.be/_XIsTRGl9hI?t=2510)(https://youtu.be/_XIsTRGl9hI?t=2510) [Music]
 [42:09](https://youtu.be/_XIsTRGl9hI?t=2529)(https://youtu.be/_XIsTRGl9hI?t=2529) you
+---
+
+## Summary
+
+### Key Lessons
+- Production (purple) science at 2,700/min requires careful planning due to its unique recipe requirements
+- The main base can become a bottleneck if it's still consuming shared resources while science columns scale up
+- Design work should happen in a dedicated sandbox area before deploying to the live base
+- Purple science requires different intermediates than other sciences, creating new dedicated resource chains
+- Problems with existing builds (like belt direction or signal issues) should be fixed immediately before they compound
+
+### Design Principles
+- Purple science column follows the same column architecture as blue and utility science
+- Design in a test area first, then deploy via blueprint to the actual column
+- Fix problems immediately rather than working around them -- technical debt compounds at megabase scale
+- Each new science column design should be self-contained with dedicated resource inputs
+- Separate the design phase (prototyping) from the construction phase (deploying) for efficiency
+
+### Ratios & Numbers
+- Target: 2,700 production science/min
+- Production science requires stone brick, steel, and other intermediates unique to this recipe
+- Per-second rates calculated for each input material
+- Multiple belt throughput needed for input materials
+
+### Mistakes to Avoid
+- Don't let the main base starve while building new science columns -- monitor shared resource allocation
+- Fix belt direction and signal problems immediately upon discovery
+- Don't skip the design/prototyping phase -- deploying untested blueprints wastes more time than testing
+- Verify all input and output connections before declaring a build operational

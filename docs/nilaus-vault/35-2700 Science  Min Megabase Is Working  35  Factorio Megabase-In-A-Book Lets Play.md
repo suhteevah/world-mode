@@ -1114,3 +1114,32 @@ Video: https://www.youtube.com/watch?v=BZACuhqv9ek
 [45:40](https://youtu.be/BZACuhqv9ek?t=2740)(https://youtu.be/BZACuhqv9ek?t=2740) care and as always stay effective
 [45:47](https://youtu.be/BZACuhqv9ek?t=2747)(https://youtu.be/BZACuhqv9ek?t=2747) [Music]
 [46:07](https://youtu.be/BZACuhqv9ek?t=2767)(https://youtu.be/BZACuhqv9ek?t=2767) you
+---
+
+## Summary
+
+Episode 35 covers the initial operation of the 2700 SPM megabase and the beginning of optimization/debugging. Nilaus compares the process to shipping a software product -- everything is built and "working" but now the real work of fixing bottlenecks begins. Key bottlenecks identified: accumulators/solar panels, sulfuric acid (consumed heavily by batteries), coal shortage, and excessive buffer sizes.
+
+### Key Lessons
+- Building all the parts is only ~50% of the work -- debugging, balancing, and optimizing is the other half
+- Use the production dashboard to identify supply/demand imbalances (negative numbers = deficit)
+- Excessive buffer sizes waste resources during initial ramp-up -- limit chest contents to actual needs
+- Batteries consume enormous amounts of sulfuric acid -- don't underestimate this demand
+
+### Design Principles
+- Calculate exact buffer needs: trains x capacity / number of chests = items per chest
+- All output stations should have controlled buffer limits to prevent over-stockpiling
+- Use the dashboard's supply vs demand delta (not absolute amounts) to identify problems
+- Plan to stabilize at 2700 SPM first, then double to 5400 SPM
+
+### Ratios & Numbers
+- 3 trains x 64,000 capacity = 192,000 total buffer; 192,000 / 48 chests = 4,000 items per chest
+- 9 solar panels + accumulators per second being produced (target: higher)
+- Coal: 4 available, -1 deficit (requesting 5 total)
+- Sulfuric acid: 0 available trains -- critically short due to battery production
+
+### Mistakes to Avoid
+- Don't assume buffers will "fill up and stabilize" -- monitor actively for sustained deficits
+- Copy-pasting blueprints can override train station names -- verify after pasting
+- Over-buffering at output stations wastes production capacity during ramp-up (96,000 in storage is excessive)
+- Not updating blueprints after discovering buffer sizing issues

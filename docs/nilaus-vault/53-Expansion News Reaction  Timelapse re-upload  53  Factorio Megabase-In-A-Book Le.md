@@ -909,4 +909,30 @@ Video: https://www.youtube.com/watch?v=Avvc7xVAyPs
 [30:52](https://youtu.be/Avvc7xVAyPs?t=1852)(https://youtu.be/Avvc7xVAyPs?t=1852) i'll see you guys next time take care
 [30:54](https://youtu.be/Avvc7xVAyPs?t=1854)(https://youtu.be/Avvc7xVAyPs?t=1854) and as always stay effective
 [30:57](https://youtu.be/Avvc7xVAyPs?t=1857)(https://youtu.be/Avvc7xVAyPs?t=1857) [Music]
+
+---
+
+## Summary
+
+### Key Lessons
+- Running 60/60 FPS/UPS at megabase scale requires three pillars: solar power (not nuclear), full belt designs (UPS efficient), and minimal unnecessary train movement
+- Full belts are incredibly UPS efficient compared to partially-filled belts
+- Enabling the map overlay (show all) causes a 5 FPS hit -- only use for inspection, then disable
+- Working toward 5400 SPM with timelapse building approach -- build infrastructure, then let it run while doing other tasks
+
+### Design Principles
+- **UPS-conscious design**: Solar > Nuclear for UPS; full belts > partial belts; minimize active train count
+- **Perimeter defense expansion**: Build artillery outposts and solar in parallel -- both are critical infrastructure
+- **Timelapse building**: Place blueprints, let robots build while you work on other tasks or discuss strategy
+- **Expansion DLC pricing context**: Nilaus considers $30 fair given hours of gameplay value
+
+### Ratios & Numbers
+- 60/60 FPS/UPS maintained at this scale with solar power and full belt designs
+- Map overlay rendering causes ~5 FPS drop
+- Currently at ~2700 SPM, building toward 5400 SPM
+
+### Mistakes to Avoid
+- Nuclear power at megabase scale destroys UPS due to fluid calculations in pipes, turbines, and steam systems
+- Do not rely on sparse roboport coverage when expanding -- robots need adequate network coverage to function efficiently
+- Partially-filled belts are significantly worse for UPS than full belts -- design around full belt throughput
 [31:17](https://youtu.be/Avvc7xVAyPs?t=1877)(https://youtu.be/Avvc7xVAyPs?t=1877) you

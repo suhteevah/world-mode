@@ -948,4 +948,33 @@ Video: https://www.youtube.com/watch?v=s9axyYqIkGM
 [35:51](https://youtu.be/s9axyYqIkGM?t=2151)(https://youtu.be/s9axyYqIkGM?t=2151) it good night take care and i'll see you
 [35:54](https://youtu.be/s9axyYqIkGM?t=2154)(https://youtu.be/s9axyYqIkGM?t=2154) guys next time take care stay effective
 [35:57](https://youtu.be/s9axyYqIkGM?t=2157)(https://youtu.be/s9axyYqIkGM?t=2157) [Music]
+
+---
+
+## Summary
+
+### Key Lessons
+- Enabling all production simultaneously at 5000 SPM creates a massive resource demand spike -- expect multiple warnings and shortages during ramp-up
+- Train limit behavior quirk: "train limit 1 of 0" means a train is reserved/heading to a station but "read stopped train" returns 0 because the train is not yet fully stopped -- this inconsistency complicates circuit logic
+- When renaming train stations, the train schedule breaks only when the LAST station with the old name is renamed -- renaming intermediate stations is safe
+- Steel is consistently the most critical bottleneck when scaling to 5000 SPM
+
+### Design Principles
+- **Stress test approach**: Enable everything at once and observe what breaks first, then fix the bottlenecks one by one
+- **Train station naming**: Use descriptive icons/names for stations; when renaming, change the last station last to avoid train schedule disruption
+- **Buffer trains**: Pre-fill resource trains and have them waiting before enabling new production blocks -- the initial demand surge needs pre-staged resources
+- **Staged enablement**: Build new production, pre-fill buffer trains, then enable consumption blocks -- do not enable consumption before supply is ready
+
+### Ratios & Numbers
+- Mining productivity level 69 at this point in the megabase
+- Blue circuits: not a problem at 5000 SPM (51 and 23 in respective locations)
+- Battery: not a problem -- 2 battery trains sufficient
+- Steel: primary bottleneck resource at 5000 SPM scale
+- Yellow science: stabilizes over time despite initial warnings
+
+### Mistakes to Avoid
+- Do not rely on "read stopped train" signal for circuit logic when trains are arriving/departing -- it returns 0 even when a train is physically present but not fully stopped
+- Do not enable consumption before pre-staging buffer resources in trains -- the initial surge will starve everything
+- Forcefully opening a train station (setting limit manually) and forgetting to reset it causes trains to stack up unexpectedly
+- Steel shortage cascades into everything -- prioritize steel production scaling above all other resources
 [36:16](https://youtu.be/s9axyYqIkGM?t=2176)(https://youtu.be/s9axyYqIkGM?t=2176) you

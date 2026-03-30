@@ -868,3 +868,30 @@ Video: https://www.youtube.com/watch?v=uXdmXtuLFtE
 [36:26](https://youtu.be/uXdmXtuLFtE?t=2186)(https://youtu.be/uXdmXtuLFtE?t=2186) effective
 [36:28](https://youtu.be/uXdmXtuLFtE?t=2188)(https://youtu.be/uXdmXtuLFtE?t=2188) [Music]
 [36:47](https://youtu.be/uXdmXtuLFtE?t=2207)(https://youtu.be/uXdmXtuLFtE?t=2207) you
+---
+
+## Summary
+
+Episode 31 covers redesigning the steel production from dedicated smelting to a common on-site "ore to steel" approach, where iron ore is smelted into iron plates and then into steel all within a single city block near the iron patch. This reduces train traffic significantly since only steel trains leave the facility instead of shipping raw iron ore elsewhere.
+
+### Key Lessons
+- On-site smelting (ore to steel in one facility) drastically reduces train count compared to shipping raw ore
+- When redesigning production, replace rather than patch -- Nilaus replaces the old steel setup entirely
+- Furnace layout needs to accommodate the longer iron-to-steel chain (iron ore -> iron plate -> steel plate = 2 smelting steps)
+- City block real estate must be maximized -- reduce stacker/storage space for low-throughput products like steel
+
+### Design Principles
+- Minimize train count above all else at megabase scale -- train congestion is the hardest problem to fix
+- Steel output is slow enough that 2-4 train buffer slots suffice (not 6 like for raw ore)
+- Side-loading issues in smelter arrays must be addressed to avoid throughput bottlenecks
+- Common steel (shared across all consumers) is preferred over dedicated steel (locked to one consumer)
+
+### Ratios & Numbers
+- 22 furnaces would be the perfect ratio (10 iron smelters x 1.2 productivity = 12 iron plates feeding steel smelters), but 21 fit in the city block
+- Steel extrudes slowly enough that missing 1 furnace from the perfect ratio is acceptable
+- 4 iron patch locations identified for steel facilities on this map
+
+### Mistakes to Avoid
+- Do not use an 8-to-16 splitter to feed dual smelter arrays -- input is capped at 8 belts throughput regardless of output split
+- Forgetting to disable personal roboports when placing blueprints near construction zones
+- Having too many trains of low-throughput products (steel) waiting in stackers wastes city block space

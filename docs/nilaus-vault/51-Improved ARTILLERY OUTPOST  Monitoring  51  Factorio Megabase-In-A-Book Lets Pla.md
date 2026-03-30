@@ -1233,4 +1233,37 @@ Video: https://www.youtube.com/watch?v=jnDi7_Qise0
 [44:35](https://youtu.be/jnDi7_Qise0?t=2675)(https://youtu.be/jnDi7_Qise0?t=2675) thank you very much for watching until
 [44:37](https://youtu.be/jnDi7_Qise0?t=2677)(https://youtu.be/jnDi7_Qise0?t=2677) next time take care and stay effective
 [44:45](https://youtu.be/jnDi7_Qise0?t=2685)(https://youtu.be/jnDi7_Qise0?t=2685) [Music]
+
+---
+
+## Summary
+
+### Key Lessons
+- Artillery trains carry 100 shells vs 40 for regular cargo wagons, making dedicated artillery trains far more efficient for shell delivery
+- Separate supply trains (repair packs, laser turrets, drones) from artillery shell trains using two distinct stations at each outpost
+- Use circuit conditions on roboport contents to enable/disable stations dynamically (e.g., enable artillery station when shells < 20)
+- Belt-based monitoring with programmable speakers gives earlier warnings than chest-based monitoring -- read the belt directly for real-time alerts
+- Warnings based on chest thresholds are "late warnings" since stockpiles may already be drained by the time they trigger
+
+### Design Principles
+- **Dual-station outpost pattern**: One station for supplies/repair, one for artillery shells, each with independent enable conditions
+- **Conditional station enabling**: Use circuit network signals (L for artillery, X for supplies) to control when each station opens
+- **Artillery train schedule**: Reload station (wait until full cargo) -> Outpost station (wait until 2s inactivity OR empty) -> back to reload
+- **Refueling trains are faster** than artillery trains -- this ensures supplies arrive before the slower artillery train
+- **Monitor production belts, not storage chests** for more immediate shortage warnings
+
+### Ratios & Numbers
+- Artillery train wagon holds 100 shells
+- Regular cargo wagon holds 40 shells
+- Artillery shell threshold for requesting: < 20 shells triggers station enable
+- Inactivity timer for artillery outpost: 2 seconds
+- Warning system: belt reading = 0 triggers alert (more immediate than chest-based)
+- 4 artillery trains allocated for perimeter defense
+- 2 supply/refueling trains per outpost area
+
+### Mistakes to Avoid
+- Do not produce artillery shells at main base when you have a dedicated production facility -- stop the old production line
+- Trains will NOT skip a station that is "destination full" (train limit reached) -- they queue instead; only closed/disabled stations get skipped
+- Do not set artillery train to "wait until full cargo" at outpost -- it will never leave if production is slower than consumption
+- Late warnings (chest threshold monitoring) give a false sense of security -- by the time the alert fires, the supply chain may already be broken
 [45:03](https://youtu.be/jnDi7_Qise0?t=2703)(https://youtu.be/jnDi7_Qise0?t=2703) you

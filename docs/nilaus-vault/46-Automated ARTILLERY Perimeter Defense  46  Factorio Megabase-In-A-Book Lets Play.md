@@ -946,3 +946,35 @@ Video: https://www.youtube.com/watch?v=3kQbP0n3Zeg
 [31:48](https://youtu.be/3kQbP0n3Zeg?t=1908)(https://youtu.be/3kQbP0n3Zeg?t=1908) take care and stay effective
 [31:51](https://youtu.be/3kQbP0n3Zeg?t=1911)(https://youtu.be/3kQbP0n3Zeg?t=1911) [Music]
 [32:11](https://youtu.be/3kQbP0n3Zeg?t=1931)(https://youtu.be/3kQbP0n3Zeg?t=1931) you
+---
+
+## Summary
+
+Episode 46 deploys the prototyped artillery outpost design into production along the actual perimeter. Nilaus adds new iron mining outposts (16M and 28M ore patches), strips unnecessary lights from perimeter rail blueprints to reduce entity count, and sends spidertron squads to build and defend the outpost sites. The artillery outposts prove self-sufficient -- they clear biter nests, self-repair via robots, and resupply via train. The system is validated by leaving the base unattended and confirming the outposts handle attacks autonomously.
+
+### Key Lessons
+- Remove cosmetic elements (lights) from perimeter blueprints -- they add unnecessary entities and supply requirements
+- Test automated defenses by NOT intervening: if the outpost survives without player action, the design works
+- Space artillery outposts so their coverage cones overlap -- each turret clears in a cone straight out from its position
+- Initial clearing phase consumes massive amounts of artillery shells; once stable, consumption drops dramatically
+- Wood from cleared forests fills storage chests but is finite (forests don't regenerate) -- not a concern
+
+### Design Principles
+- Artillery outpost spacing: 3 city blocks apart for overlapping coverage
+- Build the outpost at the quieter side of the perimeter first, then work toward active attack fronts
+- Spidertron squads handle both construction and defense during outpost deployment
+- Self-sufficiency test: outpost must handle attacks, repairs, and resupply without player presence
+- Corner defense requires special consideration for coverage gaps
+
+### Ratios & Numbers
+- New iron patches: 16M and 28M ore
+- Space science production: 2,700/min maximum from current setup
+- Artillery outposts spaced approximately every 3 city blocks
+- Iron plate alert threshold: 12,000 with 44,000 in reserve at secondary location
+- Initial clearing consumes shells rapidly; steady state consumption is minimal
+
+### Mistakes to Avoid
+- Including lights in perimeter rail blueprints (wasteful resources, supply chain overhead)
+- Building the wrong outpost first (start with quiet sides, not active attack fronts)
+- Not verifying that the supply train can actually reach the outpost station (check rail connections)
+- Expanding the perimeter faster than artillery shell production can support

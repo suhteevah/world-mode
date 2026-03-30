@@ -954,3 +954,31 @@ Video: https://www.youtube.com/watch?v=dLSu6eDRSd8
 [39:25](https://youtu.be/dLSu6eDRSd8?t=2365)(https://youtu.be/dLSu6eDRSd8?t=2365) as always stay effective
 [39:27](https://youtu.be/dLSu6eDRSd8?t=2367)(https://youtu.be/dLSu6eDRSd8?t=2367) [Music]
 [39:47](https://youtu.be/dLSu6eDRSd8?t=2387)(https://youtu.be/dLSu6eDRSd8?t=2387) you
+---
+
+## Summary
+
+### Key Lessons
+- Reducing buffer chest stockpile size at satellite production stations dramatically improves throughput by reducing time trains spend filling oversized buffers
+- Battery production at a single facility (48,000 stockpile) can become a bottleneck when blue circuit production scales up
+- Iron production/consumption balance hangs at razor-thin margins -- even minor disruptions cause shortages across the entire factory
+- Plastic consumption spikes when blue circuit builds are relocated, as the new facility desperately fills its internal buffers
+
+### Design Principles
+- Replace large buffer storage with minimal roboport-based stockpiles to reduce unnecessary accumulation time
+- Power sustainability formula: max solar output * 0.7 = maximum continuous consumption capacity
+- When relocating production modules, expect temporary resource drain as new facilities build up internal buffers
+- Use train limit signal (L > 0) instead of fixed values to dynamically open stations when any resource drops below threshold
+
+### Ratios & Numbers
+- 5,000 science/minute = 5 rockets/minute = 5 satellites/minute = 500 solar panels + 500 accumulators per minute consumed
+- Each solar panel assembler module produces ~540 per minute (enough for ~5,400 SPM theoretically)
+- 47 GW max solar * 0.7 = 32.9 GW sustainable; consuming 30.8 GW = only 2.1 GW headroom
+- Battery production: 1 facility with 48,000 stockpile; needs second facility as blue circuit demand scales
+- Iron: +7/-7 per second balance = critical, needs immediate expansion
+
+### Mistakes to Avoid
+- Do not casually delete and relocate production modules without accounting for the buffer-refill resource drain
+- Oversized buffer chests at satellite production create unnecessary delays in train turnaround
+- Plastic shortages cascade from red circuit production scaling -- monitor plastic/red circuit ratio when expanding blue circuits
+- Do not assume current solar capacity has enough headroom; at 32.9 GW sustainable vs 30.8 GW consumption, there is almost no margin

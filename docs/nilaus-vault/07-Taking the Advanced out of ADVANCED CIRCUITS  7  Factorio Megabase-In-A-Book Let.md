@@ -2,1135 +2,1165 @@
 # Video ID: Wl-YefXGUUo
 # URL: https://www.youtube.com/watch?v=Wl-YefXGUUo
 
-[00:00] welcome to factorio megabase in a book
-[00:02] my name is nilas and we are going to
-[00:04] continue today on our expansion of this
-[00:07] glorious megabase or
-[00:09] uh the prospective megabase because my
-[00:12] definition of megabase is usually i
-[00:14] think that's kind of the common one is
-[00:16] that it's a thousand signs per minute
-[00:18] and we are nowhere near and we won't be
-[00:20] anywhere near that for a long time most
-[00:22] of the time when you build a megabase
-[00:24] it's not sort of gradually scaling up
-[00:26] but in this case i will be building
-[00:28] everything towards a very large scale
-[00:30] and then only sort towards the end will
-[00:31] i be able to just unleash the beast and
-[00:35] then we'll be spending a lot of time
-[00:36] debugging and figuring out all the
-[00:38] things we haven't really figured out yet
-[00:40] but at this point we are having a few
-[00:42] things that
-[00:44] that are of concern that one of the
-[00:46] things is of course we can continue on
-[00:49] our design quest of just taking the next
-[00:51] step what we have done is we've done
-[00:53] steel iron copper green and now plastic
-[00:56] and that leads very much into the red
-[00:59] that i've prepared over here
-[01:01] but there are two considerations for us
-[01:03] to well consider
-[01:05] and one of them being we're actually
-[01:07] using quite a lot of power
-[01:09] and there are two ways to do that we can
-[01:11] expand with more nuclear power plants or
-[01:13] we can expand with more solar panels i
-[01:15] am going to do both but i am going to
-[01:17] start by putting down nuclear because
-[01:19] its easiest then i am going to
-[01:21] have to do
-[01:22] in the near future do some expansion and
-[01:25] then start really making a large effort
-[01:28] into
-[01:30] into expanding solar because at the end
-[01:32] of this we will not be able to sustain
-[01:35] nuclear power because there are just
-[01:36] simply too many calculations with all
-[01:38] the liquid back and forth all the heat
-[01:40] piping back and forth and it's simply
-[01:42] too many entities so we need to have
-[01:43] solar for a megabase of the size that we
-[01:45] want to make
-[01:47] so we need to consider power and i will
-[01:49] consider that first the second thing is
-[01:51] actually
-[01:52] a bit more problematic that i just
-[01:54] noticed is that we are actually running
-[01:55] out speed modules so
-[01:57] after we are building the red science i
-[01:59] think i want to build towards
-[02:01] the blue signs because when we have
-[02:03] green red and blue signs then we can
-[02:04] actually make an outpost that is
-[02:06] dedicated to making modules
-[02:08] i think that's going to be a good thing
-[02:10] to do before we sort of dive into more
-[02:12] of the advanced materials as well
-[02:15] now
-[02:16] let's start with making a nuclear power
-[02:17] plant what you can also see is that i
-[02:19] have again cheated oh no
-[02:23] here i am using again the water tiles
-[02:25] because i don't find it's super fun to
-[02:28] drag piles everywhere so i'm going to
-[02:30] stamp this down here and i'm going to
-[02:32] stamp this down here that will get us
-[02:36] the water fill and then we'll be
-[02:37] building
-[02:39] a couple more power plants i
-[02:41] think we'll build this one first i don't
-[02:43] know if we well i'm pretty sure we
-[02:44] shouldn't be building both of them at
-[02:46] the same time
-[02:48] yeah well so let's do that
-[02:52] that is always like a good reasoning
-[02:55] here and when the length the water fill
-[02:57] comes in that's the what is coming here
-[02:59] i think
-[03:01] there's the water fill okay so once the
-[03:02] water fill comes in then we can switch
-[03:05] back to that one and then it's going in
-[03:08] and over on the other side
-[03:10] here so that was an easy expansion of
-[03:13] nuclear power it goes all the way up
-[03:15] here
-[03:16] what we also want to do is uh if we want
-[03:18] to move forward with
-[03:21] with um with solar power then we should
-[03:23] be taking out whatever is in the corners
-[03:26] so let me see do i have any of
-[03:30] the new this oh where are they here do i
-[03:32] have any of those
-[03:34] nope i don't okay well let's um let's
-[03:37] make one
-[03:38] and anything that doesn't really fit
-[03:40] directly into the hub i just make it up
-[03:42] here together with some of the other
-[03:44] stuff then it just becomes like a random
-[03:47] random thing we built
-[03:50] there
-[03:53] oh on this side i'm going to get
-[03:55] inbound outbound
-[03:57] outbound
-[03:58] oops inbound here and we'll build some
-[04:04] just making it quickly
-[04:06] no need to spend too much time on this
-[04:08] and i'll just get 10. i will get
-[04:11] one of those in my inventory let's see
-[04:13] what it's it's getting are you getting
-[04:15] everything here
-[04:16] uh no you're not getting the concrete
-[04:19] why is the concrete not getting in here
-[04:22] that's odd maybe i'm not getting having
-[04:24] concrete built
-[04:26] this is not what i'm supposed to be
-[04:28] doing i'm not supposed to be doing this
-[04:30] this is concrete yeah
-[04:32] uh oh right it's not actually uh
-[04:37] doing that and here this is gonna be a
-[04:39] little concrete build
-[04:43] there that should be fine now this is
-[04:45] being picked up
-[04:47] cool
-[04:49] so what i want to do in this case and
-[04:50] you we can actually do that in a very
-[04:52] simple way i can just make it like that
-[04:54] i can just put it on a dashboard and you
-[04:57] when it's on the dashboard then it will
-[04:59] i can actually place it i just want to
-[05:01] make a little
-[05:04] little turret out here that will take
-[05:05] care of just randomly shooting at stuff
-[05:08] there we go and it'll be very simple
-[05:11] just give up
-[05:12] input
-[05:13] here
-[05:14] you will be getting
-[05:17] some
-[05:18] artillery shells let's go 20 of those
-[05:22] and a powerful
-[05:25] good
-[05:26] that one
-[05:29] also need it up here probably not gonna
-[05:31] do much i also need it down here
-[05:34] from oops
-[05:36] that one and over on the side
-[05:41] actually should just flip it shouldn't i
-[05:43] i should have flipped it
-[05:47] for this one
-[05:51] completely incorrect there
-[05:53] and then flip much nicer
-[05:56] there you go that will be built i
-[05:57] actually don't need this one inbound to
-[05:59] me
-[06:00] but it's coming in good there we go
-[06:02] this one will be getting all the stuff
-[06:04] and then it will start shooting
-[06:07] just this nice nice little area it's not
-[06:09] going to be big but it'll just take care
-[06:10] of the stuff that's around and it will
-[06:12] probably see a lot of attack coming in
-[06:14] excellent that was not what we wanted to
-[06:16] do but it is some of the things we need
-[06:18] to do in preparation for what is to come
-[06:20] and what is to come is the expansion of
-[06:22] a gigantic area for
-[06:25] as for solar panels
-[06:26] then what we want to do today is the
-[06:28] design of the red signs red circuits
-[06:32] science circuits let's just never ever
-[06:33] getting it right
-[06:35] and we're gonna get our little train hit
-[06:38] the train get it over here
-[06:40] and that will again always be a
-[06:43] master class blueprint i am going to set
-[06:45] this one up in the meantime
-[06:47] we'll have our design for
-[06:51] nope we'll have this part the sign
-[06:54] come on
-[06:55] no you're there
-[06:57] that one
-[07:00] and you get down here
-[07:03] the reason why i'm bringing
-[07:07] they should actually be able to get out
-[07:08] here
-[07:09] and take care of these locations
-[07:13] not quite ah they're out of reach out of
-[07:15] range
-[07:17] and they can't reach there they can
-[07:18] raise their ah man
-[07:20] so close though
-[07:22] oh well they're gonna wait
-[07:24] and i am here so let's do some design
-[07:27] first of all i'm going to disable this
-[07:30] then if we look at what we have this
-[07:33] part here
-[07:34] is
-[07:35] bringing in
-[07:38] two trains and one out but it's bringing
-[07:40] in four lanes when we look at the red
-[07:42] signs
-[07:44] red circuits
-[07:46] it it is a lot lower quantity because
-[07:49] the crafting time is so much
-[07:51] higher so what i want is again when i go
-[07:53] up here for my master class build that's
-[07:55] a good beacon module circuit that's the
-[07:56] one
-[07:59] that is the red one and it looks pretty
-[08:02] good let's uh we've disabled our robo
-[08:05] ports so i have a plan
-[08:08] my plan is that i want to flip it
-[08:11] like that
-[08:12] so this will be our output and i think
-[08:15] i'll even get the outputs like this
-[08:18] oh should i do
-[08:19] ghost for everything i should do ghost
-[08:21] for everything
-[08:26] that will be
-[08:27] the outputs
-[08:30] looking good and then we get
-[08:32] full length of copper in that means i'm
-[08:34] going to get a copper in
-[08:36] like this
-[08:38] no
-[08:39] i want it like this that's gonna look
-[08:41] better
-[08:43] yes so that will be a full line of
-[08:45] copper in this one is important to keep
-[08:47] because this is the one that tells us
-[08:49] exactly what each of these builds will
-[08:51] do they'll take 15 22 22 and 45 so this
-[08:55] means
-[08:56] 16 copper and then it's times two which
-[08:59] means this whole thing will consume a
-[09:01] full belt of green a full belt of
-[09:03] plastic and a little bit less than a
-[09:05] full belt of
-[09:06] copper
-[09:08] and we don't need to do that one we know
-[09:10] this and
-[09:12] yeah
-[09:14] i'm just gonna build it here so that
-[09:16] will be our unit
-[09:17] and we'll need four of these also pretty
-[09:19] good so let's take that one and
-[09:22] stamp it down well should be as close as
-[09:24] possible we're gonna need some space up
-[09:26] north for
-[09:27] uh curving belts back and forth so let's
-[09:29] uh let's give a bit of space but still
-[09:32] enough to reach
-[09:34] let's try that one
-[09:36] that one
-[09:38] that one and please fit
-[09:40] okay
-[09:41] that was actually not even intended but
-[09:43] uh
-[09:44] the fact that it just fits all the way
-[09:46] over there is nice but probably not
-[09:49] great i want to just fit it into the
-[09:50] middle as middle as they can get that's
-[09:53] two from side three from the other side
-[09:54] it can never be quite the middle because
-[09:55] there's an odd number here
-[09:57] all right so what i need is now i need
-[09:59] four links in
-[10:01] we're gonna get four lines in maybe here
-[10:02] one two three four that is for copper
-[10:06] coming in
-[10:08] nope that's for plastic and
-[10:11] one two three four
-[10:13] and
-[10:16] one two three four maybe
-[10:19] that's a bit
-[10:21] i mean it is gonna work
-[10:24] because i can just do that
-[10:27] that will go straight in
-[10:38] that will work
-[10:39] then i need to figure out i can always
-[10:41] just slide it further up here
-[10:45] what do we want we want to make from
-[10:47] here to here from here to here
-[10:50] and then i'm going to build some kind of
-[10:53] design
-[10:57] that one
-[11:05] yeah see this is not really working
-[11:07] because no matter what i'm gonna take it
-[11:09] from up oops
-[11:11] here to here and then go around and
-[11:14] around
-[11:15] and the other one will be
-[11:17] oops
-[11:18] that's gonna be the closest we can make
-[11:20] it
-[11:21] so this means something has to give here
-[11:24] just a bit
-[11:26] good this is exactly why we're building
-[11:28] the whole thing with
-[11:30] like one two
-[11:31] some space there
-[11:34] i could do this but this is why we built
-[11:36] it with ghost images because it's just
-[11:38] really annoying to build all of it again
-[11:40] and again and again
-[11:42] and we're gonna go
-[11:44] maybe like this instead
-[11:50] there that looks good
-[11:53] much better
-[11:55] the amount of space i have here is not
-[11:57] the same amount of space i have here
-[11:59] unless i did that that would just get
-[12:01] more symmetrical one two three four
-[12:04] i don't know if that's important
-[12:07] it
-[12:08] might be important for me
-[12:09] and the idea is
-[12:11] that one
-[12:14] let's take this and move it to that
-[12:16] location and to that location and to
-[12:20] that location we can clean it up a bit
-[12:24] first of all we're gonna need here
-[12:32] that's not really needed
-[12:37] going back okay i i think this is a good
-[12:40] design
-[12:46] now if you've been following my twitch
-[12:48] series of course you have of course you
-[12:51] have then and you've been paying
-[12:53] attention then you can see that this
-[12:54] design is not the same as we have on the
-[12:58] twitch base this is a slight improvement
-[13:00] because that's basically why i don't
-[13:03] want to give blueprints from my twitch
-[13:04] series
-[13:05] i give save games but i don't want to
-[13:08] give blueprints because i feel that
-[13:09] blueprints i present should be a higher
-[13:12] quality and they are just they're just
-[13:14] working but they're not
-[13:16] just
-[13:17] they're not crisp and i want to provide
-[13:20] crisp blueprints
-[13:22] for you and that's what we're doing here
-[13:23] we're just basically taking what i've
-[13:24] done before and then improving it a bit
-[13:27] and making sure that it's just a bit
-[13:28] nicer so again
-[13:31] again i'm not really happy about this
-[13:34] can't just make it
-[13:36] oh it has a problem with the curving so
-[13:38] i think this one is done what i need is
-[13:40] now
-[13:42] plastic green they could be the other
-[13:44] way around copper and red
-[13:47] so let's uh look at a
-[13:49] design this is the only big design we
-[13:52] have of this size so let's uh
-[13:56] okay let's take this as a ghost
-[13:59] image and put it in and see what happens
-[14:05] let's kill these they don't need to be
-[14:07] here
-[14:07] and
-[14:10] there
-[14:11] radar is in the way
-[14:13] oh no it wasn't
-[14:15] well that's clearly not what i want
-[14:18] because i do not want
-[14:20] eight lanes i want four lanes but aside
-[14:22] from this the rest of it is pretty good
-[14:24] right
-[14:27] this is
-[14:29] i think this is fine
-[14:37] yeah but these builds
-[14:40] this is also like putting way too much
-[14:42] in here like unloading way too fast i
-[14:45] don't think i need as many unloaders for
-[14:48] a small build like this
-[14:50] i'm just considering if i have any other
-[14:52] option
-[14:55] i do have the option of just having half
-[14:58] as many
-[14:59] but maybe i
-[15:01] so the thing is like do it
-[15:04] since it's this is great for having
-[15:06] eight builds out i need this much for
-[15:08] eight builds out but if i only want four
-[15:09] belts out i should realistically only
-[15:11] have half as big designs right
-[15:17] i think that kind of makes sense
-[15:19] so not to have as much
-[15:21] junk
-[15:22] available here
-[15:26] and what would that look like
-[15:34] so we do a design that is basically for
-[15:36] half as big
-[15:38] for if we want four builds out then this
-[15:40] is gonna be the design we want
-[15:43] and if we want eight lanes out then this
-[15:44] is gonna be the design
-[15:46] so it's gonna be the same same idea
-[15:48] we're definitely doing the same idea of
-[15:50] just
-[15:51] these things
-[15:53] coming up but we can then do it on
-[15:54] either side of this
-[15:57] then basically go here
-[16:04] i think that's fine
-[16:06] we do need this to
-[16:10] uh yep also need it
-[16:13] can't really draw lines between ghost
-[16:15] images
-[16:16] there
-[16:20] that one
-[16:23] i think that makes sense let's uh take a
-[16:26] look at it oh hold on i
-[16:31] i need this
-[16:33] here but not that one
-[16:37] there
-[16:38] and there
-[16:39] so now i need to figure out how close i
-[16:42] can get this out
-[16:43] so
-[16:45] this thing
-[16:47] really shouldn't be on the north side it
-[16:49] really should be on the south side why
-[16:50] did i put it on the north side here
-[16:52] that's not great
-[16:54] that is a bit sloppy i think i think
-[16:56] it's much more fitting to have it
-[16:57] exactly like this this looks so much
-[16:59] better
-[17:00] this part
-[17:02] like build it on the south side boom
-[17:05] absolutely
-[17:06] so take all of this out you're no longer
-[17:08] welcome
-[17:10] you are very welcome there we go
-[17:13] this is definitely a much better way of
-[17:15] doing it
-[17:16] okay definitely much better yeah
-[17:25] there and obviously i am going to oops
-[17:29] one of the important things here is
-[17:31] no matter what don't build that one
-[17:33] don't ever
-[17:35] don't build the whole thing so that
-[17:36] trains are actually coming in just yet
-[17:38] let me just make sure that i don't build
-[17:40] it by removing that belt
-[17:42] also we have a lot of other things to
-[17:44] redesign here so let's not get ahead of
-[17:46] ourselves all of this is not correct
-[17:48] because it's
-[17:50] we're just building this template for
-[17:51] the train station
-[17:55] it does not look good with these cross
-[17:57] wire things i really need to cut that
-[18:00] line out but anyway that's not what
-[18:01] we're here for
-[18:03] that one and that one that's uh
-[18:07] it is within good
-[18:11] that one is super necessary yeah
-[18:14] otherwise it's not going to be a
-[18:14] template and
-[18:17] now i need a four to four balancer
-[18:20] oh by the way is that working oh it is
-[18:22] working look at that that whole thing is
-[18:24] cleaned out these are not really doing
-[18:25] much but if i was to do that one and get
-[18:29] super distracted then you can clear out
-[18:30] a much bigger space but i'm not gonna do
-[18:32] that i'm just gonna use it for sort of
-[18:34] clearing out space
-[18:35] okay i am gonna get a slightly
-[18:37] distracted so sorry about that
-[18:39] because this is just super annoying not
-[18:41] having one right there
-[18:43] and
-[18:45] right
-[18:46] here is going to be super useless
-[18:50] there
-[18:52] but it'll be just
-[18:54] make sure it looks better we could do
-[18:55] something out here along the side but
-[18:56] that is definitely not something we're
-[18:58] going to get distracted by oh sorry i
-[18:59] was going up here to grab snatch a 4x4
-[19:03] balancer and why do i always take this
-[19:05] one that has
-[19:06] good
-[19:07] where do we want it
-[19:10] like how close do i want to get this
-[19:16] i like this location right i like this
-[19:19] location
-[19:21] that is super interesting to do that
-[19:28] and how would that go they would go
-[19:30] there
-[19:39] okay
-[19:40] i can
-[19:41] i can see something interesting here how
-[19:44] slim we can make it
-[19:46] this one will sort of bump into the
-[19:48] other one i guess
-[19:52] but then hold on
-[19:56] this is not even a good place i mean
-[19:58] it's nice to have it there but wouldn't
-[19:59] it be better to have it
-[20:03] there perhaps
-[20:07] i think so
-[20:10] and then if this one comes down then it
-[20:12] can go oops
-[20:17] it can go this close
-[20:20] still closer than before
-[20:23] yeah i think that's uh that's a nice
-[20:25] closeness factor yep let's do that and
-[20:28] we are still working on this part in
-[20:31] in
-[20:32] and then you're gonna go in here
-[20:41] i like this
-[20:43] this is
-[20:44] very very nice and very tight
-[20:46] i like it okay so this is a template for
-[20:48] sure
-[20:50] and let's just check something about
-[20:52] this template here
-[20:54] does that work here except for the for
-[20:56] that one but i'll just cut that out
-[20:58] right now cool what i wanted with this
-[21:00] was i wanted to make a template that we
-[21:03] can use for a small build
-[21:06] i'm gonna take this out
-[21:09] so if we have a one to four train that
-[21:11] is a good template to do
-[21:13] where we're gonna put it i don't know
-[21:14] we'll put it in here temporarily but
-[21:16] it's not going to be part of it because
-[21:19] so
-[21:20] that means we can take all of this out
-[21:23] all of this up all this up so what is it
-[21:26] we want to do we want to now
-[21:28] see what we can do with our new to sound
-[21:30] design here what if we build it right up
-[21:32] here and realize that it's completely
-[21:35] not
-[21:36] not at the right location
-[21:39] i'd really like it to go one in entirely
-[21:44] i could build it up here and i would
-[21:46] aim it directly but that is also pretty
-[21:49] cool let's do that
-[21:51] right so what is it we want in terms of
-[21:54] of stackers i think we want to stack up
-[21:56] like this
-[22:01] here
-[22:02] not that one
-[22:05] so that's going to be a
-[22:07] generic stacker ability thing and let's
-[22:10] again take the whole thing here and
-[22:12] nothing but the thing that one
-[22:14] and then say okay how far below that is
-[22:17] the closest that's super nice we don't
-[22:20] need it this close we absolutely do not
-[22:22] want it this close either actually we do
-[22:24] maybe
-[22:26] that is so nice that we can make it this
-[22:28] close
-[22:29] damn that is so nice
-[22:33] sorry i'm getting hit a bit ahead of
-[22:35] myself here but it's what's really
-[22:36] important is that
-[22:42] it is aligning to this structure here
-[22:44] perfect
-[22:46] all right this is good we'll take it
-[22:48] like this
-[22:50] and this one will also go in
-[22:52] boom and then we just need to figure out
-[22:55] how to do this part which is almost done
-[22:58] for us already
-[23:04] this looks simple
-[23:07] this one
-[23:12] i'm gonna have to draw it real
-[23:15] for real
-[23:16] to make sure that it works and for some
-[23:18] reason this one is probably gonna be out
-[23:20] that's so
-[23:21] strange that this is gonna go out and
-[23:24] do i need three lanes of input here no i
-[23:27] don't i don't think i need that i think
-[23:29] i'll just make you with two
-[23:31] there
-[23:34] but the sequencing here i love the fact
-[23:36] that it is completely synchro
-[23:39] synchronized here
-[23:42] and it also gives me the
-[23:44] confidence that i can put four inputs in
-[23:46] one output great this is also definitely
-[23:49] not it
-[23:51] we are going to get another one of those
-[23:53] small
-[23:55] where are you
-[23:57] there
-[24:01] so you could build it right there then
-[24:03] it will balance as fast as possible i
-[24:05] think that's a good idea
-[24:08] balance it as close to the source as
-[24:11] possible and then we know that what
-[24:12] comes out here is inherently balanced
-[24:23] yeah that didn't quite work
-[24:32] hmm
-[24:40] how
-[24:41] close
-[24:45] this is as close as we can take it
-[24:50] look at this
-[24:52] i don't know it it feels both right and
-[24:54] wrong to do designs
-[24:56] like this
-[24:58] here with ghosts only
-[25:07] it's certainly an advantage if you're
-[25:09] not building it perfectly in the first
-[25:10] try and
-[25:11] anyone who's been following what i do
-[25:13] here is quite
-[25:15] knows quite well that i never do things
-[25:17] right the first time
-[25:18] there
-[25:24] so this is just a lot easier not only
-[25:26] because there are no bombs that will
-[25:28] explode on us i think we got our design
-[25:30] here i think we got it
-[25:34] this
-[25:35] will
-[25:36] does that mean the whole thing comes one
-[25:37] up
-[25:38] yeah it kind of does doesn't it
-[25:42] that's not a problem it's definitely not
-[25:44] a problem that it goes one up that's
-[25:46] just making it
-[25:48] nicer
-[25:52] but it's kind of important that it
-[25:54] actually hits correctly
-[25:56] there
-[25:58] that one that one that one
-[26:02] and you know what i am going to bring my
-[26:04] biotron or my builder trance they're
-[26:06] gonna be here uh oh hold on
-[26:08] i forgot this
-[26:13] get closer
-[26:14] take care of this there we go
-[26:19] now by builders are going to just try to
-[26:22] be useful here
-[26:23] while i continue on my design
-[26:27] this part
-[26:35] looking good and now i need
-[26:42] that's the ideal location i think
-[27:00] okay
-[27:01] ah that's not great
-[27:03] i think i'll just kill these they are
-[27:11] they're not really important to have
-[27:15] let's do that
-[27:20] look at this thing you can go up and
-[27:21] just right kiss that one or they can go
-[27:24] all the way over
-[27:25] here
-[27:27] and try to get a bit of space
-[27:32] whoops
-[27:32] that one
-[27:39] and here
-[27:41] does that look okay
-[27:43] i mean there's no reason that it has to
-[27:45] jump this far out
-[27:48] i could take this one and just go like
-[27:51] one
-[27:52] two
-[27:56] that kind of looks better i think
-[28:00] what about if i need to get
-[28:05] that one
-[28:07] so that works i think i want this one
-[28:08] for a lot later on in the game then i
-[28:11] need this
-[28:12] i like the look of this
-[28:14] it's uh equals spaced everywhere for
-[28:17] difference and four here and
-[28:19] this one's okay
-[28:20] yeah i think i'm gonna go with that one
-[28:22] i could take the whole thing one tile up
-[28:25] and it'll just be make it a l slightly
-[28:27] less cramped down here
-[28:29] like that
-[28:30] that line we just built i could take
-[28:32] that out
-[28:34] now we're happy with this i am going to
-[28:36] build these stations
-[28:38] and then make sure that they have the
-[28:40] right names because that's not the right
-[28:41] names this one will be
-[28:43] top one what did i say i wanted i wanted
-[28:45] i wanted plastic up here
-[28:47] let's get plastic good
-[28:49] and next one
-[28:51] will be
-[28:56] green
-[28:58] and the last one will be copper great
-[29:01] and this one outbound will be
-[29:04] a new one
-[29:06] there it is time to build it cool so
-[29:09] let's uh get all of my build-a-trons in
-[29:13] action it's very important this one
-[29:14] remains unbuilt
-[29:16] let's build it
-[29:30] [Music]
-[29:58] so
-[30:47] here we go everything is built and there
-[30:49] are of course a few things still to take
-[30:51] care of here
-[30:53] i think i'd like to have a
-[30:57] here that means they can't use i don't
-[30:59] think that's going to be necessary but
-[31:01] what we do need all of these have have
-[31:03] the
-[31:04] signals that is good this one it does
-[31:06] not have an expo x
-[31:08] exit signal does it no it does not have
-[31:10] an
-[31:11] exit signal
-[31:15] let's build it down here
-[31:17] and then we need
-[31:18] some robo ports for sure
-[31:21] how close how much do we want up here
-[31:23] and we can actually build it right there
-[31:25] so that's good and then we can build it
-[31:28] [Music]
-[31:30] it's not actually good enough because if
-[31:32] we look at it as much as it actually
-[31:34] hits the top
-[31:36] it doesn't hit the bottom one
-[31:39] so it looks like we're gonna need a few
-[31:40] more than we'd like
-[31:43] if i can build it here though
-[31:45] but then i can't build it the same place
-[31:47] over on the other side
-[31:49] well that's the
-[31:50] disadvantage of our current build
-[31:53] it doesn't matter at the end at the end
-[31:55] of the day the amount of roboport needed
-[31:57] is completely irrelevant
-[31:59] to our build and the efficiency of our
-[32:01] build it's just one of those small nice
-[32:03] things here
-[32:05] neither of those are built so i'm going
-[32:06] to put it here and i'm going to put
-[32:08] another one
-[32:09] down
-[32:10] there
-[32:13] build it and
-[32:15] i think that one is for just a
-[32:16] connection
-[32:18] good we have now
-[32:20] robot coverage of all of the builds
-[32:23] everything is built and everything is
-[32:25] ready what i do not have is making sure
-[32:27] that this is the correct one
-[32:29] this one is 32 000 that's enough for a
-[32:32] train uh that's
-[32:34] pretty idiotic i just copied
-[32:36] the provider one
-[32:38] and not the requester
-[32:41] okay so let's uh kill this and take the
-[32:45] right copy
-[32:47] these are the ones that oh there that's
-[32:49] the provider is below the request is
-[32:51] above and that's not correct this is the
-[32:53] requester part and that has a lot of
-[32:55] junk in it
-[32:56] so we'll do this
-[33:02] there
-[33:05] not a good example
-[33:06] actually
-[33:08] oh really it covers like that
-[33:14] i guess that is a good example then
-[33:16] so it goes
-[33:17] from this one in here that one is part
-[33:20] of the next one
-[33:22] this one goes in and this one says
-[33:25] maximum 72 000 er the cargo wagon is 16
-[33:28] 000 that's not correct
-[33:30] 32
-[33:31] 32 000 but we have to remember that i
-[33:34] have fewer tr
-[33:36] fewer here so this one is actually only
-[33:38] 16. let's look at the calculation i have
-[33:40] 16 times 4 800 in each that is 76 800
-[33:45] that means i cannot maximum have
-[33:47] 72 000.
-[33:49] that's not much not that much
-[33:53] oh no
-[33:54] oh no
-[33:56] oh it's actually exactly the same but
-[33:57] i'm still gonna take this out because i
-[33:59] don't know if
-[34:00] the wiring is gonna be exactly the same
-[34:02] that one isn't really necessary anymore
-[34:05] is it no it's not
-[34:08] especially because of that
-[34:10] and this one's also going to go out just
-[34:13] making sure we got all the right things
-[34:14] here that one
-[34:16] and then we hook it up from here to
-[34:19] there over here to here and then go into
-[34:22] the station
-[34:23] uh if you're in doubt about what the
-[34:25] hell is all this circuit thing is then i
-[34:27] have a previous video in my
-[34:32] in my previous series called
-[34:35] many in my base in a book called
-[34:37] many to many strain network and that's
-[34:39] exactly what this does
-[34:41] this will do a maximum of three but it
-[34:42] can actually do more than two so
-[34:45] it might be a bit
-[34:47] excessive here
-[34:48] and this one though is going to be green
-[34:50] circuit so that will be twice as much so
-[34:52] it's going to be 144
-[34:55] and it'll then be 64 on the string there
-[34:58] we go
-[35:02] yeah
-[35:04] and
-[35:05] this one up here
-[35:07] is going to be the plastic so that's
-[35:09] also good so what we have now is all the
-[35:11] things we want everything should be good
-[35:13] the remaining thing we need is just to
-[35:16] hook this one up
-[35:17] hold on let me think uh no we have one
-[35:20] more thing
-[35:21] now that we have the plastic we build a
-[35:23] plastic train
-[35:24] now we have a plastic location for you
-[35:26] to go to
-[35:29] should have there
-[35:31] but it's inaccessible of course it's
-[35:32] inaccessible
-[35:34] empty
-[35:36] it has no path that's completely
-[35:37] understandable
-[35:39] that was the sound of a copy i am going
-[35:41] to paste one more and
-[35:43] paste one more i think the right
-[35:44] solution is that we have three of each
-[35:47] train three trains for each station that
-[35:49] sounds good here for example i have a
-[35:52] total of two trains copy
-[35:54] and that will give me one more train go
-[36:00] that one goes in trains
-[36:04] one
-[36:05] two three get that rebuilt so they're
-[36:08] ready for more and
-[36:10] if i look at the station i have nine
-[36:12] that's three times as many this one is
-[36:14] 15 that's three plus six maybe i guess
-[36:18] and output wise this one has
-[36:21] three stations so that's nine and this
-[36:23] one has three and it has one uh
-[36:26] let's
-[36:28] let's improve that
-[36:30] two more
-[36:34] go and go
-[36:38] so there's at least one for each station
-[36:41] send the other one out thank you very
-[36:42] much and let's clear it clear
-[36:46] good let's get down here now we have all
-[36:47] the trains available and everything
-[36:49] should be working as soon as i do
-[36:53] that one you can go home my friend
-[36:57] and what we should see is the
-[36:59] fuel train is inbound let me not stand
-[37:02] on tracks and just
-[37:04] hope that everything works
-[37:06] we got lights we got things going on
-[37:08] it's good all right let's see what we uh
-[37:11] see if this works that's gonna be
-[37:12] exciting
-[37:15] what is the first thing let's uh
-[37:16] actually look this one
-[37:18] already sent in this one
-[37:22] oh look at that it's coming in
-[37:24] it's coming in
-[37:26] come on copper
-[37:28] ah this is beautiful this is what we
-[37:30] love please work
-[37:32] i love it when things just work in the
-[37:33] first try
-[37:35] let me get over here
-[37:36] but i don't know if it works yet so
-[37:38] let's uh hold our horses here
-[37:42] or i could have been doing this a
-[37:43] hundred times and just re-recording
-[37:45] until it finally works in the first try
-[37:48] i could have done that i could have done
-[37:49] that
-[37:50] but i wouldn't of course i wouldn't oh
-[37:52] look at that
-[37:53] what the hell
-[37:55] everything is off
-[37:57] nothing is working there's missing a
-[38:00] single module
-[38:02] two modules actually
-[38:05] and i don't have more modules i
-[38:06] shouldn't have sent my construction
-[38:07] train oh there's also stuff over here
-[38:09] that's missing there as well oh no
-[38:14] no more
-[38:17] right the only thing missing is part of
-[38:19] the nuclear power plant
-[38:21] excellent let's see what we get up
-[38:24] looks pretty good we should um
-[38:27] we're going to be basically seeing
-[38:29] is
-[38:30] the belt here coming all the way down
-[38:32] yes are all of these working if the last
-[38:35] ones are working then it has flown all
-[38:37] the
-[38:38] slowing all the way to the end
-[38:40] looks good
-[38:41] looks like we're consuming
-[38:43] this one is not quite dense why is it
-[38:46] not quite dense
-[38:48] oh because uh
-[38:53] that's so nice to see that you can see
-[38:55] there's a problem on the flow rate and
-[38:58] then you find trace it back and find it
-[39:00] so i'm gonna call that still working on
-[39:01] first try
-[39:03] they're full flowing belts i'm gonna do
-[39:07] here and this will give us the
-[39:09] result of how much is actually being
-[39:11] made this is 123 per second and you can
-[39:14] see if we look at it in terms of
-[39:17] transport belts
-[39:19] there it is almost four volts almost
-[39:21] four bits and less than three belts that
-[39:23] makes pretty good sense here
-[39:26] let's go back to per second that's much
-[39:27] easier to work with but the idea that we
-[39:29] are almost consuming full belts is super
-[39:32] super nice and what you're gonna need is
-[39:34] a train station or a train
-[39:37] one of these will be going to
-[39:39] that one until full go
-[39:44] it's not going to
-[39:46] get there yet let's actually have a look
-[39:48] at this this is on 64 000 good
-[39:51] and
-[39:52] it'll it's going to take a while for
-[39:53] this one to get there but we have it
-[39:55] working it is amazing and it's awesome
-[39:57] what the only thing remaining is is just
-[40:00] to go up here remove all of this and
-[40:02] build another location like that which
-[40:04] should be pretty simple the hardest part
-[40:07] of this is actually just
-[40:08] accepting that all of this is now very
-[40:11] dead
-[40:12] like that
-[40:13] it's crazy right it's crazy how it just
-[40:16] destroys something this big
-[40:19] and replace it
-[40:20] and then we'll be able to get
-[40:22] technically eight lanes out but of
-[40:24] course we can't support eight lanes but
-[40:26] we're gonna get a like this one but
-[40:27] except with four lanes so that's gonna
-[40:30] be what we want i'm gonna just gonna let
-[40:32] this uh
-[40:33] this delete
-[40:34] there
-[40:35] and then we'll be coming back up here to
-[40:37] build that design
-[40:39] okay so we are back here and everything
-[40:42] has been cleaned out i am going to
-[40:45] remove this
-[40:47] and then i'm going to simply take
-[40:49] this copy here uh
-[40:53] actually not i'm gonna take that one
-[40:57] so far so good and then i'm going to
-[40:59] take this part
-[41:03] and then
-[41:04] hurry up and delete it extremely fast
-[41:06] like
-[41:07] that one and then call it something else
-[41:09] call it red circuits inbound before
-[41:11] anything else gets built there we go
-[41:13] now this is red circuits inbound
-[41:16] that's good and i will be taking all of
-[41:19] this out because that's not how we
-[41:21] intend to make it
-[41:22] i am not going to make it like this i
-[41:24] think we'll take the top ones and the
-[41:26] bottom ones and then kick all this out
-[41:28] there
-[41:30] there i think that makes much more sense
-[41:36] that one
-[41:38] there
-[41:39] and then we need again the 4x4
-[41:42] balancer that we've been using so many
-[41:44] times
-[41:46] there it is it's blue
-[41:49] how is this one doing it's doing great i
-[41:51] just
-[41:53] can i take this yep
-[41:55] doing great what is this one this is at
-[41:58] 13 000 but that's because we already
-[42:00] have the first 64.
-[42:02] so that's actually not so bad
-[42:05] it is ready to go
-[42:07] and this one i will simply merge two
-[42:10] things together
-[42:11] like that
-[42:22] that'd be like the simplest way of doing
-[42:24] it
-[42:35] oops
-[42:38] there now that goes all the way in and
-[42:41] on this side
-[42:46] funny how that's actually
-[42:48] possible there
-[42:53] one two
-[42:55] three
-[42:56] four
-[42:57] up up up and then i'll get just that one
-[43:01] downwards
-[43:02] should be good and it will
-[43:04] work
-[43:05] yeah it'll work but it won't work really
-[43:07] well because
-[43:09] i only have a loading location i don't
-[43:11] have this one until empty
-[43:14] and then i oh uh this train go
-[43:20] what what what
-[43:22] oh that's the wrong train i got
-[43:24] that one
-[43:26] okay good thing i didn't panic there
-[43:29] all right cool and i'm gonna get a few
-[43:31] more
-[43:32] always three trains for these
-[43:34] though that's pretty insane to do yeah
-[43:38] actually that is uh not just incorrect
-[43:41] but it's very incorrect
-[43:42] i can do two but i definitely should not
-[43:45] do three
-[43:46] then they'll simply be stuck at the
-[43:48] output location waiting for something to
-[43:49] get in but yeah i want two trains that
-[43:52] should be fine even though i only have
-[43:54] one place to go this is going to be
-[43:55] where we are and i will just check if
-[43:57] this quantity is looking correct 144 yes
-[44:00] it does
-[44:01] we got the red ones in and that will be
-[44:04] the conclusion of what we wanted to do
-[44:06] today was
-[44:07] getting all of the red circuits now
-[44:09] produced offsite and now brought in now
-[44:12] with with with all of these with iron
-[44:14] copper
-[44:16] steel green plastic
-[44:18] and red built we can continue to uh
-[44:22] yeah
-[44:23] oops no one saw that
-[44:27] i wonder if all of this will work ah
-[44:29] building in the right sequence so it
-[44:30] should work
-[44:31] right so what we want to do now is i
-[44:34] think we'll need to focus a bit on power
-[44:36] we have built all the stuff we need for
-[44:37] power power is doing good again but i
-[44:39] think i'd like to sort of expand
-[44:41] outwards we can use the iron copper
-[44:44] no we can't do batteries if we don't
-[44:46] have batteries we can't do accumulators
-[44:48] so doing batteries is also building
-[44:50] sulfur and sulfuric acid and that also
-[44:52] enables the blue science so maybe that's
-[44:55] uh that's one of the next things we want
-[44:57] to build
-[44:58] also because sulfuric acid enables blue
-[45:00] science blue circuits and blue circuits
-[45:02] is what we need in order to make a
-[45:03] module output so it's going to be
-[45:05] focusing on sulfur sulfuric acid
-[45:07] batteries blue circuits
-[45:10] solar panel build
-[45:12] module build and then going forward into
-[45:14] sciences there wow that's a lot of
-[45:16] things that we have here good thing
-[45:18] there are a lot of
-[45:20] lovely awesome patreon supporters
-[45:21] supporting the channel they know
-[45:23] i've said this sort of rule and the
-[45:25] gimmick here for this one is that i will
-[45:27] make an episode for every templar of the
-[45:29] path that is there so every startup
-[45:31] episode there is a little shout out in
-[45:33] the lower left hand corner
-[45:35] to to show who is the sponsor of this
-[45:36] episode and i will make one for every
-[45:38] single uh
-[45:40] single patron that is supporting every
-[45:42] single templar of the path supporting
-[45:44] the channel so good thing thank you very
-[45:47] much and thank you to all the patrons of
-[45:49] various levels for supporting i hope
-[45:50] you've enjoyed this episode i hope you
-[45:52] are enjoying these
-[45:54] beautiful flowing belts of
-[45:56] red there's always like one of those at
-[45:58] the end so you can just freak out in the
-[45:59] comment section
-[46:01] yeah so
-[46:02] thank you for watching i will see you
-[46:03] guys next time be sure to hit the like
-[46:05] button if you like what you see and i'll
-[46:06] see you next time until then take care
-[46:09] and stay effective
-[46:12] [Music]
-[46:32] you
+[00:00](https://youtu.be/Wl-YefXGUUo?t=0) welcome to factorio megabase in a book
+[00:02](https://youtu.be/Wl-YefXGUUo?t=2) my name is nilas and we are going to
+[00:04](https://youtu.be/Wl-YefXGUUo?t=4) continue today on our expansion of this
+[00:07](https://youtu.be/Wl-YefXGUUo?t=7) glorious megabase or
+[00:09](https://youtu.be/Wl-YefXGUUo?t=9) uh the prospective megabase because my
+[00:12](https://youtu.be/Wl-YefXGUUo?t=12) definition of megabase is usually i
+[00:14](https://youtu.be/Wl-YefXGUUo?t=14) think that's kind of the common one is
+[00:16](https://youtu.be/Wl-YefXGUUo?t=16) that it's a thousand signs per minute
+[00:18](https://youtu.be/Wl-YefXGUUo?t=18) and we are nowhere near and we won't be
+[00:20](https://youtu.be/Wl-YefXGUUo?t=20) anywhere near that for a long time most
+[00:22](https://youtu.be/Wl-YefXGUUo?t=22) of the time when you build a megabase
+[00:24](https://youtu.be/Wl-YefXGUUo?t=24) it's not sort of gradually scaling up
+[00:26](https://youtu.be/Wl-YefXGUUo?t=26) but in this case i will be building
+[00:28](https://youtu.be/Wl-YefXGUUo?t=28) everything towards a very large scale
+[00:30](https://youtu.be/Wl-YefXGUUo?t=30) and then only sort towards the end will
+[00:31](https://youtu.be/Wl-YefXGUUo?t=31) i be able to just unleash the beast and
+[00:35](https://youtu.be/Wl-YefXGUUo?t=35) then we'll be spending a lot of time
+[00:36](https://youtu.be/Wl-YefXGUUo?t=36) debugging and figuring out all the
+[00:38](https://youtu.be/Wl-YefXGUUo?t=38) things we haven't really figured out yet
+[00:40](https://youtu.be/Wl-YefXGUUo?t=40) but at this point we are having a few
+[00:42](https://youtu.be/Wl-YefXGUUo?t=42) things that
+[00:44](https://youtu.be/Wl-YefXGUUo?t=44) that are of concern that one of the
+[00:46](https://youtu.be/Wl-YefXGUUo?t=46) things is of course we can continue on
+[00:49](https://youtu.be/Wl-YefXGUUo?t=49) our design quest of just taking the next
+[00:51](https://youtu.be/Wl-YefXGUUo?t=51) step what we have done is we've done
+[00:53](https://youtu.be/Wl-YefXGUUo?t=53) steel iron copper green and now plastic
+[00:56](https://youtu.be/Wl-YefXGUUo?t=56) and that leads very much into the red
+[00:59](https://youtu.be/Wl-YefXGUUo?t=59) that i've prepared over here
+[01:01](https://youtu.be/Wl-YefXGUUo?t=61) but there are two considerations for us
+[01:03](https://youtu.be/Wl-YefXGUUo?t=63) to well consider
+[01:05](https://youtu.be/Wl-YefXGUUo?t=65) and one of them being we're actually
+[01:07](https://youtu.be/Wl-YefXGUUo?t=67) using quite a lot of power
+[01:09](https://youtu.be/Wl-YefXGUUo?t=69) and there are two ways to do that we can
+[01:11](https://youtu.be/Wl-YefXGUUo?t=71) expand with more nuclear power plants or
+[01:13](https://youtu.be/Wl-YefXGUUo?t=73) we can expand with more solar panels i
+[01:15](https://youtu.be/Wl-YefXGUUo?t=75) am going to do both but i am going to
+[01:17](https://youtu.be/Wl-YefXGUUo?t=77) start by putting down nuclear because
+[01:19](https://youtu.be/Wl-YefXGUUo?t=79) its easiest then i am going to
+[01:21](https://youtu.be/Wl-YefXGUUo?t=81) have to do
+[01:22](https://youtu.be/Wl-YefXGUUo?t=82) in the near future do some expansion and
+[01:25](https://youtu.be/Wl-YefXGUUo?t=85) then start really making a large effort
+[01:28](https://youtu.be/Wl-YefXGUUo?t=88) into
+[01:30](https://youtu.be/Wl-YefXGUUo?t=90) into expanding solar because at the end
+[01:32](https://youtu.be/Wl-YefXGUUo?t=92) of this we will not be able to sustain
+[01:35](https://youtu.be/Wl-YefXGUUo?t=95) nuclear power because there are just
+[01:36](https://youtu.be/Wl-YefXGUUo?t=96) simply too many calculations with all
+[01:38](https://youtu.be/Wl-YefXGUUo?t=98) the liquid back and forth all the heat
+[01:40](https://youtu.be/Wl-YefXGUUo?t=100) piping back and forth and it's simply
+[01:42](https://youtu.be/Wl-YefXGUUo?t=102) too many entities so we need to have
+[01:43](https://youtu.be/Wl-YefXGUUo?t=103) solar for a megabase of the size that we
+[01:45](https://youtu.be/Wl-YefXGUUo?t=105) want to make
+[01:47](https://youtu.be/Wl-YefXGUUo?t=107) so we need to consider power and i will
+[01:49](https://youtu.be/Wl-YefXGUUo?t=109) consider that first the second thing is
+[01:51](https://youtu.be/Wl-YefXGUUo?t=111) actually
+[01:52](https://youtu.be/Wl-YefXGUUo?t=112) a bit more problematic that i just
+[01:54](https://youtu.be/Wl-YefXGUUo?t=114) noticed is that we are actually running
+[01:55](https://youtu.be/Wl-YefXGUUo?t=115) out speed modules so
+[01:57](https://youtu.be/Wl-YefXGUUo?t=117) after we are building the red science i
+[01:59](https://youtu.be/Wl-YefXGUUo?t=119) think i want to build towards
+[02:01](https://youtu.be/Wl-YefXGUUo?t=121) the blue signs because when we have
+[02:03](https://youtu.be/Wl-YefXGUUo?t=123) green red and blue signs then we can
+[02:04](https://youtu.be/Wl-YefXGUUo?t=124) actually make an outpost that is
+[02:06](https://youtu.be/Wl-YefXGUUo?t=126) dedicated to making modules
+[02:08](https://youtu.be/Wl-YefXGUUo?t=128) i think that's going to be a good thing
+[02:10](https://youtu.be/Wl-YefXGUUo?t=130) to do before we sort of dive into more
+[02:12](https://youtu.be/Wl-YefXGUUo?t=132) of the advanced materials as well
+[02:15](https://youtu.be/Wl-YefXGUUo?t=135) now
+[02:16](https://youtu.be/Wl-YefXGUUo?t=136) let's start with making a nuclear power
+[02:17](https://youtu.be/Wl-YefXGUUo?t=137) plant what you can also see is that i
+[02:19](https://youtu.be/Wl-YefXGUUo?t=139) have again cheated oh no
+[02:23](https://youtu.be/Wl-YefXGUUo?t=143) here i am using again the water tiles
+[02:25](https://youtu.be/Wl-YefXGUUo?t=145) because i don't find it's super fun to
+[02:28](https://youtu.be/Wl-YefXGUUo?t=148) drag piles everywhere so i'm going to
+[02:30](https://youtu.be/Wl-YefXGUUo?t=150) stamp this down here and i'm going to
+[02:32](https://youtu.be/Wl-YefXGUUo?t=152) stamp this down here that will get us
+[02:36](https://youtu.be/Wl-YefXGUUo?t=156) the water fill and then we'll be
+[02:37](https://youtu.be/Wl-YefXGUUo?t=157) building
+[02:39](https://youtu.be/Wl-YefXGUUo?t=159) a couple more power plants i
+[02:41](https://youtu.be/Wl-YefXGUUo?t=161) think we'll build this one first i don't
+[02:43](https://youtu.be/Wl-YefXGUUo?t=163) know if we well i'm pretty sure we
+[02:44](https://youtu.be/Wl-YefXGUUo?t=164) shouldn't be building both of them at
+[02:46](https://youtu.be/Wl-YefXGUUo?t=166) the same time
+[02:48](https://youtu.be/Wl-YefXGUUo?t=168) yeah well so let's do that
+[02:52](https://youtu.be/Wl-YefXGUUo?t=172) that is always like a good reasoning
+[02:55](https://youtu.be/Wl-YefXGUUo?t=175) here and when the length the water fill
+[02:57](https://youtu.be/Wl-YefXGUUo?t=177) comes in that's the what is coming here
+[02:59](https://youtu.be/Wl-YefXGUUo?t=179) i think
+[03:01](https://youtu.be/Wl-YefXGUUo?t=181) there's the water fill okay so once the
+[03:02](https://youtu.be/Wl-YefXGUUo?t=182) water fill comes in then we can switch
+[03:05](https://youtu.be/Wl-YefXGUUo?t=185) back to that one and then it's going in
+[03:08](https://youtu.be/Wl-YefXGUUo?t=188) and over on the other side
+[03:10](https://youtu.be/Wl-YefXGUUo?t=190) here so that was an easy expansion of
+[03:13](https://youtu.be/Wl-YefXGUUo?t=193) nuclear power it goes all the way up
+[03:15](https://youtu.be/Wl-YefXGUUo?t=195) here
+[03:16](https://youtu.be/Wl-YefXGUUo?t=196) what we also want to do is uh if we want
+[03:18](https://youtu.be/Wl-YefXGUUo?t=198) to move forward with
+[03:21](https://youtu.be/Wl-YefXGUUo?t=201) with um with solar power then we should
+[03:23](https://youtu.be/Wl-YefXGUUo?t=203) be taking out whatever is in the corners
+[03:26](https://youtu.be/Wl-YefXGUUo?t=206) so let me see do i have any of
+[03:30](https://youtu.be/Wl-YefXGUUo?t=210) the new this oh where are they here do i
+[03:32](https://youtu.be/Wl-YefXGUUo?t=212) have any of those
+[03:34](https://youtu.be/Wl-YefXGUUo?t=214) nope i don't okay well let's um let's
+[03:37](https://youtu.be/Wl-YefXGUUo?t=217) make one
+[03:38](https://youtu.be/Wl-YefXGUUo?t=218) and anything that doesn't really fit
+[03:40](https://youtu.be/Wl-YefXGUUo?t=220) directly into the hub i just make it up
+[03:42](https://youtu.be/Wl-YefXGUUo?t=222) here together with some of the other
+[03:44](https://youtu.be/Wl-YefXGUUo?t=224) stuff then it just becomes like a random
+[03:47](https://youtu.be/Wl-YefXGUUo?t=227) random thing we built
+[03:50](https://youtu.be/Wl-YefXGUUo?t=230) there
+[03:53](https://youtu.be/Wl-YefXGUUo?t=233) oh on this side i'm going to get
+[03:55](https://youtu.be/Wl-YefXGUUo?t=235) inbound outbound
+[03:57](https://youtu.be/Wl-YefXGUUo?t=237) outbound
+[03:58](https://youtu.be/Wl-YefXGUUo?t=238) oops inbound here and we'll build some
+[04:04](https://youtu.be/Wl-YefXGUUo?t=244) just making it quickly
+[04:06](https://youtu.be/Wl-YefXGUUo?t=246) no need to spend too much time on this
+[04:08](https://youtu.be/Wl-YefXGUUo?t=248) and i'll just get 10. i will get
+[04:11](https://youtu.be/Wl-YefXGUUo?t=251) one of those in my inventory let's see
+[04:13](https://youtu.be/Wl-YefXGUUo?t=253) what it's it's getting are you getting
+[04:15](https://youtu.be/Wl-YefXGUUo?t=255) everything here
+[04:16](https://youtu.be/Wl-YefXGUUo?t=256) uh no you're not getting the concrete
+[04:19](https://youtu.be/Wl-YefXGUUo?t=259) why is the concrete not getting in here
+[04:22](https://youtu.be/Wl-YefXGUUo?t=262) that's odd maybe i'm not getting having
+[04:24](https://youtu.be/Wl-YefXGUUo?t=264) concrete built
+[04:26](https://youtu.be/Wl-YefXGUUo?t=266) this is not what i'm supposed to be
+[04:28](https://youtu.be/Wl-YefXGUUo?t=268) doing i'm not supposed to be doing this
+[04:30](https://youtu.be/Wl-YefXGUUo?t=270) this is concrete yeah
+[04:32](https://youtu.be/Wl-YefXGUUo?t=272) uh oh right it's not actually uh
+[04:37](https://youtu.be/Wl-YefXGUUo?t=277) doing that and here this is gonna be a
+[04:39](https://youtu.be/Wl-YefXGUUo?t=279) little concrete build
+[04:43](https://youtu.be/Wl-YefXGUUo?t=283) there that should be fine now this is
+[04:45](https://youtu.be/Wl-YefXGUUo?t=285) being picked up
+[04:47](https://youtu.be/Wl-YefXGUUo?t=287) cool
+[04:49](https://youtu.be/Wl-YefXGUUo?t=289) so what i want to do in this case and
+[04:50](https://youtu.be/Wl-YefXGUUo?t=290) you we can actually do that in a very
+[04:52](https://youtu.be/Wl-YefXGUUo?t=292) simple way i can just make it like that
+[04:54](https://youtu.be/Wl-YefXGUUo?t=294) i can just put it on a dashboard and you
+[04:57](https://youtu.be/Wl-YefXGUUo?t=297) when it's on the dashboard then it will
+[04:59](https://youtu.be/Wl-YefXGUUo?t=299) i can actually place it i just want to
+[05:01](https://youtu.be/Wl-YefXGUUo?t=301) make a little
+[05:04](https://youtu.be/Wl-YefXGUUo?t=304) little turret out here that will take
+[05:05](https://youtu.be/Wl-YefXGUUo?t=305) care of just randomly shooting at stuff
+[05:08](https://youtu.be/Wl-YefXGUUo?t=308) there we go and it'll be very simple
+[05:11](https://youtu.be/Wl-YefXGUUo?t=311) just give up
+[05:12](https://youtu.be/Wl-YefXGUUo?t=312) input
+[05:13](https://youtu.be/Wl-YefXGUUo?t=313) here
+[05:14](https://youtu.be/Wl-YefXGUUo?t=314) you will be getting
+[05:17](https://youtu.be/Wl-YefXGUUo?t=317) some
+[05:18](https://youtu.be/Wl-YefXGUUo?t=318) artillery shells let's go 20 of those
+[05:22](https://youtu.be/Wl-YefXGUUo?t=322) and a powerful
+[05:25](https://youtu.be/Wl-YefXGUUo?t=325) good
+[05:26](https://youtu.be/Wl-YefXGUUo?t=326) that one
+[05:29](https://youtu.be/Wl-YefXGUUo?t=329) also need it up here probably not gonna
+[05:31](https://youtu.be/Wl-YefXGUUo?t=331) do much i also need it down here
+[05:34](https://youtu.be/Wl-YefXGUUo?t=334) from oops
+[05:36](https://youtu.be/Wl-YefXGUUo?t=336) that one and over on the side
+[05:41](https://youtu.be/Wl-YefXGUUo?t=341) actually should just flip it shouldn't i
+[05:43](https://youtu.be/Wl-YefXGUUo?t=343) i should have flipped it
+[05:47](https://youtu.be/Wl-YefXGUUo?t=347) for this one
+[05:51](https://youtu.be/Wl-YefXGUUo?t=351) completely incorrect there
+[05:53](https://youtu.be/Wl-YefXGUUo?t=353) and then flip much nicer
+[05:56](https://youtu.be/Wl-YefXGUUo?t=356) there you go that will be built i
+[05:57](https://youtu.be/Wl-YefXGUUo?t=357) actually don't need this one inbound to
+[05:59](https://youtu.be/Wl-YefXGUUo?t=359) me
+[06:00](https://youtu.be/Wl-YefXGUUo?t=360) but it's coming in good there we go
+[06:02](https://youtu.be/Wl-YefXGUUo?t=362) this one will be getting all the stuff
+[06:04](https://youtu.be/Wl-YefXGUUo?t=364) and then it will start shooting
+[06:07](https://youtu.be/Wl-YefXGUUo?t=367) just this nice nice little area it's not
+[06:09](https://youtu.be/Wl-YefXGUUo?t=369) going to be big but it'll just take care
+[06:10](https://youtu.be/Wl-YefXGUUo?t=370) of the stuff that's around and it will
+[06:12](https://youtu.be/Wl-YefXGUUo?t=372) probably see a lot of attack coming in
+[06:14](https://youtu.be/Wl-YefXGUUo?t=374) excellent that was not what we wanted to
+[06:16](https://youtu.be/Wl-YefXGUUo?t=376) do but it is some of the things we need
+[06:18](https://youtu.be/Wl-YefXGUUo?t=378) to do in preparation for what is to come
+[06:20](https://youtu.be/Wl-YefXGUUo?t=380) and what is to come is the expansion of
+[06:22](https://youtu.be/Wl-YefXGUUo?t=382) a gigantic area for
+[06:25](https://youtu.be/Wl-YefXGUUo?t=385) as for solar panels
+[06:26](https://youtu.be/Wl-YefXGUUo?t=386) then what we want to do today is the
+[06:28](https://youtu.be/Wl-YefXGUUo?t=388) design of the red signs red circuits
+[06:32](https://youtu.be/Wl-YefXGUUo?t=392) science circuits let's just never ever
+[06:33](https://youtu.be/Wl-YefXGUUo?t=393) getting it right
+[06:35](https://youtu.be/Wl-YefXGUUo?t=395) and we're gonna get our little train hit
+[06:38](https://youtu.be/Wl-YefXGUUo?t=398) the train get it over here
+[06:40](https://youtu.be/Wl-YefXGUUo?t=400) and that will again always be a
+[06:43](https://youtu.be/Wl-YefXGUUo?t=403) master class blueprint i am going to set
+[06:45](https://youtu.be/Wl-YefXGUUo?t=405) this one up in the meantime
+[06:47](https://youtu.be/Wl-YefXGUUo?t=407) we'll have our design for
+[06:51](https://youtu.be/Wl-YefXGUUo?t=411) nope we'll have this part the sign
+[06:54](https://youtu.be/Wl-YefXGUUo?t=414) come on
+[06:55](https://youtu.be/Wl-YefXGUUo?t=415) no you're there
+[06:57](https://youtu.be/Wl-YefXGUUo?t=417) that one
+[07:00](https://youtu.be/Wl-YefXGUUo?t=420) and you get down here
+[07:03](https://youtu.be/Wl-YefXGUUo?t=423) the reason why i'm bringing
+[07:07](https://youtu.be/Wl-YefXGUUo?t=427) they should actually be able to get out
+[07:08](https://youtu.be/Wl-YefXGUUo?t=428) here
+[07:09](https://youtu.be/Wl-YefXGUUo?t=429) and take care of these locations
+[07:13](https://youtu.be/Wl-YefXGUUo?t=433) not quite ah they're out of reach out of
+[07:15](https://youtu.be/Wl-YefXGUUo?t=435) range
+[07:17](https://youtu.be/Wl-YefXGUUo?t=437) and they can't reach there they can
+[07:18](https://youtu.be/Wl-YefXGUUo?t=438) raise their ah man
+[07:20](https://youtu.be/Wl-YefXGUUo?t=440) so close though
+[07:22](https://youtu.be/Wl-YefXGUUo?t=442) oh well they're gonna wait
+[07:24](https://youtu.be/Wl-YefXGUUo?t=444) and i am here so let's do some design
+[07:27](https://youtu.be/Wl-YefXGUUo?t=447) first of all i'm going to disable this
+[07:30](https://youtu.be/Wl-YefXGUUo?t=450) then if we look at what we have this
+[07:33](https://youtu.be/Wl-YefXGUUo?t=453) part here
+[07:34](https://youtu.be/Wl-YefXGUUo?t=454) is
+[07:35](https://youtu.be/Wl-YefXGUUo?t=455) bringing in
+[07:38](https://youtu.be/Wl-YefXGUUo?t=458) two trains and one out but it's bringing
+[07:40](https://youtu.be/Wl-YefXGUUo?t=460) in four lanes when we look at the red
+[07:42](https://youtu.be/Wl-YefXGUUo?t=462) signs
+[07:44](https://youtu.be/Wl-YefXGUUo?t=464) red circuits
+[07:46](https://youtu.be/Wl-YefXGUUo?t=466) it it is a lot lower quantity because
+[07:49](https://youtu.be/Wl-YefXGUUo?t=469) the crafting time is so much
+[07:51](https://youtu.be/Wl-YefXGUUo?t=471) higher so what i want is again when i go
+[07:53](https://youtu.be/Wl-YefXGUUo?t=473) up here for my master class build that's
+[07:55](https://youtu.be/Wl-YefXGUUo?t=475) a good beacon module circuit that's the
+[07:56](https://youtu.be/Wl-YefXGUUo?t=476) one
+[07:59](https://youtu.be/Wl-YefXGUUo?t=479) that is the red one and it looks pretty
+[08:02](https://youtu.be/Wl-YefXGUUo?t=482) good let's uh we've disabled our robo
+[08:05](https://youtu.be/Wl-YefXGUUo?t=485) ports so i have a plan
+[08:08](https://youtu.be/Wl-YefXGUUo?t=488) my plan is that i want to flip it
+[08:11](https://youtu.be/Wl-YefXGUUo?t=491) like that
+[08:12](https://youtu.be/Wl-YefXGUUo?t=492) so this will be our output and i think
+[08:15](https://youtu.be/Wl-YefXGUUo?t=495) i'll even get the outputs like this
+[08:18](https://youtu.be/Wl-YefXGUUo?t=498) oh should i do
+[08:19](https://youtu.be/Wl-YefXGUUo?t=499) ghost for everything i should do ghost
+[08:21](https://youtu.be/Wl-YefXGUUo?t=501) for everything
+[08:26](https://youtu.be/Wl-YefXGUUo?t=506) that will be
+[08:27](https://youtu.be/Wl-YefXGUUo?t=507) the outputs
+[08:30](https://youtu.be/Wl-YefXGUUo?t=510) looking good and then we get
+[08:32](https://youtu.be/Wl-YefXGUUo?t=512) full length of copper in that means i'm
+[08:34](https://youtu.be/Wl-YefXGUUo?t=514) going to get a copper in
+[08:36](https://youtu.be/Wl-YefXGUUo?t=516) like this
+[08:38](https://youtu.be/Wl-YefXGUUo?t=518) no
+[08:39](https://youtu.be/Wl-YefXGUUo?t=519) i want it like this that's gonna look
+[08:41](https://youtu.be/Wl-YefXGUUo?t=521) better
+[08:43](https://youtu.be/Wl-YefXGUUo?t=523) yes so that will be a full line of
+[08:45](https://youtu.be/Wl-YefXGUUo?t=525) copper in this one is important to keep
+[08:47](https://youtu.be/Wl-YefXGUUo?t=527) because this is the one that tells us
+[08:49](https://youtu.be/Wl-YefXGUUo?t=529) exactly what each of these builds will
+[08:51](https://youtu.be/Wl-YefXGUUo?t=531) do they'll take 15 22 22 and 45 so this
+[08:55](https://youtu.be/Wl-YefXGUUo?t=535) means
+[08:56](https://youtu.be/Wl-YefXGUUo?t=536) 16 copper and then it's times two which
+[08:59](https://youtu.be/Wl-YefXGUUo?t=539) means this whole thing will consume a
+[09:01](https://youtu.be/Wl-YefXGUUo?t=541) full belt of green a full belt of
+[09:03](https://youtu.be/Wl-YefXGUUo?t=543) plastic and a little bit less than a
+[09:05](https://youtu.be/Wl-YefXGUUo?t=545) full belt of
+[09:06](https://youtu.be/Wl-YefXGUUo?t=546) copper
+[09:08](https://youtu.be/Wl-YefXGUUo?t=548) and we don't need to do that one we know
+[09:10](https://youtu.be/Wl-YefXGUUo?t=550) this and
+[09:12](https://youtu.be/Wl-YefXGUUo?t=552) yeah
+[09:14](https://youtu.be/Wl-YefXGUUo?t=554) i'm just gonna build it here so that
+[09:16](https://youtu.be/Wl-YefXGUUo?t=556) will be our unit
+[09:17](https://youtu.be/Wl-YefXGUUo?t=557) and we'll need four of these also pretty
+[09:19](https://youtu.be/Wl-YefXGUUo?t=559) good so let's take that one and
+[09:22](https://youtu.be/Wl-YefXGUUo?t=562) stamp it down well should be as close as
+[09:24](https://youtu.be/Wl-YefXGUUo?t=564) possible we're gonna need some space up
+[09:26](https://youtu.be/Wl-YefXGUUo?t=566) north for
+[09:27](https://youtu.be/Wl-YefXGUUo?t=567) uh curving belts back and forth so let's
+[09:29](https://youtu.be/Wl-YefXGUUo?t=569) uh let's give a bit of space but still
+[09:32](https://youtu.be/Wl-YefXGUUo?t=572) enough to reach
+[09:34](https://youtu.be/Wl-YefXGUUo?t=574) let's try that one
+[09:36](https://youtu.be/Wl-YefXGUUo?t=576) that one
+[09:38](https://youtu.be/Wl-YefXGUUo?t=578) that one and please fit
+[09:40](https://youtu.be/Wl-YefXGUUo?t=580) okay
+[09:41](https://youtu.be/Wl-YefXGUUo?t=581) that was actually not even intended but
+[09:43](https://youtu.be/Wl-YefXGUUo?t=583) uh
+[09:44](https://youtu.be/Wl-YefXGUUo?t=584) the fact that it just fits all the way
+[09:46](https://youtu.be/Wl-YefXGUUo?t=586) over there is nice but probably not
+[09:49](https://youtu.be/Wl-YefXGUUo?t=589) great i want to just fit it into the
+[09:50](https://youtu.be/Wl-YefXGUUo?t=590) middle as middle as they can get that's
+[09:53](https://youtu.be/Wl-YefXGUUo?t=593) two from side three from the other side
+[09:54](https://youtu.be/Wl-YefXGUUo?t=594) it can never be quite the middle because
+[09:55](https://youtu.be/Wl-YefXGUUo?t=595) there's an odd number here
+[09:57](https://youtu.be/Wl-YefXGUUo?t=597) all right so what i need is now i need
+[09:59](https://youtu.be/Wl-YefXGUUo?t=599) four links in
+[10:01](https://youtu.be/Wl-YefXGUUo?t=601) we're gonna get four lines in maybe here
+[10:02](https://youtu.be/Wl-YefXGUUo?t=602) one two three four that is for copper
+[10:06](https://youtu.be/Wl-YefXGUUo?t=606) coming in
+[10:08](https://youtu.be/Wl-YefXGUUo?t=608) nope that's for plastic and
+[10:11](https://youtu.be/Wl-YefXGUUo?t=611) one two three four
+[10:13](https://youtu.be/Wl-YefXGUUo?t=613) and
+[10:16](https://youtu.be/Wl-YefXGUUo?t=616) one two three four maybe
+[10:19](https://youtu.be/Wl-YefXGUUo?t=619) that's a bit
+[10:21](https://youtu.be/Wl-YefXGUUo?t=621) i mean it is gonna work
+[10:24](https://youtu.be/Wl-YefXGUUo?t=624) because i can just do that
+[10:27](https://youtu.be/Wl-YefXGUUo?t=627) that will go straight in
+[10:38](https://youtu.be/Wl-YefXGUUo?t=638) that will work
+[10:39](https://youtu.be/Wl-YefXGUUo?t=639) then i need to figure out i can always
+[10:41](https://youtu.be/Wl-YefXGUUo?t=641) just slide it further up here
+[10:45](https://youtu.be/Wl-YefXGUUo?t=645) what do we want we want to make from
+[10:47](https://youtu.be/Wl-YefXGUUo?t=647) here to here from here to here
+[10:50](https://youtu.be/Wl-YefXGUUo?t=650) and then i'm going to build some kind of
+[10:53](https://youtu.be/Wl-YefXGUUo?t=653) design
+[10:57](https://youtu.be/Wl-YefXGUUo?t=657) that one
+[11:05](https://youtu.be/Wl-YefXGUUo?t=665) yeah see this is not really working
+[11:07](https://youtu.be/Wl-YefXGUUo?t=667) because no matter what i'm gonna take it
+[11:09](https://youtu.be/Wl-YefXGUUo?t=669) from up oops
+[11:11](https://youtu.be/Wl-YefXGUUo?t=671) here to here and then go around and
+[11:14](https://youtu.be/Wl-YefXGUUo?t=674) around
+[11:15](https://youtu.be/Wl-YefXGUUo?t=675) and the other one will be
+[11:17](https://youtu.be/Wl-YefXGUUo?t=677) oops
+[11:18](https://youtu.be/Wl-YefXGUUo?t=678) that's gonna be the closest we can make
+[11:20](https://youtu.be/Wl-YefXGUUo?t=680) it
+[11:21](https://youtu.be/Wl-YefXGUUo?t=681) so this means something has to give here
+[11:24](https://youtu.be/Wl-YefXGUUo?t=684) just a bit
+[11:26](https://youtu.be/Wl-YefXGUUo?t=686) good this is exactly why we're building
+[11:28](https://youtu.be/Wl-YefXGUUo?t=688) the whole thing with
+[11:30](https://youtu.be/Wl-YefXGUUo?t=690) like one two
+[11:31](https://youtu.be/Wl-YefXGUUo?t=691) some space there
+[11:34](https://youtu.be/Wl-YefXGUUo?t=694) i could do this but this is why we built
+[11:36](https://youtu.be/Wl-YefXGUUo?t=696) it with ghost images because it's just
+[11:38](https://youtu.be/Wl-YefXGUUo?t=698) really annoying to build all of it again
+[11:40](https://youtu.be/Wl-YefXGUUo?t=700) and again and again
+[11:42](https://youtu.be/Wl-YefXGUUo?t=702) and we're gonna go
+[11:44](https://youtu.be/Wl-YefXGUUo?t=704) maybe like this instead
+[11:50](https://youtu.be/Wl-YefXGUUo?t=710) there that looks good
+[11:53](https://youtu.be/Wl-YefXGUUo?t=713) much better
+[11:55](https://youtu.be/Wl-YefXGUUo?t=715) the amount of space i have here is not
+[11:57](https://youtu.be/Wl-YefXGUUo?t=717) the same amount of space i have here
+[11:59](https://youtu.be/Wl-YefXGUUo?t=719) unless i did that that would just get
+[12:01](https://youtu.be/Wl-YefXGUUo?t=721) more symmetrical one two three four
+[12:04](https://youtu.be/Wl-YefXGUUo?t=724) i don't know if that's important
+[12:07](https://youtu.be/Wl-YefXGUUo?t=727) it
+[12:08](https://youtu.be/Wl-YefXGUUo?t=728) might be important for me
+[12:09](https://youtu.be/Wl-YefXGUUo?t=729) and the idea is
+[12:11](https://youtu.be/Wl-YefXGUUo?t=731) that one
+[12:14](https://youtu.be/Wl-YefXGUUo?t=734) let's take this and move it to that
+[12:16](https://youtu.be/Wl-YefXGUUo?t=736) location and to that location and to
+[12:20](https://youtu.be/Wl-YefXGUUo?t=740) that location we can clean it up a bit
+[12:24](https://youtu.be/Wl-YefXGUUo?t=744) first of all we're gonna need here
+[12:32](https://youtu.be/Wl-YefXGUUo?t=752) that's not really needed
+[12:37](https://youtu.be/Wl-YefXGUUo?t=757) going back okay i i think this is a good
+[12:40](https://youtu.be/Wl-YefXGUUo?t=760) design
+[12:46](https://youtu.be/Wl-YefXGUUo?t=766) now if you've been following my twitch
+[12:48](https://youtu.be/Wl-YefXGUUo?t=768) series of course you have of course you
+[12:51](https://youtu.be/Wl-YefXGUUo?t=771) have then and you've been paying
+[12:53](https://youtu.be/Wl-YefXGUUo?t=773) attention then you can see that this
+[12:54](https://youtu.be/Wl-YefXGUUo?t=774) design is not the same as we have on the
+[12:58](https://youtu.be/Wl-YefXGUUo?t=778) twitch base this is a slight improvement
+[13:00](https://youtu.be/Wl-YefXGUUo?t=780) because that's basically why i don't
+[13:03](https://youtu.be/Wl-YefXGUUo?t=783) want to give blueprints from my twitch
+[13:04](https://youtu.be/Wl-YefXGUUo?t=784) series
+[13:05](https://youtu.be/Wl-YefXGUUo?t=785) i give save games but i don't want to
+[13:08](https://youtu.be/Wl-YefXGUUo?t=788) give blueprints because i feel that
+[13:09](https://youtu.be/Wl-YefXGUUo?t=789) blueprints i present should be a higher
+[13:12](https://youtu.be/Wl-YefXGUUo?t=792) quality and they are just they're just
+[13:14](https://youtu.be/Wl-YefXGUUo?t=794) working but they're not
+[13:16](https://youtu.be/Wl-YefXGUUo?t=796) just
+[13:17](https://youtu.be/Wl-YefXGUUo?t=797) they're not crisp and i want to provide
+[13:20](https://youtu.be/Wl-YefXGUUo?t=800) crisp blueprints
+[13:22](https://youtu.be/Wl-YefXGUUo?t=802) for you and that's what we're doing here
+[13:23](https://youtu.be/Wl-YefXGUUo?t=803) we're just basically taking what i've
+[13:24](https://youtu.be/Wl-YefXGUUo?t=804) done before and then improving it a bit
+[13:27](https://youtu.be/Wl-YefXGUUo?t=807) and making sure that it's just a bit
+[13:28](https://youtu.be/Wl-YefXGUUo?t=808) nicer so again
+[13:31](https://youtu.be/Wl-YefXGUUo?t=811) again i'm not really happy about this
+[13:34](https://youtu.be/Wl-YefXGUUo?t=814) can't just make it
+[13:36](https://youtu.be/Wl-YefXGUUo?t=816) oh it has a problem with the curving so
+[13:38](https://youtu.be/Wl-YefXGUUo?t=818) i think this one is done what i need is
+[13:40](https://youtu.be/Wl-YefXGUUo?t=820) now
+[13:42](https://youtu.be/Wl-YefXGUUo?t=822) plastic green they could be the other
+[13:44](https://youtu.be/Wl-YefXGUUo?t=824) way around copper and red
+[13:47](https://youtu.be/Wl-YefXGUUo?t=827) so let's uh look at a
+[13:49](https://youtu.be/Wl-YefXGUUo?t=829) design this is the only big design we
+[13:52](https://youtu.be/Wl-YefXGUUo?t=832) have of this size so let's uh
+[13:56](https://youtu.be/Wl-YefXGUUo?t=836) okay let's take this as a ghost
+[13:59](https://youtu.be/Wl-YefXGUUo?t=839) image and put it in and see what happens
+[14:05](https://youtu.be/Wl-YefXGUUo?t=845) let's kill these they don't need to be
+[14:07](https://youtu.be/Wl-YefXGUUo?t=847) here
+[14:07](https://youtu.be/Wl-YefXGUUo?t=847) and
+[14:10](https://youtu.be/Wl-YefXGUUo?t=850) there
+[14:11](https://youtu.be/Wl-YefXGUUo?t=851) radar is in the way
+[14:13](https://youtu.be/Wl-YefXGUUo?t=853) oh no it wasn't
+[14:15](https://youtu.be/Wl-YefXGUUo?t=855) well that's clearly not what i want
+[14:18](https://youtu.be/Wl-YefXGUUo?t=858) because i do not want
+[14:20](https://youtu.be/Wl-YefXGUUo?t=860) eight lanes i want four lanes but aside
+[14:22](https://youtu.be/Wl-YefXGUUo?t=862) from this the rest of it is pretty good
+[14:24](https://youtu.be/Wl-YefXGUUo?t=864) right
+[14:27](https://youtu.be/Wl-YefXGUUo?t=867) this is
+[14:29](https://youtu.be/Wl-YefXGUUo?t=869) i think this is fine
+[14:37](https://youtu.be/Wl-YefXGUUo?t=877) yeah but these builds
+[14:40](https://youtu.be/Wl-YefXGUUo?t=880) this is also like putting way too much
+[14:42](https://youtu.be/Wl-YefXGUUo?t=882) in here like unloading way too fast i
+[14:45](https://youtu.be/Wl-YefXGUUo?t=885) don't think i need as many unloaders for
+[14:48](https://youtu.be/Wl-YefXGUUo?t=888) a small build like this
+[14:50](https://youtu.be/Wl-YefXGUUo?t=890) i'm just considering if i have any other
+[14:52](https://youtu.be/Wl-YefXGUUo?t=892) option
+[14:55](https://youtu.be/Wl-YefXGUUo?t=895) i do have the option of just having half
+[14:58](https://youtu.be/Wl-YefXGUUo?t=898) as many
+[14:59](https://youtu.be/Wl-YefXGUUo?t=899) but maybe i
+[15:01](https://youtu.be/Wl-YefXGUUo?t=901) so the thing is like do it
+[15:04](https://youtu.be/Wl-YefXGUUo?t=904) since it's this is great for having
+[15:06](https://youtu.be/Wl-YefXGUUo?t=906) eight builds out i need this much for
+[15:08](https://youtu.be/Wl-YefXGUUo?t=908) eight builds out but if i only want four
+[15:09](https://youtu.be/Wl-YefXGUUo?t=909) belts out i should realistically only
+[15:11](https://youtu.be/Wl-YefXGUUo?t=911) have half as big designs right
+[15:17](https://youtu.be/Wl-YefXGUUo?t=917) i think that kind of makes sense
+[15:19](https://youtu.be/Wl-YefXGUUo?t=919) so not to have as much
+[15:21](https://youtu.be/Wl-YefXGUUo?t=921) junk
+[15:22](https://youtu.be/Wl-YefXGUUo?t=922) available here
+[15:26](https://youtu.be/Wl-YefXGUUo?t=926) and what would that look like
+[15:34](https://youtu.be/Wl-YefXGUUo?t=934) so we do a design that is basically for
+[15:36](https://youtu.be/Wl-YefXGUUo?t=936) half as big
+[15:38](https://youtu.be/Wl-YefXGUUo?t=938) for if we want four builds out then this
+[15:40](https://youtu.be/Wl-YefXGUUo?t=940) is gonna be the design we want
+[15:43](https://youtu.be/Wl-YefXGUUo?t=943) and if we want eight lanes out then this
+[15:44](https://youtu.be/Wl-YefXGUUo?t=944) is gonna be the design
+[15:46](https://youtu.be/Wl-YefXGUUo?t=946) so it's gonna be the same same idea
+[15:48](https://youtu.be/Wl-YefXGUUo?t=948) we're definitely doing the same idea of
+[15:50](https://youtu.be/Wl-YefXGUUo?t=950) just
+[15:51](https://youtu.be/Wl-YefXGUUo?t=951) these things
+[15:53](https://youtu.be/Wl-YefXGUUo?t=953) coming up but we can then do it on
+[15:54](https://youtu.be/Wl-YefXGUUo?t=954) either side of this
+[15:57](https://youtu.be/Wl-YefXGUUo?t=957) then basically go here
+[16:04](https://youtu.be/Wl-YefXGUUo?t=964) i think that's fine
+[16:06](https://youtu.be/Wl-YefXGUUo?t=966) we do need this to
+[16:10](https://youtu.be/Wl-YefXGUUo?t=970) uh yep also need it
+[16:13](https://youtu.be/Wl-YefXGUUo?t=973) can't really draw lines between ghost
+[16:15](https://youtu.be/Wl-YefXGUUo?t=975) images
+[16:16](https://youtu.be/Wl-YefXGUUo?t=976) there
+[16:20](https://youtu.be/Wl-YefXGUUo?t=980) that one
+[16:23](https://youtu.be/Wl-YefXGUUo?t=983) i think that makes sense let's uh take a
+[16:26](https://youtu.be/Wl-YefXGUUo?t=986) look at it oh hold on i
+[16:31](https://youtu.be/Wl-YefXGUUo?t=991) i need this
+[16:33](https://youtu.be/Wl-YefXGUUo?t=993) here but not that one
+[16:37](https://youtu.be/Wl-YefXGUUo?t=997) there
+[16:38](https://youtu.be/Wl-YefXGUUo?t=998) and there
+[16:39](https://youtu.be/Wl-YefXGUUo?t=999) so now i need to figure out how close i
+[16:42](https://youtu.be/Wl-YefXGUUo?t=1002) can get this out
+[16:43](https://youtu.be/Wl-YefXGUUo?t=1003) so
+[16:45](https://youtu.be/Wl-YefXGUUo?t=1005) this thing
+[16:47](https://youtu.be/Wl-YefXGUUo?t=1007) really shouldn't be on the north side it
+[16:49](https://youtu.be/Wl-YefXGUUo?t=1009) really should be on the south side why
+[16:50](https://youtu.be/Wl-YefXGUUo?t=1010) did i put it on the north side here
+[16:52](https://youtu.be/Wl-YefXGUUo?t=1012) that's not great
+[16:54](https://youtu.be/Wl-YefXGUUo?t=1014) that is a bit sloppy i think i think
+[16:56](https://youtu.be/Wl-YefXGUUo?t=1016) it's much more fitting to have it
+[16:57](https://youtu.be/Wl-YefXGUUo?t=1017) exactly like this this looks so much
+[16:59](https://youtu.be/Wl-YefXGUUo?t=1019) better
+[17:00](https://youtu.be/Wl-YefXGUUo?t=1020) this part
+[17:02](https://youtu.be/Wl-YefXGUUo?t=1022) like build it on the south side boom
+[17:05](https://youtu.be/Wl-YefXGUUo?t=1025) absolutely
+[17:06](https://youtu.be/Wl-YefXGUUo?t=1026) so take all of this out you're no longer
+[17:08](https://youtu.be/Wl-YefXGUUo?t=1028) welcome
+[17:10](https://youtu.be/Wl-YefXGUUo?t=1030) you are very welcome there we go
+[17:13](https://youtu.be/Wl-YefXGUUo?t=1033) this is definitely a much better way of
+[17:15](https://youtu.be/Wl-YefXGUUo?t=1035) doing it
+[17:16](https://youtu.be/Wl-YefXGUUo?t=1036) okay definitely much better yeah
+[17:25](https://youtu.be/Wl-YefXGUUo?t=1045) there and obviously i am going to oops
+[17:29](https://youtu.be/Wl-YefXGUUo?t=1049) one of the important things here is
+[17:31](https://youtu.be/Wl-YefXGUUo?t=1051) no matter what don't build that one
+[17:33](https://youtu.be/Wl-YefXGUUo?t=1053) don't ever
+[17:35](https://youtu.be/Wl-YefXGUUo?t=1055) don't build the whole thing so that
+[17:36](https://youtu.be/Wl-YefXGUUo?t=1056) trains are actually coming in just yet
+[17:38](https://youtu.be/Wl-YefXGUUo?t=1058) let me just make sure that i don't build
+[17:40](https://youtu.be/Wl-YefXGUUo?t=1060) it by removing that belt
+[17:42](https://youtu.be/Wl-YefXGUUo?t=1062) also we have a lot of other things to
+[17:44](https://youtu.be/Wl-YefXGUUo?t=1064) redesign here so let's not get ahead of
+[17:46](https://youtu.be/Wl-YefXGUUo?t=1066) ourselves all of this is not correct
+[17:48](https://youtu.be/Wl-YefXGUUo?t=1068) because it's
+[17:50](https://youtu.be/Wl-YefXGUUo?t=1070) we're just building this template for
+[17:51](https://youtu.be/Wl-YefXGUUo?t=1071) the train station
+[17:55](https://youtu.be/Wl-YefXGUUo?t=1075) it does not look good with these cross
+[17:57](https://youtu.be/Wl-YefXGUUo?t=1077) wire things i really need to cut that
+[18:00](https://youtu.be/Wl-YefXGUUo?t=1080) line out but anyway that's not what
+[18:01](https://youtu.be/Wl-YefXGUUo?t=1081) we're here for
+[18:03](https://youtu.be/Wl-YefXGUUo?t=1083) that one and that one that's uh
+[18:07](https://youtu.be/Wl-YefXGUUo?t=1087) it is within good
+[18:11](https://youtu.be/Wl-YefXGUUo?t=1091) that one is super necessary yeah
+[18:14](https://youtu.be/Wl-YefXGUUo?t=1094) otherwise it's not going to be a
+[18:14](https://youtu.be/Wl-YefXGUUo?t=1094) template and
+[18:17](https://youtu.be/Wl-YefXGUUo?t=1097) now i need a four to four balancer
+[18:20](https://youtu.be/Wl-YefXGUUo?t=1100) oh by the way is that working oh it is
+[18:22](https://youtu.be/Wl-YefXGUUo?t=1102) working look at that that whole thing is
+[18:24](https://youtu.be/Wl-YefXGUUo?t=1104) cleaned out these are not really doing
+[18:25](https://youtu.be/Wl-YefXGUUo?t=1105) much but if i was to do that one and get
+[18:29](https://youtu.be/Wl-YefXGUUo?t=1109) super distracted then you can clear out
+[18:30](https://youtu.be/Wl-YefXGUUo?t=1110) a much bigger space but i'm not gonna do
+[18:32](https://youtu.be/Wl-YefXGUUo?t=1112) that i'm just gonna use it for sort of
+[18:34](https://youtu.be/Wl-YefXGUUo?t=1114) clearing out space
+[18:35](https://youtu.be/Wl-YefXGUUo?t=1115) okay i am gonna get a slightly
+[18:37](https://youtu.be/Wl-YefXGUUo?t=1117) distracted so sorry about that
+[18:39](https://youtu.be/Wl-YefXGUUo?t=1119) because this is just super annoying not
+[18:41](https://youtu.be/Wl-YefXGUUo?t=1121) having one right there
+[18:43](https://youtu.be/Wl-YefXGUUo?t=1123) and
+[18:45](https://youtu.be/Wl-YefXGUUo?t=1125) right
+[18:46](https://youtu.be/Wl-YefXGUUo?t=1126) here is going to be super useless
+[18:50](https://youtu.be/Wl-YefXGUUo?t=1130) there
+[18:52](https://youtu.be/Wl-YefXGUUo?t=1132) but it'll be just
+[18:54](https://youtu.be/Wl-YefXGUUo?t=1134) make sure it looks better we could do
+[18:55](https://youtu.be/Wl-YefXGUUo?t=1135) something out here along the side but
+[18:56](https://youtu.be/Wl-YefXGUUo?t=1136) that is definitely not something we're
+[18:58](https://youtu.be/Wl-YefXGUUo?t=1138) going to get distracted by oh sorry i
+[18:59](https://youtu.be/Wl-YefXGUUo?t=1139) was going up here to grab snatch a 4x4
+[19:03](https://youtu.be/Wl-YefXGUUo?t=1143) balancer and why do i always take this
+[19:05](https://youtu.be/Wl-YefXGUUo?t=1145) one that has
+[19:06](https://youtu.be/Wl-YefXGUUo?t=1146) good
+[19:07](https://youtu.be/Wl-YefXGUUo?t=1147) where do we want it
+[19:10](https://youtu.be/Wl-YefXGUUo?t=1150) like how close do i want to get this
+[19:16](https://youtu.be/Wl-YefXGUUo?t=1156) i like this location right i like this
+[19:19](https://youtu.be/Wl-YefXGUUo?t=1159) location
+[19:21](https://youtu.be/Wl-YefXGUUo?t=1161) that is super interesting to do that
+[19:28](https://youtu.be/Wl-YefXGUUo?t=1168) and how would that go they would go
+[19:30](https://youtu.be/Wl-YefXGUUo?t=1170) there
+[19:39](https://youtu.be/Wl-YefXGUUo?t=1179) okay
+[19:40](https://youtu.be/Wl-YefXGUUo?t=1180) i can
+[19:41](https://youtu.be/Wl-YefXGUUo?t=1181) i can see something interesting here how
+[19:44](https://youtu.be/Wl-YefXGUUo?t=1184) slim we can make it
+[19:46](https://youtu.be/Wl-YefXGUUo?t=1186) this one will sort of bump into the
+[19:48](https://youtu.be/Wl-YefXGUUo?t=1188) other one i guess
+[19:52](https://youtu.be/Wl-YefXGUUo?t=1192) but then hold on
+[19:56](https://youtu.be/Wl-YefXGUUo?t=1196) this is not even a good place i mean
+[19:58](https://youtu.be/Wl-YefXGUUo?t=1198) it's nice to have it there but wouldn't
+[19:59](https://youtu.be/Wl-YefXGUUo?t=1199) it be better to have it
+[20:03](https://youtu.be/Wl-YefXGUUo?t=1203) there perhaps
+[20:07](https://youtu.be/Wl-YefXGUUo?t=1207) i think so
+[20:10](https://youtu.be/Wl-YefXGUUo?t=1210) and then if this one comes down then it
+[20:12](https://youtu.be/Wl-YefXGUUo?t=1212) can go oops
+[20:17](https://youtu.be/Wl-YefXGUUo?t=1217) it can go this close
+[20:20](https://youtu.be/Wl-YefXGUUo?t=1220) still closer than before
+[20:23](https://youtu.be/Wl-YefXGUUo?t=1223) yeah i think that's uh that's a nice
+[20:25](https://youtu.be/Wl-YefXGUUo?t=1225) closeness factor yep let's do that and
+[20:28](https://youtu.be/Wl-YefXGUUo?t=1228) we are still working on this part in
+[20:31](https://youtu.be/Wl-YefXGUUo?t=1231) in
+[20:32](https://youtu.be/Wl-YefXGUUo?t=1232) and then you're gonna go in here
+[20:41](https://youtu.be/Wl-YefXGUUo?t=1241) i like this
+[20:43](https://youtu.be/Wl-YefXGUUo?t=1243) this is
+[20:44](https://youtu.be/Wl-YefXGUUo?t=1244) very very nice and very tight
+[20:46](https://youtu.be/Wl-YefXGUUo?t=1246) i like it okay so this is a template for
+[20:48](https://youtu.be/Wl-YefXGUUo?t=1248) sure
+[20:50](https://youtu.be/Wl-YefXGUUo?t=1250) and let's just check something about
+[20:52](https://youtu.be/Wl-YefXGUUo?t=1252) this template here
+[20:54](https://youtu.be/Wl-YefXGUUo?t=1254) does that work here except for the for
+[20:56](https://youtu.be/Wl-YefXGUUo?t=1256) that one but i'll just cut that out
+[20:58](https://youtu.be/Wl-YefXGUUo?t=1258) right now cool what i wanted with this
+[21:00](https://youtu.be/Wl-YefXGUUo?t=1260) was i wanted to make a template that we
+[21:03](https://youtu.be/Wl-YefXGUUo?t=1263) can use for a small build
+[21:06](https://youtu.be/Wl-YefXGUUo?t=1266) i'm gonna take this out
+[21:09](https://youtu.be/Wl-YefXGUUo?t=1269) so if we have a one to four train that
+[21:11](https://youtu.be/Wl-YefXGUUo?t=1271) is a good template to do
+[21:13](https://youtu.be/Wl-YefXGUUo?t=1273) where we're gonna put it i don't know
+[21:14](https://youtu.be/Wl-YefXGUUo?t=1274) we'll put it in here temporarily but
+[21:16](https://youtu.be/Wl-YefXGUUo?t=1276) it's not going to be part of it because
+[21:19](https://youtu.be/Wl-YefXGUUo?t=1279) so
+[21:20](https://youtu.be/Wl-YefXGUUo?t=1280) that means we can take all of this out
+[21:23](https://youtu.be/Wl-YefXGUUo?t=1283) all of this up all this up so what is it
+[21:26](https://youtu.be/Wl-YefXGUUo?t=1286) we want to do we want to now
+[21:28](https://youtu.be/Wl-YefXGUUo?t=1288) see what we can do with our new to sound
+[21:30](https://youtu.be/Wl-YefXGUUo?t=1290) design here what if we build it right up
+[21:32](https://youtu.be/Wl-YefXGUUo?t=1292) here and realize that it's completely
+[21:35](https://youtu.be/Wl-YefXGUUo?t=1295) not
+[21:36](https://youtu.be/Wl-YefXGUUo?t=1296) not at the right location
+[21:39](https://youtu.be/Wl-YefXGUUo?t=1299) i'd really like it to go one in entirely
+[21:44](https://youtu.be/Wl-YefXGUUo?t=1304) i could build it up here and i would
+[21:46](https://youtu.be/Wl-YefXGUUo?t=1306) aim it directly but that is also pretty
+[21:49](https://youtu.be/Wl-YefXGUUo?t=1309) cool let's do that
+[21:51](https://youtu.be/Wl-YefXGUUo?t=1311) right so what is it we want in terms of
+[21:54](https://youtu.be/Wl-YefXGUUo?t=1314) of stackers i think we want to stack up
+[21:56](https://youtu.be/Wl-YefXGUUo?t=1316) like this
+[22:01](https://youtu.be/Wl-YefXGUUo?t=1321) here
+[22:02](https://youtu.be/Wl-YefXGUUo?t=1322) not that one
+[22:05](https://youtu.be/Wl-YefXGUUo?t=1325) so that's going to be a
+[22:07](https://youtu.be/Wl-YefXGUUo?t=1327) generic stacker ability thing and let's
+[22:10](https://youtu.be/Wl-YefXGUUo?t=1330) again take the whole thing here and
+[22:12](https://youtu.be/Wl-YefXGUUo?t=1332) nothing but the thing that one
+[22:14](https://youtu.be/Wl-YefXGUUo?t=1334) and then say okay how far below that is
+[22:17](https://youtu.be/Wl-YefXGUUo?t=1337) the closest that's super nice we don't
+[22:20](https://youtu.be/Wl-YefXGUUo?t=1340) need it this close we absolutely do not
+[22:22](https://youtu.be/Wl-YefXGUUo?t=1342) want it this close either actually we do
+[22:24](https://youtu.be/Wl-YefXGUUo?t=1344) maybe
+[22:26](https://youtu.be/Wl-YefXGUUo?t=1346) that is so nice that we can make it this
+[22:28](https://youtu.be/Wl-YefXGUUo?t=1348) close
+[22:29](https://youtu.be/Wl-YefXGUUo?t=1349) damn that is so nice
+[22:33](https://youtu.be/Wl-YefXGUUo?t=1353) sorry i'm getting hit a bit ahead of
+[22:35](https://youtu.be/Wl-YefXGUUo?t=1355) myself here but it's what's really
+[22:36](https://youtu.be/Wl-YefXGUUo?t=1356) important is that
+[22:42](https://youtu.be/Wl-YefXGUUo?t=1362) it is aligning to this structure here
+[22:44](https://youtu.be/Wl-YefXGUUo?t=1364) perfect
+[22:46](https://youtu.be/Wl-YefXGUUo?t=1366) all right this is good we'll take it
+[22:48](https://youtu.be/Wl-YefXGUUo?t=1368) like this
+[22:50](https://youtu.be/Wl-YefXGUUo?t=1370) and this one will also go in
+[22:52](https://youtu.be/Wl-YefXGUUo?t=1372) boom and then we just need to figure out
+[22:55](https://youtu.be/Wl-YefXGUUo?t=1375) how to do this part which is almost done
+[22:58](https://youtu.be/Wl-YefXGUUo?t=1378) for us already
+[23:04](https://youtu.be/Wl-YefXGUUo?t=1384) this looks simple
+[23:07](https://youtu.be/Wl-YefXGUUo?t=1387) this one
+[23:12](https://youtu.be/Wl-YefXGUUo?t=1392) i'm gonna have to draw it real
+[23:15](https://youtu.be/Wl-YefXGUUo?t=1395) for real
+[23:16](https://youtu.be/Wl-YefXGUUo?t=1396) to make sure that it works and for some
+[23:18](https://youtu.be/Wl-YefXGUUo?t=1398) reason this one is probably gonna be out
+[23:20](https://youtu.be/Wl-YefXGUUo?t=1400) that's so
+[23:21](https://youtu.be/Wl-YefXGUUo?t=1401) strange that this is gonna go out and
+[23:24](https://youtu.be/Wl-YefXGUUo?t=1404) do i need three lanes of input here no i
+[23:27](https://youtu.be/Wl-YefXGUUo?t=1407) don't i don't think i need that i think
+[23:29](https://youtu.be/Wl-YefXGUUo?t=1409) i'll just make you with two
+[23:31](https://youtu.be/Wl-YefXGUUo?t=1411) there
+[23:34](https://youtu.be/Wl-YefXGUUo?t=1414) but the sequencing here i love the fact
+[23:36](https://youtu.be/Wl-YefXGUUo?t=1416) that it is completely synchro
+[23:39](https://youtu.be/Wl-YefXGUUo?t=1419) synchronized here
+[23:42](https://youtu.be/Wl-YefXGUUo?t=1422) and it also gives me the
+[23:44](https://youtu.be/Wl-YefXGUUo?t=1424) confidence that i can put four inputs in
+[23:46](https://youtu.be/Wl-YefXGUUo?t=1426) one output great this is also definitely
+[23:49](https://youtu.be/Wl-YefXGUUo?t=1429) not it
+[23:51](https://youtu.be/Wl-YefXGUUo?t=1431) we are going to get another one of those
+[23:53](https://youtu.be/Wl-YefXGUUo?t=1433) small
+[23:55](https://youtu.be/Wl-YefXGUUo?t=1435) where are you
+[23:57](https://youtu.be/Wl-YefXGUUo?t=1437) there
+[24:01](https://youtu.be/Wl-YefXGUUo?t=1441) so you could build it right there then
+[24:03](https://youtu.be/Wl-YefXGUUo?t=1443) it will balance as fast as possible i
+[24:05](https://youtu.be/Wl-YefXGUUo?t=1445) think that's a good idea
+[24:08](https://youtu.be/Wl-YefXGUUo?t=1448) balance it as close to the source as
+[24:11](https://youtu.be/Wl-YefXGUUo?t=1451) possible and then we know that what
+[24:12](https://youtu.be/Wl-YefXGUUo?t=1452) comes out here is inherently balanced
+[24:23](https://youtu.be/Wl-YefXGUUo?t=1463) yeah that didn't quite work
+[24:32](https://youtu.be/Wl-YefXGUUo?t=1472) hmm
+[24:40](https://youtu.be/Wl-YefXGUUo?t=1480) how
+[24:41](https://youtu.be/Wl-YefXGUUo?t=1481) close
+[24:45](https://youtu.be/Wl-YefXGUUo?t=1485) this is as close as we can take it
+[24:50](https://youtu.be/Wl-YefXGUUo?t=1490) look at this
+[24:52](https://youtu.be/Wl-YefXGUUo?t=1492) i don't know it it feels both right and
+[24:54](https://youtu.be/Wl-YefXGUUo?t=1494) wrong to do designs
+[24:56](https://youtu.be/Wl-YefXGUUo?t=1496) like this
+[24:58](https://youtu.be/Wl-YefXGUUo?t=1498) here with ghosts only
+[25:07](https://youtu.be/Wl-YefXGUUo?t=1507) it's certainly an advantage if you're
+[25:09](https://youtu.be/Wl-YefXGUUo?t=1509) not building it perfectly in the first
+[25:10](https://youtu.be/Wl-YefXGUUo?t=1510) try and
+[25:11](https://youtu.be/Wl-YefXGUUo?t=1511) anyone who's been following what i do
+[25:13](https://youtu.be/Wl-YefXGUUo?t=1513) here is quite
+[25:15](https://youtu.be/Wl-YefXGUUo?t=1515) knows quite well that i never do things
+[25:17](https://youtu.be/Wl-YefXGUUo?t=1517) right the first time
+[25:18](https://youtu.be/Wl-YefXGUUo?t=1518) there
+[25:24](https://youtu.be/Wl-YefXGUUo?t=1524) so this is just a lot easier not only
+[25:26](https://youtu.be/Wl-YefXGUUo?t=1526) because there are no bombs that will
+[25:28](https://youtu.be/Wl-YefXGUUo?t=1528) explode on us i think we got our design
+[25:30](https://youtu.be/Wl-YefXGUUo?t=1530) here i think we got it
+[25:34](https://youtu.be/Wl-YefXGUUo?t=1534) this
+[25:35](https://youtu.be/Wl-YefXGUUo?t=1535) will
+[25:36](https://youtu.be/Wl-YefXGUUo?t=1536) does that mean the whole thing comes one
+[25:37](https://youtu.be/Wl-YefXGUUo?t=1537) up
+[25:38](https://youtu.be/Wl-YefXGUUo?t=1538) yeah it kind of does doesn't it
+[25:42](https://youtu.be/Wl-YefXGUUo?t=1542) that's not a problem it's definitely not
+[25:44](https://youtu.be/Wl-YefXGUUo?t=1544) a problem that it goes one up that's
+[25:46](https://youtu.be/Wl-YefXGUUo?t=1546) just making it
+[25:48](https://youtu.be/Wl-YefXGUUo?t=1548) nicer
+[25:52](https://youtu.be/Wl-YefXGUUo?t=1552) but it's kind of important that it
+[25:54](https://youtu.be/Wl-YefXGUUo?t=1554) actually hits correctly
+[25:56](https://youtu.be/Wl-YefXGUUo?t=1556) there
+[25:58](https://youtu.be/Wl-YefXGUUo?t=1558) that one that one that one
+[26:02](https://youtu.be/Wl-YefXGUUo?t=1562) and you know what i am going to bring my
+[26:04](https://youtu.be/Wl-YefXGUUo?t=1564) biotron or my builder trance they're
+[26:06](https://youtu.be/Wl-YefXGUUo?t=1566) gonna be here uh oh hold on
+[26:08](https://youtu.be/Wl-YefXGUUo?t=1568) i forgot this
+[26:13](https://youtu.be/Wl-YefXGUUo?t=1573) get closer
+[26:14](https://youtu.be/Wl-YefXGUUo?t=1574) take care of this there we go
+[26:19](https://youtu.be/Wl-YefXGUUo?t=1579) now by builders are going to just try to
+[26:22](https://youtu.be/Wl-YefXGUUo?t=1582) be useful here
+[26:23](https://youtu.be/Wl-YefXGUUo?t=1583) while i continue on my design
+[26:27](https://youtu.be/Wl-YefXGUUo?t=1587) this part
+[26:35](https://youtu.be/Wl-YefXGUUo?t=1595) looking good and now i need
+[26:42](https://youtu.be/Wl-YefXGUUo?t=1602) that's the ideal location i think
+[27:00](https://youtu.be/Wl-YefXGUUo?t=1620) okay
+[27:01](https://youtu.be/Wl-YefXGUUo?t=1621) ah that's not great
+[27:03](https://youtu.be/Wl-YefXGUUo?t=1623) i think i'll just kill these they are
+[27:11](https://youtu.be/Wl-YefXGUUo?t=1631) they're not really important to have
+[27:15](https://youtu.be/Wl-YefXGUUo?t=1635) let's do that
+[27:20](https://youtu.be/Wl-YefXGUUo?t=1640) look at this thing you can go up and
+[27:21](https://youtu.be/Wl-YefXGUUo?t=1641) just right kiss that one or they can go
+[27:24](https://youtu.be/Wl-YefXGUUo?t=1644) all the way over
+[27:25](https://youtu.be/Wl-YefXGUUo?t=1645) here
+[27:27](https://youtu.be/Wl-YefXGUUo?t=1647) and try to get a bit of space
+[27:32](https://youtu.be/Wl-YefXGUUo?t=1652) whoops
+[27:32](https://youtu.be/Wl-YefXGUUo?t=1652) that one
+[27:39](https://youtu.be/Wl-YefXGUUo?t=1659) and here
+[27:41](https://youtu.be/Wl-YefXGUUo?t=1661) does that look okay
+[27:43](https://youtu.be/Wl-YefXGUUo?t=1663) i mean there's no reason that it has to
+[27:45](https://youtu.be/Wl-YefXGUUo?t=1665) jump this far out
+[27:48](https://youtu.be/Wl-YefXGUUo?t=1668) i could take this one and just go like
+[27:51](https://youtu.be/Wl-YefXGUUo?t=1671) one
+[27:52](https://youtu.be/Wl-YefXGUUo?t=1672) two
+[27:56](https://youtu.be/Wl-YefXGUUo?t=1676) that kind of looks better i think
+[28:00](https://youtu.be/Wl-YefXGUUo?t=1680) what about if i need to get
+[28:05](https://youtu.be/Wl-YefXGUUo?t=1685) that one
+[28:07](https://youtu.be/Wl-YefXGUUo?t=1687) so that works i think i want this one
+[28:08](https://youtu.be/Wl-YefXGUUo?t=1688) for a lot later on in the game then i
+[28:11](https://youtu.be/Wl-YefXGUUo?t=1691) need this
+[28:12](https://youtu.be/Wl-YefXGUUo?t=1692) i like the look of this
+[28:14](https://youtu.be/Wl-YefXGUUo?t=1694) it's uh equals spaced everywhere for
+[28:17](https://youtu.be/Wl-YefXGUUo?t=1697) difference and four here and
+[28:19](https://youtu.be/Wl-YefXGUUo?t=1699) this one's okay
+[28:20](https://youtu.be/Wl-YefXGUUo?t=1700) yeah i think i'm gonna go with that one
+[28:22](https://youtu.be/Wl-YefXGUUo?t=1702) i could take the whole thing one tile up
+[28:25](https://youtu.be/Wl-YefXGUUo?t=1705) and it'll just be make it a l slightly
+[28:27](https://youtu.be/Wl-YefXGUUo?t=1707) less cramped down here
+[28:29](https://youtu.be/Wl-YefXGUUo?t=1709) like that
+[28:30](https://youtu.be/Wl-YefXGUUo?t=1710) that line we just built i could take
+[28:32](https://youtu.be/Wl-YefXGUUo?t=1712) that out
+[28:34](https://youtu.be/Wl-YefXGUUo?t=1714) now we're happy with this i am going to
+[28:36](https://youtu.be/Wl-YefXGUUo?t=1716) build these stations
+[28:38](https://youtu.be/Wl-YefXGUUo?t=1718) and then make sure that they have the
+[28:40](https://youtu.be/Wl-YefXGUUo?t=1720) right names because that's not the right
+[28:41](https://youtu.be/Wl-YefXGUUo?t=1721) names this one will be
+[28:43](https://youtu.be/Wl-YefXGUUo?t=1723) top one what did i say i wanted i wanted
+[28:45](https://youtu.be/Wl-YefXGUUo?t=1725) i wanted plastic up here
+[28:47](https://youtu.be/Wl-YefXGUUo?t=1727) let's get plastic good
+[28:49](https://youtu.be/Wl-YefXGUUo?t=1729) and next one
+[28:51](https://youtu.be/Wl-YefXGUUo?t=1731) will be
+[28:56](https://youtu.be/Wl-YefXGUUo?t=1736) green
+[28:58](https://youtu.be/Wl-YefXGUUo?t=1738) and the last one will be copper great
+[29:01](https://youtu.be/Wl-YefXGUUo?t=1741) and this one outbound will be
+[29:04](https://youtu.be/Wl-YefXGUUo?t=1744) a new one
+[29:06](https://youtu.be/Wl-YefXGUUo?t=1746) there it is time to build it cool so
+[29:09](https://youtu.be/Wl-YefXGUUo?t=1749) let's uh get all of my build-a-trons in
+[29:13](https://youtu.be/Wl-YefXGUUo?t=1753) action it's very important this one
+[29:14](https://youtu.be/Wl-YefXGUUo?t=1754) remains unbuilt
+[29:16](https://youtu.be/Wl-YefXGUUo?t=1756) let's build it
+[29:30](https://youtu.be/Wl-YefXGUUo?t=1770) [Music]
+[29:58](https://youtu.be/Wl-YefXGUUo?t=1798) so
+[30:47](https://youtu.be/Wl-YefXGUUo?t=1847) here we go everything is built and there
+[30:49](https://youtu.be/Wl-YefXGUUo?t=1849) are of course a few things still to take
+[30:51](https://youtu.be/Wl-YefXGUUo?t=1851) care of here
+[30:53](https://youtu.be/Wl-YefXGUUo?t=1853) i think i'd like to have a
+[30:57](https://youtu.be/Wl-YefXGUUo?t=1857) here that means they can't use i don't
+[30:59](https://youtu.be/Wl-YefXGUUo?t=1859) think that's going to be necessary but
+[31:01](https://youtu.be/Wl-YefXGUUo?t=1861) what we do need all of these have have
+[31:03](https://youtu.be/Wl-YefXGUUo?t=1863) the
+[31:04](https://youtu.be/Wl-YefXGUUo?t=1864) signals that is good this one it does
+[31:06](https://youtu.be/Wl-YefXGUUo?t=1866) not have an expo x
+[31:08](https://youtu.be/Wl-YefXGUUo?t=1868) exit signal does it no it does not have
+[31:10](https://youtu.be/Wl-YefXGUUo?t=1870) an
+[31:11](https://youtu.be/Wl-YefXGUUo?t=1871) exit signal
+[31:15](https://youtu.be/Wl-YefXGUUo?t=1875) let's build it down here
+[31:17](https://youtu.be/Wl-YefXGUUo?t=1877) and then we need
+[31:18](https://youtu.be/Wl-YefXGUUo?t=1878) some robo ports for sure
+[31:21](https://youtu.be/Wl-YefXGUUo?t=1881) how close how much do we want up here
+[31:23](https://youtu.be/Wl-YefXGUUo?t=1883) and we can actually build it right there
+[31:25](https://youtu.be/Wl-YefXGUUo?t=1885) so that's good and then we can build it
+[31:28](https://youtu.be/Wl-YefXGUUo?t=1888) [Music]
+[31:30](https://youtu.be/Wl-YefXGUUo?t=1890) it's not actually good enough because if
+[31:32](https://youtu.be/Wl-YefXGUUo?t=1892) we look at it as much as it actually
+[31:34](https://youtu.be/Wl-YefXGUUo?t=1894) hits the top
+[31:36](https://youtu.be/Wl-YefXGUUo?t=1896) it doesn't hit the bottom one
+[31:39](https://youtu.be/Wl-YefXGUUo?t=1899) so it looks like we're gonna need a few
+[31:40](https://youtu.be/Wl-YefXGUUo?t=1900) more than we'd like
+[31:43](https://youtu.be/Wl-YefXGUUo?t=1903) if i can build it here though
+[31:45](https://youtu.be/Wl-YefXGUUo?t=1905) but then i can't build it the same place
+[31:47](https://youtu.be/Wl-YefXGUUo?t=1907) over on the other side
+[31:49](https://youtu.be/Wl-YefXGUUo?t=1909) well that's the
+[31:50](https://youtu.be/Wl-YefXGUUo?t=1910) disadvantage of our current build
+[31:53](https://youtu.be/Wl-YefXGUUo?t=1913) it doesn't matter at the end at the end
+[31:55](https://youtu.be/Wl-YefXGUUo?t=1915) of the day the amount of roboport needed
+[31:57](https://youtu.be/Wl-YefXGUUo?t=1917) is completely irrelevant
+[31:59](https://youtu.be/Wl-YefXGUUo?t=1919) to our build and the efficiency of our
+[32:01](https://youtu.be/Wl-YefXGUUo?t=1921) build it's just one of those small nice
+[32:03](https://youtu.be/Wl-YefXGUUo?t=1923) things here
+[32:05](https://youtu.be/Wl-YefXGUUo?t=1925) neither of those are built so i'm going
+[32:06](https://youtu.be/Wl-YefXGUUo?t=1926) to put it here and i'm going to put
+[32:08](https://youtu.be/Wl-YefXGUUo?t=1928) another one
+[32:09](https://youtu.be/Wl-YefXGUUo?t=1929) down
+[32:10](https://youtu.be/Wl-YefXGUUo?t=1930) there
+[32:13](https://youtu.be/Wl-YefXGUUo?t=1933) build it and
+[32:15](https://youtu.be/Wl-YefXGUUo?t=1935) i think that one is for just a
+[32:16](https://youtu.be/Wl-YefXGUUo?t=1936) connection
+[32:18](https://youtu.be/Wl-YefXGUUo?t=1938) good we have now
+[32:20](https://youtu.be/Wl-YefXGUUo?t=1940) robot coverage of all of the builds
+[32:23](https://youtu.be/Wl-YefXGUUo?t=1943) everything is built and everything is
+[32:25](https://youtu.be/Wl-YefXGUUo?t=1945) ready what i do not have is making sure
+[32:27](https://youtu.be/Wl-YefXGUUo?t=1947) that this is the correct one
+[32:29](https://youtu.be/Wl-YefXGUUo?t=1949) this one is 32 000 that's enough for a
+[32:32](https://youtu.be/Wl-YefXGUUo?t=1952) train uh that's
+[32:34](https://youtu.be/Wl-YefXGUUo?t=1954) pretty idiotic i just copied
+[32:36](https://youtu.be/Wl-YefXGUUo?t=1956) the provider one
+[32:38](https://youtu.be/Wl-YefXGUUo?t=1958) and not the requester
+[32:41](https://youtu.be/Wl-YefXGUUo?t=1961) okay so let's uh kill this and take the
+[32:45](https://youtu.be/Wl-YefXGUUo?t=1965) right copy
+[32:47](https://youtu.be/Wl-YefXGUUo?t=1967) these are the ones that oh there that's
+[32:49](https://youtu.be/Wl-YefXGUUo?t=1969) the provider is below the request is
+[32:51](https://youtu.be/Wl-YefXGUUo?t=1971) above and that's not correct this is the
+[32:53](https://youtu.be/Wl-YefXGUUo?t=1973) requester part and that has a lot of
+[32:55](https://youtu.be/Wl-YefXGUUo?t=1975) junk in it
+[32:56](https://youtu.be/Wl-YefXGUUo?t=1976) so we'll do this
+[33:02](https://youtu.be/Wl-YefXGUUo?t=1982) there
+[33:05](https://youtu.be/Wl-YefXGUUo?t=1985) not a good example
+[33:06](https://youtu.be/Wl-YefXGUUo?t=1986) actually
+[33:08](https://youtu.be/Wl-YefXGUUo?t=1988) oh really it covers like that
+[33:14](https://youtu.be/Wl-YefXGUUo?t=1994) i guess that is a good example then
+[33:16](https://youtu.be/Wl-YefXGUUo?t=1996) so it goes
+[33:17](https://youtu.be/Wl-YefXGUUo?t=1997) from this one in here that one is part
+[33:20](https://youtu.be/Wl-YefXGUUo?t=2000) of the next one
+[33:22](https://youtu.be/Wl-YefXGUUo?t=2002) this one goes in and this one says
+[33:25](https://youtu.be/Wl-YefXGUUo?t=2005) maximum 72 000 er the cargo wagon is 16
+[33:28](https://youtu.be/Wl-YefXGUUo?t=2008) 000 that's not correct
+[33:30](https://youtu.be/Wl-YefXGUUo?t=2010) 32
+[33:31](https://youtu.be/Wl-YefXGUUo?t=2011) 32 000 but we have to remember that i
+[33:34](https://youtu.be/Wl-YefXGUUo?t=2014) have fewer tr
+[33:36](https://youtu.be/Wl-YefXGUUo?t=2016) fewer here so this one is actually only
+[33:38](https://youtu.be/Wl-YefXGUUo?t=2018) 16. let's look at the calculation i have
+[33:40](https://youtu.be/Wl-YefXGUUo?t=2020) 16 times 4 800 in each that is 76 800
+[33:45](https://youtu.be/Wl-YefXGUUo?t=2025) that means i cannot maximum have
+[33:47](https://youtu.be/Wl-YefXGUUo?t=2027) 72 000.
+[33:49](https://youtu.be/Wl-YefXGUUo?t=2029) that's not much not that much
+[33:53](https://youtu.be/Wl-YefXGUUo?t=2033) oh no
+[33:54](https://youtu.be/Wl-YefXGUUo?t=2034) oh no
+[33:56](https://youtu.be/Wl-YefXGUUo?t=2036) oh it's actually exactly the same but
+[33:57](https://youtu.be/Wl-YefXGUUo?t=2037) i'm still gonna take this out because i
+[33:59](https://youtu.be/Wl-YefXGUUo?t=2039) don't know if
+[34:00](https://youtu.be/Wl-YefXGUUo?t=2040) the wiring is gonna be exactly the same
+[34:02](https://youtu.be/Wl-YefXGUUo?t=2042) that one isn't really necessary anymore
+[34:05](https://youtu.be/Wl-YefXGUUo?t=2045) is it no it's not
+[34:08](https://youtu.be/Wl-YefXGUUo?t=2048) especially because of that
+[34:10](https://youtu.be/Wl-YefXGUUo?t=2050) and this one's also going to go out just
+[34:13](https://youtu.be/Wl-YefXGUUo?t=2053) making sure we got all the right things
+[34:14](https://youtu.be/Wl-YefXGUUo?t=2054) here that one
+[34:16](https://youtu.be/Wl-YefXGUUo?t=2056) and then we hook it up from here to
+[34:19](https://youtu.be/Wl-YefXGUUo?t=2059) there over here to here and then go into
+[34:22](https://youtu.be/Wl-YefXGUUo?t=2062) the station
+[34:23](https://youtu.be/Wl-YefXGUUo?t=2063) uh if you're in doubt about what the
+[34:25](https://youtu.be/Wl-YefXGUUo?t=2065) hell is all this circuit thing is then i
+[34:27](https://youtu.be/Wl-YefXGUUo?t=2067) have a previous video in my
+[34:32](https://youtu.be/Wl-YefXGUUo?t=2072) in my previous series called
+[34:35](https://youtu.be/Wl-YefXGUUo?t=2075) many in my base in a book called
+[34:37](https://youtu.be/Wl-YefXGUUo?t=2077) many to many strain network and that's
+[34:39](https://youtu.be/Wl-YefXGUUo?t=2079) exactly what this does
+[34:41](https://youtu.be/Wl-YefXGUUo?t=2081) this will do a maximum of three but it
+[34:42](https://youtu.be/Wl-YefXGUUo?t=2082) can actually do more than two so
+[34:45](https://youtu.be/Wl-YefXGUUo?t=2085) it might be a bit
+[34:47](https://youtu.be/Wl-YefXGUUo?t=2087) excessive here
+[34:48](https://youtu.be/Wl-YefXGUUo?t=2088) and this one though is going to be green
+[34:50](https://youtu.be/Wl-YefXGUUo?t=2090) circuit so that will be twice as much so
+[34:52](https://youtu.be/Wl-YefXGUUo?t=2092) it's going to be 144
+[34:55](https://youtu.be/Wl-YefXGUUo?t=2095) and it'll then be 64 on the string there
+[34:58](https://youtu.be/Wl-YefXGUUo?t=2098) we go
+[35:02](https://youtu.be/Wl-YefXGUUo?t=2102) yeah
+[35:04](https://youtu.be/Wl-YefXGUUo?t=2104) and
+[35:05](https://youtu.be/Wl-YefXGUUo?t=2105) this one up here
+[35:07](https://youtu.be/Wl-YefXGUUo?t=2107) is going to be the plastic so that's
+[35:09](https://youtu.be/Wl-YefXGUUo?t=2109) also good so what we have now is all the
+[35:11](https://youtu.be/Wl-YefXGUUo?t=2111) things we want everything should be good
+[35:13](https://youtu.be/Wl-YefXGUUo?t=2113) the remaining thing we need is just to
+[35:16](https://youtu.be/Wl-YefXGUUo?t=2116) hook this one up
+[35:17](https://youtu.be/Wl-YefXGUUo?t=2117) hold on let me think uh no we have one
+[35:20](https://youtu.be/Wl-YefXGUUo?t=2120) more thing
+[35:21](https://youtu.be/Wl-YefXGUUo?t=2121) now that we have the plastic we build a
+[35:23](https://youtu.be/Wl-YefXGUUo?t=2123) plastic train
+[35:24](https://youtu.be/Wl-YefXGUUo?t=2124) now we have a plastic location for you
+[35:26](https://youtu.be/Wl-YefXGUUo?t=2126) to go to
+[35:29](https://youtu.be/Wl-YefXGUUo?t=2129) should have there
+[35:31](https://youtu.be/Wl-YefXGUUo?t=2131) but it's inaccessible of course it's
+[35:32](https://youtu.be/Wl-YefXGUUo?t=2132) inaccessible
+[35:34](https://youtu.be/Wl-YefXGUUo?t=2134) empty
+[35:36](https://youtu.be/Wl-YefXGUUo?t=2136) it has no path that's completely
+[35:37](https://youtu.be/Wl-YefXGUUo?t=2137) understandable
+[35:39](https://youtu.be/Wl-YefXGUUo?t=2139) that was the sound of a copy i am going
+[35:41](https://youtu.be/Wl-YefXGUUo?t=2141) to paste one more and
+[35:43](https://youtu.be/Wl-YefXGUUo?t=2143) paste one more i think the right
+[35:44](https://youtu.be/Wl-YefXGUUo?t=2144) solution is that we have three of each
+[35:47](https://youtu.be/Wl-YefXGUUo?t=2147) train three trains for each station that
+[35:49](https://youtu.be/Wl-YefXGUUo?t=2149) sounds good here for example i have a
+[35:52](https://youtu.be/Wl-YefXGUUo?t=2152) total of two trains copy
+[35:54](https://youtu.be/Wl-YefXGUUo?t=2154) and that will give me one more train go
+[36:00](https://youtu.be/Wl-YefXGUUo?t=2160) that one goes in trains
+[36:04](https://youtu.be/Wl-YefXGUUo?t=2164) one
+[36:05](https://youtu.be/Wl-YefXGUUo?t=2165) two three get that rebuilt so they're
+[36:08](https://youtu.be/Wl-YefXGUUo?t=2168) ready for more and
+[36:10](https://youtu.be/Wl-YefXGUUo?t=2170) if i look at the station i have nine
+[36:12](https://youtu.be/Wl-YefXGUUo?t=2172) that's three times as many this one is
+[36:14](https://youtu.be/Wl-YefXGUUo?t=2174) 15 that's three plus six maybe i guess
+[36:18](https://youtu.be/Wl-YefXGUUo?t=2178) and output wise this one has
+[36:21](https://youtu.be/Wl-YefXGUUo?t=2181) three stations so that's nine and this
+[36:23](https://youtu.be/Wl-YefXGUUo?t=2183) one has three and it has one uh
+[36:26](https://youtu.be/Wl-YefXGUUo?t=2186) let's
+[36:28](https://youtu.be/Wl-YefXGUUo?t=2188) let's improve that
+[36:30](https://youtu.be/Wl-YefXGUUo?t=2190) two more
+[36:34](https://youtu.be/Wl-YefXGUUo?t=2194) go and go
+[36:38](https://youtu.be/Wl-YefXGUUo?t=2198) so there's at least one for each station
+[36:41](https://youtu.be/Wl-YefXGUUo?t=2201) send the other one out thank you very
+[36:42](https://youtu.be/Wl-YefXGUUo?t=2202) much and let's clear it clear
+[36:46](https://youtu.be/Wl-YefXGUUo?t=2206) good let's get down here now we have all
+[36:47](https://youtu.be/Wl-YefXGUUo?t=2207) the trains available and everything
+[36:49](https://youtu.be/Wl-YefXGUUo?t=2209) should be working as soon as i do
+[36:53](https://youtu.be/Wl-YefXGUUo?t=2213) that one you can go home my friend
+[36:57](https://youtu.be/Wl-YefXGUUo?t=2217) and what we should see is the
+[36:59](https://youtu.be/Wl-YefXGUUo?t=2219) fuel train is inbound let me not stand
+[37:02](https://youtu.be/Wl-YefXGUUo?t=2222) on tracks and just
+[37:04](https://youtu.be/Wl-YefXGUUo?t=2224) hope that everything works
+[37:06](https://youtu.be/Wl-YefXGUUo?t=2226) we got lights we got things going on
+[37:08](https://youtu.be/Wl-YefXGUUo?t=2228) it's good all right let's see what we uh
+[37:11](https://youtu.be/Wl-YefXGUUo?t=2231) see if this works that's gonna be
+[37:12](https://youtu.be/Wl-YefXGUUo?t=2232) exciting
+[37:15](https://youtu.be/Wl-YefXGUUo?t=2235) what is the first thing let's uh
+[37:16](https://youtu.be/Wl-YefXGUUo?t=2236) actually look this one
+[37:18](https://youtu.be/Wl-YefXGUUo?t=2238) already sent in this one
+[37:22](https://youtu.be/Wl-YefXGUUo?t=2242) oh look at that it's coming in
+[37:24](https://youtu.be/Wl-YefXGUUo?t=2244) it's coming in
+[37:26](https://youtu.be/Wl-YefXGUUo?t=2246) come on copper
+[37:28](https://youtu.be/Wl-YefXGUUo?t=2248) ah this is beautiful this is what we
+[37:30](https://youtu.be/Wl-YefXGUUo?t=2250) love please work
+[37:32](https://youtu.be/Wl-YefXGUUo?t=2252) i love it when things just work in the
+[37:33](https://youtu.be/Wl-YefXGUUo?t=2253) first try
+[37:35](https://youtu.be/Wl-YefXGUUo?t=2255) let me get over here
+[37:36](https://youtu.be/Wl-YefXGUUo?t=2256) but i don't know if it works yet so
+[37:38](https://youtu.be/Wl-YefXGUUo?t=2258) let's uh hold our horses here
+[37:42](https://youtu.be/Wl-YefXGUUo?t=2262) or i could have been doing this a
+[37:43](https://youtu.be/Wl-YefXGUUo?t=2263) hundred times and just re-recording
+[37:45](https://youtu.be/Wl-YefXGUUo?t=2265) until it finally works in the first try
+[37:48](https://youtu.be/Wl-YefXGUUo?t=2268) i could have done that i could have done
+[37:49](https://youtu.be/Wl-YefXGUUo?t=2269) that
+[37:50](https://youtu.be/Wl-YefXGUUo?t=2270) but i wouldn't of course i wouldn't oh
+[37:52](https://youtu.be/Wl-YefXGUUo?t=2272) look at that
+[37:53](https://youtu.be/Wl-YefXGUUo?t=2273) what the hell
+[37:55](https://youtu.be/Wl-YefXGUUo?t=2275) everything is off
+[37:57](https://youtu.be/Wl-YefXGUUo?t=2277) nothing is working there's missing a
+[38:00](https://youtu.be/Wl-YefXGUUo?t=2280) single module
+[38:02](https://youtu.be/Wl-YefXGUUo?t=2282) two modules actually
+[38:05](https://youtu.be/Wl-YefXGUUo?t=2285) and i don't have more modules i
+[38:06](https://youtu.be/Wl-YefXGUUo?t=2286) shouldn't have sent my construction
+[38:07](https://youtu.be/Wl-YefXGUUo?t=2287) train oh there's also stuff over here
+[38:09](https://youtu.be/Wl-YefXGUUo?t=2289) that's missing there as well oh no
+[38:14](https://youtu.be/Wl-YefXGUUo?t=2294) no more
+[38:17](https://youtu.be/Wl-YefXGUUo?t=2297) right the only thing missing is part of
+[38:19](https://youtu.be/Wl-YefXGUUo?t=2299) the nuclear power plant
+[38:21](https://youtu.be/Wl-YefXGUUo?t=2301) excellent let's see what we get up
+[38:24](https://youtu.be/Wl-YefXGUUo?t=2304) looks pretty good we should um
+[38:27](https://youtu.be/Wl-YefXGUUo?t=2307) we're going to be basically seeing
+[38:29](https://youtu.be/Wl-YefXGUUo?t=2309) is
+[38:30](https://youtu.be/Wl-YefXGUUo?t=2310) the belt here coming all the way down
+[38:32](https://youtu.be/Wl-YefXGUUo?t=2312) yes are all of these working if the last
+[38:35](https://youtu.be/Wl-YefXGUUo?t=2315) ones are working then it has flown all
+[38:37](https://youtu.be/Wl-YefXGUUo?t=2317) the
+[38:38](https://youtu.be/Wl-YefXGUUo?t=2318) slowing all the way to the end
+[38:40](https://youtu.be/Wl-YefXGUUo?t=2320) looks good
+[38:41](https://youtu.be/Wl-YefXGUUo?t=2321) looks like we're consuming
+[38:43](https://youtu.be/Wl-YefXGUUo?t=2323) this one is not quite dense why is it
+[38:46](https://youtu.be/Wl-YefXGUUo?t=2326) not quite dense
+[38:48](https://youtu.be/Wl-YefXGUUo?t=2328) oh because uh
+[38:53](https://youtu.be/Wl-YefXGUUo?t=2333) that's so nice to see that you can see
+[38:55](https://youtu.be/Wl-YefXGUUo?t=2335) there's a problem on the flow rate and
+[38:58](https://youtu.be/Wl-YefXGUUo?t=2338) then you find trace it back and find it
+[39:00](https://youtu.be/Wl-YefXGUUo?t=2340) so i'm gonna call that still working on
+[39:01](https://youtu.be/Wl-YefXGUUo?t=2341) first try
+[39:03](https://youtu.be/Wl-YefXGUUo?t=2343) they're full flowing belts i'm gonna do
+[39:07](https://youtu.be/Wl-YefXGUUo?t=2347) here and this will give us the
+[39:09](https://youtu.be/Wl-YefXGUUo?t=2349) result of how much is actually being
+[39:11](https://youtu.be/Wl-YefXGUUo?t=2351) made this is 123 per second and you can
+[39:14](https://youtu.be/Wl-YefXGUUo?t=2354) see if we look at it in terms of
+[39:17](https://youtu.be/Wl-YefXGUUo?t=2357) transport belts
+[39:19](https://youtu.be/Wl-YefXGUUo?t=2359) there it is almost four volts almost
+[39:21](https://youtu.be/Wl-YefXGUUo?t=2361) four bits and less than three belts that
+[39:23](https://youtu.be/Wl-YefXGUUo?t=2363) makes pretty good sense here
+[39:26](https://youtu.be/Wl-YefXGUUo?t=2366) let's go back to per second that's much
+[39:27](https://youtu.be/Wl-YefXGUUo?t=2367) easier to work with but the idea that we
+[39:29](https://youtu.be/Wl-YefXGUUo?t=2369) are almost consuming full belts is super
+[39:32](https://youtu.be/Wl-YefXGUUo?t=2372) super nice and what you're gonna need is
+[39:34](https://youtu.be/Wl-YefXGUUo?t=2374) a train station or a train
+[39:37](https://youtu.be/Wl-YefXGUUo?t=2377) one of these will be going to
+[39:39](https://youtu.be/Wl-YefXGUUo?t=2379) that one until full go
+[39:44](https://youtu.be/Wl-YefXGUUo?t=2384) it's not going to
+[39:46](https://youtu.be/Wl-YefXGUUo?t=2386) get there yet let's actually have a look
+[39:48](https://youtu.be/Wl-YefXGUUo?t=2388) at this this is on 64 000 good
+[39:51](https://youtu.be/Wl-YefXGUUo?t=2391) and
+[39:52](https://youtu.be/Wl-YefXGUUo?t=2392) it'll it's going to take a while for
+[39:53](https://youtu.be/Wl-YefXGUUo?t=2393) this one to get there but we have it
+[39:55](https://youtu.be/Wl-YefXGUUo?t=2395) working it is amazing and it's awesome
+[39:57](https://youtu.be/Wl-YefXGUUo?t=2397) what the only thing remaining is is just
+[40:00](https://youtu.be/Wl-YefXGUUo?t=2400) to go up here remove all of this and
+[40:02](https://youtu.be/Wl-YefXGUUo?t=2402) build another location like that which
+[40:04](https://youtu.be/Wl-YefXGUUo?t=2404) should be pretty simple the hardest part
+[40:07](https://youtu.be/Wl-YefXGUUo?t=2407) of this is actually just
+[40:08](https://youtu.be/Wl-YefXGUUo?t=2408) accepting that all of this is now very
+[40:11](https://youtu.be/Wl-YefXGUUo?t=2411) dead
+[40:12](https://youtu.be/Wl-YefXGUUo?t=2412) like that
+[40:13](https://youtu.be/Wl-YefXGUUo?t=2413) it's crazy right it's crazy how it just
+[40:16](https://youtu.be/Wl-YefXGUUo?t=2416) destroys something this big
+[40:19](https://youtu.be/Wl-YefXGUUo?t=2419) and replace it
+[40:20](https://youtu.be/Wl-YefXGUUo?t=2420) and then we'll be able to get
+[40:22](https://youtu.be/Wl-YefXGUUo?t=2422) technically eight lanes out but of
+[40:24](https://youtu.be/Wl-YefXGUUo?t=2424) course we can't support eight lanes but
+[40:26](https://youtu.be/Wl-YefXGUUo?t=2426) we're gonna get a like this one but
+[40:27](https://youtu.be/Wl-YefXGUUo?t=2427) except with four lanes so that's gonna
+[40:30](https://youtu.be/Wl-YefXGUUo?t=2430) be what we want i'm gonna just gonna let
+[40:32](https://youtu.be/Wl-YefXGUUo?t=2432) this uh
+[40:33](https://youtu.be/Wl-YefXGUUo?t=2433) this delete
+[40:34](https://youtu.be/Wl-YefXGUUo?t=2434) there
+[40:35](https://youtu.be/Wl-YefXGUUo?t=2435) and then we'll be coming back up here to
+[40:37](https://youtu.be/Wl-YefXGUUo?t=2437) build that design
+[40:39](https://youtu.be/Wl-YefXGUUo?t=2439) okay so we are back here and everything
+[40:42](https://youtu.be/Wl-YefXGUUo?t=2442) has been cleaned out i am going to
+[40:45](https://youtu.be/Wl-YefXGUUo?t=2445) remove this
+[40:47](https://youtu.be/Wl-YefXGUUo?t=2447) and then i'm going to simply take
+[40:49](https://youtu.be/Wl-YefXGUUo?t=2449) this copy here uh
+[40:53](https://youtu.be/Wl-YefXGUUo?t=2453) actually not i'm gonna take that one
+[40:57](https://youtu.be/Wl-YefXGUUo?t=2457) so far so good and then i'm going to
+[40:59](https://youtu.be/Wl-YefXGUUo?t=2459) take this part
+[41:03](https://youtu.be/Wl-YefXGUUo?t=2463) and then
+[41:04](https://youtu.be/Wl-YefXGUUo?t=2464) hurry up and delete it extremely fast
+[41:06](https://youtu.be/Wl-YefXGUUo?t=2466) like
+[41:07](https://youtu.be/Wl-YefXGUUo?t=2467) that one and then call it something else
+[41:09](https://youtu.be/Wl-YefXGUUo?t=2469) call it red circuits inbound before
+[41:11](https://youtu.be/Wl-YefXGUUo?t=2471) anything else gets built there we go
+[41:13](https://youtu.be/Wl-YefXGUUo?t=2473) now this is red circuits inbound
+[41:16](https://youtu.be/Wl-YefXGUUo?t=2476) that's good and i will be taking all of
+[41:19](https://youtu.be/Wl-YefXGUUo?t=2479) this out because that's not how we
+[41:21](https://youtu.be/Wl-YefXGUUo?t=2481) intend to make it
+[41:22](https://youtu.be/Wl-YefXGUUo?t=2482) i am not going to make it like this i
+[41:24](https://youtu.be/Wl-YefXGUUo?t=2484) think we'll take the top ones and the
+[41:26](https://youtu.be/Wl-YefXGUUo?t=2486) bottom ones and then kick all this out
+[41:28](https://youtu.be/Wl-YefXGUUo?t=2488) there
+[41:30](https://youtu.be/Wl-YefXGUUo?t=2490) there i think that makes much more sense
+[41:36](https://youtu.be/Wl-YefXGUUo?t=2496) that one
+[41:38](https://youtu.be/Wl-YefXGUUo?t=2498) there
+[41:39](https://youtu.be/Wl-YefXGUUo?t=2499) and then we need again the 4x4
+[41:42](https://youtu.be/Wl-YefXGUUo?t=2502) balancer that we've been using so many
+[41:44](https://youtu.be/Wl-YefXGUUo?t=2504) times
+[41:46](https://youtu.be/Wl-YefXGUUo?t=2506) there it is it's blue
+[41:49](https://youtu.be/Wl-YefXGUUo?t=2509) how is this one doing it's doing great i
+[41:51](https://youtu.be/Wl-YefXGUUo?t=2511) just
+[41:53](https://youtu.be/Wl-YefXGUUo?t=2513) can i take this yep
+[41:55](https://youtu.be/Wl-YefXGUUo?t=2515) doing great what is this one this is at
+[41:58](https://youtu.be/Wl-YefXGUUo?t=2518) 13 000 but that's because we already
+[42:00](https://youtu.be/Wl-YefXGUUo?t=2520) have the first 64.
+[42:02](https://youtu.be/Wl-YefXGUUo?t=2522) so that's actually not so bad
+[42:05](https://youtu.be/Wl-YefXGUUo?t=2525) it is ready to go
+[42:07](https://youtu.be/Wl-YefXGUUo?t=2527) and this one i will simply merge two
+[42:10](https://youtu.be/Wl-YefXGUUo?t=2530) things together
+[42:11](https://youtu.be/Wl-YefXGUUo?t=2531) like that
+[42:22](https://youtu.be/Wl-YefXGUUo?t=2542) that'd be like the simplest way of doing
+[42:24](https://youtu.be/Wl-YefXGUUo?t=2544) it
+[42:35](https://youtu.be/Wl-YefXGUUo?t=2555) oops
+[42:38](https://youtu.be/Wl-YefXGUUo?t=2558) there now that goes all the way in and
+[42:41](https://youtu.be/Wl-YefXGUUo?t=2561) on this side
+[42:46](https://youtu.be/Wl-YefXGUUo?t=2566) funny how that's actually
+[42:48](https://youtu.be/Wl-YefXGUUo?t=2568) possible there
+[42:53](https://youtu.be/Wl-YefXGUUo?t=2573) one two
+[42:55](https://youtu.be/Wl-YefXGUUo?t=2575) three
+[42:56](https://youtu.be/Wl-YefXGUUo?t=2576) four
+[42:57](https://youtu.be/Wl-YefXGUUo?t=2577) up up up and then i'll get just that one
+[43:01](https://youtu.be/Wl-YefXGUUo?t=2581) downwards
+[43:02](https://youtu.be/Wl-YefXGUUo?t=2582) should be good and it will
+[43:04](https://youtu.be/Wl-YefXGUUo?t=2584) work
+[43:05](https://youtu.be/Wl-YefXGUUo?t=2585) yeah it'll work but it won't work really
+[43:07](https://youtu.be/Wl-YefXGUUo?t=2587) well because
+[43:09](https://youtu.be/Wl-YefXGUUo?t=2589) i only have a loading location i don't
+[43:11](https://youtu.be/Wl-YefXGUUo?t=2591) have this one until empty
+[43:14](https://youtu.be/Wl-YefXGUUo?t=2594) and then i oh uh this train go
+[43:20](https://youtu.be/Wl-YefXGUUo?t=2600) what what what
+[43:22](https://youtu.be/Wl-YefXGUUo?t=2602) oh that's the wrong train i got
+[43:24](https://youtu.be/Wl-YefXGUUo?t=2604) that one
+[43:26](https://youtu.be/Wl-YefXGUUo?t=2606) okay good thing i didn't panic there
+[43:29](https://youtu.be/Wl-YefXGUUo?t=2609) all right cool and i'm gonna get a few
+[43:31](https://youtu.be/Wl-YefXGUUo?t=2611) more
+[43:32](https://youtu.be/Wl-YefXGUUo?t=2612) always three trains for these
+[43:34](https://youtu.be/Wl-YefXGUUo?t=2614) though that's pretty insane to do yeah
+[43:38](https://youtu.be/Wl-YefXGUUo?t=2618) actually that is uh not just incorrect
+[43:41](https://youtu.be/Wl-YefXGUUo?t=2621) but it's very incorrect
+[43:42](https://youtu.be/Wl-YefXGUUo?t=2622) i can do two but i definitely should not
+[43:45](https://youtu.be/Wl-YefXGUUo?t=2625) do three
+[43:46](https://youtu.be/Wl-YefXGUUo?t=2626) then they'll simply be stuck at the
+[43:48](https://youtu.be/Wl-YefXGUUo?t=2628) output location waiting for something to
+[43:49](https://youtu.be/Wl-YefXGUUo?t=2629) get in but yeah i want two trains that
+[43:52](https://youtu.be/Wl-YefXGUUo?t=2632) should be fine even though i only have
+[43:54](https://youtu.be/Wl-YefXGUUo?t=2634) one place to go this is going to be
+[43:55](https://youtu.be/Wl-YefXGUUo?t=2635) where we are and i will just check if
+[43:57](https://youtu.be/Wl-YefXGUUo?t=2637) this quantity is looking correct 144 yes
+[44:00](https://youtu.be/Wl-YefXGUUo?t=2640) it does
+[44:01](https://youtu.be/Wl-YefXGUUo?t=2641) we got the red ones in and that will be
+[44:04](https://youtu.be/Wl-YefXGUUo?t=2644) the conclusion of what we wanted to do
+[44:06](https://youtu.be/Wl-YefXGUUo?t=2646) today was
+[44:07](https://youtu.be/Wl-YefXGUUo?t=2647) getting all of the red circuits now
+[44:09](https://youtu.be/Wl-YefXGUUo?t=2649) produced offsite and now brought in now
+[44:12](https://youtu.be/Wl-YefXGUUo?t=2652) with with with all of these with iron
+[44:14](https://youtu.be/Wl-YefXGUUo?t=2654) copper
+[44:16](https://youtu.be/Wl-YefXGUUo?t=2656) steel green plastic
+[44:18](https://youtu.be/Wl-YefXGUUo?t=2658) and red built we can continue to uh
+[44:22](https://youtu.be/Wl-YefXGUUo?t=2662) yeah
+[44:23](https://youtu.be/Wl-YefXGUUo?t=2663) oops no one saw that
+[44:27](https://youtu.be/Wl-YefXGUUo?t=2667) i wonder if all of this will work ah
+[44:29](https://youtu.be/Wl-YefXGUUo?t=2669) building in the right sequence so it
+[44:30](https://youtu.be/Wl-YefXGUUo?t=2670) should work
+[44:31](https://youtu.be/Wl-YefXGUUo?t=2671) right so what we want to do now is i
+[44:34](https://youtu.be/Wl-YefXGUUo?t=2674) think we'll need to focus a bit on power
+[44:36](https://youtu.be/Wl-YefXGUUo?t=2676) we have built all the stuff we need for
+[44:37](https://youtu.be/Wl-YefXGUUo?t=2677) power power is doing good again but i
+[44:39](https://youtu.be/Wl-YefXGUUo?t=2679) think i'd like to sort of expand
+[44:41](https://youtu.be/Wl-YefXGUUo?t=2681) outwards we can use the iron copper
+[44:44](https://youtu.be/Wl-YefXGUUo?t=2684) no we can't do batteries if we don't
+[44:46](https://youtu.be/Wl-YefXGUUo?t=2686) have batteries we can't do accumulators
+[44:48](https://youtu.be/Wl-YefXGUUo?t=2688) so doing batteries is also building
+[44:50](https://youtu.be/Wl-YefXGUUo?t=2690) sulfur and sulfuric acid and that also
+[44:52](https://youtu.be/Wl-YefXGUUo?t=2692) enables the blue science so maybe that's
+[44:55](https://youtu.be/Wl-YefXGUUo?t=2695) uh that's one of the next things we want
+[44:57](https://youtu.be/Wl-YefXGUUo?t=2697) to build
+[44:58](https://youtu.be/Wl-YefXGUUo?t=2698) also because sulfuric acid enables blue
+[45:00](https://youtu.be/Wl-YefXGUUo?t=2700) science blue circuits and blue circuits
+[45:02](https://youtu.be/Wl-YefXGUUo?t=2702) is what we need in order to make a
+[45:03](https://youtu.be/Wl-YefXGUUo?t=2703) module output so it's going to be
+[45:05](https://youtu.be/Wl-YefXGUUo?t=2705) focusing on sulfur sulfuric acid
+[45:07](https://youtu.be/Wl-YefXGUUo?t=2707) batteries blue circuits
+[45:10](https://youtu.be/Wl-YefXGUUo?t=2710) solar panel build
+[45:12](https://youtu.be/Wl-YefXGUUo?t=2712) module build and then going forward into
+[45:14](https://youtu.be/Wl-YefXGUUo?t=2714) sciences there wow that's a lot of
+[45:16](https://youtu.be/Wl-YefXGUUo?t=2716) things that we have here good thing
+[45:18](https://youtu.be/Wl-YefXGUUo?t=2718) there are a lot of
+[45:20](https://youtu.be/Wl-YefXGUUo?t=2720) lovely awesome patreon supporters
+[45:21](https://youtu.be/Wl-YefXGUUo?t=2721) supporting the channel they know
+[45:23](https://youtu.be/Wl-YefXGUUo?t=2723) i've said this sort of rule and the
+[45:25](https://youtu.be/Wl-YefXGUUo?t=2725) gimmick here for this one is that i will
+[45:27](https://youtu.be/Wl-YefXGUUo?t=2727) make an episode for every templar of the
+[45:29](https://youtu.be/Wl-YefXGUUo?t=2729) path that is there so every startup
+[45:31](https://youtu.be/Wl-YefXGUUo?t=2731) episode there is a little shout out in
+[45:33](https://youtu.be/Wl-YefXGUUo?t=2733) the lower left hand corner
+[45:35](https://youtu.be/Wl-YefXGUUo?t=2735) to to show who is the sponsor of this
+[45:36](https://youtu.be/Wl-YefXGUUo?t=2736) episode and i will make one for every
+[45:38](https://youtu.be/Wl-YefXGUUo?t=2738) single uh
+[45:40](https://youtu.be/Wl-YefXGUUo?t=2740) single patron that is supporting every
+[45:42](https://youtu.be/Wl-YefXGUUo?t=2742) single templar of the path supporting
+[45:44](https://youtu.be/Wl-YefXGUUo?t=2744) the channel so good thing thank you very
+[45:47](https://youtu.be/Wl-YefXGUUo?t=2747) much and thank you to all the patrons of
+[45:49](https://youtu.be/Wl-YefXGUUo?t=2749) various levels for supporting i hope
+[45:50](https://youtu.be/Wl-YefXGUUo?t=2750) you've enjoyed this episode i hope you
+[45:52](https://youtu.be/Wl-YefXGUUo?t=2752) are enjoying these
+[45:54](https://youtu.be/Wl-YefXGUUo?t=2754) beautiful flowing belts of
+[45:56](https://youtu.be/Wl-YefXGUUo?t=2756) red there's always like one of those at
+[45:58](https://youtu.be/Wl-YefXGUUo?t=2758) the end so you can just freak out in the
+[45:59](https://youtu.be/Wl-YefXGUUo?t=2759) comment section
+[46:01](https://youtu.be/Wl-YefXGUUo?t=2761) yeah so
+[46:02](https://youtu.be/Wl-YefXGUUo?t=2762) thank you for watching i will see you
+[46:03](https://youtu.be/Wl-YefXGUUo?t=2763) guys next time be sure to hit the like
+[46:05](https://youtu.be/Wl-YefXGUUo?t=2765) button if you like what you see and i'll
+[46:06](https://youtu.be/Wl-YefXGUUo?t=2766) see you next time until then take care
+[46:09](https://youtu.be/Wl-YefXGUUo?t=2769) and stay effective
+[46:12](https://youtu.be/Wl-YefXGUUo?t=2772) [Music]
+[46:32](https://youtu.be/Wl-YefXGUUo?t=2792) you
+
+---
+## Summary
+### Key Lessons
+- Red (advanced) circuits are the next outsourced product after plastic, completing the path: smelting -> green circuits -> plastic -> red circuits
+- Power management becomes critical at this stage: nuclear power is fine short-term but solar is needed long-term for UPS reasons
+- Nuclear power has too many fluid and heat pipe calculations for true megabase scale; transition to solar is mandatory
+- Speed module supply is already running low; a dedicated module factory is needed soon (requires blue circuits first)
+- Megabase definition: 1,000+ science per minute; this base is nowhere near that yet
+
+### Design Principles
+- Red circuit block uses master class beacon-module blueprint: takes 1 full belt copper, 1 full belt green circuits, 1 full belt plastic
+- The red circuit design is flipped/mirrored to optimize belt routing within the city block
+- Each red circuit tile: 15 copper + 22 green + 22 plastic per machine, output at 45 items/min per assembly machine
+- Build progression order matters: need sulfuric acid -> blue circuits -> modules before scaling further
+- Nuclear power as a bridge: stamp down additional reactor blueprints for immediate power, plan solar for long-term
+- Water fill tiles (console command) used to create water for nuclear power plants rather than piping from far away
+
+### Ratios & Numbers
+- Red circuit recipe: 2 copper + 2 green circuits + 2 plastic per craft, 6 second craft time
+- Per assembly machine with beacons: consumes 15 copper, 22 green, 22 plastic per minute, produces 45 red circuits/min
+- One red circuit tile: consumes 1 full belt copper, 1 full belt green circuits, ~1 belt plastic
+- Total consumption times 2 for the full block design (doubled/mirrored)
+- Power situation: dangerously close to max capacity, nuclear expansion as immediate fix
+
+### Mistakes to Avoid
+- Do not rely exclusively on nuclear power for megabase - fluid/heat calculations will tank UPS at scale
+- Do not neglect module production - running out of speed modules stalls all new builds
+- Do not forget that blue science requires sulfur (from oil processing), not just circuits
+- Do not build accumulators without first having sulfuric acid production (batteries need it)

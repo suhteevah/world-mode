@@ -893,3 +893,35 @@ Video: https://www.youtube.com/watch?v=2037WcpBNGI
 [34:44](https://youtu.be/2037WcpBNGI?t=2084)(https://youtu.be/2037WcpBNGI?t=2084) and as always stay effective
 [34:48](https://youtu.be/2037WcpBNGI?t=2088)(https://youtu.be/2037WcpBNGI?t=2088) [Music]
 [35:06](https://youtu.be/2037WcpBNGI?t=2106)(https://youtu.be/2037WcpBNGI?t=2106) you
+---
+
+## Summary
+
+Episode 44 reveals that a single missing wire connection for copper caused cascading failures across the entire base. With the central hub now operational, Nilaus restarts solar panel production, adds artillery and rocket production to the hub, fixes blueprint errors in city block train stations, and begins planning automated artillery perimeter defense. The copper shortage caused red circuit, blue circuit, and low-density structure production to all suffer.
+
+### Key Lessons
+- A single broken wire/connection can cause cascading failures across an entire megabase -- always verify signal connections
+- When adding new production to the hub, count inbound item types needed (artillery needs 4 new items: iron, green circuits, plastic, explosives)
+- Fix blueprint errors immediately and update the shared blueprint book -- broken train station conditions propagate to every copy
+- Adding a second train to a route with 3 stations is reasonable; 3 trains for 3 stations risks congestion
+
+### Design Principles
+- Artillery shell production: 8-second cycle, needs 8 explosives per shell
+- Rocket production: 8-second cycle, 1:1 ratio with yellow rockets
+- Hub artillery/rocket request amounts: 1,000 artillery shells, 10,000 rockets as stockpile targets
+- Plan for copper as a critical resource -- it feeds into green circuits, red circuits, and low-density structures simultaneously
+- Solar panel expansion should continue during other projects to maintain power headroom
+
+### Ratios & Numbers
+- 5,400 science per minute production target mentioned
+- 29 GW solar power capacity reached
+- 96,000 green circuits stored (3 full train loads)
+- 32,000 blue circuits needed before station activates for outbound
+- Copper wire issue: production was showing 5,400/min on one side but starving others
+- 2 trains for 3 stations is a reasonable ratio for most items
+
+### Mistakes to Avoid
+- Not verifying wire connections after building from blueprints -- copper wire was disconnected causing base-wide cascade
+- Blueprint train station conditions can silently break when updating blueprints (inserter conditions wrong)
+- Assuming resource availability without checking actual throughput -- copper looked fine but was being consumed faster than supplied
+- Not adding enough trains when scaling up production (1 train for multiple stations creates starvation)

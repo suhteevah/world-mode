@@ -1034,3 +1034,31 @@ Video: https://www.youtube.com/watch?v=8r5-dj4beZk
 [42:05](https://youtu.be/8r5-dj4beZk?t=2525)(https://youtu.be/8r5-dj4beZk?t=2525) take care and stay effective
 [42:09](https://youtu.be/8r5-dj4beZk?t=2529)(https://youtu.be/8r5-dj4beZk?t=2529) [Music]
 [42:27](https://youtu.be/8r5-dj4beZk?t=2547)(https://youtu.be/8r5-dj4beZk?t=2547) you
+---
+
+## Summary
+
+### Key Lessons
+- Buffer chests do NOT save robot travel distance -- in Euclidean space, a straight line A-to-B is always shorter than A-to-buffer-to-B
+- Buffer chests increase total robot flight time, meaning more robots in the air and worse UPS
+- A single missing uranium fuel train can cascade into space science production stopping entirely
+- When fuel depot runs out, it opens for delivery but nothing arrives -- creating a silent failure mode
+- Monitor open fuel stations vs. allocated trains to detect supply shortfalls early
+
+### Design Principles
+- Track the ratio of open stations to available trains as a key diagnostic metric
+- When expanding refueling infrastructure, add trains proportionally to new station count
+- Use the production statistics screen at 1-hour intervals to identify supply dips that 10-minute views miss
+- Robots flying in straight lines means buffer chests between source and destination always add distance, never reduce it
+
+### Ratios & Numbers
+- 2 fuel trains serving 26 open stations = massive undersupply (need proportional increase)
+- 64 total fuel stations in the network at this phase
+- Satellites need 40 per train load; at 16 satellites in buffer, a full crash of space science is imminent
+- 3 full train loads of blue science ready but stuck waiting
+
+### Mistakes to Avoid
+- Never assume buffer chests reduce travel distance for robots -- they add overhead
+- Do not forget to assign trains to new stations after expanding infrastructure
+- Running out of fuel at depots creates a cascading failure that silently kills production chains
+- Do not under-allocate trains relative to open stations -- track this ratio actively

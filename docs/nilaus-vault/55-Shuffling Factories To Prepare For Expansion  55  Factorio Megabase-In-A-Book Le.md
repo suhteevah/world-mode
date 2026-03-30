@@ -1016,4 +1016,32 @@ Video: https://www.youtube.com/watch?v=626DhMslvCE
 [38:25](https://youtu.be/626DhMslvCE?t=2305)(https://youtu.be/626DhMslvCE?t=2305) time take care and as always stay
 [38:27](https://youtu.be/626DhMslvCE?t=2307)(https://youtu.be/626DhMslvCE?t=2307) effective
 [38:28](https://youtu.be/626DhMslvCE?t=2308)(https://youtu.be/626DhMslvCE?t=2308) [Music]
+
+---
+
+## Summary
+
+### Key Lessons
+- Building to 5400 SPM capacity but consuming only 5000 SPM provides essential headroom -- running production exactly at consumption means one science type always runs out
+- Relocating factories is sometimes necessary to optimize train travel distances and free up prime real estate for high-traffic production
+- Science trains are low-traffic and can be placed at the periphery; high-traffic resource trains (iron, copper, steel) need central positioning
+- Pollution extending beyond artillery range triggers biter attacks -- expand defense perimeter before scaling up pollution-generating production
+
+### Design Principles
+- **Produce at 5400, consume at 5000**: The 400 SPM surplus acts as a buffer preventing constant shortages on the bottleneck science
+- **Factory relocation for optimization**: Move low-traffic buildings (military science, labs) to the edges; keep high-throughput areas central
+- **Disable old production before enabling new**: Set old stations to zero requests, build replacements, then switch over to avoid supply disruption
+- **Sulfuric acid and plastic**: Running out of sulfuric acid causes cascading failures -- ensure chemical production keeps up with scaling
+
+### Ratios & Numbers
+- Target: 5400 SPM production capacity, 5000 SPM consumption rate
+- Production surplus: 400 SPM buffer (8% overhead)
+- Military science needs to be rebuilt and relocated to clear space for expansion
+- Pollution range vs artillery range: pollution spreads faster and further, requiring continuous perimeter expansion
+
+### Mistakes to Avoid
+- Do not run production at exactly the consumption rate -- one science type will always be the bottleneck and run dry
+- Do not forget to disable old production stations (set to zero) before building replacements, or both compete for resources
+- Running out of sulfuric acid cascades into plastic and battery shortages -- monitor acid production closely
+- Moving factories mid-game is messy but necessary -- do not let aesthetic concerns prevent optimization
 [38:48](https://youtu.be/626DhMslvCE?t=2328)(https://youtu.be/626DhMslvCE?t=2328) you

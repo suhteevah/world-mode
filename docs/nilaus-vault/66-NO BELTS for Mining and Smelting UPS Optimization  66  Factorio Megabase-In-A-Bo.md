@@ -906,3 +906,34 @@ Video: https://www.youtube.com/watch?v=W6BG0rXHBFA
 [33:57](https://youtu.be/W6BG0rXHBFA?t=2037)(https://youtu.be/W6BG0rXHBFA?t=2037) effective
 [34:00](https://youtu.be/W6BG0rXHBFA?t=2040)(https://youtu.be/W6BG0rXHBFA?t=2040) [Music]
 [34:19](https://youtu.be/W6BG0rXHBFA?t=2059)(https://youtu.be/W6BG0rXHBFA?t=2059) you
+---
+
+## Summary
+
+### Key Lessons
+- UPS optimization focuses on reducing active entities: fewer miners (with beacons/modules), zero belts, fewer inserters, fewer furnaces
+- Direct mining into train wagons eliminates belts, splitters, and intermediate inserters entirely
+- Beaconed miners at mining productivity 790% output 28.9 ore/second each -- half a blue belt from a single miner
+- Smelting can also be done with direct inserter transfers: ore train -> box -> furnace -> box -> plate train
+- This approach requires a fundamentally different train strategy: trains must be parked at loading stations almost continuously
+
+### Design Principles
+- Minimize active entities for UPS: every belt segment, inserter, and splitter costs update time
+- Direct mine-to-wagon design: miners insert directly into train cargo wagons parked at the ore patch
+- Train-to-train smelting: ore wagons unload directly into furnaces which output into plate wagons
+- Oversaturation train strategy: more trains than stations, always one parked and loading, vs. traditional undersaturation (stations open when ready)
+- Underground belts are UPS-cheaper than regular belts -- use them for any necessary short transfers
+
+### Ratios & Numbers
+- Each beaconed miner: 28.9 ore/second (speed 3.25, productivity 790%) = half a blue belt per miner
+- 2 miners per wagon = more than a full belt of ore output per wagon
+- Smelting: 5.025 plates/second per furnace, 2 furnaces per output wagon = 10.05 plates/second per wagon
+- 16 furnaces total per smelting row = 80.4 plates/second total output
+- Single inserter box-to-wagon transfer rate: ~17 items/second (sufficient for 10/s furnace output but requires continuous train parking)
+- Each ore train line can feed approximately 5 smelting stations (67 ore/second consumption per smelting pair vs 468/second ore train capacity)
+
+### Mistakes to Avoid
+- Do not leave test trains on the main line -- they will block all traffic
+- Single inserter loading means trains MUST be parked continuously; do not use the standard "summon when ready" pattern
+- The ore patch utilization is very low (using small fraction of available ore) -- this is acceptable for UPS savings but wasteful of patch resources
+- Do not mix the new oversaturation train strategy with existing undersaturation stations without careful separation

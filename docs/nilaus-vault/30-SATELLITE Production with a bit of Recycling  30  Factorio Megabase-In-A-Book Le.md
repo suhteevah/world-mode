@@ -866,3 +866,34 @@ Video: https://www.youtube.com/watch?v=bDUuuJ30JI8
 [39:43](https://youtu.be/bDUuuJ30JI8?t=2383)(https://youtu.be/bDUuuJ30JI8?t=2383) chooses to support the channel and the
 [39:45](https://youtu.be/bDUuuJ30JI8?t=2385)(https://youtu.be/bDUuuJ30JI8?t=2385) work I do here. Until next time, take
 [39:47](https://youtu.be/bDUuuJ30JI8?t=2387)(https://youtu.be/bDUuuJ30JI8?t=2387) care and as always, stay effective.
+---
+
+## Summary
+
+### Key Lessons
+- Satellite production is a complex build requiring blue circuits, low density structures, rocket fuel, solar panels, and accumulators
+- Rocket fuel is a new dedicated build that hasn't been needed before in the megabase column system
+- Recycling unused intermediates or byproducts back into the production chain improves overall efficiency
+- The satellite build should be designed close to the rocket silos to minimize transport complexity
+- Steel production feeds into multiple sub-builds (LDS, rocket fuel) creating high aggregate demand
+
+### Design Principles
+- Satellite production facility should be a dedicated build adjacent to or integrated with the rocket silo area
+- Rocket fuel requires its own dedicated production and train logistics
+- Design satellite production to match the exact consumption rate of 3 rocket silos (avoid overproduction)
+- Station icons should clearly indicate the resource type to prevent scheduling confusion
+- Redesign may be necessary when initial layouts don't fit within city block constraints
+
+### Ratios & Numbers
+- Satellites consumed: matched to 3 rocket silos launching ~2.7 rockets/min total
+- Rocket fuel: 2 dedicated trains for supply
+- Steel production demand increases significantly when satellite + rocket fuel builds come online
+- 20 rockets worth of materials as a buffer reference
+- Low density structures and rocket fuel are the two largest sub-builds for satellite production
+
+### Mistakes to Avoid
+- Don't forget to build rocket fuel production -- it's easy to overlook as a new intermediate
+- Station icon mismatches cause trains to deliver wrong resources -- always verify icons match the actual resource
+- Redesigning builds mid-construction is costly -- prototype fully before deploying
+- Don't underestimate steel demand when satellite and rocket fuel builds come online simultaneously
+- Verify that all sub-builds (blue circuits, LDS, rocket fuel, solar, accumulators) are properly connected before declaring the satellite facility operational

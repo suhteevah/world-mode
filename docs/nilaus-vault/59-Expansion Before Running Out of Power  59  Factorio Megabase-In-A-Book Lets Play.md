@@ -931,4 +931,32 @@ Video: https://www.youtube.com/watch?v=VB4ZlTbFtvI
 [39:23](https://youtu.be/VB4ZlTbFtvI?t=2363)(https://youtu.be/VB4ZlTbFtvI?t=2363) time until then take care and as always
 [39:25](https://youtu.be/VB4ZlTbFtvI?t=2365)(https://youtu.be/VB4ZlTbFtvI?t=2365) stay effective
 [39:27](https://youtu.be/VB4ZlTbFtvI?t=2367)(https://youtu.be/VB4ZlTbFtvI?t=2367) [Music]
+
+---
+
+## Summary
+
+### Key Lessons
+- Iron shortage is the root cause of green circuit starvation, which cascades into every other production chain
+- Rebinding map drag to middle mouse button enables blueprint placement directly on the map view -- massively speeds up large-scale expansion
+- Clearing biters by systematically targeting the "top of each pillar" (northernmost nests in each cluster) gradually eliminates all nests in an area
+- Discovering new map territory temporarily affects UPS as the map redraws -- this is visual lag, not a permanent performance issue
+
+### Design Principles
+- **Expansion-first strategy**: Clear territory for solar panels before running out of power -- reactive expansion is much harder than proactive
+- **Artillery-based clearing**: Use remote artillery targeting from map view to systematically clear biter territory in sweeping patterns
+- **Iron scaling priority**: At 5000 SPM, iron is the foundation -- 4 additional iron smelting stations (16 input lines) needed to support green circuit production
+- **Map-view building**: Rebind drag to middle mouse so you can place blueprints while zoomed out on the map -- essential for large-scale operations
+
+### Ratios & Numbers
+- 16 input lines of iron ore feeding into 2 smelting locations = 4 new train stations
+- Green circuit shortage traced directly to iron shortage
+- Biter clearing expands territory enough for significant solar panel additions
+- Performance: biters being active temporarily reduces UPS, but killing them restores it
+
+### Mistakes to Avoid
+- Do not assume green circuit shortage means you need more green circuit assemblers -- trace the problem upstream to iron supply first
+- Expanding territory activates more biters, temporarily hurting UPS -- accept this short-term cost for long-term benefit
+- Do not build copper outposts when you need iron outposts -- verify the resource type before placing mining blueprints
+- Without radar coverage, remote blueprint placement and artillery targeting cannot function -- ensure radar coverage extends to expansion zones
 [39:47](https://youtu.be/VB4ZlTbFtvI?t=2387)(https://youtu.be/VB4ZlTbFtvI?t=2387) you

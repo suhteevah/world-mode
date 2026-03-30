@@ -1155,3 +1155,32 @@ Video: https://www.youtube.com/watch?v=e_AtxuKb6tU
 [49:15](https://youtu.be/e_AtxuKb6tU?t=2955)(https://youtu.be/e_AtxuKb6tU?t=2955) always stay effective
 [49:19](https://youtu.be/e_AtxuKb6tU?t=2959)(https://youtu.be/e_AtxuKb6tU?t=2959) [Music]
 [49:37](https://youtu.be/e_AtxuKb6tU?t=2977)(https://youtu.be/e_AtxuKb6tU?t=2977) you
+---
+
+## Summary
+
+Episode 34 marks the transition to operational megabase science consumption. Nilaus connects all 7 science types to the science labs, enables steel facilities that were deliberately held back, and begins the process of decommissioning the old starter base. He discovers that purple science was never connected to the labs and fixes that oversight.
+
+### Key Lessons
+- Deliberately disable new production facilities until old stockpiles are consumed to avoid waste
+- Use colored markers (red/yellow/green) on train stations to track disabled vs enabled vs transitioning stations
+- When transitioning from old to new production, enable new facilities only after old buffers are depleted
+- Purple science was forgotten when connecting science labs -- always verify all 7 types are connected
+
+### Design Principles
+- Burn through existing stockpiles before enabling new production to avoid resource waste
+- Satellite production needs 40 satellites buffered for smooth space science operation
+- Two rocket fuel facilities producing 17.5/sec each = 35/sec total (matches the 34.4/sec requirement)
+- Science labs should receive all science types simultaneously for maximum throughput
+
+### Ratios & Numbers
+- 2 rocket fuel facilities x 17.5/sec = 35 rocket fuel/sec (target: 34.4/sec)
+- 120 satellites stockpiled at science area (60 + 100 in different locations)
+- Each satellite production area needs 4000+ of each component material before it can build
+- Train station limit of 1 used for controlled drain of old stockpiles
+
+### Mistakes to Avoid
+- Forgetting to connect a science type to labs (purple science was missing)
+- Enabling all new facilities at once instead of gradually transitioning
+- Not keeping nuclear power as backup during the solar transition phase
+- Over-stockpiling satellites (120+ is more than enough buffer)

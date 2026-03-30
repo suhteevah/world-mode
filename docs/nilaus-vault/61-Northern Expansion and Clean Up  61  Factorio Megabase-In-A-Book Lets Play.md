@@ -1135,3 +1135,29 @@ Video: https://www.youtube.com/watch?v=oAw0GYe3Crk
 [45:50](https://youtu.be/oAw0GYe3Crk?t=2750)(https://youtu.be/oAw0GYe3Crk?t=2750) much for watching i'll see you guys next
 [45:51](https://youtu.be/oAw0GYe3Crk?t=2751)(https://youtu.be/oAw0GYe3Crk?t=2751) time take care and as always stay
 [45:53](https://youtu.be/oAw0GYe3Crk?t=2753)(https://youtu.be/oAw0GYe3Crk?t=2753) effective
+---
+
+## Summary
+
+### Key Lessons
+- Expanding perimeter walls requires closing off areas completely before building infrastructure inside them
+- Spidertrons are effective for clearing biter nests using a "charge in, retreat out" zigzag pattern that avoids projectile prediction
+- Setting artillery chest limits to zero prevents unnecessary resupply to areas being decommissioned
+- Removing concrete from blueprints avoids unnecessary construction overhead
+- UPS drops to ~75% during heavy construction with many robots in the air
+
+### Design Principles
+- Always fully enclose an area before building production infrastructure within it
+- Use landfill operations to extend perimeter walls across water
+- Disable artillery in areas no longer on the active front line to save resources
+- Use spidertrons with charge-and-retreat tactics rather than sustained engagements against large biter concentrations
+
+### Ratios & Numbers
+- Mining productivity at level 74 during this phase
+- Artillery shells need 32 per chest to be considered fully stocked
+- UPS running at approximately 38 FPS during heavy robot activity periods
+
+### Mistakes to Avoid
+- Do not remove wall segments before the replacement perimeter is fully operational -- biters will immediately exploit gaps
+- Do not build infrastructure in unprotected areas exposed to biter attack paths
+- Avoid leaving artillery shells stockpiled in locations being decommissioned -- they are difficult to remove later

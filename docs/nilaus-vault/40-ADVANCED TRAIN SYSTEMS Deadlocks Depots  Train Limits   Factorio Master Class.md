@@ -623,3 +623,33 @@ Video: https://www.youtube.com/watch?v=i2DyxgQxxmA
 [20:52](https://youtu.be/i2DyxgQxxmA?t=1252)(https://youtu.be/i2DyxgQxxmA?t=1252) and as always stay effective
 [20:56](https://youtu.be/i2DyxgQxxmA?t=1256)(https://youtu.be/i2DyxgQxxmA?t=1256) [Music]
 [21:14](https://youtu.be/i2DyxgQxxmA?t=1274)(https://youtu.be/i2DyxgQxxmA?t=1274) you
+---
+
+## Summary
+
+Episode 40 is a Factorio Master Class tutorial covering advanced train system concepts: deadlocks, depots, waiting stations, and train limits. Nilaus builds simulations to demonstrate how his many-to-many train network handles various scenarios (excess supply, excess demand, tight balance) and explains why he avoids depot/waiting station solutions despite them being commonly recommended.
+
+### Key Lessons
+- Trains always path to the closest available station -- distant stations may never get serviced if closer ones can keep up
+- The deadlock occurs when supply barely matches demand: departing trains block the station reservation
+- Depot/waiting station systems add a 3rd leg to each trip (load -> unload -> depot) instead of 2 (load -> unload), increasing train traffic by ~50%
+- Two things kill megabases: UPS/FPS degradation and train congestion -- both are unfixable once severe
+
+### Design Principles
+- Minimize train trips through the network: 2-stop schedules (load/unload) beat 3-stop schedules (load/unload/depot)
+- When loading stations are closed (no resources), empty trains queue at unloading stations with "destination full" -- this is safe
+- When unloading stations are closed, full trains queue at loading stations -- also safe
+- The dangerous case is when supply barely matches demand and departing trains create reservation deadlocks
+- Solve deadlocks by ensuring slight oversupply rather than adding depots
+
+### Ratios & Numbers
+- 5 loading + 5 unloading stations + 5 trains = balanced base system
+- Depot systems add 50% more train traffic (3 legs per trip vs 2)
+- Single depot location creates congestion as all trains funnel to one point
+- Multiple depot locations can't guarantee trains won't path to distant depots
+
+### Mistakes to Avoid
+- Adding depots/waiting stations to "fix" train deadlocks -- they add 50% more network traffic
+- Building too many trains for the network capacity (congestion is unfixable, like adding highway lanes)
+- Assuming one more lane of track will give proportional capacity increase (induced demand problem)
+- Not spreading production locations across the network (closest-station pathfinding drains nearby stations first)

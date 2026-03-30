@@ -977,4 +977,32 @@ Video: https://www.youtube.com/watch?v=Hh-Gz3kUaGE
 [39:45](https://youtu.be/Hh-Gz3kUaGE?t=2385)(https://youtu.be/Hh-Gz3kUaGE?t=2385) will see you guys next time take care
 [39:47](https://youtu.be/Hh-Gz3kUaGE?t=2387)(https://youtu.be/Hh-Gz3kUaGE?t=2387) and as always stay effective
 [39:51](https://youtu.be/Hh-Gz3kUaGE?t=2391)(https://youtu.be/Hh-Gz3kUaGE?t=2391) [Music]
+
+---
+
+## Summary
+
+### Key Lessons
+- Nuclear power is NOT viable for megabase UPS -- the fluid calculations for pipes, turbines, and steam are computationally expensive and destroy update performance
+- The "sacred" city block grid pattern can and should be broken when pragmatism demands it -- squeezing solar panels between grid paths solves power crises
+- Laser turrets become a production bottleneck during rapid expansion -- only 47 available in logistics when hundreds are needed for new outposts
+- Robots flying long distances (cross-base logistics) significantly impacts UPS -- keep logistic networks compact
+
+### Design Principles
+- **Solar-only power at megabase scale**: Nuclear is categorically rejected due to UPS cost; every megawatt must come from solar panels and accumulators
+- **Break the grid when necessary**: Filling unused space between city block paths with solar panels is a pragmatic solution to power shortages
+- **Laser turret production bottleneck**: Defense expansion is gated by laser turret crafting speed -- ensure assembler capacity scales with expansion plans
+- **Minimize robot flight distance**: Long-range robot logistics destroys UPS; use trains for long-distance transport and keep robot networks local
+
+### Ratios & Numbers
+- Laser turrets available: only 47 in logistics network -- far too few for expansion
+- Belt shortage: completely ran out of express belts during expansion
+- Iron smelting expansion: 4 new stations (16 input lines) needed
+- Power: actively in crisis, requiring emergency solar panel construction between grid paths
+
+### Mistakes to Avoid
+- Do not build nuclear power at megabase scale -- fluid calculations make it a UPS disaster regardless of how much power you need
+- Do not dismiss community suggestions about breaking the city block pattern -- sometimes the "impure" solution is the correct one
+- Forgetting to verify resource type before building outposts (e.g., building copper when you need iron) wastes time and materials
+- Leaving spidertrons with long-range logistics requests running kills UPS -- park them or limit their logistics range when not actively building
 [40:09](https://youtu.be/Hh-Gz3kUaGE?t=2409)(https://youtu.be/Hh-Gz3kUaGE?t=2409) you

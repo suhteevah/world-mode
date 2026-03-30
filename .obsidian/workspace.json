@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/nilaus-vault/01-MEGABASE IN A BOOK  1 Factorio Lets PlayWalkthrough.md",
+                "file": "docs/nilaus-vault/GUIDE-Debugging-Scaling.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-MEGABASE IN A BOOK  1 Factorio Lets PlayWalkthrough"
+              "title": "GUIDE-Debugging-Scaling"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/nilaus-vault/01-MEGABASE IN A BOOK  1 Factorio Lets PlayWalkthrough.md",
+                "file": "docs/nilaus-vault/GUIDE-Debugging-Scaling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 01-MEGABASE IN A BOOK  1 Factorio Lets PlayWalkthrough"
+              "title": "Backlinks for GUIDE-Debugging-Scaling"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/nilaus-vault/01-MEGABASE IN A BOOK  1 Factorio Lets PlayWalkthrough.md",
+                "file": "docs/nilaus-vault/GUIDE-Debugging-Scaling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 01-MEGABASE IN A BOOK  1 Factorio Lets PlayWalkthrough"
+              "title": "Outgoing links from GUIDE-Debugging-Scaling"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/nilaus-vault/01-MEGABASE IN A BOOK  1 Factorio Lets PlayWalkthrough.md",
+                "file": "docs/nilaus-vault/GUIDE-Debugging-Scaling.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 01-MEGABASE IN A BOOK  1 Factorio Lets PlayWalkthrough"
+              "title": "Outline of GUIDE-Debugging-Scaling"
             }
           }
         ]
@@ -185,31 +185,41 @@
   },
   "active": "fd3918d76d4dd862",
   "lastOpenFiles": [
-    "configs/prompts/personalities/homie.md",
-    "docs/nilaus-vault/13-Transition to SOLAR In Time  13  Factorio Megabase-In-A-Book Lets Play.md",
-    "docs/nilaus-vault/23-One Block Off Obviously.md",
-    "docs/nilaus-vault/30-SATELLITE Production with a bit of Recycling  30  Factorio Megabase-In-A-Book Le.md",
-    "docs/nilaus-vault/40-ADVANCED TRAIN SYSTEMS Deadlocks Depots  Train Limits   Factorio Master Class.md",
-    "docs/nilaus-vault/50-MIlitary Scale Up with ARTILLERY  ROCKETS  50  Factorio Megabase-In-A-Book Lets.md",
+    "docs/nilaus-vault/GUIDE-Circuits-Oil-Mall.md",
+    "docs/nilaus-vault/08-Self-Balancing SulfurSulfuric AcidLubricant  8  Factorio Megabase-In-A-Book Lets.md",
+    "docs/nilaus-vault/05-Easy Design for 8 Lanes of GREEN CIRCUITS  5  Factorio Megabase-In-A-Book Lets P.md",
+    "docs/nilaus-vault/04-The Right Tools For a Megabase  4  Factorio Megabase-In-A-Book Lets Play.md",
+    "docs/nilaus-vault/03-IRON  STEEL SMELTING  3  Factorio Megabase-In-A-Book Lets Play.md",
+    "docs/nilaus-vault/02-Supply Chain for Distributed SMELTING  2 Factorio Megabase-In-A-Book Lets Play.md",
     "docs/nilaus-vault/01-MEGABASE IN A BOOK  1 Factorio Lets PlayWalkthrough.md",
-    "docs/nilaus-vault/14-Megabase Dashboard to Monitor Performance  14  Factorio Megabase-In-A-Book Lets.md",
-    "docs/nilaus-vault/15-Starting Mega Science with 5400 Red Per Min  15  Factorio Megabase-In-A-Book Let.md",
+    "docs/nilaus-vault/SUMMARY-Space-Age.md",
+    "docs/factorio-data/factorio-wiki.db-journal",
+    "docs/factorio-data/factorio-wiki.db",
+    "docs/factorio-data/wiki-pages.json",
+    "docs/factorio-data/runtime-api.json",
+    "docs/factorio-data/prototype-api.json",
+    "docs/factorio-data",
+    "docs/nilaus-vault/GUIDE-Space-Age-Planets.md",
+    "docs/nilaus-vault/GUIDE-Debugging-Scaling.md",
+    "docs/nilaus-vault/GUIDE-Science-Production.md",
+    "docs/nilaus-vault/GUIDE-Rockets-Military-Space.md",
+    "docs/nilaus-vault/GUIDE-Power-Expansion.md",
+    "docs/nilaus-vault/GUIDE-UPS-Optimization.md",
+    "docs/nilaus-vault/GUIDE-Ore-Smelting-Trains.md",
     "docs/nilaus-vault/66-NO BELTS for Mining and Smelting UPS Optimization  66  Factorio Megabase-In-A-Bo.md",
-    "docs/nilaus-vault/65-A Bounty of Satellites  65  Factorio Megabase-In-A-Book Lets Play.md",
-    "docs/nilaus-vault/64-Deep Diving into the Supply Chain for Solar Panels  64  Factorio Megabase-In-A-B.md",
-    "docs/nilaus-vault/63-Honest Attempt to Make BUFFER CHESTS Work  63  Factorio Megabase-In-A-Book Lets.md",
-    "docs/nilaus-vault/62-How can a URANIUM train constrain SPACE SCIENCE  62  Factorio Megabase-In-A-Book.md",
-    "docs/nilaus-vault/61-Northern Expansion and Clean Up  61  Factorio Megabase-In-A-Book Lets Play.md",
-    "docs/nilaus-vault/60-Sacrificing The Sacred Path For Power  60  Factorio Megabase-In-A-Book Lets Play.md",
-    "docs/nilaus-vault/59-Expansion Before Running Out of Power  59  Factorio Megabase-In-A-Book Lets Play.md",
-    "docs/nilaus-vault/58-Power Resources and Updates are strained by 5000 SPM  58  Factorio Megabase-In-A.md",
-    "docs/nilaus-vault/57-5000 Science  min What Will Happen  57  Factorio Megabase-In-A-Book Lets Play.md",
-    "docs/nilaus-vault/56-Decreasing Science to Increase Science   56  Factorio Megabase-In-A-Book Lets Pl.md",
-    "docs/nilaus-vault/55-Shuffling Factories To Prepare For Expansion  55  Factorio Megabase-In-A-Book Le.md",
-    "docs/nilaus-vault/54-How To Build A DIGITAL DISPLAY  54  Factorio Megabase-In-A-Book Lets Play.md",
-    "docs/nilaus-vault/53-Expansion News Reaction  Timelapse re-upload  53  Factorio Megabase-In-A-Book Le.md",
-    "docs/nilaus-vault/52-5400 Space Science  min  Design and Timelapse Build  52  Factorio Megabase-In-A-.md",
-    "docs/nilaus-vault/51-Improved ARTILLERY OUTPOST  Monitoring  51  Factorio Megabase-In-A-Book Lets Pla.md",
-    "docs/nilaus-vault/49-EXPLOSIVE FACTORY  49  Factorio Megabase-In-A-Book Lets Play.md"
+    "docs/nilaus-vault/_append_summaries.py",
+    "docs/nilaus-vault/SUMMARY-Episodes-06-10.md",
+    "docs/nilaus-vault/SUMMARY-Episodes-01-05.md",
+    "docs/nilaus-vault/tmp.txt",
+    "docs/nilaus-vault/SA-16-GOAL ACHIEVED 1 000 000 SPM Complex Promethium Logistics  16.md",
+    "docs/nilaus-vault/SA-15-Insanity 330000 Biters  Farming  Launching  Consuming  15  F.md",
+    "docs/nilaus-vault/SA-14-Aquilo Megabasing Supplying QUANTUM CHIPS For Promethium Sci.md",
+    "docs/nilaus-vault/SA-13-How to Collect Enough PROMETHIUM Greatest Challenge of 1M SP.md",
+    "docs/nilaus-vault/SA-12-MILITARY SCIENCE Everything done before Promethium  12  Fact.md",
+    "docs/nilaus-vault/SA-11-Megabase Overhaul on AQUILO Modular City Blocks  11  Factori.md",
+    "docs/nilaus-vault/SA-10-Is LEGENDARY CRYOGENIC SCIENCE Possible Need Legendary Holmi.md",
+    "docs/nilaus-vault/SA-09-Final SPACE CASINO  Legendary Yellow Science Ship  09  Facto.md",
+    "docs/nilaus-space-age/video-list.json",
+    "docs/nilaus-space-age"
   ]
 }

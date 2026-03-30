@@ -962,3 +962,35 @@ Video: https://www.youtube.com/watch?v=Ymmk8aUUMVk
 [38:02](https://youtu.be/Ymmk8aUUMVk?t=2282)(https://youtu.be/Ymmk8aUUMVk?t=2282) effective
 [38:05](https://youtu.be/Ymmk8aUUMVk?t=2285)(https://youtu.be/Ymmk8aUUMVk?t=2285) [Music]
 [38:23](https://youtu.be/Ymmk8aUUMVk?t=2303)(https://youtu.be/Ymmk8aUUMVk?t=2303) you
+---
+
+## Summary
+
+Episode 49 builds a dedicated explosives factory in its own city block, driven by a community comment suggestion. The explosives feed into rocket production (for spidertrons) and artillery shell production. The build uses belt-based design with beacons for speed. Coal supply to the hub is identified as broken and fixed. The explosives factory takes iron, green circuits, coal, and sulfur as inputs, producing explosives that are then used locally for artillery shells and rockets. The dashboard red wire system is reconnected to all new production.
+
+### Key Lessons
+- Community feedback drives improvement: the dedicated explosives factory came from a comment suggestion
+- Coal supply can silently stop if station names/conditions aren't set correctly -- verify all supply chains
+- When building a new production block, count inbound items needed: explosives need iron, green circuits, coal, sulfur
+- Rockets for spidertrons: 8-second cycle, 1:1 ratio with yellow rockets, needs explosives as ingredient
+- Artillery shells: 8-second cycle, needs 8 explosives each (very explosive-intensive)
+
+### Design Principles
+- Dedicated production blocks for high-demand intermediates (explosives) are more reliable than hub production
+- Belt-based design with beacons works well for single-product factories
+- Dashboard monitoring via red wire should be extended to all new production facilities
+- Update blueprint book after every significant build to keep it current
+- Personal roboport toggle: disable when near active logistics to prevent robot interference
+
+### Ratios & Numbers
+- Artillery shell: 8 explosives per shell, 8-second craft time
+- Rocket: 1:1 ratio with yellow rockets, 8-second cycle each
+- Explosives recipe: coal + sulfur as main inputs
+- Coal stored in hub: 5,500 initially, needed dedicated inbound train
+- Roboport coverage described as "pretty damn bad" initially -- add more
+
+### Mistakes to Avoid
+- Not verifying coal supply to the hub (was silently not working)
+- Building explosive-consuming production without a dedicated explosives factory
+- Forgetting to connect new production to the red wire dashboard monitoring system
+- Not updating blueprints after build changes (causes confusion for future copies)
